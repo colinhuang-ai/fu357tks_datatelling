@@ -1,0 +1,221 @@
+﻿product_id,project_name,block_zone,unit_code,property_type,net_area,cost_price,list_price,status,launch_date
+PRD-1001,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F02U01,Căn hộ 2BR-2WC,67.5,3165000000.0,4030000000.0,Đã bán,2026-02-25
+PRD-1002,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F02U02,Căn hộ 1BR+1,44.1,2041000000.0,2295000000.0,Đã bán,2026-05-07
+PRD-1003,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F03U01,Căn hộ 1BR+1,44.6,2016000000.0,2395000000.0,Sắp mở bán,2026-09-07
+PRD-1004,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F03U02,Căn hộ 1BR+1,47.5,2170000000.0,2660000000.0,Đã bán,2026-05-17
+PRD-1005,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F04U01,Căn hộ 3BR-2WC,84.0,4298000000.0,5153000000.0,Sắp mở bán,2026-09-23
+PRD-1006,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F04U02,Căn hộ 2BR-2WC,68.5,3336000000.0,3997000000.0,Đã bán,2025-10-30
+PRD-1007,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F05U01,Căn hộ 1BR+1,43.9,1963000000.0,2458000000.0,Đã bán,2025-11-28
+PRD-1008,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F05U02,Căn hộ 3BR-2WC,82.1,4011000000.0,4992000000.0,Đang bán,2025-10-15
+PRD-1009,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F06U01,Căn hộ 2BR-2WC,65.6,3146000000.0,3811000000.0,Đã bán,2026-03-08
+PRD-1010,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F06U02,Căn hộ 3BR-2WC,85.7,4150000000.0,5373000000.0,Đã bán,2026-03-13
+PRD-1011,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F07U01,Căn hộ 2BR-2WC,62.0,2958000000.0,3537000000.0,Đã bán,2026-02-05
+PRD-1012,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F07U02,Căn hộ 3BR-2WC,80.9,4074000000.0,4945000000.0,Đã bán,2026-02-01
+PRD-1013,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F08U01,Căn hộ 2BR-2WC,68.5,3264000000.0,3912000000.0,Sắp mở bán,2026-09-19
+PRD-1014,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F08U02,Căn hộ 3BR-2WC,85.8,4084000000.0,5291000000.0,Đang bán,2026-03-23
+PRD-1015,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F09U01,Căn hộ 3BR-2WC,84.8,4079000000.0,5161000000.0,Đã bán,2025-10-21
+PRD-1016,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F09U02,Căn hộ 3BR-2WC,82.0,4119000000.0,5080000000.0,Đã bán,2026-02-18
+PRD-1017,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F10U01,Căn hộ 3BR-2WC,78.6,3780000000.0,4854000000.0,Đã bán,2025-12-03
+PRD-1018,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F10U02,Căn hộ 3BR-2WC,82.3,4278000000.0,5133000000.0,Đang bán,2026-04-06
+PRD-1019,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F11U01,Căn hộ 2BR-2WC,63.9,3098000000.0,3635000000.0,Đã bán,2025-11-14
+PRD-1020,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F11U02,Căn hộ 2BR-2WC,63.3,3120000000.0,3767000000.0,Đã bán,2026-03-24
+PRD-1021,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F12U01,Căn hộ 2BR-2WC,65.3,3005000000.0,3806000000.0,Sắp mở bán,2026-10-04
+PRD-1022,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F12U02,Căn hộ 2BR-2WC,63.0,3054000000.0,3848000000.0,Đang bán,2026-02-12
+PRD-1023,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F13U01,Căn hộ 2BR-2WC,68.4,3447000000.0,3951000000.0,Sắp mở bán,2026-08-25
+PRD-1024,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F13U02,Căn hộ 3BR-2WC,80.9,4135000000.0,5015000000.0,Đang bán,2025-11-01
+PRD-1025,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F14U01,Căn hộ 2BR-2WC,68.3,3393000000.0,4063000000.0,Sắp mở bán,2026-08-28
+PRD-1026,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F14U02,Căn hộ 2BR-2WC,63.1,2983000000.0,3662000000.0,Sắp mở bán,2026-10-27
+PRD-1027,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F15U01,Căn hộ 2BR-2WC,68.3,3181000000.0,4123000000.0,Đang bán,2026-04-10
+PRD-1028,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F15U02,Căn hộ 2BR-2WC,66.5,3349000000.0,3956000000.0,Đang bán,2025-11-13
+PRD-1029,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F16U01,Căn hộ 1BR+1,45.8,2141000000.0,2511000000.0,Đã bán,2026-04-24
+PRD-1030,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F16U02,Căn hộ 2BR-2WC,63.2,2931000000.0,3749000000.0,Sắp mở bán,2026-10-09
+PRD-1031,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F17U01,Căn hộ 2BR-2WC,67.4,3323000000.0,3932000000.0,Đã bán,2026-01-10
+PRD-1032,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F17U02,Căn hộ 3BR-2WC,84.2,4195000000.0,5162000000.0,Đã bán,2026-01-17
+PRD-1033,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F18U01,Căn hộ 2BR-2WC,64.3,2932000000.0,3600000000.0,Đã bán,2025-12-26
+PRD-1034,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F18U02,Căn hộ 3BR-2WC,82.3,3934000000.0,5158000000.0,Sắp mở bán,2026-09-12
+PRD-1035,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F19U01,Căn hộ 3BR-2WC,80.9,3916000000.0,5037000000.0,Sắp mở bán,2026-11-03
+PRD-1036,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F19U02,Căn hộ 1BR+1,45.6,2077000000.0,2458000000.0,Đã bán,2026-01-13
+PRD-1037,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F20U01,Căn hộ 3BR-2WC,78.2,4004000000.0,4767000000.0,Đã bán,2026-02-28
+PRD-1038,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F20U02,Căn hộ 2BR-2WC,68.9,3271000000.0,4185000000.0,Đang bán,2025-12-11
+PRD-1039,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F21U01,Căn hộ 3BR-2WC,85.1,4048000000.0,5403000000.0,Đã bán,2026-01-30
+PRD-1040,Imperia Smart City,Tòa Imperia Lake Z38,ISC-ImperiaLakeZ38-F21U02,Căn hộ 3BR-2WC,86.0,4158000000.0,5226000000.0,Đang bán,2026-02-06
+PRD-1041,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F02U01,Căn hộ 2BR-2WC,62.7,2986000000.0,3811000000.0,Đã đặt cọc,2025-11-14
+PRD-1042,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F02U02,Căn hộ 3BR-2WC,80.1,3908000000.0,4704000000.0,Đang bán,2025-11-09
+PRD-1043,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F03U01,Căn hộ 2BR-2WC,67.2,3287000000.0,3997000000.0,Đã bán,2026-03-23
+PRD-1044,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F03U02,Căn hộ 2BR-2WC,66.9,3224000000.0,3868000000.0,Sắp mở bán,2026-11-06
+PRD-1045,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F04U01,Căn hộ 2BR-2WC,63.5,3114000000.0,3797000000.0,Đã đặt cọc,2025-10-07
+PRD-1046,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F04U02,Căn hộ 3BR-2WC,83.8,4326000000.0,5211000000.0,Đã bán,2026-04-24
+PRD-1047,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F05U01,Căn hộ 2BR-2WC,62.9,2991000000.0,3605000000.0,Đã bán,2025-10-24
+PRD-1048,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F05U02,Căn hộ 1BR+1,46.1,1999000000.0,2520000000.0,Đã bán,2026-02-20
+PRD-1049,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F06U01,Căn hộ 1BR+1,47.6,2117000000.0,2498000000.0,Đã bán,2026-04-11
+PRD-1050,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F06U02,Căn hộ 2BR-2WC,64.3,2951000000.0,3922000000.0,Sắp mở bán,2026-11-09
+PRD-1051,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F07U01,Căn hộ 2BR-2WC,64.4,3166000000.0,3704000000.0,Sắp mở bán,2026-09-02
+PRD-1052,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F07U02,Căn hộ 3BR-2WC,82.6,4327000000.0,5125000000.0,Sắp mở bán,2026-10-26
+PRD-1053,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F08U01,Căn hộ 2BR-2WC,62.9,2932000000.0,3839000000.0,Sắp mở bán,2026-08-27
+PRD-1054,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F08U02,Căn hộ 3BR-2WC,82.9,4226000000.0,5256000000.0,Đã bán,2026-05-05
+PRD-1055,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F09U01,Căn hộ 1BR+1,45.5,1952000000.0,2542000000.0,Sắp mở bán,2026-11-09
+PRD-1056,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F09U02,Căn hộ 3BR-2WC,80.7,4123000000.0,5181000000.0,Đã bán,2026-05-14
+PRD-1057,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F10U01,Căn hộ 3BR-2WC,81.4,4038000000.0,4853000000.0,Đã bán,2026-02-22
+PRD-1058,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F10U02,Căn hộ 3BR-2WC,81.6,4109000000.0,5152000000.0,Đã bán,2026-03-10
+PRD-1059,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F11U01,Căn hộ 2BR-2WC,64.7,3250000000.0,3963000000.0,Đang bán,2025-11-21
+PRD-1060,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F11U02,Căn hộ 1BR+1,46.3,1988000000.0,2631000000.0,Đã bán,2026-01-10
+PRD-1061,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F12U01,Căn hộ 1BR+1,43.7,1977000000.0,2434000000.0,Đã bán,2026-01-05
+PRD-1062,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F12U02,Căn hộ 3BR-2WC,80.8,4017000000.0,4760000000.0,Sắp mở bán,2026-10-19
+PRD-1063,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F13U01,Căn hộ 1BR+1,45.6,2049000000.0,2463000000.0,Đã bán,2026-03-16
+PRD-1064,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F13U02,Căn hộ 2BR-2WC,64.7,3188000000.0,3693000000.0,Đã bán,2025-11-20
+PRD-1065,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F14U01,Căn hộ 3BR-2WC,81.5,4008000000.0,5223000000.0,Sắp mở bán,2026-09-17
+PRD-1066,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F14U02,Căn hộ 3BR-2WC,80.9,4060000000.0,5035000000.0,Đã bán,2026-05-07
+PRD-1067,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F15U01,Căn hộ 2BR-2WC,64.5,3101000000.0,3649000000.0,Đang bán,2026-02-25
+PRD-1068,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F15U02,Căn hộ 1BR+1,46.1,2038000000.0,2631000000.0,Đã bán,2025-10-31
+PRD-1069,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F16U01,Căn hộ 3BR-2WC,80.6,3831000000.0,5030000000.0,Đã bán,2025-11-29
+PRD-1070,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F16U02,Căn hộ 3BR-2WC,78.1,3925000000.0,4818000000.0,Sắp mở bán,2026-11-22
+PRD-1071,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F17U01,Căn hộ 2BR-2WC,64.8,3204000000.0,3637000000.0,Đang bán,2025-12-22
+PRD-1072,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F17U02,Căn hộ 3BR-2WC,78.9,3924000000.0,4950000000.0,Sắp mở bán,2026-09-11
+PRD-1073,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F18U01,Căn hộ 1BR+1,44.6,1950000000.0,2538000000.0,Sắp mở bán,2026-10-08
+PRD-1074,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F18U02,Căn hộ 2BR-2WC,62.2,2877000000.0,3619000000.0,Đã bán,2025-10-26
+PRD-1075,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F19U01,Căn hộ 1BR+1,44.4,2027000000.0,2383000000.0,Đang bán,2025-12-27
+PRD-1076,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F19U02,Căn hộ 3BR-2WC,82.6,4252000000.0,5196000000.0,Đã bán,2026-05-02
+PRD-1077,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F20U01,Căn hộ 2BR-2WC,64.4,3243000000.0,3786000000.0,Sắp mở bán,2026-10-02
+PRD-1078,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F20U02,Căn hộ 1BR+1,44.6,2041000000.0,2419000000.0,Đang bán,2025-12-27
+PRD-1079,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F21U01,Căn hộ 3BR-2WC,82.6,4015000000.0,5061000000.0,Đang bán,2026-03-10
+PRD-1080,Imperia Smart City,Tòa Imperia Lake Z39,ISC-ImperiaLakeZ39-F21U02,Căn hộ 3BR-2WC,84.1,4282000000.0,5304000000.0,Đã bán,2025-12-29
+PRD-1081,Imperia Smart City,Tòa Park 1,ISC-Park1-F02U01,Căn hộ 1BR+1,44.1,2036000000.0,2403000000.0,Đã bán,2025-11-12
+PRD-1082,Imperia Smart City,Tòa Park 1,ISC-Park1-F02U02,Căn hộ 1BR+1,45.6,2002000000.0,2426000000.0,Đang bán,2025-11-10
+PRD-1083,Imperia Smart City,Tòa Park 1,ISC-Park1-F03U01,Căn hộ 3BR-2WC,84.0,4103000000.0,5104000000.0,Đang bán,2026-03-14
+PRD-1084,Imperia Smart City,Tòa Park 1,ISC-Park1-F03U02,Căn hộ 1BR+1,48.1,2108000000.0,2672000000.0,Sắp mở bán,2026-08-31
+PRD-1085,Imperia Smart City,Tòa Park 1,ISC-Park1-F04U01,Căn hộ 1BR+1,48.1,2239000000.0,2637000000.0,Sắp mở bán,2026-10-17
+PRD-1086,Imperia Smart City,Tòa Park 1,ISC-Park1-F04U02,Căn hộ 2BR-2WC,66.1,3080000000.0,3843000000.0,Đang bán,2025-11-18
+PRD-1087,Imperia Smart City,Tòa Park 1,ISC-Park1-F05U01,Căn hộ 3BR-2WC,82.5,4292000000.0,5060000000.0,Sắp mở bán,2026-10-12
+PRD-1088,Imperia Smart City,Tòa Park 1,ISC-Park1-F05U02,Căn hộ 2BR-2WC,65.8,3133000000.0,3679000000.0,Đã bán,2026-02-11
+PRD-1089,Imperia Smart City,Tòa Park 1,ISC-Park1-F06U01,Căn hộ 1BR+1,44.2,2003000000.0,2424000000.0,Sắp mở bán,2026-09-14
+PRD-1090,Imperia Smart City,Tòa Park 1,ISC-Park1-F06U02,Căn hộ 3BR-2WC,79.3,3944000000.0,4986000000.0,Đã bán,2026-03-26
+PRD-1091,Imperia Smart City,Tòa Park 1,ISC-Park1-F07U01,Căn hộ 3BR-2WC,82.4,4075000000.0,5138000000.0,Đã bán,2025-09-29
+PRD-1092,Imperia Smart City,Tòa Park 1,ISC-Park1-F07U02,Căn hộ 2BR-2WC,64.6,3093000000.0,3971000000.0,Đang bán,2025-11-06
+PRD-1093,Imperia Smart City,Tòa Park 1,ISC-Park1-F08U01,Căn hộ 1BR+1,46.2,2119000000.0,2448000000.0,Đã bán,2026-04-11
+PRD-1094,Imperia Smart City,Tòa Park 1,ISC-Park1-F08U02,Căn hộ 1BR+1,46.6,2187000000.0,2451000000.0,Đã bán,2025-11-10
+PRD-1095,Imperia Smart City,Tòa Park 1,ISC-Park1-F09U01,Căn hộ 1BR+1,45.7,2091000000.0,2392000000.0,Đang bán,2025-10-08
+PRD-1096,Imperia Smart City,Tòa Park 1,ISC-Park1-F09U02,Căn hộ 3BR-2WC,85.0,4399000000.0,5323000000.0,Đang bán,2026-04-27
+PRD-1097,Imperia Smart City,Tòa Park 1,ISC-Park1-F10U01,Căn hộ 1BR+1,43.5,2018000000.0,2319000000.0,Đã bán,2025-12-20
+PRD-1098,Imperia Smart City,Tòa Park 1,ISC-Park1-F10U02,Căn hộ 3BR-2WC,80.4,3950000000.0,4793000000.0,Đang bán,2026-02-27
+PRD-1099,Imperia Smart City,Tòa Park 1,ISC-Park1-F11U01,Căn hộ 2BR-2WC,64.0,2931000000.0,3844000000.0,Đã bán,2026-01-12
+PRD-1100,Imperia Smart City,Tòa Park 1,ISC-Park1-F11U02,Căn hộ 2BR-2WC,62.3,3094000000.0,3540000000.0,Đã bán,2025-12-24
+PRD-1101,Imperia Smart City,Tòa Park 1,ISC-Park1-F12U01,Căn hộ 3BR-2WC,83.0,4039000000.0,5362000000.0,Đã bán,2025-12-14
+PRD-1102,Imperia Smart City,Tòa Park 1,ISC-Park1-F12U02,Căn hộ 1BR+1,44.9,1952000000.0,2392000000.0,Đã bán,2026-05-04
+PRD-1103,Imperia Smart City,Tòa Park 1,ISC-Park1-F13U01,Căn hộ 3BR-2WC,83.5,4328000000.0,5117000000.0,Đang bán,2025-11-02
+PRD-1104,Imperia Smart City,Tòa Park 1,ISC-Park1-F13U02,Căn hộ 2BR-2WC,65.3,3247000000.0,3888000000.0,Đã bán,2025-11-19
+PRD-1105,Imperia Smart City,Tòa Park 1,ISC-Park1-F14U01,Căn hộ 1BR+1,45.8,2126000000.0,2392000000.0,Đang bán,2025-11-05
+PRD-1106,Imperia Smart City,Tòa Park 1,ISC-Park1-F14U02,Căn hộ 3BR-2WC,84.8,4147000000.0,5296000000.0,Đã bán,2026-03-08
+PRD-1107,Imperia Smart City,Tòa Park 1,ISC-Park1-F15U01,Căn hộ 1BR+1,43.6,1938000000.0,2398000000.0,Đã bán,2025-11-16
+PRD-1108,Imperia Smart City,Tòa Park 1,ISC-Park1-F15U02,Căn hộ 3BR-2WC,82.3,4277000000.0,5114000000.0,Sắp mở bán,2026-08-21
+PRD-1109,Imperia Smart City,Tòa Park 1,ISC-Park1-F16U01,Căn hộ 2BR-2WC,64.0,3129000000.0,3708000000.0,Đang bán,2025-12-23
+PRD-1110,Imperia Smart City,Tòa Park 1,ISC-Park1-F16U02,Căn hộ 3BR-2WC,81.5,4245000000.0,5090000000.0,Sắp mở bán,2026-09-29
+PRD-1111,Imperia Smart City,Tòa Park 1,ISC-Park1-F17U01,Căn hộ 3BR-2WC,85.1,4192000000.0,5150000000.0,Sắp mở bán,2026-09-29
+PRD-1112,Imperia Smart City,Tòa Park 1,ISC-Park1-F17U02,Căn hộ 3BR-2WC,84.8,4322000000.0,5362000000.0,Đã bán,2025-10-15
+PRD-1113,Imperia Smart City,Tòa Park 1,ISC-Park1-F18U01,Căn hộ 1BR+1,44.0,1907000000.0,2310000000.0,Đã bán,2026-05-01
+PRD-1114,Imperia Smart City,Tòa Park 1,ISC-Park1-F18U02,Căn hộ 3BR-2WC,81.8,4042000000.0,5011000000.0,Đã bán,2025-11-10
+PRD-1115,Imperia Smart City,Tòa Park 1,ISC-Park1-F19U01,Căn hộ 1BR+1,47.7,2108000000.0,2478000000.0,Đã bán,2026-01-13
+PRD-1116,Imperia Smart City,Tòa Park 1,ISC-Park1-F19U02,Căn hộ 1BR+1,43.9,1880000000.0,2334000000.0,Sắp mở bán,2026-11-01
+PRD-1117,Imperia Smart City,Tòa Park 1,ISC-Park1-F20U01,Căn hộ 2BR-2WC,65.5,3137000000.0,3886000000.0,Đã bán,2025-11-01
+PRD-1118,Imperia Smart City,Tòa Park 1,ISC-Park1-F20U02,Căn hộ 1BR+1,48.2,2138000000.0,2635000000.0,Đang bán,2025-11-16
+PRD-1119,Imperia Smart City,Tòa Park 1,ISC-Park1-F21U01,Căn hộ 1BR+1,45.4,1962000000.0,2363000000.0,Đã bán,2025-12-07
+PRD-1120,Imperia Smart City,Tòa Park 1,ISC-Park1-F21U02,Căn hộ 2BR-2WC,67.9,3277000000.0,3922000000.0,Đã bán,2026-01-31
+PRD-1121,Imperia Smart City,Tòa Park 2,ISC-Park2-F02U01,Căn hộ 3BR-2WC,82.3,4171000000.0,4970000000.0,Sắp mở bán,2026-09-06
+PRD-1122,Imperia Smart City,Tòa Park 2,ISC-Park2-F02U02,Căn hộ 1BR+1,45.9,2007000000.0,2478000000.0,Sắp mở bán,2026-11-05
+PRD-1123,Imperia Smart City,Tòa Park 2,ISC-Park2-F03U01,Căn hộ 1BR+1,46.9,2141000000.0,2602000000.0,Đã bán,2026-05-16
+PRD-1124,Imperia Smart City,Tòa Park 2,ISC-Park2-F03U02,Căn hộ 2BR-2WC,64.0,2956000000.0,3636000000.0,Đã bán,2026-03-31
+PRD-1125,Imperia Smart City,Tòa Park 2,ISC-Park2-F04U01,Căn hộ 3BR-2WC,79.9,4070000000.0,4995000000.0,Đang bán,2026-04-12
+PRD-1126,Imperia Smart City,Tòa Park 2,ISC-Park2-F04U02,Căn hộ 3BR-2WC,82.5,4214000000.0,4931000000.0,Đã bán,2026-02-28
+PRD-1127,Imperia Smart City,Tòa Park 2,ISC-Park2-F05U01,Căn hộ 3BR-2WC,79.1,4139000000.0,4658000000.0,Đã bán,2025-12-28
+PRD-1128,Imperia Smart City,Tòa Park 2,ISC-Park2-F05U02,Căn hộ 2BR-2WC,67.4,3087000000.0,3888000000.0,Đã bán,2025-10-18
+PRD-1129,Imperia Smart City,Tòa Park 2,ISC-Park2-F06U01,Căn hộ 3BR-2WC,81.8,4042000000.0,5178000000.0,Đang bán,2026-03-09
+PRD-1130,Imperia Smart City,Tòa Park 2,ISC-Park2-F06U02,Căn hộ 2BR-2WC,63.4,3102000000.0,3857000000.0,Sắp mở bán,2026-11-23
+PRD-1131,Imperia Smart City,Tòa Park 2,ISC-Park2-F07U01,Căn hộ 3BR-2WC,79.2,3988000000.0,4810000000.0,Đang bán,2026-03-14
+PRD-1132,Imperia Smart City,Tòa Park 2,ISC-Park2-F07U02,Căn hộ 1BR+1,48.3,2115000000.0,2753000000.0,Đã bán,2026-01-24
+PRD-1133,Imperia Smart City,Tòa Park 2,ISC-Park2-F08U01,Căn hộ 3BR-2WC,82.0,4134000000.0,4814000000.0,Sắp mở bán,2026-10-26
+PRD-1134,Imperia Smart City,Tòa Park 2,ISC-Park2-F08U02,Căn hộ 3BR-2WC,82.4,3931000000.0,4886000000.0,Sắp mở bán,2026-09-22
+PRD-1135,Imperia Smart City,Tòa Park 2,ISC-Park2-F09U01,Căn hộ 1BR+1,45.1,2001000000.0,2356000000.0,Đã bán,2025-11-09
+PRD-1136,Imperia Smart City,Tòa Park 2,ISC-Park2-F09U02,Căn hộ 2BR-2WC,65.2,3030000000.0,3640000000.0,Đã bán,2025-11-17
+PRD-1137,Imperia Smart City,Tòa Park 2,ISC-Park2-F10U01,Căn hộ 1BR+1,44.0,1913000000.0,2282000000.0,Đã bán,2025-10-11
+PRD-1138,Imperia Smart City,Tòa Park 2,ISC-Park2-F10U02,Căn hộ 1BR+1,44.8,2106000000.0,2372000000.0,Sắp mở bán,2026-09-23
+PRD-1139,Imperia Smart City,Tòa Park 2,ISC-Park2-F11U01,Căn hộ 2BR-2WC,68.9,3307000000.0,3948000000.0,Sắp mở bán,2026-09-02
+PRD-1140,Imperia Smart City,Tòa Park 2,ISC-Park2-F11U02,Căn hộ 1BR+1,47.0,2056000000.0,2635000000.0,Sắp mở bán,2026-10-07
+PRD-1141,Imperia Smart City,Tòa Park 2,ISC-Park2-F12U01,Căn hộ 3BR-2WC,84.8,4410000000.0,5103000000.0,Đã bán,2026-04-29
+PRD-1142,Imperia Smart City,Tòa Park 2,ISC-Park2-F12U02,Căn hộ 1BR+1,48.0,2184000000.0,2520000000.0,Đã bán,2026-05-03
+PRD-1143,Imperia Smart City,Tòa Park 2,ISC-Park2-F13U01,Căn hộ 2BR-2WC,62.8,3107000000.0,3828000000.0,Sắp mở bán,2026-08-30
+PRD-1144,Imperia Smart City,Tòa Park 2,ISC-Park2-F13U02,Căn hộ 1BR+1,47.0,2200000000.0,2484000000.0,Đã bán,2026-05-01
+PRD-1145,Imperia Smart City,Tòa Park 2,ISC-Park2-F14U01,Căn hộ 2BR-2WC,65.5,3157000000.0,3878000000.0,Sắp mở bán,2026-10-11
+PRD-1146,Imperia Smart City,Tòa Park 2,ISC-Park2-F14U02,Căn hộ 1BR+1,44.3,2090000000.0,2323000000.0,Đang bán,2025-11-28
+PRD-1147,Imperia Smart City,Tòa Park 2,ISC-Park2-F15U01,Căn hộ 1BR+1,45.0,2093000000.0,2341000000.0,Đang bán,2026-01-21
+PRD-1148,Imperia Smart City,Tòa Park 2,ISC-Park2-F15U02,Căn hộ 2BR-2WC,65.3,3011000000.0,3744000000.0,Đã bán,2026-01-12
+PRD-1149,Imperia Smart City,Tòa Park 2,ISC-Park2-F16U01,Căn hộ 1BR+1,47.3,2226000000.0,2498000000.0,Sắp mở bán,2026-09-06
+PRD-1150,Imperia Smart City,Tòa Park 2,ISC-Park2-F16U02,Căn hộ 1BR+1,43.2,1856000000.0,2322000000.0,Sắp mở bán,2026-08-20
+PRD-1151,Imperia Smart City,Tòa Park 2,ISC-Park2-F17U01,Căn hộ 1BR+1,47.8,2223000000.0,2653000000.0,Sắp mở bán,2026-10-05
+PRD-1152,Imperia Smart City,Tòa Park 2,ISC-Park2-F17U02,Căn hộ 3BR-2WC,80.7,3917000000.0,4981000000.0,Sắp mở bán,2026-10-16
+PRD-1153,Imperia Smart City,Tòa Park 2,ISC-Park2-F18U01,Căn hộ 1BR+1,43.5,2014000000.0,2388000000.0,Sắp mở bán,2026-10-09
+PRD-1154,Imperia Smart City,Tòa Park 2,ISC-Park2-F18U02,Căn hộ 3BR-2WC,84.2,4206000000.0,5201000000.0,Sắp mở bán,2026-11-20
+PRD-1155,Imperia Smart City,Tòa Park 2,ISC-Park2-F19U01,Căn hộ 2BR-2WC,67.6,3369000000.0,4101000000.0,Sắp mở bán,2026-10-19
+PRD-1156,Imperia Smart City,Tòa Park 2,ISC-Park2-F19U02,Căn hộ 2BR-2WC,64.3,2959000000.0,3927000000.0,Sắp mở bán,2026-11-02
+PRD-1157,Imperia Smart City,Tòa Park 2,ISC-Park2-F20U01,Căn hộ 1BR+1,44.9,2037000000.0,2484000000.0,Sắp mở bán,2026-10-11
+PRD-1158,Imperia Smart City,Tòa Park 2,ISC-Park2-F20U02,Căn hộ 3BR-2WC,78.3,4049000000.0,4931000000.0,Sắp mở bán,2026-09-17
+PRD-1159,Imperia Smart City,Tòa Park 2,ISC-Park2-F21U01,Căn hộ 3BR-2WC,79.4,4051000000.0,5121000000.0,Sắp mở bán,2026-10-15
+PRD-1160,Imperia Smart City,Tòa Park 2,ISC-Park2-F21U02,Căn hộ 1BR+1,48.2,2264000000.0,2708000000.0,Sắp mở bán,2026-10-19
+PRD-1161,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F02U01,Duplex,120.5,7639000000.0,9589000000.0,Đã bán,2026-03-28
+PRD-1162,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F02U02,Penthouse,180.3,13706000000.0,16619000000.0,Đã bán,2026-04-18
+PRD-1163,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F03U01,Duplex,137.8,9134000000.0,11418000000.0,Đang bán,2026-02-13
+PRD-1164,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F03U02,Căn hộ 2BR-2WC,62.1,3064000000.0,3817000000.0,Đã bán,2026-01-31
+PRD-1165,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F04U01,Căn hộ 2BR-2WC,67.4,3281000000.0,4031000000.0,Sắp mở bán,2026-10-30
+PRD-1166,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F04U02,Căn hộ 2BR-2WC,63.5,3043000000.0,3858000000.0,Sắp mở bán,2026-11-14
+PRD-1167,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F05U01,Căn hộ 3BR-2WC,84.2,4063000000.0,5443000000.0,Đã bán,2026-03-15
+PRD-1168,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F05U02,Penthouse,213.6,15942000000.0,20430000000.0,Đã bán,2025-11-22
+PRD-1169,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F06U01,Penthouse,211.5,16520000000.0,21159000000.0,Đang bán,2026-02-27
+PRD-1170,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F06U02,Căn hộ 2BR-2WC,68.6,3228000000.0,4148000000.0,Sắp mở bán,2026-09-25
+PRD-1171,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F07U01,Duplex,134.6,8609000000.0,10651000000.0,Đã bán,2025-12-06
+PRD-1172,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F07U02,Căn hộ 2BR-2WC,62.8,3075000000.0,3811000000.0,Sắp mở bán,2026-11-03
+PRD-1173,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F08U01,Căn hộ 2BR-2WC,64.5,2951000000.0,3739000000.0,Đã bán,2026-02-20
+PRD-1174,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F08U02,Căn hộ 2BR-2WC,68.7,3249000000.0,4223000000.0,Đã bán,2025-11-26
+PRD-1175,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F09U01,Penthouse,210.2,15637000000.0,20064000000.0,Đang bán,2026-02-04
+PRD-1176,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F09U02,Penthouse,188.9,14254000000.0,17694000000.0,Sắp mở bán,2026-10-23
+PRD-1177,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F10U01,Duplex,125.9,8532000000.0,9833000000.0,Đã bán,2025-10-14
+PRD-1178,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F10U02,Duplex,139.4,8658000000.0,11618000000.0,Đã bán,2025-09-29
+PRD-1179,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F11U01,Penthouse,217.4,16289000000.0,20771000000.0,Đã bán,2026-02-01
+PRD-1180,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F11U02,Penthouse,170.8,13352000000.0,17170000000.0,Đã bán,2026-03-26
+PRD-1181,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F12U01,Penthouse,195.9,15258000000.0,18294000000.0,Sắp mở bán,2026-09-21
+PRD-1182,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F12U02,Penthouse,175.5,13771000000.0,16064000000.0,Đã bán,2026-01-22
+PRD-1183,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F13U01,Căn hộ 3BR-2WC,85.3,4237000000.0,5317000000.0,Đã bán,2025-12-16
+PRD-1184,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F13U02,Căn hộ 3BR-2WC,79.0,3990000000.0,4888000000.0,Đã bán,2025-11-28
+PRD-1185,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F14U01,Căn hộ 3BR-2WC,79.2,3967000000.0,5050000000.0,Sắp mở bán,2026-09-27
+PRD-1186,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F14U02,Duplex,134.6,8994000000.0,10367000000.0,Đã bán,2026-04-20
+PRD-1187,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F15U01,Căn hộ 2BR-2WC,63.7,3072000000.0,3732000000.0,Sắp mở bán,2026-11-09
+PRD-1188,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F15U02,Duplex,127.8,8601000000.0,10197000000.0,Đã bán,2026-01-14
+PRD-1189,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F16U01,Căn hộ 3BR-2WC,79.5,3908000000.0,4956000000.0,Đã bán,2026-04-30
+PRD-1190,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F16U02,Penthouse,218.8,16338000000.0,20439000000.0,Đã bán,2025-11-06
+PRD-1191,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F17U01,Penthouse,216.9,16089000000.0,20761000000.0,Đã bán,2025-12-18
+PRD-1192,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F17U02,Penthouse,199.3,14871000000.0,18595000000.0,Đã bán,2026-03-13
+PRD-1193,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F18U01,Penthouse,188.7,14505000000.0,18245000000.0,Đã bán,2025-10-18
+PRD-1194,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F18U02,Duplex,137.7,9290000000.0,10736000000.0,Đang bán,2026-01-15
+PRD-1195,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F19U01,Penthouse,186.5,13978000000.0,17655000000.0,Đã bán,2025-11-25
+PRD-1196,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F19U02,Căn hộ 3BR-2WC,82.9,4351000000.0,5042000000.0,Đã bán,2026-01-01
+PRD-1197,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F20U01,Căn hộ 2BR-2WC,68.2,3328000000.0,4052000000.0,Đã bán,2026-03-26
+PRD-1198,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F20U02,Căn hộ 2BR-2WC,67.9,3204000000.0,3902000000.0,Đang bán,2026-04-21
+PRD-1199,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F21U01,Penthouse,184.4,13348000000.0,17779000000.0,Đã bán,2026-01-04
+PRD-1200,The Matrix One Phase 2,Tòa B1 Matrix Chaise,TMO-B1MatrixChaise-F21U02,Căn hộ 2BR-2WC,64.2,3185000000.0,3883000000.0,Đã bán,2025-11-12
+PRD-1201,The Matrix One Phase 2,Tòa B2 Matrix Chaise,TMO-B2MatrixChaise-F02U01,Duplex,110.5,7344000000.0,8683000000.0,Đã bán,2026-02-21
+PRD-1202,The Matrix One Phase 2,Tòa B2 Matrix Chaise,TMO-B2MatrixChaise-F02U02,Căn hộ 3BR-2WC,82.5,4052000000.0,5145000000.0,Đã bán,2025-12-10
+PRD-1203,The Matrix One Phase 2,Tòa B2 Matrix Chaise,TMO-B2MatrixChaise-F03U01,Căn hộ 2BR-2WC,63.0,2884000000.0,3832000000.0,Đã bán,2026-04-10
+PRD-1204,The Matrix One Phase 2,Tòa B2 Matrix Chaise,TMO-B2MatrixChaise-F03U02,Duplex,112.4,7322000000.0,9116000000.0,Đang bán,2026-05-14
+PRD-1205,The Matrix One Phase 2,Tòa B2 Matrix Chaise,TMO-B2MatrixChaise-F04U01,Căn hộ 2BR-2WC,64.9,3152000000.0,3833000000.0,Đã bán,2025-10-22
+PRD-1206,The Matrix One Phase 2,Tòa B2 Matrix Chaise,TMO-B2MatrixChaise-F04U02,Duplex,120.2,7460000000.0,9907000000.0,Đã bán,2026-03-04
+PRD-1207,The Matrix One Phase 2,Tòa B2 Matrix Chaise,TMO-B2MatrixChaise-F05U01,Căn hộ 2BR-2WC,64.7,3021000000.0,3890000000.0,Đã bán,2026-03-14
+PRD-1208,The Matrix One Phase 2,Tòa B2 Matrix Chaise,TMO-B2MatrixChaise-F05U02,Căn hộ 3BR-2WC,80.4,4158000000.0,4735000000.0,Sắp mở bán,2026-10-04
+PRD-1209,The Matrix One Phase 2,Tòa B2 Matrix Chaise,TMO-B2MatrixChaise-F06U01,Penthouse,218.9,16866000000.0,21704000000.0,Đang bán,2025-12-05
+PRD-1210,The Matrix One Phase 2,Tòa B2 Matrix Chaise,TMO-B2MatrixChaise-F06U02,Penthouse,219.8,17131000000.0,21525000000.0,Đã bán,2025-11-01
+PRD-1211,The Matrix One Phase 2,Tòa B2 Matrix Chaise,TMO-B2MatrixChaise-F07U01,Penthouse,185.5,14393000000.0,17192000000.0,Đã bán,2025-11-17
+PRD-1212,The Matrix One Phase 2,Tòa B2 Matrix Chaise,TMO-B2MatrixChaise-F07U02,Duplex,120.7,8200000000.0,9439000000.0,Sắp mở bán,2026-09-27
+PRD-1213,The Matrix One Phase 2,Tòa B2 Matrix Chaise,TMO-B2MatrixChaise-F08U01,Penthouse,202.7,14652000000.0,19832000000.0,Đã bán,2026-02-28
+PRD-1214,The Matrix One Phase 2,Tòa B2 Matrix Chaise,TMO-B2MatrixChaise-F08U02,Penthouse,179.9,13910000000.0,17573000000.0,Sắp mở bán,2026-10-08
+PRD-1215,The Matrix One Phase 2,Tòa B2 Matrix Chaise,TMO-B2MatrixChaise-F09U01,Căn hộ 2BR-2WC,66.9,3250000000.0,4010000000.0,Sắp mở bán,2026-08-28
+PRD-1216,The Matrix One Phase 2,Tòa B2 Matrix Chaise,TMO-B2MatrixChaise-F09U02,Căn hộ 2BR-2WC,63.4,3049000000.0,3603000000.0,Sắp mở bán,2026-10-19
+PRD-1217,The Matrix One Phase 2,Tòa B2 Matrix Chaise,TMO-B2MatrixChaise-F10U01,Penthouse,176.2,13384000000.0,17122000000.0,Đã bán,2026-02-07
+PRD-1218,The Matrix One Phase 2,Tòa B2 Matrix Chaise,TMO-B2MatrixChaise-F10U02,Duplex,136.4,9198000000.0,11050000000.0,Đã bán,2025-10-26
+PRD-1219,The Matrix One Phase 2,Tòa B2 Matrix Chaise,TMO-B2MatrixChaise-F11U01,Duplex,134.3,8744000000.0,11193000000.0,Đã bán,2025-11-29
+PRD-1220,The Matrix One Phase 2,Tòa B2 Matrix Chaise,TMO-B2MatrixChaise-F11U02,Căn hộ 3BR-2WC,81.4,4227000000.0,5077000000.0,Sắp mở bán,2026-08-23

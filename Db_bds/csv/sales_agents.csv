@@ -1,0 +1,41 @@
+﻿agent_id,full_name,agency_name,phone,email,position,hire_date,status
+SA-1001,Trần Văn Phương,Khải Hoàn Land,0968825109,trần.văn.phương@khảihoànland.com,Chuyên viên tư vấn cao cấp,2023-08-22,Đang hoạt động
+SA-1002,Hồ Minh Duy,Mai Việt Land,0915767679,hồ.minh.duy@maiviệtland.com,Giám đốc sàn,2023-07-02,Đang hoạt động
+SA-1003,Bùi Thị Khang,Mai Việt Land,0928130016,bùi.thị.khang@maiviệtland.com,Trưởng nhóm kinh doanh,2023-01-11,Đang hoạt động
+SA-1004,Bùi Minh Linh,Khải Hoàn Land,0990430095,bùi.minh.linh@khảihoànland.com,Chuyên viên tư vấn,2023-06-02,Đang hoạt động
+SA-1005,Dương Minh Hương,Mai Việt Land,0913128076,dương.minh.hương@maiviệtland.com,Giám đốc sàn,2024-12-17,Đang hoạt động
+SA-1006,Lý Hoàng Tuấn,MIK Direct Sales,0974495810,sales.lý.hoàng.tuấn@mikgroup.vn,Trưởng nhóm kinh doanh,2025-07-27,Đang hoạt động
+SA-1007,Trần Đức Hương,MIK Direct Sales,0967607001,sales.trần.đức.hương@mikgroup.vn,Trưởng nhóm kinh doanh,2025-10-16,Đang hoạt động
+SA-1008,Vũ Thái Thảo,Sunland Realty,0911197901,vũ.thái.thảo@sunlandrealty.com,Chuyên viên tư vấn cao cấp,2024-02-05,Đang hoạt động
+SA-1009,Vũ Ngọc Tuấn,Mai Việt Land,0984115854,vũ.ngọc.tuấn@maiviệtland.com,Giám đốc sàn,2024-01-17,Đang hoạt động
+SA-1010,Nguyễn Hoàng Hải,Đông Tây Land,0975226343,nguyễn.hoàng.hải@đôngtâyland.com,Trưởng nhóm kinh doanh,2023-07-05,Đang hoạt động
+SA-1011,Hoàng Đức Trang,Mai Việt Land,0962280666,hoàng.đức.trang@maiviệtland.com,Chuyên viên tư vấn,2025-11-21,Đang hoạt động
+SA-1012,Đỗ Thanh Hùng,Era Vietnam,0958362686,đỗ.thanh.hùng@eravietnam.com,Chuyên viên tư vấn cao cấp,2024-11-04,Đang hoạt động
+SA-1013,Lý Khánh Hải,Era Vietnam,0976866594,lý.khánh.hải@eravietnam.com,Trưởng nhóm kinh doanh,2024-01-23,Đang hoạt động
+SA-1014,Lý Thu Khang,MIK Direct Sales,0918036535,sales.lý.thu.khang@mikgroup.vn,Giám đốc sàn,2025-12-24,Đang hoạt động
+SA-1015,Vũ Văn Linh,Era Vietnam,0949806990,vũ.văn.linh@eravietnam.com,Giám đốc sàn,2023-10-10,Đang hoạt động
+SA-1016,Trần Thu Linh,Sunland Realty,0929940548,trần.thu.linh@sunlandrealty.com,Giám đốc sàn,2023-01-20,Đang hoạt động
+SA-1017,Phạm Minh Hương,MIK Direct Sales,0957851957,sales.phạm.minh.hương@mikgroup.vn,Chuyên viên tư vấn cao cấp,2023-11-12,Đang hoạt động
+SA-1018,Vũ Bảo Phương,MIK Direct Sales,0976610054,sales.vũ.bảo.phương@mikgroup.vn,Chuyên viên tư vấn cao cấp,2025-03-20,Đang hoạt động
+SA-1019,Đỗ Hoàng Trinh,MIK Direct Sales,0938965534,sales.đỗ.hoàng.trinh@mikgroup.vn,Chuyên viên tư vấn cao cấp,2023-05-01,Đang hoạt động
+SA-1020,Đặng Khánh Phúc,Đông Tây Land,0995384339,đặng.khánh.phúc@đôngtâyland.com,Chuyên viên tư vấn,2024-07-08,Đang hoạt động
+SA-1021,Phạm Thanh Anh,Mai Việt Land,0913342482,phạm.thanh.anh@maiviệtland.com,Trưởng nhóm kinh doanh,2024-03-18,Đang hoạt động
+SA-1022,Lý Thị Anh,MIK Direct Sales,0983466725,sales.lý.thị.anh@mikgroup.vn,Trưởng nhóm kinh doanh,2024-05-08,Đang hoạt động
+SA-1023,Đặng Thị Đạt,MIK Direct Sales,0986069796,sales.đặng.thị.đạt@mikgroup.vn,Chuyên viên tư vấn,2024-03-19,Tạm nghỉ
+SA-1024,Dương Thu Nam,Era Vietnam,0916245631,dương.thu.nam@eravietnam.com,Trưởng nhóm kinh doanh,2024-07-06,Đang hoạt động
+SA-1025,Hoàng Quang Trinh,Sunland Realty,0918913375,hoàng.quang.trinh@sunlandrealty.com,Giám đốc sàn,2023-05-21,Đang hoạt động
+SA-1026,Dương Hoàng Linh,Era Vietnam,0984974942,dương.hoàng.linh@eravietnam.com,Chuyên viên tư vấn cao cấp,2023-05-02,Tạm nghỉ
+SA-1027,Hồ Thái Anh,Mai Việt Land,0989820972,hồ.thái.anh@maiviệtland.com,Chuyên viên tư vấn cao cấp,2023-07-12,Đang hoạt động
+SA-1028,Đặng Thái Khang,Mai Việt Land,0941590273,đặng.thái.khang@maiviệtland.com,Chuyên viên tư vấn,2024-06-17,Đang hoạt động
+SA-1029,Trần Thu Hùng,Khải Hoàn Land,0929939383,trần.thu.hùng@khảihoànland.com,Trưởng nhóm kinh doanh,2023-07-16,Đang hoạt động
+SA-1030,Vũ Minh Hùng,Era Vietnam,0987608167,vũ.minh.hùng@eravietnam.com,Chuyên viên tư vấn,2025-06-23,Đang hoạt động
+SA-1031,Bùi Minh Linh,Khải Hoàn Land,0991325128,bùi.minh.linh@khảihoànland.com,Chuyên viên tư vấn,2023-06-17,Đang hoạt động
+SA-1032,Trần Hoàng Tuấn,Khải Hoàn Land,0983029616,trần.hoàng.tuấn@khảihoànland.com,Chuyên viên tư vấn,2024-11-13,Đang hoạt động
+SA-1033,Hồ Thị Anh,Mai Việt Land,0958389610,hồ.thị.anh@maiviệtland.com,Chuyên viên tư vấn,2023-09-04,Đang hoạt động
+SA-1034,Đỗ Văn Nam,MIK Direct Sales,0966662860,sales.đỗ.văn.nam@mikgroup.vn,Chuyên viên tư vấn,2024-03-25,Đang hoạt động
+SA-1035,Lý Thái Cường,Mai Việt Land,0912738900,lý.thái.cường@maiviệtland.com,Giám đốc sàn,2024-06-08,Đang hoạt động
+SA-1036,Phạm Quang Đạt,Sunland Realty,0974500393,phạm.quang.đạt@sunlandrealty.com,Trưởng nhóm kinh doanh,2023-10-28,Đang hoạt động
+SA-1037,Nguyễn Thanh Hà,Era Vietnam,0990149616,nguyễn.thanh.hà@eravietnam.com,Chuyên viên tư vấn,2023-10-03,Đang hoạt động
+SA-1038,Vũ Hữu Phúc,Khải Hoàn Land,0941785635,vũ.hữu.phúc@khảihoànland.com,Chuyên viên tư vấn,2024-03-25,Đang hoạt động
+SA-1039,Phạm Thanh Đạt,Khải Hoàn Land,0952345545,phạm.thanh.đạt@khảihoànland.com,Chuyên viên tư vấn,2024-04-18,Đang hoạt động
+SA-1040,Đỗ Khánh Trinh,MIK Direct Sales,0919269532,sales.đỗ.khánh.trinh@mikgroup.vn,Chuyên viên tư vấn,2023-03-22,Đang hoạt động

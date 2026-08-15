@@ -1,0 +1,95 @@
+---
+name: bds-sales-dashboard
+description: Sinh dữ liệu giao dịch bán hàng bất động sản mẫu trong Excel và dựng dashboard tổng hợp bằng công thức SUMIFS/COUNTIFS kèm bộ biểu đồ theo tháng, kênh bán, loại hình BĐS, nhân viên sales và khu vực.
+---
+
+Dựng bộ dữ liệu bán hàng bất động sản (giả lập hoặc từ nguồn có sẵn) và một trang Dashboard phân tích bằng công thức + biểu đồ.
+
+## When to use
+- Người dùng yêu cầu "tạo data bán hàng bất động sản", "sinh dữ liệu mẫu giao dịch BĐS", hoặc tương tự.
+- Người dùng đã có bảng giao dịch BĐS và muốn dashboard theo kênh bán / sales / loại hình / khu vực / thời gian.
+- Bỏ qua bước sinh dữ liệu (Bước 1) nếu workbook đã có dữ liệu thật; chỉ chuẩn hoá cột rồi sang Bước 2.
+
+## Bước 1 — Sheet `Data`
+Tạo sheet `Data`, hàng 1 là tiêu đề, 14 cột theo đúng thứ tự:
+
+| Cột | Tên | Kiểu |
+|---|---|---|
+| A | Mã giao dịch | text `GD-YYYY-0001` |
+| B | Ngày giờ bán | serial ngày+giờ, format `dd/mm/yyyy hh:mm` |
+| C | Tháng | công thức `="Tháng "&MONTH([@[Ngày giờ bán]])` |
+| D | Dự án | text |
+| E | Loại hình BĐS | Căn hộ chung cư / Đất nền / Nhà phố / Liền kề / Biệt thự / Shophouse / Condotel |
+| F | Khu vực | TP. Hồ Chí Minh, Hà Nội, Bình Dương, Đồng Nai, Đà Nẵng, Long An |
+| G | Kênh bán | Sàn nội bộ (F1), Đại lý F2, Online / Digital, Khách giới thiệu, Sự kiện mở bán |
+| H | Nhân viên sales | ~10 tên |
+| I | Diện tích (m²) | số, 1 chữ số thập phân |
+| J | Đơn giá (trđ/m²) | số, 1 chữ số thập phân |
+| K | Giá trị hợp đồng (trđ) | `=[@[Diện tích (m²)]]*[@[Đơn giá (trđ/m²)]]` |
+| L | Chiết khấu (%) | 0–8%, format `0.0%` |
+| M | Trạng thái | Đã ký HĐMB (~62%) / Đã đặt cọc (~30%) / Huỷ cọc (~8%) |
+| N | Doanh thu ghi nhận (trđ) | `=IF([@[Trạng thái]]="Huỷ cọc",0,[@[Giá trị hợp đồng (trđ)]]*(1-[@[Chiết khấu (%)]]))` |
+
+Quy tắc sinh dữ liệu:
+- Mặc định 400–500 dòng, ngày nằm trong khoảng người dùng yêu cầu, **sắp xếp tăng dần theo ngày** rồi mới đánh mã giao dịch.
+- Diện tích/đơn giá phải theo dải hợp lý của từng loại hình (căn hộ 55–95 m² @42–78; đất nền 80–220 m² @22–60; nhà phố 85–160 m² @75–140; biệt thự 200–400 m² @90–180; shophouse 100–180 m² @110–200; condotel 40–75 m² @45–75).
+- Tạo tính mùa vụ: trọng số theo tháng tăng dần về cuối kỳ.
+- **Bắt buộc dùng PRNG mulberry32**, KHÔNG dùng LCG kiểu `s*1103515245` — vượt 2^53 gây mất chính xác và dữ liệu lặp hàng loạt.
+
+```js
+function mulberry32(a){ return function(){ a|=0; a=a+0x6D2B79F5|0; let t=Math.imul(a^a>>>15,1|a);
+  t=t+Math.imul(t^t>>>7,61|t)^t; return ((t^t>>>14)>>>0)/4294967296; }; }
+```
+
+Ghi dữ liệu bằng `execute_office_js`, mỗi lần ≤150 dòng rồi `context.sync()` (tránh timeout 90s). Ghi giá trị theo khối liền cột, chừa các cột công thức (C, K, N).
+
+Sau đó tạo Table tên `BanHang`, style `TableStyleMedium2`, freeze hàng 1, autofit cột, format số: K/N `#,##0;(#,##0);-`, L `0.0%`, I/J `#,##0.0`.
+
+**Done when:** đọc lại `A2:N<cuối>`, không có ô lỗi `#`, và số bản ghi duy nhất (join cột B:J) = số dòng.
+
+## Bước 2 — Sheet `Dashboard`
+Cột A rộng 175, B 95, C 145.
+
+KPI ở A4:B8 (tất cả là công thức tham chiếu `BanHang[...]`): Tổng doanh thu ghi nhận, Số giao dịch, Giá trị TB/giao dịch, Tỷ lệ huỷ cọc, Tổng diện tích bán.
+
+5 bảng tổng hợp xếp dọc cột A:C, mỗi bảng gồm dòng tiêu đề (đậm, #1F3864), dòng header (nền #2E75B6, chữ trắng, canh giữa) và các dòng dữ liệu:
+1. Theo tháng — 2. Theo kênh bán — 3. Theo loại hình BĐS — 4. Theo nhân viên sales — 5. Theo khu vực
+
+Mỗi bảng 3 cột: `Hạng mục` (nhãn nhập tay), `Số giao dịch` = `=COUNTIFS(BanHang[<Cột>],$A<row>)`, `Doanh thu ghi nhận (trđ)` = `=SUMIFS(BanHang[Doanh thu ghi nhận (trđ)],BanHang[<Cột>],$A<row>)`.
+
+**Done when:** đọc lại A1:C<cuối>, mọi ô B/C đều có công thức và không có `#`.
+
+## Bước 3 — Biểu đồ
+Đặt biểu đồ từ `left≈430` trở đi, lưới 2 cột, mỗi chart ~390×245pt.
+
+| # | Loại | Nguồn | Tiêu đề |
+|---|---|---|---|
+| 1 | ColumnClustered | bảng tháng | Doanh thu ghi nhận theo tháng (trđ) |
+| 2 | Line | bảng tháng | Số giao dịch theo tháng |
+| 3 | BarClustered | bảng kênh bán | Doanh thu theo kênh bán (trđ) |
+| 4 | Pie | bảng loại hình | Cơ cấu doanh thu theo loại hình BĐS |
+| 5 | BarClustered | bảng sales | Doanh thu theo nhân viên sales (trđ) |
+| 6 | ColumnClustered | bảng khu vực | Doanh thu theo khu vực (trđ) |
+
+Kỹ thuật:
+- `charts.add(type, sheet.getRange("A<hdr>:C<end>"), "Columns")` rồi `series.getItemAt(i).delete()` để bỏ series thừa — Office.js không nhận range nhiều vùng (`"A1:A8,C1:C8"` sẽ lỗi `InvalidArgument`).
+- Bật `dataLabels.showValue = true`, `numberFormat = "#,##0"`, font 8; ẩn legend trừ biểu đồ tròn (legend bên phải, hiện `showPercentage`).
+
+## Bước 4 — Sắp xếp
+- Các chiều **phi thời gian** (kênh bán, loại hình, sales, khu vực): sắp nhãn ở cột A theo doanh thu **giảm dần**. Công thức tham chiếu `$A` cùng dòng nên chỉ cần đổi thứ tự nhãn, giá trị tự tính lại.
+- Các chiều **thời gian** (tháng, quý, ngày): LUÔN giữ trình tự thời gian, không sắp theo giá trị.
+- Biểu đồ thanh ngang: đặt `axes.categoryAxis.reversePlotOrder = true` để mục lớn nhất nằm trên cùng.
+- Nói rõ với người dùng rằng thứ tự này là tĩnh; nếu cần tự xếp hạng thì chuyển sang LARGE/INDEX.
+
+## Bước 5 — Kiểm tra & báo cáo
+- Xoá sheet trống mặc định (`Sheet1`) nếu không có dữ liệu.
+- Quét toàn bộ `Data` và `Dashboard` tìm ô bắt đầu bằng `#`.
+- Render `chart.getImage()` cho ít nhất 2–3 biểu đồ để xác nhận trục và nhãn hiển thị đúng.
+- Nêu rõ đây là dữ liệu mô phỏng, không phải số liệu thị trường thật.
+
+**Done when:** không còn ô lỗi, đủ 6 biểu đồ, và đã nêu chính xác những range/biểu đồ nào đã kiểm tra lại.
+
+## Lưu ý kỹ thuật
+- Toàn bộ văn bản trong workbook viết bằng tiếng Việt.
+- Nếu gặp lỗi `InactiveWorkbook` khi `worksheet.position = ...`, bỏ dòng đó và kiểm tra lại danh sách sheet trước khi thử lại — sheet có thể đã được tạo.
+- Chia nhỏ script; một script tạo nhiều bảng + format cho cả 5 khối dễ vượt giới hạn 90s.
