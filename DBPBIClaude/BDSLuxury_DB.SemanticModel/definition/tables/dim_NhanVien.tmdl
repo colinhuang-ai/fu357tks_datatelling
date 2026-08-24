@@ -1,0 +1,32 @@
+table dim_NhanVien
+	lineageTag: 37f13f5f-803f-4b83-b234-8b4eef19492a
+
+	column 'Nhân viên sales'
+		dataType: string
+		lineageTag: dd57c52f-aa48-4a08-9e1f-d40efb6bfd7b
+		summarizeBy: none
+		sourceColumn: Nhân viên sales
+
+		annotation SummarizationSetBy = Automatic
+
+	column MaNV
+		dataType: string
+		lineageTag: 334511b7-ed91-4a40-8624-0418a681df03
+		summarizeBy: none
+		sourceColumn: MaNV
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_NhanVien = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents("D:\Training\2026-08_powerbi_thanh\Dashboard\data_model\dim_NhanVien.csv"), [Delimiter = ",", Columns = 2, Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"Nhân viên sales", type text}, {"MaNV", type text}}),
+				  #"Sorted rows" = Table.Sort(#"Changed column type", {{"Nhân viên sales", Order.Ascending}})
+				in
+				  #"Sorted rows"
+
+	annotation PBI_ResultType = Table
+

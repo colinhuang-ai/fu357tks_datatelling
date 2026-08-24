@@ -1,0 +1,164 @@
+// ============================================================
+// DAX MEASURES — PHÂN TÍCH HIỆU SUẤT KINH DOANH BĐS 2026
+// ============================================================
+// Theo layout template: 1 trang duy nhất
+// Header → Slicers → 4 KPI Cards → 2 Charts → Donut + Table
+// ============================================================
+// Hướng dẫn: Copy từng measure vào Power BI Desktop
+//   → Modeling → New Measure → Paste formula
+// ============================================================
+
+
+// ============================================================
+// 1. KPI CARDS (4 cards trên cùng)
+// ============================================================
+
+// --- Card 1: TỔNG DOANH THU GHI NHẬN (TRĐ) ---
+Tổng Doanh Thu = 
+    SUM(fact_GiaoDich[Doanh thu ghi nhận (trđ)])
+
+// --- Card 2: SỐ GIAO DỊCH ---
+Số Giao Dịch = 
+    COUNTROWS(fact_GiaoDich)
+
+// --- Số giao dịch hiệu lực (loại Huỷ cọc) ---
+Số GD Hiệu Lực = 
+    CALCULATE(
+        COUNTROWS(fact_GiaoDich),
+        fact_GiaoDich[Trạng thái] <> "Huỷ cọc"
+    )
+
+// --- Card 3: DIỆN TÍCH BÁN (M2) ---
+Tổng Diện Tích = 
+    SUM(fact_GiaoDich[Diện tích (m²)])
+
+// --- Card 4: TỶ LỆ HUỶ CỌC ---
+Tỷ Lệ Huỷ Cọc = 
+    DIVIDE(
+        CALCULATE(
+            COUNTROWS(fact_GiaoDich),
+            fact_GiaoDich[Trạng thái] = "Huỷ cọc"
+        ),
+        COUNTROWS(fact_GiaoDich),
+        0
+    )
+
+
+// ============================================================
+// 2. XU HƯỚNG DOANH THU THEO THÁNG (Area Chart)
+// ============================================================
+
+// --- Doanh thu format (triệu) - dùng trực tiếp SUM ---
+// Dùng trực tiếp: SUM(fact_GiaoDich[Doanh thu ghi nhận (trđ)])
+// hoặc measure [Tổng Doanh Thu] trong visual
+
+
+// ============================================================
+// 3. DOANH THU THEO PHÂN KHÚC & KÊNH BÁN (Stacked Column)
+// ============================================================
+
+// Không cần measure riêng - dùng trực tiếp:
+//   X-axis: Loại hình BĐS
+//   Y-axis: Tổng Doanh Thu (hoặc SUM Doanh thu ghi nhận)
+//   Legend: Kênh bán
+
+
+// ============================================================
+// 4. TỶ TRỌNG DOANH THU THEO KÊNH BÁN (Donut Chart)
+// ============================================================
+
+// Không cần measure riêng - dùng trực tiếp:
+//   Legend: Kênh bán
+//   Values: Tổng Doanh Thu
+
+
+// ============================================================
+// 5. BẢNG CHI TIẾT HIỆU SUẤT THEO NHÂN VIÊN & DỰ ÁN
+// ============================================================
+
+// --- Giá trị hợp đồng ---
+Tổng Giá Trị HĐ = 
+    SUM(fact_GiaoDich[Giá trị hợp đồng (trđ)])
+
+// --- Tỷ lệ huỷ (dùng trong bảng chi tiết) ---
+Tỷ Lệ Huỷ = 
+    DIVIDE(
+        CALCULATE(
+            COUNTROWS(fact_GiaoDich),
+            fact_GiaoDich[Trạng thái] = "Huỷ cọc"
+        ),
+        COUNTROWS(fact_GiaoDich),
+        0
+    )
+
+
+// ============================================================
+// 6. MEASURES BỔ SUNG (hữu ích cho filter/tooltip)
+// ============================================================
+
+// --- Doanh thu trung bình / giao dịch ---
+Doanh Thu TB/GD = 
+    DIVIDE(
+        [Tổng Doanh Thu],
+        [Số GD Hiệu Lực],
+        0
+    )
+
+// --- Đơn giá trung bình ---
+Đơn Giá TB = 
+    AVERAGE(fact_GiaoDich[Đơn giá (trđ/m²)])
+
+// --- Chiết khấu trung bình ---
+Chiết Khấu TB = 
+    AVERAGE(fact_GiaoDich[Chiết khấu (%)])
+
+// --- Tổng kế hoạch (dùng cho Tooltip/Drill-through) ---
+Tổng Kế Hoạch = 
+    SUM(dim_KeHoach[Kế hoạch 2026 (trđ)])
+
+// --- % Hoàn thành kế hoạch ---
+% Hoàn Thành KH = 
+    DIVIDE(
+        [Tổng Doanh Thu],
+        [Tổng Kế Hoạch],
+        0
+    )
+
+// --- Số GD Huỷ Cọc ---
+Số GD Huỷ Cọc = 
+    CALCULATE(
+        COUNTROWS(fact_GiaoDich),
+        fact_GiaoDich[Trạng thái] = "Huỷ cọc"
+    )
+
+// --- Số GD Ký HĐMB ---
+Số GD Ký HĐMB = 
+    CALCULATE(
+        COUNTROWS(fact_GiaoDich),
+        fact_GiaoDich[Trạng thái] = "Đã ký HĐMB"
+    )
+
+// --- % Ký HĐMB ---
+% Ký HĐMB = 
+    DIVIDE(
+        [Số GD Ký HĐMB],
+        [Số Giao Dịch],
+        0
+    )
+
+
+// ============================================================
+// 7. CONDITIONAL FORMATTING (cho bảng Table)
+// ============================================================
+
+// --- Màu nền cho cột Tỷ lệ huỷ (data bars đỏ) ---
+Color Tỷ Lệ Huỷ = 
+    IF(
+        [Tỷ Lệ Huỷ] > 0.05,
+        "#E74C3C",
+        "#F39C12"
+    )
+
+// --- Màu cho Giá trị HĐ (data bars xanh trong template) ---
+// Dùng Conditional Formatting → Data bars trực tiếp trong Power BI
+// Color: #E74C3C (đỏ cam như template)

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "BDS_Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "1af8a597-d26f-4e05-8698-04fb3c8e8396"
+  }
+}

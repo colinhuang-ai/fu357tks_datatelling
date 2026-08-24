@@ -1,0 +1,139 @@
+{
+  "config": "{\"version\": \"5.53\", \"themeCollection\": {\"baseTheme\": {\"name\": \"CY24SU06\", \"reportVersionAtImport\": \"5.53\", \"type\": \"SharedResources\"}}, \"activeSectionIndex\": 0, \"defaultDrillFilterOtherVisuals\": true, \"linguisticSchemaSyncVersion\": 2, \"settings\": {\"useStylableVisualContainerHeader\": true, \"exportDataMode\": 1}}",
+  "layoutOptimization": 0,
+  "sections": [
+    {
+      "name": "ReportSection7310d14993de405e",
+      "displayName": "Dashboard",
+      "filters": "[]",
+      "ordinal": 0,
+      "visualContainers": [
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "width": 1280,
+          "height": 45,
+          "config": "{\"name\": \"637aec1f1a1e49a6\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"width\": 1280, \"height\": 45, \"tabOrder\": 0}}], \"singleVisual\": {\"visualType\": \"textbox\", \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"PHÂN TÍCH HIỆU SUẤT KINH DOANH BẤT ĐỘNG SẢN 2026\", \"textStyle\": {\"fontFamily\": \"'Segoe UI Semibold', wf_segoe-ui_semibold, helvetica, arial, sans-serif\", \"fontSize\": \"16pt\", \"color\": \"#FFFFFF\", \"fontWeight\": \"bold\"}}], \"horizontalTextAlignment\": \"center\"}]}}]}, \"vcObjects\": {\"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#1B3A5C'\"}}}}}}}], \"border\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}}}",
+          "filters": "[]",
+          "tabOrder": 0
+        },
+        {
+          "x": 16,
+          "y": 50,
+          "z": 1000,
+          "width": 280,
+          "height": 55,
+          "config": "{\"name\": \"e7ae83351ee34e45\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 16, \"y\": 50, \"width\": 280, \"height\": 55, \"tabOrder\": 1}}], \"singleVisual\": {\"visualType\": \"slicer\", \"projections\": {\"Values\": [{\"queryRef\": \"fact_GiaoDich.Tháng\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fact_GiaoDich\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Tháng\"}, \"Name\": \"fact_GiaoDich.Tháng\"}]}, \"objects\": {\"data\": [{\"properties\": {\"mode\": {\"expr\": {\"Literal\": {\"Value\": \"'Dropdown'\"}}}}}], \"header\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Tháng'\"}}}, \"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"10D\"}}}, \"fontColor\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#333333'\"}}}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#FFFFFF'\"}}}}}}}], \"border\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#D9D9D9'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "tabOrder": 1
+        },
+        {
+          "x": 320,
+          "y": 50,
+          "z": 1001,
+          "width": 350,
+          "height": 55,
+          "config": "{\"name\": \"83e29a1923b1426a\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 320, \"y\": 50, \"width\": 350, \"height\": 55, \"tabOrder\": 2}}], \"singleVisual\": {\"visualType\": \"slicer\", \"projections\": {\"Values\": [{\"queryRef\": \"fact_GiaoDich.Dự án\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fact_GiaoDich\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Dự án\"}, \"Name\": \"fact_GiaoDich.Dự án\"}]}, \"objects\": {\"data\": [{\"properties\": {\"mode\": {\"expr\": {\"Literal\": {\"Value\": \"'Dropdown'\"}}}}}], \"header\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Dự án'\"}}}, \"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"10D\"}}}, \"fontColor\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#333333'\"}}}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#FFFFFF'\"}}}}}}}], \"border\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#D9D9D9'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "tabOrder": 2
+        },
+        {
+          "x": 700,
+          "y": 50,
+          "z": 1002,
+          "width": 280,
+          "height": 55,
+          "config": "{\"name\": \"31eab8db01e44609\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 700, \"y\": 50, \"width\": 280, \"height\": 55, \"tabOrder\": 3}}], \"singleVisual\": {\"visualType\": \"slicer\", \"projections\": {\"Values\": [{\"queryRef\": \"fact_GiaoDich.Khu vực\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fact_GiaoDich\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Khu vực\"}, \"Name\": \"fact_GiaoDich.Khu vực\"}]}, \"objects\": {\"data\": [{\"properties\": {\"mode\": {\"expr\": {\"Literal\": {\"Value\": \"'Dropdown'\"}}}}}], \"header\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Khu vực'\"}}}, \"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"10D\"}}}, \"fontColor\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#333333'\"}}}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#FFFFFF'\"}}}}}}}], \"border\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#D9D9D9'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "tabOrder": 3
+        },
+        {
+          "x": 16,
+          "y": 110,
+          "z": 2000,
+          "width": 230,
+          "height": 65,
+          "config": "{\"name\": \"f67cd5ae396d42f1\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 16, \"y\": 110, \"width\": 230, \"height\": 65, \"tabOrder\": 10}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"fact_GiaoDich.Tổng Doanh Thu\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fact_GiaoDich\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Tổng Doanh Thu\"}, \"Name\": \"fact_GiaoDich.Tổng Doanh Thu\"}]}, \"objects\": {\"labels\": [{\"properties\": {\"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"28D\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#1B3A5C'\"}}}}}, \"labelPrecision\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}}}], \"categoryLabels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"8D\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#666666'\"}}}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#FFFFFF'\"}}}}}}}], \"border\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#D9D9D9'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "tabOrder": 10
+        },
+        {
+          "x": 256,
+          "y": 110,
+          "z": 2001,
+          "width": 200,
+          "height": 65,
+          "config": "{\"name\": \"eea7591e8bd042a6\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 256, \"y\": 110, \"width\": 200, \"height\": 65, \"tabOrder\": 11}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"fact_GiaoDich.Số Giao Dịch\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fact_GiaoDich\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Số Giao Dịch\"}, \"Name\": \"fact_GiaoDich.Số Giao Dịch\"}]}, \"objects\": {\"labels\": [{\"properties\": {\"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"28D\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#1B3A5C'\"}}}}}, \"labelPrecision\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}}}], \"categoryLabels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"8D\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#666666'\"}}}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#FFFFFF'\"}}}}}}}], \"border\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#D9D9D9'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "tabOrder": 11
+        },
+        {
+          "x": 466,
+          "y": 110,
+          "z": 2002,
+          "width": 220,
+          "height": 65,
+          "config": "{\"name\": \"8f29c9255bd64699\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 466, \"y\": 110, \"width\": 220, \"height\": 65, \"tabOrder\": 12}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"fact_GiaoDich.Tổng Diện Tích\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fact_GiaoDich\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Tổng Diện Tích\"}, \"Name\": \"fact_GiaoDich.Tổng Diện Tích\"}]}, \"objects\": {\"labels\": [{\"properties\": {\"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"28D\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#1B3A5C'\"}}}}}, \"labelPrecision\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}}}], \"categoryLabels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"8D\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#666666'\"}}}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#FFFFFF'\"}}}}}}}], \"border\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#D9D9D9'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "tabOrder": 12
+        },
+        {
+          "x": 696,
+          "y": 110,
+          "z": 2003,
+          "width": 200,
+          "height": 65,
+          "config": "{\"name\": \"9b5aab3699614c94\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 696, \"y\": 110, \"width\": 200, \"height\": 65, \"tabOrder\": 13}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"fact_GiaoDich.Tỷ Lệ Huỷ Cọc\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fact_GiaoDich\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Tỷ Lệ Huỷ Cọc\"}, \"Name\": \"fact_GiaoDich.Tỷ Lệ Huỷ Cọc\"}]}, \"objects\": {\"labels\": [{\"properties\": {\"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"28D\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#1B3A5C'\"}}}}}, \"labelPrecision\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}}}], \"categoryLabels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"8D\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#666666'\"}}}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#FFFFFF'\"}}}}}}}], \"border\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#D9D9D9'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "tabOrder": 13
+        },
+        {
+          "x": 16,
+          "y": 185,
+          "z": 3000,
+          "width": 560,
+          "height": 230,
+          "config": "{\"name\": \"69180ea9206c4437\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 16, \"y\": 185, \"width\": 560, \"height\": 230, \"tabOrder\": 20}}], \"singleVisual\": {\"visualType\": \"areaChart\", \"projections\": {\"Category\": [{\"queryRef\": \"fact_GiaoDich.Tháng\", \"active\": true}], \"Y\": [{\"queryRef\": \"fact_GiaoDich.Tổng Doanh Thu\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fact_GiaoDich\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Tháng\"}, \"Name\": \"fact_GiaoDich.Tháng\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Tổng Doanh Thu\"}, \"Name\": \"fact_GiaoDich.Tổng Doanh Thu\"}]}, \"objects\": {\"dataPoint\": [{\"properties\": {\"fill\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#1B3A5C'\"}}}}}}}], \"labels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"9D\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'XU HƯỚNG DOANH THU THEO THÁNG'\"}}}, \"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"11D\"}}}, \"fontColor\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#1B3A5C'\"}}}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#FFFFFF'\"}}}}}}}], \"border\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#D9D9D9'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "tabOrder": 20
+        },
+        {
+          "x": 586,
+          "y": 185,
+          "z": 3001,
+          "width": 530,
+          "height": 230,
+          "config": "{\"name\": \"e2caba35b1984184\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 586, \"y\": 185, \"width\": 530, \"height\": 230, \"tabOrder\": 21}}], \"singleVisual\": {\"visualType\": \"stackedColumnChart\", \"projections\": {\"Category\": [{\"queryRef\": \"fact_GiaoDich.Loại hình BĐS\", \"active\": true}], \"Y\": [{\"queryRef\": \"fact_GiaoDich.Tổng Doanh Thu\", \"active\": true}], \"Series\": [{\"queryRef\": \"fact_GiaoDich.Kênh bán\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fact_GiaoDich\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Loại hình BĐS\"}, \"Name\": \"fact_GiaoDich.Loại hình BĐS\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Tổng Doanh Thu\"}, \"Name\": \"fact_GiaoDich.Tổng Doanh Thu\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Kênh bán\"}, \"Name\": \"fact_GiaoDich.Kênh bán\"}]}, \"objects\": {\"labels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"8D\"}}}}}], \"legend\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"position\": {\"expr\": {\"Literal\": {\"Value\": \"'Top'\"}}}, \"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"8D\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'DOANH THU THEO PHÂN KHÚC & KÊNH BÁN'\"}}}, \"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"11D\"}}}, \"fontColor\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#1B3A5C'\"}}}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#FFFFFF'\"}}}}}}}], \"border\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#D9D9D9'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "tabOrder": 21
+        },
+        {
+          "x": 16,
+          "y": 425,
+          "z": 4000,
+          "width": 350,
+          "height": 265,
+          "config": "{\"name\": \"3e2f8a11cb354831\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 16, \"y\": 425, \"width\": 350, \"height\": 265, \"tabOrder\": 22}}], \"singleVisual\": {\"visualType\": \"donutChart\", \"projections\": {\"Category\": [{\"queryRef\": \"fact_GiaoDich.Kênh bán\", \"active\": true}], \"Y\": [{\"queryRef\": \"fact_GiaoDich.Tổng Doanh Thu\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fact_GiaoDich\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Kênh bán\"}, \"Name\": \"fact_GiaoDich.Kênh bán\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Tổng Doanh Thu\"}, \"Name\": \"fact_GiaoDich.Tổng Doanh Thu\"}]}, \"objects\": {\"labels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelStyle\": {\"expr\": {\"Literal\": {\"Value\": \"'Category'\"}}}, \"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"9D\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'TỶ TRỌNG DOANH THU THEO KÊNH BÁN'\"}}}, \"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"11D\"}}}, \"fontColor\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#1B3A5C'\"}}}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#FFFFFF'\"}}}}}}}], \"border\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#D9D9D9'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "tabOrder": 22
+        },
+        {
+          "x": 376,
+          "y": 425,
+          "z": 4001,
+          "width": 740,
+          "height": 265,
+          "config": "{\"name\": \"b505553e7a904d8c\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 376, \"y\": 425, \"width\": 740, \"height\": 265, \"tabOrder\": 23}}], \"singleVisual\": {\"visualType\": \"tableEx\", \"projections\": {\"Values\": [{\"queryRef\": \"fact_GiaoDich.Nhân viên sales\", \"active\": true}, {\"queryRef\": \"fact_GiaoDich.Dự án\", \"active\": true}, {\"queryRef\": \"fact_GiaoDich.Loại hình BĐS\", \"active\": true}, {\"queryRef\": \"fact_GiaoDich.Khu vực\", \"active\": true}, {\"queryRef\": \"fact_GiaoDich.Kênh bán\", \"active\": true}, {\"queryRef\": \"fact_GiaoDich.Số Giao Dịch\", \"active\": true}, {\"queryRef\": \"fact_GiaoDich.Tổng Giá Trị HĐ\", \"active\": true}, {\"queryRef\": \"fact_GiaoDich.Tỷ Lệ Huỷ\", \"active\": true}, {\"queryRef\": \"fact_GiaoDich.Tổng Doanh Thu\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fact_GiaoDich\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Nhân viên sales\"}, \"Name\": \"fact_GiaoDich.Nhân viên sales\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Dự án\"}, \"Name\": \"fact_GiaoDich.Dự án\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Loại hình BĐS\"}, \"Name\": \"fact_GiaoDich.Loại hình BĐS\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Khu vực\"}, \"Name\": \"fact_GiaoDich.Khu vực\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Kênh bán\"}, \"Name\": \"fact_GiaoDich.Kênh bán\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Số Giao Dịch\"}, \"Name\": \"fact_GiaoDich.Số Giao Dịch\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Tổng Giá Trị HĐ\"}, \"Name\": \"fact_GiaoDich.Tổng Giá Trị HĐ\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Tỷ Lệ Huỷ\"}, \"Name\": \"fact_GiaoDich.Tỷ Lệ Huỷ\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Tổng Doanh Thu\"}, \"Name\": \"fact_GiaoDich.Tổng Doanh Thu\"}]}, \"objects\": {\"columnHeaders\": [{\"properties\": {\"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"9D\"}}}, \"fontColor\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#FFFFFF'\"}}}}}, \"backColor\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#1B3A5C'\"}}}}}}}], \"values\": [{\"properties\": {\"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"9D\"}}}}}], \"grid\": [{\"properties\": {\"gridVertical\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"gridHorizontal\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}}}], \"total\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'BẢNG CHI TIẾT HIỆU SUẤT THEO NHÂN VIÊN & DỰ ÁN'\"}}}, \"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"11D\"}}}, \"fontColor\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#1B3A5C'\"}}}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#FFFFFF'\"}}}}}}}], \"border\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#D9D9D9'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "tabOrder": 23
+        }
+      ],
+      "config": "{\"name\": \"ReportSection7310d14993de405e\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"width\": 1280, \"height\": 720}}]}",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "publicCustomVisuals": []
+}

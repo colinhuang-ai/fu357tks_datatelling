@@ -1,0 +1,32 @@
+table dim_KhuVuc
+	lineageTag: 80e371b7-0b04-48f2-9435-024879faa41f
+
+	column 'Khu vực'
+		dataType: string
+		lineageTag: 52358a89-25f8-4594-b5d3-3c5bdd360fef
+		summarizeBy: none
+		sourceColumn: Khu vực
+
+		annotation SummarizationSetBy = Automatic
+
+	column MaKhuVuc
+		dataType: string
+		lineageTag: 19c01136-8787-478d-ae80-8d08c79ca30a
+		summarizeBy: none
+		sourceColumn: MaKhuVuc
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_KhuVuc = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents("D:\Training\2026-08_powerbi_thanh\Dashboard\data_model\dim_KhuVuc.csv"), [Delimiter = ",", Columns = 2, Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"Khu vực", type text}, {"MaKhuVuc", type text}}),
+				  #"Sorted rows" = Table.Sort(#"Changed column type", {{"Khu vực", Order.Ascending}})
+				in
+				  #"Sorted rows"
+
+	annotation PBI_ResultType = Table
+

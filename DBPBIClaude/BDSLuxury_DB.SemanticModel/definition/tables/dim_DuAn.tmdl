@@ -1,0 +1,32 @@
+table dim_DuAn
+	lineageTag: b413d141-3d10-4507-a63d-df173322fc04
+
+	column 'Dự án'
+		dataType: string
+		lineageTag: 31cc4cc8-6d8e-49eb-83e3-37432a3d7e8b
+		summarizeBy: none
+		sourceColumn: Dự án
+
+		annotation SummarizationSetBy = Automatic
+
+	column MaDuAn
+		dataType: string
+		lineageTag: 3124bbbf-9b5c-4e7c-b917-96a632a9cebe
+		summarizeBy: none
+		sourceColumn: MaDuAn
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_DuAn = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents("D:\Training\2026-08_powerbi_thanh\Dashboard\data_model\dim_DuAn.csv"), [Delimiter = ",", Columns = 2, Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"Dự án", type text}, {"MaDuAn", type text}}),
+				  #"Sorted rows" = Table.Sort(#"Changed column type", {{"Dự án", Order.Ascending}})
+				in
+				  #"Sorted rows"
+
+	annotation PBI_ResultType = Table
+

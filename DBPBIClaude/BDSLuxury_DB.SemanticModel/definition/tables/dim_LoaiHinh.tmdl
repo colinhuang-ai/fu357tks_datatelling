@@ -1,0 +1,32 @@
+table dim_LoaiHinh
+	lineageTag: b0462eb9-0544-4b88-bb89-5ca95ce491a0
+
+	column 'Loại hình BĐS'
+		dataType: string
+		lineageTag: 8a382d12-ac3a-434b-b9f3-2b3b9358a197
+		summarizeBy: none
+		sourceColumn: Loại hình BĐS
+
+		annotation SummarizationSetBy = Automatic
+
+	column MaLoaiHinh
+		dataType: string
+		lineageTag: e2153be3-ef5f-4e6d-8491-d6b24859889c
+		summarizeBy: none
+		sourceColumn: MaLoaiHinh
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_LoaiHinh = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents("D:\Training\2026-08_powerbi_thanh\Dashboard\data_model\dim_LoaiHinh.csv"), [Delimiter = ",", Columns = 2, Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"Loại hình BĐS", type text}, {"MaLoaiHinh", type text}}),
+				  #"Sorted rows" = Table.Sort(#"Changed column type", {{"Loại hình BĐS", Order.Ascending}})
+				in
+				  #"Sorted rows"
+
+	annotation PBI_ResultType = Table
+

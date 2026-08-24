@@ -1,0 +1,265 @@
+table fact_GiaoDich
+	lineageTag: 1511ea94-dd03-460a-8574-789b893bec14
+
+	measure 'Tổng Doanh Thu' = SUM(fact_GiaoDich[Doanh thu ghi nhận (trđ)])
+		formatString: #,0.0
+		lineageTag: c2d79cf5-7f9f-4ff3-a0b0-c708a30f6f20
+
+	measure 'Số Giao Dịch' = COUNTROWS(fact_GiaoDich)
+		formatString: #,0
+		lineageTag: fc57fad0-4b07-4c0c-851a-f529234cc4b8
+
+	measure 'Số GD Hiệu Lực' = CALCULATE(COUNTROWS(fact_GiaoDich), fact_GiaoDich[Trạng thái] <> "Huỷ cọc")
+		formatString: #,0
+		lineageTag: 9f50eb0e-4dbc-4bf8-b65c-66590ee9fd47
+
+	measure 'Tổng Diện Tích' = SUM(fact_GiaoDich[Diện tích (m²)])
+		formatString: #,0.0
+		lineageTag: 45992c43-bcff-49de-8626-20b19ee38a75
+
+	measure 'Tỷ Lệ Huỷ Cọc' = DIVIDE(CALCULATE(COUNTROWS(fact_GiaoDich), fact_GiaoDich[Trạng thái] = "Huỷ cọc"), COUNTROWS(fact_GiaoDich), 0)
+		formatString: 0.0%
+		lineageTag: e0f664a8-631e-41fe-a70d-80024dabec7e
+
+	measure 'Tổng Giá Trị HĐ' = SUM(fact_GiaoDich[Giá trị hợp đồng (trđ)])
+		formatString: #,0.0
+		lineageTag: 0439c160-d460-462e-bdad-d68ead1e06ba
+
+	measure 'Tỷ Lệ Huỷ' = DIVIDE(CALCULATE(COUNTROWS(fact_GiaoDich), fact_GiaoDich[Trạng thái] = "Huỷ cọc"), COUNTROWS(fact_GiaoDich), 0)
+		formatString: 0.0%
+		lineageTag: a77b9c33-71b0-401a-a906-b20d98891bc1
+
+	measure 'Doanh Thu TB/GD' = DIVIDE([Tổng Doanh Thu], [Số GD Hiệu Lực], 0)
+		formatString: #,0.0
+		lineageTag: 917891fd-d92c-4f59-81c8-23a6507b5ed1
+
+	measure 'Đơn Giá TB' = AVERAGE(fact_GiaoDich[Đơn giá (trđ/m²)])
+		formatString: #,0.0
+		lineageTag: 23f78c11-7fc9-4f19-a454-0c462fa936f5
+
+	measure 'Chiết Khấu TB' = AVERAGE(fact_GiaoDich[Chiết khấu (%)])
+		formatString: 0.0%
+		lineageTag: 7f2fb63f-32ba-449c-888d-75637bc65d1a
+
+	measure 'Tổng Kế Hoạch' = SUM(dim_KeHoach[Kế hoạch 2026 (trđ)])
+		formatString: #,0
+		lineageTag: fab3bac9-0a4a-49d5-ab4a-f73475be2282
+
+	measure '% Hoàn Thành KH' = DIVIDE([Tổng Doanh Thu], [Tổng Kế Hoạch], 0)
+		formatString: 0.0%
+		lineageTag: 3b99cc27-b1c4-4b2b-9909-a9581ceb0bc4
+
+	measure 'Số GD Huỷ Cọc' = CALCULATE(COUNTROWS(fact_GiaoDich), fact_GiaoDich[Trạng thái] = "Huỷ cọc")
+		formatString: #,0
+		lineageTag: b9e4cbb3-a7ef-479b-87d5-7af0de734c0b
+
+	measure 'Số GD Ký HĐMB' = CALCULATE(COUNTROWS(fact_GiaoDich), fact_GiaoDich[Trạng thái] = "Đã ký HĐMB")
+		formatString: #,0
+		lineageTag: 1217ae76-0fe3-4e0a-9e4e-31bb8174d624
+
+	measure '% Ký HĐMB' = DIVIDE([Số GD Ký HĐMB], [Số Giao Dịch], 0)
+		formatString: 0.0%
+		lineageTag: 11315267-1034-4ad4-8a05-ece239961c19
+
+	measure 'Doanh Thu (tỷ)' = DIVIDE(SUM(fact_GiaoDich[Doanh thu ghi nhận (trđ)]), 1000, 0)
+		formatString: #,0.0
+		lineageTag: 8cd05c99-2363-4e8d-98ce-6cf61ae07e74
+
+	measure 'Kế Hoạch (tỷ)' = DIVIDE([Tổng Kế Hoạch], 1000, 0)
+		formatString: #,0.0
+		lineageTag: 52fa4cd4-592d-4a49-bbe3-d91c46786cae
+
+	column 'Mã giao dịch'
+		dataType: string
+		lineageTag: 6a6c8e67-d1e8-454e-a0f4-40cf9b80f3fd
+		summarizeBy: none
+		sourceColumn: Mã giao dịch
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Ngày giờ bán'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: b5be8af8-b74a-4ec5-8430-0a55d0a5f904
+		summarizeBy: none
+		sourceColumn: Ngày giờ bán
+
+		annotation SummarizationSetBy = Automatic
+
+	column Tháng
+		dataType: string
+		lineageTag: 8ba62372-0680-41ba-a313-b9cb84b35cae
+		summarizeBy: none
+		sourceColumn: Tháng
+		sortByColumn: 'Tháng Sort'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Dự án'
+		dataType: string
+		lineageTag: a08d59fa-5984-47bd-8728-f472a84df29c
+		summarizeBy: none
+		sourceColumn: Dự án
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Loại hình BĐS'
+		dataType: string
+		lineageTag: 77bcb486-e662-4030-987d-fd620208a5da
+		summarizeBy: none
+		sourceColumn: Loại hình BĐS
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Khu vực'
+		dataType: string
+		lineageTag: 672a5421-60e2-40bb-9ce7-4962b4816959
+		summarizeBy: none
+		sourceColumn: Khu vực
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Kênh bán'
+		dataType: string
+		lineageTag: d17d6063-78f7-4dfd-bc5d-b1deae8aa548
+		summarizeBy: none
+		sourceColumn: Kênh bán
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nhân viên sales'
+		dataType: string
+		lineageTag: 247dfa96-53c6-494f-a737-c73e2509a63e
+		summarizeBy: none
+		sourceColumn: Nhân viên sales
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Diện tích (m²)'
+		dataType: double
+		formatString: #,0.00
+		lineageTag: a62e6470-0ea9-4e99-817a-0f4d3f5d140e
+		summarizeBy: sum
+		sourceColumn: Diện tích (m²)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Đơn giá (trđ/m²)'
+		dataType: double
+		formatString: #,0.00
+		lineageTag: 5eea67a7-f92c-4a4d-9160-aaa890d8bcf4
+		summarizeBy: sum
+		sourceColumn: Đơn giá (trđ/m²)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Giá trị hợp đồng (trđ)'
+		dataType: double
+		formatString: #,0.00
+		lineageTag: 16e71296-b5e3-4dd1-8503-6fdcfb5cc408
+		summarizeBy: sum
+		sourceColumn: Giá trị hợp đồng (trđ)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Chiết khấu (%)'
+		dataType: double
+		formatString: 0.00%
+		lineageTag: 872b376e-3f6d-4c00-a76d-584a6da54e86
+		summarizeBy: sum
+		sourceColumn: Chiết khấu (%)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Trạng thái'
+		dataType: string
+		lineageTag: ca3b6f82-5c89-4916-9daa-fa0da4121e1b
+		summarizeBy: none
+		sourceColumn: Trạng thái
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Doanh thu ghi nhận (trđ)'
+		dataType: double
+		formatString: #,0.00
+		lineageTag: 4486d369-b24a-4073-9d6b-4289a08a01ed
+		summarizeBy: sum
+		sourceColumn: Doanh thu ghi nhận (trđ)
+
+		annotation SummarizationSetBy = Automatic
+
+	column DateOnly
+		dataType: dateTime
+		isHidden
+		formatString: Long Date
+		lineageTag: 532badf7-2ee8-4eb7-b879-7b40c64d1830
+		summarizeBy: none
+		sourceColumn: DateOnly
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Giờ bán'
+		dataType: int64
+		formatString: 0
+		lineageTag: f679ae8d-287c-4ce8-8b00-dc3d6843e831
+		summarizeBy: none
+		sourceColumn: Giờ bán
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Số tiền CK (trđ)'
+		dataType: double
+		formatString: #,0.00
+		lineageTag: 94f3e618-3d42-48ef-ba27-e4ec5f5ff058
+		summarizeBy: sum
+		sourceColumn: Số tiền CK (trđ)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nhóm giá trị'
+		dataType: string
+		lineageTag: e73d6503-355c-42f0-8a1b-7367e096dfa1
+		summarizeBy: none
+		sourceColumn: Nhóm giá trị
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Giá trị HĐ (tỷ)'
+		dataType: double
+		formatString: #,0.00
+		lineageTag: 600c7c67-3027-4c9b-9448-1b137c3a2cab
+		summarizeBy: sum
+		sourceColumn: Giá trị HĐ (tỷ)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tháng Sort'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: a9f65f30-508b-48d7-a545-7e6e3494183c
+		summarizeBy: none
+		sourceColumn: Tháng Sort
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_GiaoDich = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents("D:\Training\2026-08_powerbi_thanh\Dashboard\data_model\fact_GiaoDich.csv"), [Delimiter = ",", Columns = 14, Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"Mã giao dịch", type text}, {"Ngày giờ bán", type datetime}, {"Tháng", type text}, {"Dự án", type text}, {"Loại hình BĐS", type text}, {"Khu vực", type text}, {"Kênh bán", type text}, {"Nhân viên sales", type text}, {"Diện tích (m²)", type number}, {"Đơn giá (trđ/m²)", type number}, {"Giá trị hợp đồng (trđ)", type number}, {"Chiết khấu (%)", type number}, {"Trạng thái", type text}, {"Doanh thu ghi nhận (trđ)", type number}}),
+				  #"Added DateOnly" = Table.AddColumn(#"Changed column type", "DateOnly", each Date.From([#"Ngày giờ bán"]), type date),
+				  #"Added Gio ban" = Table.AddColumn(#"Added DateOnly", "Giờ bán", each Time.Hour(DateTime.Time([#"Ngày giờ bán"])), Int64.Type),
+				  #"Added So tien CK" = Table.AddColumn(#"Added Gio ban", "Số tiền CK (trđ)", each [#"Giá trị hợp đồng (trđ)"] * [#"Chiết khấu (%)"], type number),
+				  #"Added Nhom gia tri" = Table.AddColumn(#"Added So tien CK", "Nhóm giá trị", each if [#"Giá trị hợp đồng (trđ)"] < 3000 then "< 3 tỷ" else if [#"Giá trị hợp đồng (trđ)"] < 5000 then "3-5 tỷ" else if [#"Giá trị hợp đồng (trđ)"] < 10000 then "5-10 tỷ" else if [#"Giá trị hợp đồng (trđ)"] < 20000 then "10-20 tỷ" else ">= 20 tỷ", type text),
+				  #"Added Gia tri HD ty" = Table.AddColumn(#"Added Nhom gia tri", "Giá trị HĐ (tỷ)", each [#"Giá trị hợp đồng (trđ)"] / 1000, type number),
+				  #"Added Thang Sort" = Table.AddColumn(#"Added Gia tri HD ty", "Tháng Sort", each Number.FromText(Text.AfterDelimiter([#"Tháng"], " ")), Int64.Type)
+				in
+				  #"Added Thang Sort"
+
+	annotation PBI_ResultType = Table
+

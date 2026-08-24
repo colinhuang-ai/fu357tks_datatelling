@@ -1,0 +1,946 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "culture": "vi-VN",
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "vi-VN",
+    "tables": [
+      {
+        "name": "fact_GiaoDich",
+        "columns": [
+          {
+            "name": "Mã giao dịch",
+            "dataType": "string",
+            "sourceColumn": "Mã giao dịch",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Ngày giờ bán",
+            "dataType": "dateTime",
+            "sourceColumn": "Ngày giờ bán",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Tháng",
+            "dataType": "string",
+            "sourceColumn": "Tháng",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "sortByColumn": "Tháng Sort"
+          },
+          {
+            "name": "Dự án",
+            "dataType": "string",
+            "sourceColumn": "Dự án",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Loại hình BĐS",
+            "dataType": "string",
+            "sourceColumn": "Loại hình BĐS",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Khu vực",
+            "dataType": "string",
+            "sourceColumn": "Khu vực",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Kênh bán",
+            "dataType": "string",
+            "sourceColumn": "Kênh bán",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Nhân viên sales",
+            "dataType": "string",
+            "sourceColumn": "Nhân viên sales",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Diện tích (m²)",
+            "dataType": "double",
+            "sourceColumn": "Diện tích (m²)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Đơn giá (trđ/m²)",
+            "dataType": "double",
+            "sourceColumn": "Đơn giá (trđ/m²)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Giá trị hợp đồng (trđ)",
+            "dataType": "double",
+            "sourceColumn": "Giá trị hợp đồng (trđ)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Chiết khấu (%)",
+            "dataType": "double",
+            "sourceColumn": "Chiết khấu (%)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Trạng thái",
+            "dataType": "string",
+            "sourceColumn": "Trạng thái",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Doanh thu ghi nhận (trđ)",
+            "dataType": "double",
+            "sourceColumn": "Doanh thu ghi nhận (trđ)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "DateOnly",
+            "dataType": "dateTime",
+            "sourceColumn": "DateOnly",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Giờ bán",
+            "dataType": "int64",
+            "sourceColumn": "Giờ bán",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Số tiền CK (trđ)",
+            "dataType": "double",
+            "sourceColumn": "Số tiền CK (trđ)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Nhóm giá trị",
+            "dataType": "string",
+            "sourceColumn": "Nhóm giá trị",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Doanh thu (tỷ)",
+            "dataType": "double",
+            "sourceColumn": "Doanh thu (tỷ)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Giá trị HĐ (tỷ)",
+            "dataType": "double",
+            "sourceColumn": "Giá trị HĐ (tỷ)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Tháng Sort",
+            "dataType": "int64",
+            "sourceColumn": "Tháng Sort",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "isHidden": true
+          }
+        ],
+        "measures": [
+          {
+            "name": "Tổng Doanh Thu",
+            "expression": "SUM(fact_GiaoDich[Doanh thu ghi nhận (trđ)])",
+            "formatString": "#,0.0"
+          },
+          {
+            "name": "Số Giao Dịch",
+            "expression": "COUNTROWS(fact_GiaoDich)",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Số GD Hiệu Lực",
+            "expression": "CALCULATE(COUNTROWS(fact_GiaoDich), fact_GiaoDich[Trạng thái] <> \"Huỷ cọc\")",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Tổng Diện Tích",
+            "expression": "SUM(fact_GiaoDich[Diện tích (m²)])",
+            "formatString": "#,0.0"
+          },
+          {
+            "name": "Tỷ Lệ Huỷ Cọc",
+            "expression": "DIVIDE(CALCULATE(COUNTROWS(fact_GiaoDich), fact_GiaoDich[Trạng thái] = \"Huỷ cọc\"), COUNTROWS(fact_GiaoDich), 0)",
+            "formatString": "0.0%"
+          },
+          {
+            "name": "Tổng Giá Trị HĐ",
+            "expression": "SUM(fact_GiaoDich[Giá trị hợp đồng (trđ)])",
+            "formatString": "#,0.0"
+          },
+          {
+            "name": "Tỷ Lệ Huỷ",
+            "expression": "DIVIDE(CALCULATE(COUNTROWS(fact_GiaoDich), fact_GiaoDich[Trạng thái] = \"Huỷ cọc\"), COUNTROWS(fact_GiaoDich), 0)",
+            "formatString": "0.0%"
+          },
+          {
+            "name": "Doanh Thu TB/GD",
+            "expression": "DIVIDE([Tổng Doanh Thu], [Số GD Hiệu Lực], 0)",
+            "formatString": "#,0.0"
+          },
+          {
+            "name": "Đơn Giá TB",
+            "expression": "AVERAGE(fact_GiaoDich[Đơn giá (trđ/m²)])",
+            "formatString": "#,0.0"
+          },
+          {
+            "name": "Chiết Khấu TB",
+            "expression": "AVERAGE(fact_GiaoDich[Chiết khấu (%)])",
+            "formatString": "0.0%"
+          },
+          {
+            "name": "Tổng Kế Hoạch",
+            "expression": "SUM(dim_KeHoach[Kế hoạch 2026 (trđ)])",
+            "formatString": "#,0"
+          },
+          {
+            "name": "% Hoàn Thành KH",
+            "expression": "DIVIDE([Tổng Doanh Thu], [Tổng Kế Hoạch], 0)",
+            "formatString": "0.0%"
+          },
+          {
+            "name": "Số GD Huỷ Cọc",
+            "expression": "CALCULATE(COUNTROWS(fact_GiaoDich), fact_GiaoDich[Trạng thái] = \"Huỷ cọc\")",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Số GD Ký HĐMB",
+            "expression": "CALCULATE(COUNTROWS(fact_GiaoDich), fact_GiaoDich[Trạng thái] = \"Đã ký HĐMB\")",
+            "formatString": "#,0"
+          },
+          {
+            "name": "% Ký HĐMB",
+            "expression": "DIVIDE([Số GD Ký HĐMB], [Số Giao Dịch], 0)",
+            "formatString": "0.0%"
+          },
+          {
+            "name": "Doanh Thu (tỷ)",
+            "expression": "DIVIDE(SUM(fact_GiaoDich[Doanh thu ghi nhận (trđ)]), 1000, 0)",
+            "formatString": "#,0.0"
+          },
+          {
+            "name": "Kế Hoạch (tỷ)",
+            "expression": "DIVIDE([Tổng Kế Hoạch], 1000, 0)",
+            "formatString": "#,0.0"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "fact_GiaoDich",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    FilePath = \"d:/Training/2026-08_powerbi_thanh/Dashboard/fact_GiaoDich.csv\",",
+                "    Source = Csv.Document(File.Contents(FilePath), [Delimiter=\",\", Columns=14, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    ChangedTypes = Table.TransformColumnTypes(PromotedHeaders, {",
+                "        {\"Mã giao dịch\", type text}, {\"Ngày giờ bán\", type datetime}, {\"Tháng\", type text},",
+                "        {\"Dự án\", type text}, {\"Loại hình BĐS\", type text}, {\"Khu vực\", type text},",
+                "        {\"Kênh bán\", type text}, {\"Nhân viên sales\", type text},",
+                "        {\"Diện tích (m²)\", type number}, {\"Đơn giá (trđ/m²)\", type number},",
+                "        {\"Giá trị hợp đồng (trđ)\", type number}, {\"Chiết khấu (%)\", type number},",
+                "        {\"Trạng thái\", type text}, {\"Doanh thu ghi nhận (trđ)\", type number}",
+                "    }),",
+                "    AddDateOnly = Table.AddColumn(ChangedTypes, \"DateOnly\", each Date.From([Ngày giờ bán]), type date),",
+                "    AddHour = Table.AddColumn(AddDateOnly, \"Giờ bán\", each Time.Hour(DateTime.Time([Ngày giờ bán])), Int64.Type),",
+                "    AddDiscountAmt = Table.AddColumn(AddHour, \"Số tiền CK (trđ)\", each [#\"Giá trị hợp đồng (trđ)\"] * [#\"Chiết khấu (%)\"], type number),",
+                "    AddPriceGroup = Table.AddColumn(AddDiscountAmt, \"Nhóm giá trị\", each",
+                "        if [#\"Giá trị hợp đồng (trđ)\"] < 3000 then \"< 3 tỷ\"",
+                "        else if [#\"Giá trị hợp đồng (trđ)\"] < 5000 then \"3-5 tỷ\"",
+                "        else if [#\"Giá trị hợp đồng (trđ)\"] < 10000 then \"5-10 tỷ\"",
+                "        else if [#\"Giá trị hợp đồng (trđ)\"] < 20000 then \"10-20 tỷ\"",
+                "        else \">= 20 tỷ\", type text),",
+                "    AddRevBillion = Table.AddColumn(AddPriceGroup, \"Doanh thu (tỷ)\", each [#\"Doanh thu ghi nhận (trđ)\"] / 1000, type number),",
+                "    AddContractBillion = Table.AddColumn(AddRevBillion, \"Giá trị HĐ (tỷ)\", each [#\"Giá trị hợp đồng (trđ)\"] / 1000, type number),",
+                "    AddMonthSort = Table.AddColumn(AddContractBillion, \"Tháng Sort\", each",
+                "        if [Tháng] = \"Tháng 1\" then 1 else if [Tháng] = \"Tháng 2\" then 2",
+                "        else if [Tháng] = \"Tháng 3\" then 3 else if [Tháng] = \"Tháng 4\" then 4",
+                "        else if [Tháng] = \"Tháng 5\" then 5 else if [Tháng] = \"Tháng 6\" then 6",
+                "        else if [Tháng] = \"Tháng 7\" then 7 else if [Tháng] = \"Tháng 8\" then 8",
+                "        else if [Tháng] = \"Tháng 9\" then 9 else if [Tháng] = \"Tháng 10\" then 10",
+                "        else if [Tháng] = \"Tháng 11\" then 11 else 12, Int64.Type)",
+                "in",
+                "    AddMonthSort"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "dim_Calendar",
+        "dataCategory": "Time",
+        "columns": [
+          {
+            "name": "Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Year",
+            "dataType": "int64",
+            "sourceColumn": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Month",
+            "dataType": "int64",
+            "sourceColumn": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "MonthName",
+            "dataType": "string",
+            "sourceColumn": "MonthName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "MonthNameVN",
+            "dataType": "string",
+            "sourceColumn": "MonthNameVN",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Quarter",
+            "dataType": "int64",
+            "sourceColumn": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "QuarterName",
+            "dataType": "string",
+            "sourceColumn": "QuarterName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "DayOfWeek",
+            "dataType": "int64",
+            "sourceColumn": "DayOfWeek",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "DayNameVN",
+            "dataType": "string",
+            "sourceColumn": "DayNameVN",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "WeekOfYear",
+            "dataType": "int64",
+            "sourceColumn": "WeekOfYear",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "IsWeekend",
+            "dataType": "int64",
+            "sourceColumn": "IsWeekend",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_Calendar",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    FilePath = \"d:/Training/2026-08_powerbi_thanh/Dashboard/dim_Calendar.csv\",",
+                "    Source = Csv.Document(File.Contents(FilePath), [Delimiter=\",\", Columns=11, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    ChangedTypes = Table.TransformColumnTypes(PromotedHeaders, {",
+                "        {\"Date\", type date}, {\"Year\", Int64.Type}, {\"Month\", Int64.Type},",
+                "        {\"MonthName\", type text}, {\"MonthNameVN\", type text},",
+                "        {\"Quarter\", Int64.Type}, {\"QuarterName\", type text},",
+                "        {\"DayOfWeek\", Int64.Type}, {\"DayNameVN\", type text},",
+                "        {\"WeekOfYear\", Int64.Type}, {\"IsWeekend\", Int64.Type}",
+                "    })",
+                "in",
+                "    ChangedTypes"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "dim_KeHoach",
+        "columns": [
+          {
+            "name": "Dự án",
+            "dataType": "string",
+            "sourceColumn": "Dự án",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Kế hoạch 2026 (trđ)",
+            "dataType": "double",
+            "sourceColumn": "Kế hoạch 2026 (trđ)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Kế hoạch (tỷ)",
+            "dataType": "double",
+            "sourceColumn": "Kế hoạch (tỷ)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_KeHoach",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    FilePath = \"d:/Training/2026-08_powerbi_thanh/Dashboard/dim_KeHoach.csv\",",
+                "    Source = Csv.Document(File.Contents(FilePath), [Delimiter=\",\", Columns=2, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    ChangedTypes = Table.TransformColumnTypes(PromotedHeaders, {",
+                "        {\"Dự án\", type text}, {\"Kế hoạch 2026 (trđ)\", type number}",
+                "    }),",
+                "    AddBillion = Table.AddColumn(ChangedTypes, \"Kế hoạch (tỷ)\", each [#\"Kế hoạch 2026 (trđ)\"] / 1000, type number)",
+                "in",
+                "    AddBillion"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "dim_DuAn",
+        "columns": [
+          {
+            "name": "Dự án",
+            "dataType": "string",
+            "sourceColumn": "Dự án",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "MaDuAn",
+            "dataType": "string",
+            "sourceColumn": "MaDuAn",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_DuAn",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    FilePath = \"d:/Training/2026-08_powerbi_thanh/Dashboard/dim_DuAn.csv\",",
+                "    Source = Csv.Document(File.Contents(FilePath), [Delimiter=\",\", Columns=2, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true])",
+                "in",
+                "    PromotedHeaders"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "dim_KhuVuc",
+        "columns": [
+          {
+            "name": "Khu vực",
+            "dataType": "string",
+            "sourceColumn": "Khu vực",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "MaKhuVuc",
+            "dataType": "string",
+            "sourceColumn": "MaKhuVuc",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_KhuVuc",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    FilePath = \"d:/Training/2026-08_powerbi_thanh/Dashboard/dim_KhuVuc.csv\",",
+                "    Source = Csv.Document(File.Contents(FilePath), [Delimiter=\",\", Columns=2, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true])",
+                "in",
+                "    PromotedHeaders"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "dim_LoaiHinh",
+        "columns": [
+          {
+            "name": "Loại hình BĐS",
+            "dataType": "string",
+            "sourceColumn": "Loại hình BĐS",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "MaLoaiHinh",
+            "dataType": "string",
+            "sourceColumn": "MaLoaiHinh",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_LoaiHinh",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    FilePath = \"d:/Training/2026-08_powerbi_thanh/Dashboard/dim_LoaiHinh.csv\",",
+                "    Source = Csv.Document(File.Contents(FilePath), [Delimiter=\",\", Columns=2, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true])",
+                "in",
+                "    PromotedHeaders"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "dim_KenhBan",
+        "columns": [
+          {
+            "name": "Kênh bán",
+            "dataType": "string",
+            "sourceColumn": "Kênh bán",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "MaKenh",
+            "dataType": "string",
+            "sourceColumn": "MaKenh",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_KenhBan",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    FilePath = \"d:/Training/2026-08_powerbi_thanh/Dashboard/dim_KenhBan.csv\",",
+                "    Source = Csv.Document(File.Contents(FilePath), [Delimiter=\",\", Columns=2, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true])",
+                "in",
+                "    PromotedHeaders"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "dim_NhanVien",
+        "columns": [
+          {
+            "name": "Nhân viên sales",
+            "dataType": "string",
+            "sourceColumn": "Nhân viên sales",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "MaNV",
+            "dataType": "string",
+            "sourceColumn": "MaNV",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_NhanVien",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    FilePath = \"d:/Training/2026-08_powerbi_thanh/Dashboard/dim_NhanVien.csv\",",
+                "    Source = Csv.Document(File.Contents(FilePath), [Delimiter=\",\", Columns=2, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true])",
+                "in",
+                "    PromotedHeaders"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "name": "ca7b82dd-588b-4215-a8fa-0918df82c6ab",
+        "fromTable": "fact_GiaoDich",
+        "fromColumn": "DateOnly",
+        "toTable": "dim_Calendar",
+        "toColumn": "Date"
+      },
+      {
+        "name": "c519d678-be8e-44ac-8e68-dfa385e0fdd3",
+        "fromTable": "fact_GiaoDich",
+        "fromColumn": "Dự án",
+        "toTable": "dim_KeHoach",
+        "toColumn": "Dự án"
+      },
+      {
+        "name": "45f499dc-e21c-440b-88bb-fb9a6119237d",
+        "fromTable": "fact_GiaoDich",
+        "fromColumn": "Khu vực",
+        "toTable": "dim_KhuVuc",
+        "toColumn": "Khu vực"
+      },
+      {
+        "name": "b4e3d8d5-6c76-435e-a7e0-7fc9a47cf3e3",
+        "fromTable": "fact_GiaoDich",
+        "fromColumn": "Loại hình BĐS",
+        "toTable": "dim_LoaiHinh",
+        "toColumn": "Loại hình BĐS"
+      },
+      {
+        "name": "8fd6e8b0-a559-4676-99d6-a0ef91bc3f3b",
+        "fromTable": "fact_GiaoDich",
+        "fromColumn": "Kênh bán",
+        "toTable": "dim_KenhBan",
+        "toColumn": "Kênh bán"
+      },
+      {
+        "name": "01dd5a13-620d-4312-8121-b77dbe1d8888",
+        "fromTable": "fact_GiaoDich",
+        "fromColumn": "Nhân viên sales",
+        "toTable": "dim_NhanVien",
+        "toColumn": "Nhân viên sales"
+      }
+    ],
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"fact_GiaoDich\", \"dim_Calendar\", \"dim_KeHoach\", \"dim_DuAn\", \"dim_KhuVuc\", \"dim_LoaiHinh\", \"dim_KenhBan\", \"dim_NhanVien\"]"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.138.0.0"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+table dim_KenhBan
+	lineageTag: a18957ab-9416-4994-a0ac-7f1282f93f70
+
+	column 'Kênh bán'
+		dataType: string
+		lineageTag: ecdea83a-e96d-4cc3-8c10-4d1289414245
+		summarizeBy: none
+		sourceColumn: Kênh bán
+
+		annotation SummarizationSetBy = Automatic
+
+	column MaKenh
+		dataType: string
+		lineageTag: 97dc02b0-8955-4312-be9a-c153fcd36490
+		summarizeBy: none
+		sourceColumn: MaKenh
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_KenhBan = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents("D:\Training\2026-08_powerbi_thanh\Dashboard\data_model\dim_KenhBan.csv"), [Delimiter = ",", Columns = 2, Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"Kênh bán", type text}, {"MaKenh", type text}}),
+				  #"Sorted rows" = Table.Sort(#"Changed column type", {{"Kênh bán", Order.Ascending}})
+				in
+				  #"Sorted rows"
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,32 @@
+table dim_KeHoach
+	lineageTag: 3d7cd1c4-28e9-4d6b-babb-415fe27fee8f
+
+	column 'Dự án'
+		dataType: string
+		lineageTag: 685cf2ef-278b-44cb-a2a6-b523a517be41
+		summarizeBy: none
+		sourceColumn: Dự án
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Kế hoạch 2026 (trđ)'
+		dataType: double
+		formatString: #,0
+		lineageTag: cc7c4db1-d65d-4dcb-bfd4-5d778496aff8
+		summarizeBy: sum
+		sourceColumn: Kế hoạch 2026 (trđ)
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_KeHoach = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents("D:\Training\2026-08_powerbi_thanh\Dashboard\data_model\dim_KeHoach.csv"), [Delimiter = ",", Columns = 2, Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"Dự án", type text}, {"Kế hoạch 2026 (trđ)", type number}})
+				in
+				  #"Changed column type"
+
+	annotation PBI_ResultType = Table
+

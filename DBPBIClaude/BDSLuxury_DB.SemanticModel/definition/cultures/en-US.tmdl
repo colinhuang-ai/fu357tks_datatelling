@@ -1,0 +1,137 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "2.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "dim_nhanvien.nhân_viên_sales": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_NhanVien",
+			          "ConceptualProperty": "Nhân viên sales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Nhân viên Sales": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dim_loaihinh.loại_hình_bđs": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_LoaiHinh",
+			          "ConceptualProperty": "Loại hình BĐS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Sản phẩm": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_giaodich.số_giao_dịch": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_GiaoDich",
+			          "ConceptualProperty": "Số Giao Dịch"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Số giao dịch": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_giaodich.tổng_giá_trị_hđ": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_GiaoDich",
+			          "ConceptualProperty": "Tổng Giá Trị HĐ"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Giá trị hợp đồng (trđ)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_giaodich.tỷ_lệ_huỷ": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_GiaoDich",
+			          "ConceptualProperty": "Tỷ Lệ Huỷ"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Tỷ lệ huỷ": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_giaodich.tổng_doanh_thu": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_GiaoDich",
+			          "ConceptualProperty": "Tổng Doanh Thu"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Doanh thu (trđ)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

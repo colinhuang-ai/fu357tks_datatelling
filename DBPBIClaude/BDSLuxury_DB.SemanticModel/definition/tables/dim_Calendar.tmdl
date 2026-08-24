@@ -1,0 +1,118 @@
+table dim_Calendar
+	lineageTag: bffebcbd-b9a6-4e6f-85a7-d3316eaa72cd
+
+	column Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 499c076b-e1c2-4e76-b063-42a9ff4fe618
+		summarizeBy: none
+		sourceColumn: Date
+
+		variation Variation
+			isDefault
+			relationship: 00330efb-0553-429e-be9d-98016361d14f
+			defaultHierarchy: LocalDateTable_22b467a1-991c-4357-bb45-10ffd9dcbab6.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 96938fd7-ea71-4841-bab2-110f9ac3e132
+		summarizeBy: sum
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column Month
+		dataType: int64
+		formatString: 0
+		lineageTag: fca114cc-aa41-4c39-9c72-1faaac6461f0
+		summarizeBy: sum
+		sourceColumn: Month
+
+		annotation SummarizationSetBy = Automatic
+
+	column MonthName
+		dataType: string
+		lineageTag: 0e2110e7-bf90-4e8e-94cf-d977364a9427
+		summarizeBy: none
+		sourceColumn: MonthName
+
+		annotation SummarizationSetBy = Automatic
+
+	column MonthNameVN
+		dataType: string
+		lineageTag: 518372fa-e339-4493-bd4c-66180fbb9246
+		summarizeBy: none
+		sourceColumn: MonthNameVN
+		sortByColumn: Month
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quarter
+		dataType: int64
+		formatString: 0
+		lineageTag: 44537047-d035-47cb-8350-facb44583dea
+		summarizeBy: sum
+		sourceColumn: Quarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column QuarterName
+		dataType: string
+		lineageTag: 11dfdd62-fa40-4d6f-aa69-dcc6044860e7
+		summarizeBy: none
+		sourceColumn: QuarterName
+
+		annotation SummarizationSetBy = Automatic
+
+	column DayOfWeek
+		dataType: int64
+		formatString: 0
+		lineageTag: d09e2c3b-2f16-4ddc-978d-fc94d0e31412
+		summarizeBy: sum
+		sourceColumn: DayOfWeek
+
+		annotation SummarizationSetBy = Automatic
+
+	column DayNameVN
+		dataType: string
+		lineageTag: 707a9d3b-9837-45e4-8197-21109a9716a6
+		summarizeBy: none
+		sourceColumn: DayNameVN
+
+		annotation SummarizationSetBy = Automatic
+
+	column WeekOfYear
+		dataType: int64
+		formatString: 0
+		lineageTag: 7ca1e4fd-4c7b-49a3-ac7d-9eb57e38fb85
+		summarizeBy: sum
+		sourceColumn: WeekOfYear
+
+		annotation SummarizationSetBy = Automatic
+
+	column IsWeekend
+		dataType: int64
+		formatString: 0
+		lineageTag: 37c38d01-9120-46d7-94cd-2f4167608ad9
+		summarizeBy: sum
+		sourceColumn: IsWeekend
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_Calendar = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents("D:\Training\2026-08_powerbi_thanh\Dashboard\data_model\dim_Calendar.csv"), [Delimiter = ",", Columns = 11, Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"Date", type date}, {"Year", Int64.Type}, {"Month", Int64.Type}, {"MonthName", type text}, {"MonthNameVN", type text}, {"Quarter", Int64.Type}, {"QuarterName", type text}, {"DayOfWeek", Int64.Type}, {"DayNameVN", type text}, {"WeekOfYear", Int64.Type}, {"IsWeekend", Int64.Type}})
+				in
+				  #"Changed column type"
+
+	annotation PBI_ResultType = Table
+

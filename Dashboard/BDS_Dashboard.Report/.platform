@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "BDS_Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "783103ff-5e1e-4c32-82e9-182ccde2f069"
+  }
+}
