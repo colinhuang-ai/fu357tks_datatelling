@@ -1,421 +1,425 @@
 ﻿Mã giao dịch,Ngày giờ bán,Tháng,Dự án,Loại hình BĐS,Khu vực,Kênh bán,Nhân viên sales,Diện tích (m²),Đơn giá (trđ/m²),Giá trị hợp đồng (trđ),Chiết khấu (%),Trạng thái,Doanh thu ghi nhận (trđ)
-GD-2026-0001,2026-01-02 08:30,Tháng 1,Eco Green Sài Gòn,Căn hộ chung cư,Long An,Sàn nội bộ (F1),Nguyễn Văn An,68.6,57.2,3923.92,0,Đã đặt cọc,3923.92
-GD-2026-0002,2026-01-02 10:00,Tháng 1,Bien Hoa New City,Đất nền,Hà Nội,Sàn nội bộ (F1),Đặng Trung Kiên,89.5,59.3,5307.349999999999,0.01,Đã đặt cọc,5254.276499999999
-GD-2026-0003,2026-01-03 16:15,Tháng 1,KDC Tân Phú Trung,Đất nền,Đà Nẵng,Sàn nội bộ (F1),Ngô Phương Oanh,167.5,57.4,9614.5,0.08,Đã đặt cọc,8845.34
-GD-2026-0004,2026-01-06 17:30,Tháng 1,Bien Hoa New City,Đất nền,Long An,Khách giới thiệu,Đặng Trung Kiên,167.9,45.8,7689.82,0.01,Huỷ cọc,0
-GD-2026-0005,2026-01-07 15:45,Tháng 1,Bien Hoa New City,Đất nền,Long An,Sàn nội bộ (F1),Ngô Phương Oanh,162.9,45.9,7477.11,0.02,Đã ký HĐMB,7327.5678
-GD-2026-0006,2026-01-07 19:00,Tháng 1,Ecopark Grand,Biệt thự,Hà Nội,Khách giới thiệu,Hoàng Thị Giang,231.6,144.6,33489.36,0.08,Đã ký HĐMB,30810.2112
-GD-2026-0007,2026-01-08 11:00,Tháng 1,Eco Green Sài Gòn,Căn hộ chung cư,Long An,Online / Digital,Hoàng Thị Giang,59.5,61.6,3665.2000000000003,0.07,Đã đặt cọc,3408.636
-GD-2026-0008,2026-01-08 11:15,Tháng 1,The Sunrise Riverside,Căn hộ chung cư,Bình Dương,Đại lý F2,Lê Minh Châu,66.8,77,5143.599999999999,0.03,Đã ký HĐMB,4989.2919999999995
-GD-2026-0009,2026-01-08 15:30,Tháng 1,The Sunrise Riverside,Căn hộ chung cư,Long An,Đại lý F2,Trần Thị Bích,86.2,76.8,6620.16,0.03,Đã đặt cọc,6421.5552
-GD-2026-0010,2026-01-09 10:00,Tháng 1,KDC Tân Phú Trung,Đất nền,Đồng Nai,Đại lý F2,Nguyễn Văn An,104.1,28.4,2956.4399999999996,0,Đã đặt cọc,2956.4399999999996
-GD-2026-0011,2026-01-09 19:15,Tháng 1,KDC Tân Phú Trung,Đất nền,Hà Nội,Đại lý F2,Trần Thị Bích,193.6,33.2,6427.52,0.07,Đã đặt cọc,5977.5936
-GD-2026-0012,2026-01-11 09:30,Tháng 1,Sun Grand Boulevard,Shophouse,Đà Nẵng,Khách giới thiệu,Bùi Hải Nam,148.3,174.7,25908.010000000002,0.05,Đã ký HĐMB,24612.609500000002
-GD-2026-0013,2026-01-11 12:15,Tháng 1,Sun Grand Boulevard,Shophouse,Đồng Nai,Online / Digital,Nguyễn Văn An,142.2,112.4,15983.279999999999,0.03,Đã ký HĐMB,15503.781599999998
-GD-2026-0014,2026-01-12 09:30,Tháng 1,Ecopark Grand,Biệt thự,Bình Dương,Sàn nội bộ (F1),Lê Minh Châu,368.9,160.2,59097.77999999999,0.01,Đã ký HĐMB,58506.80219999999
-GD-2026-0015,2026-01-12 12:30,Tháng 1,KDC Tân Phú Trung,Đất nền,TP. Hồ Chí Minh,Sự kiện mở bán,Lê Minh Châu,205.1,42.8,8778.279999999999,0.05,Đã ký HĐMB,8339.365999999998
-GD-2026-0016,2026-01-13 10:30,Tháng 1,Swan Bay Villas,Biệt thự,Long An,Online / Digital,Trần Thị Bích,368.6,143.2,52783.52,0.08,Đã ký HĐMB,48560.8384
-GD-2026-0017,2026-01-13 13:45,Tháng 1,Ocean Vista Đà Nẵng,Condotel,Bình Dương,Đại lý F2,Vũ Đình Hùng,70.6,67.4,4758.44,0,Đã ký HĐMB,4758.44
-GD-2026-0018,2026-01-13 18:30,Tháng 1,KDC Tân Phú Trung,Đất nền,TP. Hồ Chí Minh,Sự kiện mở bán,Trần Thị Bích,203.3,41.1,8355.630000000001,0,Đã ký HĐMB,8355.630000000001
-GD-2026-0019,2026-01-14 08:00,Tháng 1,Sunshine Diamond Plaza,Shophouse,Đồng Nai,Sàn nội bộ (F1),Trần Thị Bích,130.9,148.1,19386.29,0,Đã đặt cọc,19386.29
-GD-2026-0020,2026-01-15 15:15,Tháng 1,The Sunrise Riverside,Căn hộ chung cư,Long An,Sàn nội bộ (F1),Vũ Đình Hùng,80.3,70.5,5661.15,0,Huỷ cọc,0
-GD-2026-0021,2026-01-16 17:00,Tháng 1,Masteri Central,Căn hộ chung cư,Hà Nội,Khách giới thiệu,Đỗ Thanh Lam,72.6,59.9,4348.74,0.03,Đã đặt cọc,4218.2778
-GD-2026-0022,2026-01-18 12:45,Tháng 1,Bien Hoa New City,Đất nền,Hà Nội,Sàn nội bộ (F1),Đặng Trung Kiên,215.1,58.5,12583.35,0.08,Đã ký HĐMB,11576.682
-GD-2026-0023,2026-01-19 14:00,Tháng 1,Ecopark Grand,Biệt thự,Đồng Nai,Sàn nội bộ (F1),Đỗ Thanh Lam,296.7,137,40647.9,0.03,Đã đặt cọc,39428.463
-GD-2026-0024,2026-01-21 18:00,Tháng 1,Ocean Vista Đà Nẵng,Condotel,Đồng Nai,Đại lý F2,Bùi Hải Nam,53.3,69.4,3699.02,0.05,Đã ký HĐMB,3514.069
-GD-2026-0025,2026-01-22 15:15,Tháng 1,KDC Tân Phú Trung,Đất nền,Đồng Nai,Đại lý F2,Vũ Đình Hùng,154.8,24.4,3777.12,0.08,Đã đặt cọc,3474.9504
-GD-2026-0026,2026-01-22 16:30,Tháng 1,Sun Premier Hạ Long,Condotel,Đồng Nai,Sàn nội bộ (F1),Ngô Phương Oanh,57.9,71.3,4128.2699999999995,0.05,Đã ký HĐMB,3921.8564999999994
-GD-2026-0027,2026-01-23 10:00,Tháng 1,Swan Bay Villas,Biệt thự,Đà Nẵng,Đại lý F2,Ngô Phương Oanh,380.6,114.6,43616.76,0.01,Đã ký HĐMB,43180.5924
-GD-2026-0028,2026-01-23 12:45,Tháng 1,Vinhome Grand Park,Căn hộ chung cư,Bình Dương,Sàn nội bộ (F1),Bùi Hải Nam,91.1,75.4,6868.9400000000005,0,Đã đặt cọc,6868.9400000000005
-GD-2026-0029,2026-01-23 15:15,Tháng 1,The Manor Central,Nhà phố / Liền kề,Đà Nẵng,Sàn nội bộ (F1),Bùi Hải Nam,120.5,138.4,16677.2,0.08,Đã ký HĐMB,15343.024000000001
-GD-2026-0030,2026-01-24 14:15,Tháng 1,Eco Green Sài Gòn,Căn hộ chung cư,Đồng Nai,Online / Digital,Lê Minh Châu,91.9,42.8,3933.32,0.07,Đã ký HĐMB,3657.9876
-GD-2026-0031,2026-01-24 17:00,Tháng 1,Golden Land Long An,Đất nền,Đà Nẵng,Sàn nội bộ (F1),Nguyễn Văn An,160.9,31.6,5084.4400000000005,0,Đã đặt cọc,5084.4400000000005
-GD-2026-0032,2026-01-25 12:45,Tháng 1,Masteri Central,Căn hộ chung cư,Đồng Nai,Online / Digital,Hoàng Thị Giang,88.3,67.5,5960.25,0.05,Đã ký HĐMB,5662.2375
-GD-2026-0033,2026-01-25 18:15,Tháng 1,Sun Grand Boulevard,Shophouse,Đà Nẵng,Sàn nội bộ (F1),Hoàng Thị Giang,178.7,156.6,27984.42,0.03,Đã ký HĐMB,27144.887399999996
-GD-2026-0034,2026-01-26 12:30,Tháng 1,Masteri Central,Căn hộ chung cư,Đồng Nai,Sàn nội bộ (F1),Vũ Đình Hùng,75.2,58.2,4376.64,0,Đã ký HĐMB,4376.64
-GD-2026-0035,2026-01-29 16:45,Tháng 1,The Sunrise Riverside,Căn hộ chung cư,Hà Nội,Đại lý F2,Đặng Trung Kiên,66.3,65.4,4336.02,0.05,Huỷ cọc,0
-GD-2026-0036,2026-01-30 16:00,Tháng 1,Vinhome Grand Park,Căn hộ chung cư,Hà Nội,Khách giới thiệu,Lê Minh Châu,92.9,71,6595.900000000001,0.05,Đã ký HĐMB,6266.1050000000005
-GD-2026-0037,2026-01-30 19:15,Tháng 1,The Sunrise Riverside,Căn hộ chung cư,Long An,Đại lý F2,Nguyễn Văn An,67.6,69.5,4698.2,0.03,Đã ký HĐMB,4557.254
-GD-2026-0038,2026-01-31 19:45,Tháng 1,Bien Hoa New City,Đất nền,Hà Nội,Đại lý F2,Đỗ Thanh Lam,154.5,23.1,3568.9500000000003,0.03,Đã ký HĐMB,3461.8815
-GD-2026-0039,2026-02-01 08:30,Tháng 2,Lavela Garden,Nhà phố / Liền kề,Bình Dương,Đại lý F2,Ngô Phương Oanh,145.1,89.9,13044.49,0.03,Đã ký HĐMB,12653.155299999999
-GD-2026-0040,2026-02-02 18:15,Tháng 2,Eco Green Sài Gòn,Căn hộ chung cư,Long An,Online / Digital,Đặng Trung Kiên,82.4,60.5,4985.200000000001,0,Đã đặt cọc,4985.200000000001
-GD-2026-0041,2026-02-05 09:45,Tháng 2,Sun Premier Hạ Long,Condotel,Bình Dương,Online / Digital,Lê Minh Châu,52.7,63.9,3367.53,0,Đã ký HĐMB,3367.53
-GD-2026-0042,2026-02-05 12:00,Tháng 2,Lavela Garden,Nhà phố / Liền kề,Đồng Nai,Sàn nội bộ (F1),Đặng Trung Kiên,116.2,111.8,12991.16,0.03,Đã đặt cọc,12601.4252
-GD-2026-0043,2026-02-05 15:15,Tháng 2,KDC Tân Phú Trung,Đất nền,TP. Hồ Chí Minh,Online / Digital,Ngô Phương Oanh,137.7,39.6,5452.92,0.05,Đã đặt cọc,5180.273999999999
-GD-2026-0044,2026-02-05 19:45,Tháng 2,Bien Hoa New City,Đất nền,Đồng Nai,Sàn nội bộ (F1),Nguyễn Văn An,176.9,43.6,7712.84,0.03,Đã đặt cọc,7481.4547999999995
-GD-2026-0045,2026-02-06 08:45,Tháng 2,Vinhome Grand Park,Căn hộ chung cư,Long An,Đại lý F2,Đặng Trung Kiên,80.7,76.8,6197.76,0,Đã ký HĐMB,6197.76
-GD-2026-0046,2026-02-06 13:15,Tháng 2,Sunshine Diamond Plaza,Shophouse,Đồng Nai,Sàn nội bộ (F1),Lê Minh Châu,152.9,198,30274.2,0.02,Đã ký HĐMB,29668.716
-GD-2026-0047,2026-02-08 08:45,Tháng 2,Swan Bay Villas,Biệt thự,Long An,Đại lý F2,Vũ Đình Hùng,255.1,120.7,30790.57,0.03,Đã đặt cọc,29866.852899999998
-GD-2026-0048,2026-02-08 15:00,Tháng 2,The Manor Central,Nhà phố / Liền kề,Hà Nội,Khách giới thiệu,Đỗ Thanh Lam,122.6,109.5,13424.699999999999,0.07,Đã ký HĐMB,12484.970999999998
-GD-2026-0049,2026-02-09 11:15,Tháng 2,Masteri Central,Căn hộ chung cư,Bình Dương,Online / Digital,Phạm Quốc Dũng,59.3,46.7,2769.31,0.01,Đã đặt cọc,2741.6169
-GD-2026-0050,2026-02-10 15:30,Tháng 2,Masteri Central,Căn hộ chung cư,Bình Dương,Sàn nội bộ (F1),Lê Minh Châu,59.3,57.4,3403.8199999999997,0.05,Đã ký HĐMB,3233.6289999999995
-GD-2026-0051,2026-02-12 10:00,Tháng 2,Bien Hoa New City,Đất nền,TP. Hồ Chí Minh,Sàn nội bộ (F1),Nguyễn Văn An,189.9,45.6,8659.44,0,Đã ký HĐMB,8659.44
-GD-2026-0052,2026-02-12 15:15,Tháng 2,Vinhome Grand Park,Căn hộ chung cư,Đà Nẵng,Sàn nội bộ (F1),Đặng Trung Kiên,64.2,62.9,4038.1800000000003,0.03,Huỷ cọc,0
-GD-2026-0053,2026-02-12 17:15,Tháng 2,KDC Tân Phú Trung,Đất nền,TP. Hồ Chí Minh,Đại lý F2,Bùi Hải Nam,218.9,23.1,5056.59,0,Đã ký HĐMB,5056.59
-GD-2026-0054,2026-02-13 19:00,Tháng 2,Masteri Central,Căn hộ chung cư,TP. Hồ Chí Minh,Đại lý F2,Vũ Đình Hùng,88.8,53.4,4741.92,0,Đã ký HĐMB,4741.92
-GD-2026-0055,2026-02-13 19:30,Tháng 2,Eco Green Sài Gòn,Căn hộ chung cư,Bình Dương,Online / Digital,Ngô Phương Oanh,82.4,55.9,4606.16,0.02,Đã đặt cọc,4514.0368
-GD-2026-0056,2026-02-13 19:30,Tháng 2,Bien Hoa New City,Đất nền,Bình Dương,Sàn nội bộ (F1),Vũ Đình Hùng,206,55,11330,0.01,Đã đặt cọc,11216.7
-GD-2026-0057,2026-02-14 19:30,Tháng 2,Golden Land Long An,Đất nền,Đà Nẵng,Sàn nội bộ (F1),Hoàng Thị Giang,167.1,32,5347.2,0.03,Đã ký HĐMB,5186.784
-GD-2026-0058,2026-02-15 14:00,Tháng 2,Eco Green Sài Gòn,Căn hộ chung cư,Bình Dương,Sàn nội bộ (F1),Ngô Phương Oanh,90.9,57.4,5217.66,0.08,Đã ký HĐMB,4800.2472
-GD-2026-0059,2026-02-16 14:45,Tháng 2,Ecopark Grand,Biệt thự,TP. Hồ Chí Minh,Sàn nội bộ (F1),Lê Minh Châu,221.1,159.7,35309.67,0,Đã đặt cọc,35309.67
-GD-2026-0060,2026-02-18 11:00,Tháng 2,Eco Green Sài Gòn,Căn hộ chung cư,Bình Dương,Khách giới thiệu,Ngô Phương Oanh,61.7,52,3208.4,0.01,Đã ký HĐMB,3176.3160000000003
-GD-2026-0061,2026-02-18 15:15,Tháng 2,Lavela Garden,Nhà phố / Liền kề,Đà Nẵng,Sàn nội bộ (F1),Đặng Trung Kiên,135.5,120,16260,0.01,Đã đặt cọc,16097.4
-GD-2026-0062,2026-02-19 12:15,Tháng 2,Lavela Garden,Nhà phố / Liền kề,Đồng Nai,Khách giới thiệu,Trần Thị Bích,92,129.6,11923.199999999999,0.01,Đã ký HĐMB,11803.967999999999
-GD-2026-0063,2026-02-20 19:30,Tháng 2,Ecopark Grand,Biệt thự,Long An,Sàn nội bộ (F1),Vũ Đình Hùng,345.2,176.8,61031.36,0,Đã ký HĐMB,61031.36
-GD-2026-0064,2026-02-21 15:00,Tháng 2,KDC Tân Phú Trung,Đất nền,Đà Nẵng,Sàn nội bộ (F1),Trần Thị Bích,151.9,38.7,5878.530000000001,0.03,Đã đặt cọc,5702.1741
-GD-2026-0065,2026-02-21 17:30,Tháng 2,KDC Tân Phú Trung,Đất nền,Đà Nẵng,Sàn nội bộ (F1),Hoàng Thị Giang,156,28.5,4446,0.03,Đã ký HĐMB,4312.62
-GD-2026-0066,2026-02-24 10:15,Tháng 2,Masteri Central,Căn hộ chung cư,TP. Hồ Chí Minh,Sàn nội bộ (F1),Phạm Quốc Dũng,78.1,67.3,5256.129999999999,0,Đã ký HĐMB,5256.129999999999
-GD-2026-0067,2026-02-24 15:15,Tháng 2,Sun Grand Boulevard,Shophouse,Long An,Sàn nội bộ (F1),Phạm Quốc Dũng,109.2,139.4,15222.480000000001,0.03,Đã đặt cọc,14765.805600000002
-GD-2026-0068,2026-02-24 17:30,Tháng 2,Sunshine Diamond Plaza,Shophouse,Đồng Nai,Sàn nội bộ (F1),Phạm Quốc Dũng,124.6,156.6,19512.359999999997,0.03,Đã ký HĐMB,18926.989199999996
-GD-2026-0069,2026-02-25 12:15,Tháng 2,Bien Hoa New City,Đất nền,Bình Dương,Sàn nội bộ (F1),Hoàng Thị Giang,167.6,28.4,4759.839999999999,0,Đã đặt cọc,4759.839999999999
-GD-2026-0070,2026-02-26 14:30,Tháng 2,Lavela Garden,Nhà phố / Liền kề,Long An,Sự kiện mở bán,Hoàng Thị Giang,138,82.9,11440.2,0,Đã ký HĐMB,11440.2
-GD-2026-0071,2026-02-27 09:15,Tháng 2,Eco Green Sài Gòn,Căn hộ chung cư,TP. Hồ Chí Minh,Online / Digital,Vũ Đình Hùng,73.6,43.7,3216.32,0.05,Đã ký HĐMB,3055.504
-GD-2026-0072,2026-02-28 08:15,Tháng 2,Lavela Garden,Nhà phố / Liền kề,Đồng Nai,Đại lý F2,Nguyễn Văn An,156.6,101.9,15957.54,0.03,Đã ký HĐMB,15478.8138
-GD-2026-0073,2026-03-01 15:00,Tháng 3,Sun Grand Boulevard,Shophouse,Đồng Nai,Sàn nội bộ (F1),Lê Minh Châu,118.8,166.9,19827.72,0.03,Đã đặt cọc,19232.8884
-GD-2026-0074,2026-03-01 15:45,Tháng 3,Golden Land Long An,Đất nền,Đồng Nai,Đại lý F2,Hoàng Thị Giang,82.4,45.7,3765.6800000000003,0.07,Đã ký HĐMB,3502.0824000000002
-GD-2026-0075,2026-03-01 16:45,Tháng 3,Bien Hoa New City,Đất nền,Bình Dương,Đại lý F2,Đặng Trung Kiên,198.9,40,7956,0.08,Đã ký HĐMB,7319.52
-GD-2026-0076,2026-03-02 11:15,Tháng 3,Sun Grand Boulevard,Shophouse,Đà Nẵng,Sự kiện mở bán,Nguyễn Văn An,172,145.9,25094.8,0.02,Đã ký HĐMB,24592.904
-GD-2026-0077,2026-03-02 13:45,Tháng 3,Sunshine Diamond Plaza,Shophouse,Đồng Nai,Sàn nội bộ (F1),Trần Thị Bích,162.3,152,24669.600000000002,0.08,Đã ký HĐMB,22696.032000000003
-GD-2026-0078,2026-03-02 15:30,Tháng 3,Bien Hoa New City,Đất nền,Bình Dương,Online / Digital,Đặng Trung Kiên,140.5,43.4,6097.7,0.07,Đã ký HĐMB,5670.861
-GD-2026-0079,2026-03-02 18:30,Tháng 3,Bien Hoa New City,Đất nền,TP. Hồ Chí Minh,Khách giới thiệu,Đặng Trung Kiên,212.1,23.2,4920.719999999999,0.02,Đã ký HĐMB,4822.3056
-GD-2026-0080,2026-03-03 10:15,Tháng 3,Golden Land Long An,Đất nền,Long An,Sàn nội bộ (F1),Đặng Trung Kiên,205.4,22.4,4600.96,0.05,Đã đặt cọc,4370.912
-GD-2026-0081,2026-03-03 15:45,Tháng 3,Bien Hoa New City,Đất nền,Hà Nội,Online / Digital,Ngô Phương Oanh,157.6,54,8510.4,0.08,Đã đặt cọc,7829.568
-GD-2026-0082,2026-03-05 09:45,Tháng 3,The Manor Central,Nhà phố / Liền kề,Đồng Nai,Đại lý F2,Đỗ Thanh Lam,144.8,131,18968.800000000003,0.01,Đã ký HĐMB,18779.112
-GD-2026-0083,2026-03-05 14:00,Tháng 3,Eco Green Sài Gòn,Căn hộ chung cư,Hà Nội,Online / Digital,Lê Minh Châu,72.2,66.5,4801.3,0.08,Đã ký HĐMB,4417.196
-GD-2026-0084,2026-03-05 17:30,Tháng 3,Sun Grand Boulevard,Shophouse,Long An,Sàn nội bộ (F1),Hoàng Thị Giang,124.2,171.6,21312.72,0,Đã ký HĐMB,21312.72
-GD-2026-0085,2026-03-05 19:00,Tháng 3,The Sunrise Riverside,Căn hộ chung cư,Đồng Nai,Đại lý F2,Nguyễn Văn An,61.4,45,2763,0.01,Đã ký HĐMB,2735.37
-GD-2026-0086,2026-03-06 11:00,Tháng 3,The Sunrise Riverside,Căn hộ chung cư,Đà Nẵng,Đại lý F2,Vũ Đình Hùng,85.2,43.8,3731.7599999999998,0.01,Đã đặt cọc,3694.4424
-GD-2026-0087,2026-03-06 16:15,Tháng 3,Bien Hoa New City,Đất nền,TP. Hồ Chí Minh,Online / Digital,Lê Minh Châu,189.6,50.9,9650.64,0.01,Đã đặt cọc,9554.1336
-GD-2026-0088,2026-03-06 18:00,Tháng 3,Vinhome Grand Park,Căn hộ chung cư,Long An,Đại lý F2,Bùi Hải Nam,83.2,59.2,4925.4400000000005,0.03,Đã ký HĐMB,4777.6768
-GD-2026-0089,2026-03-07 19:30,Tháng 3,Vinhome Grand Park,Căn hộ chung cư,Đà Nẵng,Đại lý F2,Đỗ Thanh Lam,86,54.6,4695.6,0.01,Đã đặt cọc,4648.644
-GD-2026-0090,2026-03-09 17:30,Tháng 3,Ecopark Grand,Biệt thự,Đà Nẵng,Online / Digital,Nguyễn Văn An,255.4,170.7,43596.78,0,Đã đặt cọc,43596.78
-GD-2026-0091,2026-03-10 09:45,Tháng 3,Masteri Central,Căn hộ chung cư,Hà Nội,Online / Digital,Ngô Phương Oanh,64.1,55,3525.4999999999995,0,Đã ký HĐMB,3525.4999999999995
-GD-2026-0092,2026-03-10 14:00,Tháng 3,Ocean Vista Đà Nẵng,Condotel,TP. Hồ Chí Minh,Sàn nội bộ (F1),Bùi Hải Nam,44.9,57.7,2590.73,0.02,Đã đặt cọc,2538.9154
-GD-2026-0093,2026-03-11 12:00,Tháng 3,Vinhome Grand Park,Căn hộ chung cư,Bình Dương,Khách giới thiệu,Trần Thị Bích,91.9,71.9,6607.610000000001,0.03,Đã đặt cọc,6409.381700000001
-GD-2026-0094,2026-03-11 16:15,Tháng 3,The Sunrise Riverside,Căn hộ chung cư,Hà Nội,Đại lý F2,Phạm Quốc Dũng,68.7,62.6,4300.62,0.08,Đã ký HĐMB,3956.5704
-GD-2026-0095,2026-03-12 13:45,Tháng 3,Sun Premier Hạ Long,Condotel,Bình Dương,Đại lý F2,Đặng Trung Kiên,43.4,70.4,3055.36,0.08,Đã ký HĐMB,2810.9312000000004
-GD-2026-0096,2026-03-13 10:45,Tháng 3,Eco Green Sài Gòn,Căn hộ chung cư,Đà Nẵng,Sàn nội bộ (F1),Đỗ Thanh Lam,56.2,70.3,3950.86,0.05,Đã đặt cọc,3753.317
-GD-2026-0097,2026-03-15 11:30,Tháng 3,Bien Hoa New City,Đất nền,Đà Nẵng,Đại lý F2,Vũ Đình Hùng,208,54,11232,0,Đã ký HĐMB,11232
-GD-2026-0098,2026-03-15 12:15,Tháng 3,Sunshine Diamond Plaza,Shophouse,Bình Dương,Sự kiện mở bán,Ngô Phương Oanh,146.2,179.2,26199.039999999997,0.03,Đã ký HĐMB,25413.068799999997
-GD-2026-0099,2026-03-15 15:15,Tháng 3,Golden Land Long An,Đất nền,Long An,Sàn nội bộ (F1),Bùi Hải Nam,109.7,50.2,5506.9400000000005,0.05,Đã đặt cọc,5231.593
-GD-2026-0100,2026-03-16 11:15,Tháng 3,The Sunrise Riverside,Căn hộ chung cư,Đồng Nai,Online / Digital,Hoàng Thị Giang,68.8,53.2,3660.16,0.01,Đã đặt cọc,3623.5584
-GD-2026-0101,2026-03-16 16:30,Tháng 3,Sun Grand Boulevard,Shophouse,Đồng Nai,Online / Digital,Hoàng Thị Giang,151,199.8,30169.800000000003,0,Đã đặt cọc,30169.800000000003
-GD-2026-0102,2026-03-16 18:15,Tháng 3,Ecopark Grand,Biệt thự,Long An,Sàn nội bộ (F1),Ngô Phương Oanh,275.3,150.6,41460.18,0.03,Đã đặt cọc,40216.374599999996
-GD-2026-0103,2026-03-17 12:45,Tháng 3,Vạn Phúc City,Nhà phố / Liền kề,TP. Hồ Chí Minh,Đại lý F2,Lê Minh Châu,88.8,78.3,6953.04,0.01,Đã ký HĐMB,6883.5096
-GD-2026-0104,2026-03-18 18:30,Tháng 3,Swan Bay Villas,Biệt thự,TP. Hồ Chí Minh,Khách giới thiệu,Ngô Phương Oanh,325.3,124.2,40402.26,0.02,Đã ký HĐMB,39594.2148
-GD-2026-0105,2026-03-19 15:45,Tháng 3,The Sunrise Riverside,Căn hộ chung cư,Hà Nội,Online / Digital,Trần Thị Bích,64.5,53.2,3431.4,0,Đã đặt cọc,3431.4
-GD-2026-0106,2026-03-20 08:00,Tháng 3,The Sunrise Riverside,Căn hộ chung cư,Đà Nẵng,Sàn nội bộ (F1),Đỗ Thanh Lam,71.3,45.5,3244.15,0.07,Đã ký HĐMB,3017.0595
-GD-2026-0107,2026-03-20 13:30,Tháng 3,Eco Green Sài Gòn,Căn hộ chung cư,TP. Hồ Chí Minh,Online / Digital,Nguyễn Văn An,78,60.9,4750.2,0,Đã đặt cọc,4750.2
-GD-2026-0108,2026-03-22 10:30,Tháng 3,Vinhome Grand Park,Căn hộ chung cư,TP. Hồ Chí Minh,Sàn nội bộ (F1),Bùi Hải Nam,88.2,55.1,4859.820000000001,0.02,Đã ký HĐMB,4762.623600000001
-GD-2026-0109,2026-03-22 18:15,Tháng 3,Swan Bay Villas,Biệt thự,Đà Nẵng,Đại lý F2,Đặng Trung Kiên,276.8,155.4,43014.72,0,Đã ký HĐMB,43014.72
-GD-2026-0110,2026-03-24 15:45,Tháng 3,The Manor Central,Nhà phố / Liền kề,Long An,Khách giới thiệu,Lê Minh Châu,140.3,135.3,18982.590000000004,0,Đã ký HĐMB,18982.590000000004
-GD-2026-0111,2026-03-25 11:00,Tháng 3,KDC Tân Phú Trung,Đất nền,Bình Dương,Đại lý F2,Trần Thị Bích,200.3,28.3,5668.490000000001,0.01,Đã đặt cọc,5611.8051000000005
-GD-2026-0112,2026-03-25 19:30,Tháng 3,KDC Tân Phú Trung,Đất nền,Đà Nẵng,Sàn nội bộ (F1),Đặng Trung Kiên,201.2,38.2,7685.84,0,Đã ký HĐMB,7685.84
-GD-2026-0113,2026-03-26 17:30,Tháng 3,Eco Green Sài Gòn,Căn hộ chung cư,Bình Dương,Sự kiện mở bán,Đặng Trung Kiên,64.2,52.4,3364.08,0.03,Đã ký HĐMB,3263.1576
-GD-2026-0114,2026-03-29 16:45,Tháng 3,Eco Green Sài Gòn,Căn hộ chung cư,TP. Hồ Chí Minh,Sàn nội bộ (F1),Vũ Đình Hùng,71.3,71.8,5119.339999999999,0,Đã ký HĐMB,5119.339999999999
-GD-2026-0115,2026-03-30 09:15,Tháng 3,Swan Bay Villas,Biệt thự,Đà Nẵng,Khách giới thiệu,Nguyễn Văn An,305.6,133.9,40919.840000000004,0.01,Đã đặt cọc,40510.6416
-GD-2026-0116,2026-04-01 09:15,Tháng 4,KDC Tân Phú Trung,Đất nền,Hà Nội,Sàn nội bộ (F1),Đỗ Thanh Lam,157.9,28.5,4500.150000000001,0.01,Đã ký HĐMB,4455.1485
-GD-2026-0117,2026-04-01 11:30,Tháng 4,Bien Hoa New City,Đất nền,Đồng Nai,Online / Digital,Trần Thị Bích,204.6,53.5,10946.1,0.03,Đã ký HĐMB,10617.717
-GD-2026-0118,2026-04-01 16:45,Tháng 4,Lavela Garden,Nhà phố / Liền kề,Long An,Khách giới thiệu,Đỗ Thanh Lam,88.9,128.5,11423.650000000001,0.03,Đã ký HĐMB,11080.9405
-GD-2026-0119,2026-04-02 09:45,Tháng 4,Vạn Phúc City,Nhà phố / Liền kề,TP. Hồ Chí Minh,Khách giới thiệu,Đỗ Thanh Lam,90.6,93.3,8452.98,0.02,Đã ký HĐMB,8283.920399999999
-GD-2026-0120,2026-04-02 12:00,Tháng 4,Eco Green Sài Gòn,Căn hộ chung cư,Hà Nội,Đại lý F2,Vũ Đình Hùng,77.6,49,3802.3999999999996,0.05,Đã ký HĐMB,3612.2799999999993
-GD-2026-0121,2026-04-02 15:00,Tháng 4,The Sunrise Riverside,Căn hộ chung cư,Bình Dương,Đại lý F2,Hoàng Thị Giang,85.1,53.4,4544.339999999999,0.05,Đã đặt cọc,4317.122999999999
-GD-2026-0122,2026-04-02 16:30,Tháng 4,Vinhome Grand Park,Căn hộ chung cư,Long An,Đại lý F2,Nguyễn Văn An,68.6,50.7,3478.02,0.08,Huỷ cọc,0
-GD-2026-0123,2026-04-02 17:00,Tháng 4,Bien Hoa New City,Đất nền,TP. Hồ Chí Minh,Sàn nội bộ (F1),Hoàng Thị Giang,118.5,43,5095.5,0.03,Đã ký HĐMB,4942.635
-GD-2026-0124,2026-04-03 17:45,Tháng 4,Eco Green Sài Gòn,Căn hộ chung cư,Đồng Nai,Sự kiện mở bán,Lê Minh Châu,77.7,76,5905.2,0.07,Đã ký HĐMB,5491.835999999999
-GD-2026-0125,2026-04-04 17:00,Tháng 4,Vinhome Grand Park,Căn hộ chung cư,Đà Nẵng,Sàn nội bộ (F1),Phạm Quốc Dũng,77.3,45.8,3540.3399999999997,0.07,Đã ký HĐMB,3292.5161999999996
-GD-2026-0126,2026-04-04 19:30,Tháng 4,Ocean Vista Đà Nẵng,Condotel,TP. Hồ Chí Minh,Online / Digital,Vũ Đình Hùng,56,62.7,3511.2000000000003,0.03,Đã đặt cọc,3405.864
-GD-2026-0127,2026-04-06 16:15,Tháng 4,Golden Land Long An,Đất nền,Hà Nội,Sự kiện mở bán,Nguyễn Văn An,116.7,42.8,4994.76,0.01,Huỷ cọc,0
-GD-2026-0128,2026-04-06 18:15,Tháng 4,KDC Tân Phú Trung,Đất nền,Long An,Sàn nội bộ (F1),Nguyễn Văn An,172.4,29,4999.6,0.05,Đã đặt cọc,4749.62
-GD-2026-0129,2026-04-07 15:30,Tháng 4,The Sunrise Riverside,Căn hộ chung cư,Bình Dương,Sàn nội bộ (F1),Nguyễn Văn An,59.1,68.2,4030.6200000000003,0.03,Đã đặt cọc,3909.7014000000004
-GD-2026-0130,2026-04-07 17:15,Tháng 4,The Sunrise Riverside,Căn hộ chung cư,Hà Nội,Sàn nội bộ (F1),Bùi Hải Nam,82.7,44.1,3647.07,0.05,Huỷ cọc,0
-GD-2026-0131,2026-04-08 08:15,Tháng 4,Ocean Vista Đà Nẵng,Condotel,Đà Nẵng,Đại lý F2,Đặng Trung Kiên,47.1,68.6,3231.06,0,Đã ký HĐMB,3231.06
-GD-2026-0132,2026-04-08 09:45,Tháng 4,Swan Bay Villas,Biệt thự,Bình Dương,Sàn nội bộ (F1),Nguyễn Văn An,275.7,119.2,32863.44,0,Đã ký HĐMB,32863.44
-GD-2026-0133,2026-04-08 10:30,Tháng 4,Vạn Phúc City,Nhà phố / Liền kề,Bình Dương,Đại lý F2,Đặng Trung Kiên,121.2,79,9574.800000000001,0.08,Đã ký HĐMB,8808.816
-GD-2026-0134,2026-04-08 12:45,Tháng 4,Sunshine Diamond Plaza,Shophouse,Hà Nội,Khách giới thiệu,Nguyễn Văn An,114.3,151.6,17327.879999999997,0.01,Đã ký HĐMB,17154.601199999997
-GD-2026-0135,2026-04-08 14:15,Tháng 4,Bien Hoa New City,Đất nền,Đà Nẵng,Online / Digital,Vũ Đình Hùng,215.6,55.6,11987.36,0.02,Đã đặt cọc,11747.6128
-GD-2026-0136,2026-04-09 13:30,Tháng 4,KDC Tân Phú Trung,Đất nền,Đà Nẵng,Sàn nội bộ (F1),Phạm Quốc Dũng,173.2,24.8,4295.36,0.02,Huỷ cọc,0
-GD-2026-0137,2026-04-10 08:30,Tháng 4,Vinhome Grand Park,Căn hộ chung cư,Long An,Sàn nội bộ (F1),Ngô Phương Oanh,81.3,65,5284.5,0.01,Đã ký HĐMB,5231.655
-GD-2026-0138,2026-04-10 11:15,Tháng 4,Ecopark Grand,Biệt thự,Long An,Sàn nội bộ (F1),Phạm Quốc Dũng,335.4,121.4,40717.56,0.03,Đã ký HĐMB,39496.0332
-GD-2026-0139,2026-04-10 17:30,Tháng 4,Sun Grand Boulevard,Shophouse,Đồng Nai,Đại lý F2,Đỗ Thanh Lam,120,140.6,16872,0,Huỷ cọc,0
-GD-2026-0140,2026-04-10 17:30,Tháng 4,Masteri Central,Căn hộ chung cư,Hà Nội,Sàn nội bộ (F1),Trần Thị Bích,62,43,2666,0,Đã ký HĐMB,2666
-GD-2026-0141,2026-04-10 18:15,Tháng 4,The Manor Central,Nhà phố / Liền kề,Bình Dương,Đại lý F2,Nguyễn Văn An,146.4,131,19178.4,0.03,Đã ký HĐMB,18603.048000000003
-GD-2026-0142,2026-04-11 10:15,Tháng 4,Vinhome Grand Park,Căn hộ chung cư,Long An,Khách giới thiệu,Hoàng Thị Giang,65.5,74.3,4866.65,0,Đã ký HĐMB,4866.65
-GD-2026-0143,2026-04-11 17:45,Tháng 4,Golden Land Long An,Đất nền,Bình Dương,Đại lý F2,Bùi Hải Nam,155.9,38.5,6002.150000000001,0.02,Đã ký HĐMB,5882.107000000001
-GD-2026-0144,2026-04-12 12:45,Tháng 4,Ocean Vista Đà Nẵng,Condotel,Bình Dương,Sàn nội bộ (F1),Vũ Đình Hùng,62.2,62,3856.4,0.05,Đã đặt cọc,3663.58
-GD-2026-0145,2026-04-12 15:15,Tháng 4,Sun Premier Hạ Long,Condotel,Long An,Đại lý F2,Phạm Quốc Dũng,71.5,64.3,4597.45,0.03,Đã ký HĐMB,4459.5265
-GD-2026-0146,2026-04-12 19:30,Tháng 4,Sun Grand Boulevard,Shophouse,Đà Nẵng,Đại lý F2,Ngô Phương Oanh,165,195.7,32290.499999999996,0.02,Đã đặt cọc,31644.689999999995
-GD-2026-0147,2026-04-13 09:15,Tháng 4,Lavela Garden,Nhà phố / Liền kề,Hà Nội,Sàn nội bộ (F1),Ngô Phương Oanh,159.3,97.3,15499.890000000001,0,Đã đặt cọc,15499.890000000001
-GD-2026-0148,2026-04-13 11:00,Tháng 4,The Sunrise Riverside,Căn hộ chung cư,Đà Nẵng,Sàn nội bộ (F1),Lê Minh Châu,75.8,63.9,4843.62,0,Đã ký HĐMB,4843.62
-GD-2026-0149,2026-04-13 19:15,Tháng 4,Vinhome Grand Park,Căn hộ chung cư,Đà Nẵng,Sàn nội bộ (F1),Phạm Quốc Dũng,93.1,55.3,5148.429999999999,0.08,Đã đặt cọc,4736.5556
-GD-2026-0150,2026-04-13 19:45,Tháng 4,Masteri Central,Căn hộ chung cư,Đà Nẵng,Sàn nội bộ (F1),Đỗ Thanh Lam,78.6,76.5,6012.9,0,Đã ký HĐMB,6012.9
-GD-2026-0151,2026-04-14 08:45,Tháng 4,Eco Green Sài Gòn,Căn hộ chung cư,Long An,Đại lý F2,Nguyễn Văn An,70.3,45.8,3219.74,0.08,Đã ký HĐMB,2962.1608
-GD-2026-0152,2026-04-15 08:45,Tháng 4,Golden Land Long An,Đất nền,Long An,Khách giới thiệu,Ngô Phương Oanh,207,29.1,6023.700000000001,0.08,Đã ký HĐMB,5541.804000000001
-GD-2026-0153,2026-04-15 17:45,Tháng 4,Eco Green Sài Gòn,Căn hộ chung cư,Bình Dương,Sàn nội bộ (F1),Đặng Trung Kiên,76,52.7,4005.2000000000003,0,Đã ký HĐMB,4005.2000000000003
-GD-2026-0154,2026-04-16 09:45,Tháng 4,Vinhome Grand Park,Căn hộ chung cư,Hà Nội,Sàn nội bộ (F1),Trần Thị Bích,59.9,65.6,3929.4399999999996,0.08,Đã ký HĐMB,3615.0847999999996
-GD-2026-0155,2026-04-16 10:45,Tháng 4,Eco Green Sài Gòn,Căn hộ chung cư,Đồng Nai,Khách giới thiệu,Bùi Hải Nam,88.1,63.3,5576.73,0.01,Đã ký HĐMB,5520.962699999999
-GD-2026-0156,2026-04-16 11:45,Tháng 4,Golden Land Long An,Đất nền,Hà Nội,Online / Digital,Đỗ Thanh Lam,103.6,43.1,4465.16,0,Đã ký HĐMB,4465.16
-GD-2026-0157,2026-04-16 17:30,Tháng 4,Golden Land Long An,Đất nền,Long An,Sàn nội bộ (F1),Vũ Đình Hùng,203.6,40.3,8205.08,0.08,Đã ký HĐMB,7548.6736
-GD-2026-0158,2026-04-17 10:30,Tháng 4,Ocean Vista Đà Nẵng,Condotel,Đà Nẵng,Khách giới thiệu,Đỗ Thanh Lam,48.3,45.7,2207.31,0.08,Đã ký HĐMB,2030.7252
-GD-2026-0159,2026-04-17 11:15,Tháng 4,KDC Tân Phú Trung,Đất nền,Hà Nội,Sàn nội bộ (F1),Đặng Trung Kiên,128.4,59.9,7691.16,0.05,Đã ký HĐMB,7306.602
-GD-2026-0160,2026-04-17 11:30,Tháng 4,Masteri Central,Căn hộ chung cư,Bình Dương,Sự kiện mở bán,Trần Thị Bích,61.2,59,3610.8,0.02,Đã ký HĐMB,3538.5840000000003
-GD-2026-0161,2026-04-17 13:00,Tháng 4,Ecopark Grand,Biệt thự,Đồng Nai,Sàn nội bộ (F1),Bùi Hải Nam,374,98.7,36913.8,0,Đã ký HĐMB,36913.8
-GD-2026-0162,2026-04-17 14:45,Tháng 4,Ocean Vista Đà Nẵng,Condotel,Hà Nội,Online / Digital,Đỗ Thanh Lam,50.3,73.1,3676.9299999999994,0.03,Đã ký HĐMB,3566.622099999999
-GD-2026-0163,2026-04-18 12:45,Tháng 4,Golden Land Long An,Đất nền,Bình Dương,Đại lý F2,Nguyễn Văn An,187.2,41,7675.2,0,Huỷ cọc,0
-GD-2026-0164,2026-04-18 17:30,Tháng 4,Eco Green Sài Gòn,Căn hộ chung cư,Đồng Nai,Sàn nội bộ (F1),Phạm Quốc Dũng,65.1,64.8,4218.48,0.03,Đã đặt cọc,4091.9255999999996
-GD-2026-0165,2026-04-19 08:30,Tháng 4,Sun Premier Hạ Long,Condotel,Hà Nội,Đại lý F2,Ngô Phương Oanh,59.7,69.9,4173.030000000001,0.01,Đã đặt cọc,4131.2997000000005
-GD-2026-0166,2026-04-19 11:45,Tháng 4,Eco Green Sài Gòn,Căn hộ chung cư,Đà Nẵng,Sự kiện mở bán,Hoàng Thị Giang,61.6,48.7,2999.92,0.01,Đã đặt cọc,2969.9208
-GD-2026-0167,2026-04-20 19:45,Tháng 4,Eco Green Sài Gòn,Căn hộ chung cư,Đà Nẵng,Online / Digital,Nguyễn Văn An,80.3,66.5,5339.95,0.07,Đã ký HĐMB,4966.153499999999
-GD-2026-0168,2026-04-21 09:00,Tháng 4,Ecopark Grand,Biệt thự,TP. Hồ Chí Minh,Sự kiện mở bán,Trần Thị Bích,246.5,130.8,32242.200000000004,0,Đã ký HĐMB,32242.200000000004
-GD-2026-0169,2026-04-21 15:00,Tháng 4,The Manor Central,Nhà phố / Liền kề,Đà Nẵng,Sàn nội bộ (F1),Vũ Đình Hùng,130.2,133.1,17329.62,0.07,Đã đặt cọc,16116.546599999998
-GD-2026-0170,2026-04-21 15:30,Tháng 4,Vinhome Grand Park,Căn hộ chung cư,Bình Dương,Đại lý F2,Phạm Quốc Dũng,87,71.7,6237.900000000001,0.01,Đã đặt cọc,6175.521000000001
-GD-2026-0171,2026-04-21 16:30,Tháng 4,KDC Tân Phú Trung,Đất nền,Đồng Nai,Sàn nội bộ (F1),Vũ Đình Hùng,124.8,23.9,2982.72,0.01,Đã ký HĐMB,2952.8927999999996
-GD-2026-0172,2026-04-21 19:30,Tháng 4,Golden Land Long An,Đất nền,Đồng Nai,Đại lý F2,Ngô Phương Oanh,162.4,35.9,5830.16,0.08,Đã ký HĐMB,5363.7472
-GD-2026-0173,2026-04-22 09:30,Tháng 4,Ecopark Grand,Biệt thự,Bình Dương,Đại lý F2,Đặng Trung Kiên,387.9,129.6,50271.84,0.01,Đã ký HĐMB,49769.1216
-GD-2026-0174,2026-04-22 12:00,Tháng 4,Masteri Central,Căn hộ chung cư,Long An,Online / Digital,Trần Thị Bích,71.9,45.5,3271.4500000000003,0,Đã ký HĐMB,3271.4500000000003
-GD-2026-0175,2026-04-23 08:15,Tháng 4,Golden Land Long An,Đất nền,Long An,Đại lý F2,Phạm Quốc Dũng,147,23,3381,0.05,Đã đặt cọc,3211.95
-GD-2026-0176,2026-04-23 09:45,Tháng 4,Eco Green Sài Gòn,Căn hộ chung cư,Bình Dương,Online / Digital,Hoàng Thị Giang,91.9,62.8,5771.32,0.01,Đã ký HĐMB,5713.6068
-GD-2026-0177,2026-04-23 10:45,Tháng 4,Vạn Phúc City,Nhà phố / Liền kề,Long An,Sàn nội bộ (F1),Hoàng Thị Giang,109.5,92.2,10095.9,0,Đã ký HĐMB,10095.9
-GD-2026-0178,2026-04-24 15:45,Tháng 4,The Sunrise Riverside,Căn hộ chung cư,Bình Dương,Khách giới thiệu,Trần Thị Bích,75.3,75.5,5685.15,0.07,Đã ký HĐMB,5287.1894999999995
-GD-2026-0179,2026-04-25 19:15,Tháng 4,KDC Tân Phú Trung,Đất nền,Đà Nẵng,Đại lý F2,Trần Thị Bích,118.9,24.5,2913.05,0.03,Đã ký HĐMB,2825.6585
-GD-2026-0180,2026-04-27 10:45,Tháng 4,Sun Grand Boulevard,Shophouse,Hà Nội,Sàn nội bộ (F1),Đỗ Thanh Lam,110.4,185.9,20523.36,0.01,Đã ký HĐMB,20318.1264
-GD-2026-0181,2026-04-29 09:45,Tháng 4,Vạn Phúc City,Nhà phố / Liền kề,Đà Nẵng,Sàn nội bộ (F1),Phạm Quốc Dũng,128.7,87.6,11274.119999999999,0.08,Đã ký HĐMB,10372.1904
-GD-2026-0182,2026-04-29 12:00,Tháng 4,Eco Green Sài Gòn,Căn hộ chung cư,TP. Hồ Chí Minh,Đại lý F2,Nguyễn Văn An,69.7,68.1,4746.57,0.05,Đã đặt cọc,4509.241499999999
-GD-2026-0183,2026-04-30 10:45,Tháng 4,Ecopark Grand,Biệt thự,Đồng Nai,Đại lý F2,Bùi Hải Nam,354.9,132.5,47024.25,0.02,Đã đặt cọc,46083.765
-GD-2026-0184,2026-05-01 09:15,Tháng 5,The Sunrise Riverside,Căn hộ chung cư,TP. Hồ Chí Minh,Sàn nội bộ (F1),Bùi Hải Nam,77.3,77.6,5998.48,0,Đã ký HĐMB,5998.48
-GD-2026-0185,2026-05-02 08:30,Tháng 5,Lavela Garden,Nhà phố / Liền kề,Đà Nẵng,Sàn nội bộ (F1),Trần Thị Bích,123.7,135.6,16773.72,0.08,Đã ký HĐMB,15431.822400000001
-GD-2026-0186,2026-05-02 11:45,Tháng 5,Sun Premier Hạ Long,Condotel,TP. Hồ Chí Minh,Khách giới thiệu,Đặng Trung Kiên,48.9,50.7,2479.23,0.01,Đã ký HĐMB,2454.4377
-GD-2026-0187,2026-05-03 09:15,Tháng 5,Masteri Central,Căn hộ chung cư,Bình Dương,Sự kiện mở bán,Vũ Đình Hùng,82.1,71.9,5902.99,0.07,Đã ký HĐMB,5489.780699999999
-GD-2026-0188,2026-05-04 12:15,Tháng 5,Ocean Vista Đà Nẵng,Condotel,Hà Nội,Đại lý F2,Đỗ Thanh Lam,69,51.6,3560.4,0.03,Đã đặt cọc,3453.588
-GD-2026-0189,2026-05-04 13:30,Tháng 5,The Sunrise Riverside,Căn hộ chung cư,Đà Nẵng,Online / Digital,Phạm Quốc Dũng,84.2,74.5,6272.900000000001,0,Đã đặt cọc,6272.900000000001
-GD-2026-0190,2026-05-04 15:15,Tháng 5,The Sunrise Riverside,Căn hộ chung cư,Hà Nội,Khách giới thiệu,Đặng Trung Kiên,55.7,72,4010.4,0.01,Đã ký HĐMB,3970.2960000000003
-GD-2026-0191,2026-05-04 16:30,Tháng 5,Eco Green Sài Gòn,Căn hộ chung cư,Đà Nẵng,Đại lý F2,Hoàng Thị Giang,70.4,74.2,5223.68,0.03,Đã ký HĐMB,5066.9696
-GD-2026-0192,2026-05-05 09:00,Tháng 5,Vạn Phúc City,Nhà phố / Liền kề,Đà Nẵng,Sàn nội bộ (F1),Bùi Hải Nam,85.4,113.5,9692.900000000001,0,Đã ký HĐMB,9692.900000000001
-GD-2026-0193,2026-05-05 09:45,Tháng 5,Vạn Phúc City,Nhà phố / Liền kề,Hà Nội,Online / Digital,Lê Minh Châu,88.6,112.4,9958.64,0.08,Huỷ cọc,0
-GD-2026-0194,2026-05-05 18:00,Tháng 5,Vinhome Grand Park,Căn hộ chung cư,Long An,Đại lý F2,Đặng Trung Kiên,78.8,44.1,3475.08,0.03,Đã ký HĐMB,3370.8275999999996
-GD-2026-0195,2026-05-06 10:00,Tháng 5,KDC Tân Phú Trung,Đất nền,TP. Hồ Chí Minh,Sàn nội bộ (F1),Đặng Trung Kiên,173.7,25.9,4498.829999999999,0,Đã ký HĐMB,4498.829999999999
-GD-2026-0196,2026-05-06 10:15,Tháng 5,Vinhome Grand Park,Căn hộ chung cư,TP. Hồ Chí Minh,Sàn nội bộ (F1),Vũ Đình Hùng,56,77.4,4334.400000000001,0.01,Đã ký HĐMB,4291.0560000000005
-GD-2026-0197,2026-05-06 11:00,Tháng 5,The Manor Central,Nhà phố / Liền kề,Hà Nội,Khách giới thiệu,Bùi Hải Nam,91,110,10010,0.01,Đã ký HĐMB,9909.9
-GD-2026-0198,2026-05-07 09:45,Tháng 5,Eco Green Sài Gòn,Căn hộ chung cư,Long An,Sàn nội bộ (F1),Hoàng Thị Giang,55.5,62,3441,0,Đã đặt cọc,3441
-GD-2026-0199,2026-05-10 11:30,Tháng 5,Golden Land Long An,Đất nền,Đà Nẵng,Đại lý F2,Đỗ Thanh Lam,205.9,43.4,8936.06,0.07,Đã đặt cọc,8310.5358
-GD-2026-0200,2026-05-12 12:45,Tháng 5,Sun Grand Boulevard,Shophouse,Hà Nội,Sàn nội bộ (F1),Đặng Trung Kiên,112.8,196.9,22210.32,0.05,Đã đặt cọc,21099.804
-GD-2026-0201,2026-05-12 18:45,Tháng 5,Ocean Vista Đà Nẵng,Condotel,Bình Dương,Khách giới thiệu,Bùi Hải Nam,64.3,62.1,3993.0299999999997,0.08,Đã ký HĐMB,3673.5876
-GD-2026-0202,2026-05-13 16:00,Tháng 5,Lavela Garden,Nhà phố / Liền kề,Hà Nội,Sàn nội bộ (F1),Vũ Đình Hùng,93.4,136.6,12758.44,0.07,Đã ký HĐMB,11865.3492
-GD-2026-0203,2026-05-13 18:30,Tháng 5,Masteri Central,Căn hộ chung cư,TP. Hồ Chí Minh,Online / Digital,Hoàng Thị Giang,59,75.4,4448.6,0,Đã ký HĐMB,4448.6
-GD-2026-0204,2026-05-14 15:15,Tháng 5,Lavela Garden,Nhà phố / Liền kề,Hà Nội,Online / Digital,Ngô Phương Oanh,139.9,116.9,16354.310000000001,0.03,Đã ký HĐMB,15863.6807
-GD-2026-0205,2026-05-15 13:15,Tháng 5,The Sunrise Riverside,Căn hộ chung cư,Long An,Sàn nội bộ (F1),Nguyễn Văn An,70,65.6,4592,0.05,Đã ký HĐMB,4362.4
-GD-2026-0206,2026-05-15 17:45,Tháng 5,Sun Premier Hạ Long,Condotel,Long An,Sàn nội bộ (F1),Bùi Hải Nam,60.6,62.9,3811.74,0.05,Đã ký HĐMB,3621.153
-GD-2026-0207,2026-05-16 15:45,Tháng 5,Ocean Vista Đà Nẵng,Condotel,TP. Hồ Chí Minh,Sàn nội bộ (F1),Lê Minh Châu,53.9,73.1,3940.0899999999997,0.08,Đã ký HĐMB,3624.8828
-GD-2026-0208,2026-05-17 08:00,Tháng 5,Sun Grand Boulevard,Shophouse,Hà Nội,Sàn nội bộ (F1),Nguyễn Văn An,134.7,166.8,22467.96,0,Đã ký HĐMB,22467.96
-GD-2026-0209,2026-05-18 19:00,Tháng 5,Bien Hoa New City,Đất nền,Đà Nẵng,Khách giới thiệu,Đỗ Thanh Lam,200.2,42,8408.4,0,Đã ký HĐMB,8408.4
-GD-2026-0210,2026-05-18 19:45,Tháng 5,Ecopark Grand,Biệt thự,Long An,Đại lý F2,Lê Minh Châu,303.8,144.7,43959.86,0.01,Đã ký HĐMB,43520.2614
-GD-2026-0211,2026-05-20 09:45,Tháng 5,Vinhome Grand Park,Căn hộ chung cư,Đà Nẵng,Online / Digital,Bùi Hải Nam,63,53.9,3395.7,0,Đã đặt cọc,3395.7
-GD-2026-0212,2026-05-20 11:30,Tháng 5,KDC Tân Phú Trung,Đất nền,Long An,Online / Digital,Trần Thị Bích,93.9,36.1,3389.7900000000004,0.01,Đã ký HĐMB,3355.8921000000005
-GD-2026-0213,2026-05-20 15:45,Tháng 5,KDC Tân Phú Trung,Đất nền,Đà Nẵng,Khách giới thiệu,Đỗ Thanh Lam,211.6,34.6,7321.36,0.02,Đã ký HĐMB,7174.9328
-GD-2026-0214,2026-05-21 10:00,Tháng 5,Golden Land Long An,Đất nền,TP. Hồ Chí Minh,Online / Digital,Lê Minh Châu,85.6,30.5,2610.7999999999997,0.03,Đã ký HĐMB,2532.4759999999997
-GD-2026-0215,2026-05-22 08:15,Tháng 5,Masteri Central,Căn hộ chung cư,Bình Dương,Online / Digital,Đỗ Thanh Lam,75.9,63.8,4842.42,0.08,Đã đặt cọc,4455.026400000001
-GD-2026-0216,2026-05-22 09:15,Tháng 5,The Manor Central,Nhà phố / Liền kề,Long An,Sàn nội bộ (F1),Ngô Phương Oanh,120,126.1,15132,0,Đã ký HĐMB,15132
-GD-2026-0217,2026-05-22 10:15,Tháng 5,Ecopark Grand,Biệt thự,Đồng Nai,Sàn nội bộ (F1),Phạm Quốc Dũng,395.5,153.4,60669.700000000004,0,Đã ký HĐMB,60669.700000000004
-GD-2026-0218,2026-05-22 12:45,Tháng 5,The Sunrise Riverside,Căn hộ chung cư,TP. Hồ Chí Minh,Đại lý F2,Nguyễn Văn An,87,64.3,5594.099999999999,0.03,Đã ký HĐMB,5426.276999999999
-GD-2026-0219,2026-05-23 08:45,Tháng 5,Sunshine Diamond Plaza,Shophouse,Đà Nẵng,Đại lý F2,Vũ Đình Hùng,111,197.4,21911.4,0.03,Đã ký HĐMB,21254.058
-GD-2026-0220,2026-05-23 17:30,Tháng 5,Vạn Phúc City,Nhà phố / Liền kề,Bình Dương,Sự kiện mở bán,Nguyễn Văn An,123.7,98,12122.6,0.05,Đã đặt cọc,11516.47
-GD-2026-0221,2026-05-23 18:15,Tháng 5,Masteri Central,Căn hộ chung cư,Hà Nội,Sàn nội bộ (F1),Vũ Đình Hùng,86.5,48.8,4221.2,0,Huỷ cọc,0
-GD-2026-0222,2026-05-24 14:00,Tháng 5,Eco Green Sài Gòn,Căn hộ chung cư,Đà Nẵng,Sàn nội bộ (F1),Bùi Hải Nam,91.7,50.1,4594.17,0.03,Đã đặt cọc,4456.3449
-GD-2026-0223,2026-05-24 15:00,Tháng 5,Bien Hoa New City,Đất nền,Đà Nẵng,Online / Digital,Vũ Đình Hùng,194.1,46.3,8986.83,0.08,Đã ký HĐMB,8267.883600000001
-GD-2026-0224,2026-05-25 09:45,Tháng 5,Sunshine Diamond Plaza,Shophouse,Long An,Đại lý F2,Hoàng Thị Giang,161.1,161.4,26001.54,0.05,Đã ký HĐMB,24701.463
-GD-2026-0225,2026-05-25 11:00,Tháng 5,The Sunrise Riverside,Căn hộ chung cư,TP. Hồ Chí Minh,Khách giới thiệu,Đặng Trung Kiên,71,61.6,4373.6,0.05,Đã ký HĐMB,4154.92
-GD-2026-0226,2026-05-25 16:30,Tháng 5,Sun Grand Boulevard,Shophouse,Long An,Khách giới thiệu,Hoàng Thị Giang,109.1,149.1,16266.809999999998,0.02,Đã ký HĐMB,15941.473799999998
-GD-2026-0227,2026-05-26 17:15,Tháng 5,Golden Land Long An,Đất nền,TP. Hồ Chí Minh,Đại lý F2,Hoàng Thị Giang,83.2,25.7,2138.2400000000002,0.01,Đã ký HĐMB,2116.8576000000003
-GD-2026-0228,2026-05-26 18:45,Tháng 5,KDC Tân Phú Trung,Đất nền,Đồng Nai,Sàn nội bộ (F1),Lê Minh Châu,178.2,35.5,6326.099999999999,0.05,Đã đặt cọc,6009.794999999999
-GD-2026-0229,2026-05-26 19:15,Tháng 5,Eco Green Sài Gòn,Căn hộ chung cư,Đà Nẵng,Online / Digital,Nguyễn Văn An,79.7,53.3,4248.01,0.01,Huỷ cọc,0
-GD-2026-0230,2026-05-26 19:45,Tháng 5,KDC Tân Phú Trung,Đất nền,Đồng Nai,Khách giới thiệu,Trần Thị Bích,150.8,38.8,5851.04,0.02,Đã ký HĐMB,5734.0192
-GD-2026-0231,2026-05-27 09:45,Tháng 5,Vinhome Grand Park,Căn hộ chung cư,Đồng Nai,Sàn nội bộ (F1),Hoàng Thị Giang,55.2,60.8,3356.16,0,Đã ký HĐMB,3356.16
-GD-2026-0232,2026-05-27 17:00,Tháng 5,Vinhome Grand Park,Căn hộ chung cư,Hà Nội,Online / Digital,Đỗ Thanh Lam,82.5,58,4785,0.05,Đã ký HĐMB,4545.75
-GD-2026-0233,2026-05-27 17:45,Tháng 5,The Sunrise Riverside,Căn hộ chung cư,TP. Hồ Chí Minh,Khách giới thiệu,Hoàng Thị Giang,81.7,51.6,4215.72,0.08,Đã ký HĐMB,3878.4624000000003
-GD-2026-0234,2026-05-27 18:45,Tháng 5,The Sunrise Riverside,Căn hộ chung cư,Đồng Nai,Sàn nội bộ (F1),Ngô Phương Oanh,80.6,42,3385.2,0,Huỷ cọc,0
-GD-2026-0235,2026-05-28 11:45,Tháng 5,Lavela Garden,Nhà phố / Liền kề,Hà Nội,Sàn nội bộ (F1),Phạm Quốc Dũng,140.4,105.6,14826.24,0.07,Đã ký HĐMB,13788.403199999999
-GD-2026-0236,2026-05-28 14:15,Tháng 5,Lavela Garden,Nhà phố / Liền kề,TP. Hồ Chí Minh,Đại lý F2,Bùi Hải Nam,112.2,138.9,15584.580000000002,0.03,Đã đặt cọc,15117.0426
-GD-2026-0237,2026-05-28 14:45,Tháng 5,Sun Grand Boulevard,Shophouse,Hà Nội,Sàn nội bộ (F1),Đỗ Thanh Lam,126.4,175.9,22233.760000000002,0,Đã ký HĐMB,22233.760000000002
-GD-2026-0238,2026-05-29 08:00,Tháng 5,Lavela Garden,Nhà phố / Liền kề,Đồng Nai,Online / Digital,Đỗ Thanh Lam,92.8,119.8,11117.439999999999,0.01,Đã đặt cọc,11006.265599999999
-GD-2026-0239,2026-05-29 15:45,Tháng 5,Vinhome Grand Park,Căn hộ chung cư,Đà Nẵng,Sàn nội bộ (F1),Trần Thị Bích,57.9,52.4,3033.96,0,Đã ký HĐMB,3033.96
-GD-2026-0240,2026-05-29 19:45,Tháng 5,The Sunrise Riverside,Căn hộ chung cư,Long An,Khách giới thiệu,Ngô Phương Oanh,83.1,62.1,5160.51,0,Đã ký HĐMB,5160.51
-GD-2026-0241,2026-05-30 09:15,Tháng 5,Golden Land Long An,Đất nền,Bình Dương,Online / Digital,Hoàng Thị Giang,147,52.9,7776.3,0,Huỷ cọc,0
-GD-2026-0242,2026-05-30 13:00,Tháng 5,Golden Land Long An,Đất nền,Hà Nội,Online / Digital,Trần Thị Bích,186.3,29.3,5458.59,0.02,Đã đặt cọc,5349.4182
-GD-2026-0243,2026-05-30 15:00,Tháng 5,KDC Tân Phú Trung,Đất nền,Đồng Nai,Online / Digital,Nguyễn Văn An,111,46.5,5161.5,0.05,Huỷ cọc,0
-GD-2026-0244,2026-06-01 17:45,Tháng 6,Sun Grand Boulevard,Shophouse,Đồng Nai,Sàn nội bộ (F1),Hoàng Thị Giang,169.5,188.7,31984.649999999998,0,Đã đặt cọc,31984.649999999998
-GD-2026-0245,2026-06-02 10:00,Tháng 6,Sunshine Diamond Plaza,Shophouse,TP. Hồ Chí Minh,Sàn nội bộ (F1),Ngô Phương Oanh,131.5,117.1,15398.65,0,Đã đặt cọc,15398.65
-GD-2026-0246,2026-06-03 10:15,Tháng 6,Swan Bay Villas,Biệt thự,Đồng Nai,Đại lý F2,Lê Minh Châu,250.3,94.9,23753.47,0.02,Đã ký HĐMB,23278.4006
-GD-2026-0247,2026-06-03 12:00,Tháng 6,KDC Tân Phú Trung,Đất nền,Long An,Đại lý F2,Trần Thị Bích,90.6,29.6,2681.7599999999998,0.08,Đã ký HĐMB,2467.2192
-GD-2026-0248,2026-06-03 15:00,Tháng 6,KDC Tân Phú Trung,Đất nền,Long An,Sàn nội bộ (F1),Bùi Hải Nam,116.6,23.6,2751.76,0.05,Đã đặt cọc,2614.172
-GD-2026-0249,2026-06-03 16:30,Tháng 6,Eco Green Sài Gòn,Căn hộ chung cư,TP. Hồ Chí Minh,Sự kiện mở bán,Phạm Quốc Dũng,86.1,74.7,6431.67,0.03,Đã ký HĐMB,6238.7199
-GD-2026-0250,2026-06-04 08:45,Tháng 6,Bien Hoa New City,Đất nền,Long An,Sự kiện mở bán,Vũ Đình Hùng,213.1,43,9163.3,0.07,Đã đặt cọc,8521.868999999999
-GD-2026-0251,2026-06-04 10:00,Tháng 6,Sun Grand Boulevard,Shophouse,Long An,Online / Digital,Ngô Phương Oanh,151.9,158.1,24015.39,0.03,Đã đặt cọc,23294.9283
-GD-2026-0252,2026-06-04 11:00,Tháng 6,Sun Premier Hạ Long,Condotel,TP. Hồ Chí Minh,Đại lý F2,Hoàng Thị Giang,61.2,63.4,3880.08,0,Đã ký HĐMB,3880.08
-GD-2026-0253,2026-06-05 12:30,Tháng 6,Eco Green Sài Gòn,Căn hộ chung cư,TP. Hồ Chí Minh,Đại lý F2,Trần Thị Bích,84.9,58.3,4949.67,0.02,Đã ký HĐMB,4850.6766
-GD-2026-0254,2026-06-05 13:00,Tháng 6,KDC Tân Phú Trung,Đất nền,Long An,Online / Digital,Đặng Trung Kiên,186.9,36.2,6765.780000000001,0,Đã đặt cọc,6765.780000000001
-GD-2026-0255,2026-06-05 17:45,Tháng 6,Eco Green Sài Gòn,Căn hộ chung cư,Hà Nội,Đại lý F2,Hoàng Thị Giang,85.8,75.7,6495.06,0.03,Đã ký HĐMB,6300.2082
-GD-2026-0256,2026-06-05 17:45,Tháng 6,Eco Green Sài Gòn,Căn hộ chung cư,Hà Nội,Sàn nội bộ (F1),Nguyễn Văn An,83.2,62.1,5166.72,0,Đã ký HĐMB,5166.72
-GD-2026-0257,2026-06-06 15:15,Tháng 6,Ecopark Grand,Biệt thự,Đà Nẵng,Online / Digital,Bùi Hải Nam,224.9,175.8,39537.420000000006,0.05,Đã ký HĐMB,37560.549000000006
-GD-2026-0258,2026-06-06 15:15,Tháng 6,KDC Tân Phú Trung,Đất nền,Long An,Đại lý F2,Trần Thị Bích,201.2,22.4,4506.879999999999,0.03,Đã ký HĐMB,4371.673599999999
-GD-2026-0259,2026-06-07 09:30,Tháng 6,Sun Premier Hạ Long,Condotel,Đồng Nai,Sàn nội bộ (F1),Ngô Phương Oanh,65.2,57.1,3722.92,0,Đã ký HĐMB,3722.92
-GD-2026-0260,2026-06-07 18:30,Tháng 6,The Sunrise Riverside,Căn hộ chung cư,TP. Hồ Chí Minh,Đại lý F2,Đỗ Thanh Lam,89.7,42.5,3812.25,0.03,Đã ký HĐMB,3697.8824999999997
-GD-2026-0261,2026-06-07 18:30,Tháng 6,Vinhome Grand Park,Căn hộ chung cư,Đồng Nai,Đại lý F2,Phạm Quốc Dũng,71.6,58.1,4159.96,0.08,Đã đặt cọc,3827.1632000000004
-GD-2026-0262,2026-06-08 08:00,Tháng 6,The Sunrise Riverside,Căn hộ chung cư,Long An,Đại lý F2,Hoàng Thị Giang,69.1,58,4007.7999999999997,0.08,Đã ký HĐMB,3687.176
-GD-2026-0263,2026-06-08 16:00,Tháng 6,KDC Tân Phú Trung,Đất nền,TP. Hồ Chí Minh,Online / Digital,Ngô Phương Oanh,178.1,44,7836.4,0.03,Đã ký HĐMB,7601.307999999999
-GD-2026-0264,2026-06-08 17:45,Tháng 6,KDC Tân Phú Trung,Đất nền,TP. Hồ Chí Minh,Online / Digital,Đỗ Thanh Lam,80.9,56,4530.400000000001,0.03,Đã ký HĐMB,4394.488
-GD-2026-0265,2026-06-08 18:00,Tháng 6,Swan Bay Villas,Biệt thự,Bình Dương,Khách giới thiệu,Hoàng Thị Giang,230.2,128.5,29580.699999999997,0.01,Đã ký HĐMB,29284.892999999996
-GD-2026-0266,2026-06-09 09:30,Tháng 6,Golden Land Long An,Đất nền,Hà Nội,Sàn nội bộ (F1),Vũ Đình Hùng,144.3,50.1,7229.430000000001,0.03,Đã đặt cọc,7012.547100000001
-GD-2026-0267,2026-06-10 09:30,Tháng 6,Ocean Vista Đà Nẵng,Condotel,Hà Nội,Sàn nội bộ (F1),Hoàng Thị Giang,70.4,71.8,5054.72,0.03,Đã đặt cọc,4903.0784
-GD-2026-0268,2026-06-10 10:30,Tháng 6,The Manor Central,Nhà phố / Liền kề,Long An,Sàn nội bộ (F1),Đặng Trung Kiên,132.4,118.6,15702.64,0.01,Đã ký HĐMB,15545.613599999999
-GD-2026-0269,2026-06-11 09:30,Tháng 6,The Manor Central,Nhà phố / Liền kề,Đồng Nai,Đại lý F2,Đặng Trung Kiên,116.2,126.4,14687.68,0,Đã ký HĐMB,14687.68
-GD-2026-0270,2026-06-11 12:30,Tháng 6,KDC Tân Phú Trung,Đất nền,Bình Dương,Online / Digital,Bùi Hải Nam,212.7,34.7,7380.6900000000005,0.08,Đã ký HĐMB,6790.234800000001
-GD-2026-0271,2026-06-11 13:15,Tháng 6,Vinhome Grand Park,Căn hộ chung cư,Hà Nội,Sự kiện mở bán,Bùi Hải Nam,93.6,69.5,6505.2,0.01,Đã ký HĐMB,6440.148
-GD-2026-0272,2026-06-11 15:00,Tháng 6,Golden Land Long An,Đất nền,Hà Nội,Khách giới thiệu,Phạm Quốc Dũng,199,55.8,11104.199999999999,0.03,Đã đặt cọc,10771.073999999999
-GD-2026-0273,2026-06-11 19:30,Tháng 6,The Sunrise Riverside,Căn hộ chung cư,Bình Dương,Sự kiện mở bán,Đặng Trung Kiên,75.3,44,3313.2,0,Đã ký HĐMB,3313.2
-GD-2026-0274,2026-06-12 09:00,Tháng 6,Vinhome Grand Park,Căn hộ chung cư,Hà Nội,Khách giới thiệu,Ngô Phương Oanh,90.6,73.7,6677.22,0,Đã đặt cọc,6677.22
-GD-2026-0275,2026-06-12 10:15,Tháng 6,Sun Premier Hạ Long,Condotel,TP. Hồ Chí Minh,Đại lý F2,Lê Minh Châu,56.8,48.9,2777.52,0.02,Đã ký HĐMB,2721.9696
-GD-2026-0276,2026-06-12 14:15,Tháng 6,Eco Green Sài Gòn,Căn hộ chung cư,Đồng Nai,Sàn nội bộ (F1),Vũ Đình Hùng,63.1,67.1,4234.009999999999,0.07,Đã ký HĐMB,3937.629299999999
-GD-2026-0277,2026-06-13 10:45,Tháng 6,Sunshine Diamond Plaza,Shophouse,Hà Nội,Đại lý F2,Vũ Đình Hùng,127.2,152.3,19372.56,0.03,Huỷ cọc,0
-GD-2026-0278,2026-06-13 16:45,Tháng 6,Vạn Phúc City,Nhà phố / Liền kề,Bình Dương,Sàn nội bộ (F1),Lê Minh Châu,144.8,106.8,15464.640000000001,0.07,Đã ký HĐMB,14382.1152
-GD-2026-0279,2026-06-14 09:30,Tháng 6,KDC Tân Phú Trung,Đất nền,Đà Nẵng,Sàn nội bộ (F1),Phạm Quốc Dũng,163.6,25.8,4220.88,0,Đã ký HĐMB,4220.88
-GD-2026-0280,2026-06-14 10:00,Tháng 6,Bien Hoa New City,Đất nền,Đồng Nai,Sàn nội bộ (F1),Ngô Phương Oanh,96,56,5376,0.05,Đã ký HĐMB,5107.2
-GD-2026-0281,2026-06-14 17:45,Tháng 6,Golden Land Long An,Đất nền,Hà Nội,Sàn nội bộ (F1),Nguyễn Văn An,126.8,54.1,6859.88,0.07,Đã ký HĐMB,6379.6884
-GD-2026-0282,2026-06-15 09:45,Tháng 6,Eco Green Sài Gòn,Căn hộ chung cư,TP. Hồ Chí Minh,Khách giới thiệu,Bùi Hải Nam,77.6,51.7,4011.92,0.07,Đã ký HĐMB,3731.0856
-GD-2026-0283,2026-06-15 10:30,Tháng 6,Sunshine Diamond Plaza,Shophouse,Bình Dương,Sàn nội bộ (F1),Lê Minh Châu,160.8,119.9,19279.920000000002,0.03,Đã đặt cọc,18701.5224
-GD-2026-0284,2026-06-15 13:30,Tháng 6,Eco Green Sài Gòn,Căn hộ chung cư,TP. Hồ Chí Minh,Sàn nội bộ (F1),Lê Minh Châu,55.5,69.7,3868.3500000000004,0,Đã đặt cọc,3868.3500000000004
-GD-2026-0285,2026-06-15 19:15,Tháng 6,Swan Bay Villas,Biệt thự,TP. Hồ Chí Minh,Đại lý F2,Hoàng Thị Giang,275.6,101.7,28028.520000000004,0.03,Đã ký HĐMB,27187.6644
-GD-2026-0286,2026-06-16 17:15,Tháng 6,Sun Premier Hạ Long,Condotel,Hà Nội,Sàn nội bộ (F1),Trần Thị Bích,52.5,67.8,3559.5,0.03,Đã đặt cọc,3452.7149999999997
-GD-2026-0287,2026-06-18 10:45,Tháng 6,Golden Land Long An,Đất nền,Đà Nẵng,Sự kiện mở bán,Hoàng Thị Giang,92.1,53.8,4954.98,0.08,Đã ký HĐMB,4558.5815999999995
-GD-2026-0288,2026-06-18 14:30,Tháng 6,Ocean Vista Đà Nẵng,Condotel,Đồng Nai,Sàn nội bộ (F1),Phạm Quốc Dũng,52.1,51.2,2667.5200000000004,0.05,Đã ký HĐMB,2534.1440000000002
-GD-2026-0289,2026-06-19 08:00,Tháng 6,Bien Hoa New City,Đất nền,Hà Nội,Đại lý F2,Nguyễn Văn An,194.5,40.3,7838.349999999999,0.01,Đã ký HĐMB,7759.9664999999995
-GD-2026-0290,2026-06-19 08:45,Tháng 6,The Sunrise Riverside,Căn hộ chung cư,Hà Nội,Online / Digital,Hoàng Thị Giang,83.8,57.3,4801.74,0,Đã ký HĐMB,4801.74
-GD-2026-0291,2026-06-19 14:15,Tháng 6,Bien Hoa New City,Đất nền,Hà Nội,Sàn nội bộ (F1),Đặng Trung Kiên,153.5,23.2,3561.2,0,Đã ký HĐMB,3561.2
-GD-2026-0292,2026-06-19 17:00,Tháng 6,Bien Hoa New City,Đất nền,Hà Nội,Sàn nội bộ (F1),Vũ Đình Hùng,83.2,55.3,4600.96,0.08,Đã ký HĐMB,4232.8832
-GD-2026-0293,2026-06-20 18:15,Tháng 6,The Manor Central,Nhà phố / Liền kề,TP. Hồ Chí Minh,Sàn nội bộ (F1),Phạm Quốc Dũng,152.7,131,20003.699999999997,0.02,Đã ký HĐMB,19603.625999999997
-GD-2026-0294,2026-06-22 10:45,Tháng 6,The Manor Central,Nhà phố / Liền kề,Long An,Sàn nội bộ (F1),Bùi Hải Nam,148,139.7,20675.6,0.03,Đã ký HĐMB,20055.332
-GD-2026-0295,2026-06-22 15:45,Tháng 6,Masteri Central,Căn hộ chung cư,Bình Dương,Sàn nội bộ (F1),Vũ Đình Hùng,57.2,74.5,4261.400000000001,0.05,Đã đặt cọc,4048.3300000000004
-GD-2026-0296,2026-06-22 19:30,Tháng 6,KDC Tân Phú Trung,Đất nền,Hà Nội,Sàn nội bộ (F1),Lê Minh Châu,129.9,41.7,5416.830000000001,0.03,Đã ký HĐMB,5254.325100000001
-GD-2026-0297,2026-06-23 10:45,Tháng 6,Lavela Garden,Nhà phố / Liền kề,Hà Nội,Đại lý F2,Đặng Trung Kiên,95.5,93.2,8900.6,0.02,Đã ký HĐMB,8722.588
-GD-2026-0298,2026-06-23 15:15,Tháng 6,The Manor Central,Nhà phố / Liền kề,Đồng Nai,Sàn nội bộ (F1),Ngô Phương Oanh,149,85.4,12724.6,0.05,Đã ký HĐMB,12088.369999999999
-GD-2026-0299,2026-06-24 17:30,Tháng 6,The Sunrise Riverside,Căn hộ chung cư,Bình Dương,Online / Digital,Nguyễn Văn An,86.1,44.9,3865.8899999999994,0.05,Đã ký HĐMB,3672.5954999999994
-GD-2026-0300,2026-06-25 10:45,Tháng 6,Bien Hoa New City,Đất nền,Đồng Nai,Đại lý F2,Đỗ Thanh Lam,84.2,56.1,4723.62,0.08,Đã ký HĐMB,4345.7304
-GD-2026-0301,2026-06-25 11:00,Tháng 6,KDC Tân Phú Trung,Đất nền,Đồng Nai,Đại lý F2,Ngô Phương Oanh,180,41.5,7470,0,Đã đặt cọc,7470
-GD-2026-0302,2026-06-25 18:15,Tháng 6,Vạn Phúc City,Nhà phố / Liền kề,Đồng Nai,Đại lý F2,Phạm Quốc Dũng,105.8,97.8,10347.24,0.03,Đã ký HĐMB,10036.8228
-GD-2026-0303,2026-06-25 19:45,Tháng 6,Swan Bay Villas,Biệt thự,Hà Nội,Sàn nội bộ (F1),Bùi Hải Nam,378.5,94,35579,0.03,Đã đặt cọc,34511.63
-GD-2026-0304,2026-06-25 19:45,Tháng 6,Golden Land Long An,Đất nền,Đồng Nai,Sự kiện mở bán,Lê Minh Châu,124.5,31.8,3959.1,0.07,Đã đặt cọc,3681.9629999999997
-GD-2026-0305,2026-06-26 09:00,Tháng 6,The Manor Central,Nhà phố / Liền kề,Long An,Online / Digital,Vũ Đình Hùng,114.3,100,11430,0.05,Đã ký HĐMB,10858.5
-GD-2026-0306,2026-06-26 10:45,Tháng 6,Swan Bay Villas,Biệt thự,Đà Nẵng,Sự kiện mở bán,Vũ Đình Hùng,381.5,92.1,35136.15,0.01,Đã đặt cọc,34784.7885
-GD-2026-0307,2026-06-26 12:30,Tháng 6,Masteri Central,Căn hộ chung cư,Đà Nẵng,Đại lý F2,Vũ Đình Hùng,87.7,47.6,4174.52,0.03,Đã đặt cọc,4049.2844000000005
-GD-2026-0308,2026-06-27 11:45,Tháng 6,Vinhome Grand Park,Căn hộ chung cư,TP. Hồ Chí Minh,Online / Digital,Ngô Phương Oanh,92.8,64.1,5948.48,0.01,Đã ký HĐMB,5888.995199999999
-GD-2026-0309,2026-06-27 12:45,Tháng 6,Ecopark Grand,Biệt thự,Đà Nẵng,Đại lý F2,Lê Minh Châu,263.8,135.5,35744.9,0.03,Huỷ cọc,0
-GD-2026-0310,2026-06-28 19:15,Tháng 6,Vinhome Grand Park,Căn hộ chung cư,TP. Hồ Chí Minh,Khách giới thiệu,Đặng Trung Kiên,92.6,73.8,6833.879999999999,0.05,Đã đặt cọc,6492.185999999999
-GD-2026-0311,2026-06-28 19:45,Tháng 6,Lavela Garden,Nhà phố / Liền kề,TP. Hồ Chí Minh,Sự kiện mở bán,Vũ Đình Hùng,100.4,110.7,11114.28,0.05,Đã ký HĐMB,10558.566
-GD-2026-0312,2026-06-29 11:45,Tháng 6,Vinhome Grand Park,Căn hộ chung cư,Long An,Đại lý F2,Hoàng Thị Giang,66.6,77.1,5134.859999999999,0.08,Huỷ cọc,0
-GD-2026-0313,2026-06-29 15:45,Tháng 6,Sun Premier Hạ Long,Condotel,Đồng Nai,Sàn nội bộ (F1),Bùi Hải Nam,40.8,60.5,2468.3999999999996,0.08,Đã ký HĐMB,2270.928
-GD-2026-0314,2026-06-29 17:45,Tháng 6,Bien Hoa New City,Đất nền,Đà Nẵng,Đại lý F2,Phạm Quốc Dũng,192.7,41.9,8074.129999999999,0.01,Đã ký HĐMB,7993.3886999999995
-GD-2026-0315,2026-06-30 10:00,Tháng 6,Masteri Central,Căn hộ chung cư,Đồng Nai,Khách giới thiệu,Nguyễn Văn An,94.9,51.7,4906.330000000001,0.01,Huỷ cọc,0
-GD-2026-0316,2026-06-30 12:00,Tháng 6,Vinhome Grand Park,Căn hộ chung cư,Long An,Đại lý F2,Bùi Hải Nam,57.8,59,3410.2,0.03,Đã ký HĐMB,3307.894
-GD-2026-0317,2026-06-30 12:30,Tháng 6,Golden Land Long An,Đất nền,Hà Nội,Khách giới thiệu,Bùi Hải Nam,190.5,47.2,8991.6,0.05,Đã đặt cọc,8542.02
-GD-2026-0318,2026-06-30 14:30,Tháng 6,Vinhome Grand Park,Căn hộ chung cư,Đà Nẵng,Sàn nội bộ (F1),Bùi Hải Nam,83.4,52.8,4403.52,0.02,Đã đặt cọc,4315.4496
-GD-2026-0319,2026-07-01 10:45,Tháng 7,Sun Premier Hạ Long,Condotel,Long An,Sàn nội bộ (F1),Vũ Đình Hùng,73,50.8,3708.3999999999996,0.01,Đã ký HĐMB,3671.316
-GD-2026-0320,2026-07-01 15:45,Tháng 7,Golden Land Long An,Đất nền,Bình Dương,Đại lý F2,Đặng Trung Kiên,198.8,37.9,7534.52,0.07,Đã ký HĐMB,7007.1036
-GD-2026-0321,2026-07-01 18:00,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,Long An,Khách giới thiệu,Lê Minh Châu,93.9,64.6,6065.94,0.03,Đã ký HĐMB,5883.961799999999
-GD-2026-0322,2026-07-01 19:00,Tháng 7,Sun Premier Hạ Long,Condotel,Bình Dương,Đại lý F2,Bùi Hải Nam,63.4,66.6,4222.44,0.03,Huỷ cọc,0
-GD-2026-0323,2026-07-02 09:00,Tháng 7,Bien Hoa New City,Đất nền,Bình Dương,Sàn nội bộ (F1),Lê Minh Châu,196.4,41.2,8091.680000000001,0.02,Đã ký HĐMB,7929.846400000001
-GD-2026-0324,2026-07-02 11:30,Tháng 7,The Sunrise Riverside,Căn hộ chung cư,Bình Dương,Online / Digital,Lê Minh Châu,80,76.4,6112,0.05,Đã ký HĐMB,5806.4
-GD-2026-0325,2026-07-02 12:30,Tháng 7,Eco Green Sài Gòn,Căn hộ chung cư,TP. Hồ Chí Minh,Đại lý F2,Bùi Hải Nam,70.7,59.1,4178.37,0.05,Đã ký HĐMB,3969.4514999999997
-GD-2026-0326,2026-07-02 18:45,Tháng 7,Ocean Vista Đà Nẵng,Condotel,Đồng Nai,Online / Digital,Trần Thị Bích,67.5,69.7,4704.75,0.03,Đã ký HĐMB,4563.6075
-GD-2026-0327,2026-07-02 19:30,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,TP. Hồ Chí Minh,Khách giới thiệu,Nguyễn Văn An,69,60.1,4146.900000000001,0,Đã đặt cọc,4146.900000000001
-GD-2026-0328,2026-07-03 08:15,Tháng 7,Eco Green Sài Gòn,Căn hộ chung cư,Long An,Đại lý F2,Phạm Quốc Dũng,81.3,51.5,4186.95,0.05,Đã đặt cọc,3977.6024999999995
-GD-2026-0329,2026-07-03 10:45,Tháng 7,Swan Bay Villas,Biệt thự,Bình Dương,Khách giới thiệu,Ngô Phương Oanh,284.5,126.1,35875.45,0,Đã ký HĐMB,35875.45
-GD-2026-0330,2026-07-03 14:00,Tháng 7,KDC Tân Phú Trung,Đất nền,Long An,Đại lý F2,Hoàng Thị Giang,133.6,45.3,6052.079999999999,0.07,Đã ký HĐMB,5628.434399999998
-GD-2026-0331,2026-07-03 16:00,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,Bình Dương,Sàn nội bộ (F1),Vũ Đình Hùng,85.1,70.6,6008.0599999999995,0.03,Đã đặt cọc,5827.8182
-GD-2026-0332,2026-07-03 17:30,Tháng 7,Lavela Garden,Nhà phố / Liền kề,Đồng Nai,Sàn nội bộ (F1),Trần Thị Bích,147.4,103.7,15285.380000000001,0.01,Đã ký HĐMB,15132.5262
-GD-2026-0333,2026-07-03 17:45,Tháng 7,Eco Green Sài Gòn,Căn hộ chung cư,Long An,Sàn nội bộ (F1),Bùi Hải Nam,63.8,59.3,3783.3399999999997,0.08,Đã đặt cọc,3480.6728
-GD-2026-0334,2026-07-03 19:45,Tháng 7,Golden Land Long An,Đất nền,TP. Hồ Chí Minh,Đại lý F2,Nguyễn Văn An,188.7,38.4,7246.079999999999,0.02,Đã ký HĐMB,7101.158399999999
-GD-2026-0335,2026-07-05 10:00,Tháng 7,Masteri Central,Căn hộ chung cư,Hà Nội,Sàn nội bộ (F1),Đặng Trung Kiên,88.2,72.8,6420.96,0.05,Đã ký HĐMB,6099.911999999999
-GD-2026-0336,2026-07-05 11:15,Tháng 7,Golden Land Long An,Đất nền,Đà Nẵng,Khách giới thiệu,Lê Minh Châu,198.9,47.7,9487.53,0.07,Đã ký HĐMB,8823.4029
-GD-2026-0337,2026-07-05 12:45,Tháng 7,Golden Land Long An,Đất nền,TP. Hồ Chí Minh,Sàn nội bộ (F1),Đặng Trung Kiên,108.7,30.4,3304.48,0.01,Đã ký HĐMB,3271.4352
-GD-2026-0338,2026-07-05 13:15,Tháng 7,Sun Grand Boulevard,Shophouse,Đồng Nai,Sàn nội bộ (F1),Đặng Trung Kiên,160.9,134.9,21705.410000000003,0.03,Đã đặt cọc,21054.247700000004
-GD-2026-0339,2026-07-06 11:00,Tháng 7,Sun Grand Boulevard,Shophouse,Hà Nội,Đại lý F2,Phạm Quốc Dũng,117.4,159.5,18725.3,0.05,Huỷ cọc,0
-GD-2026-0340,2026-07-06 11:45,Tháng 7,KDC Tân Phú Trung,Đất nền,TP. Hồ Chí Minh,Sàn nội bộ (F1),Vũ Đình Hùng,93.9,52,4882.8,0,Đã ký HĐMB,4882.8
-GD-2026-0341,2026-07-07 09:15,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,TP. Hồ Chí Minh,Sàn nội bộ (F1),Nguyễn Văn An,76.8,63.5,4876.8,0.01,Đã đặt cọc,4828.032
-GD-2026-0342,2026-07-07 10:45,Tháng 7,Ocean Vista Đà Nẵng,Condotel,Hà Nội,Đại lý F2,Lê Minh Châu,54.9,52.5,2882.25,0.07,Đã ký HĐMB,2680.4925
-GD-2026-0343,2026-07-08 13:00,Tháng 7,KDC Tân Phú Trung,Đất nền,Long An,Khách giới thiệu,Nguyễn Văn An,199.1,40.8,8123.279999999999,0.05,Huỷ cọc,0
-GD-2026-0344,2026-07-08 13:30,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,Đà Nẵng,Đại lý F2,Bùi Hải Nam,94.2,67.4,6349.080000000001,0.07,Đã ký HĐMB,5904.6444
-GD-2026-0345,2026-07-09 14:45,Tháng 7,Masteri Central,Căn hộ chung cư,Long An,Sự kiện mở bán,Vũ Đình Hùng,57.3,45.9,2630.0699999999997,0.05,Đã đặt cọc,2498.5664999999995
-GD-2026-0346,2026-07-09 18:15,Tháng 7,Bien Hoa New City,Đất nền,TP. Hồ Chí Minh,Đại lý F2,Nguyễn Văn An,146.5,45.1,6607.150000000001,0.08,Đã đặt cọc,6078.578
-GD-2026-0347,2026-07-10 08:00,Tháng 7,Ecopark Grand,Biệt thự,TP. Hồ Chí Minh,Đại lý F2,Vũ Đình Hùng,281,135.3,38019.3,0.07,Đã ký HĐMB,35357.949
-GD-2026-0348,2026-07-10 08:00,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,Bình Dương,Sàn nội bộ (F1),Hoàng Thị Giang,66.3,42.3,2804.49,0,Đã ký HĐMB,2804.49
-GD-2026-0349,2026-07-10 18:30,Tháng 7,The Sunrise Riverside,Căn hộ chung cư,TP. Hồ Chí Minh,Sàn nội bộ (F1),Đỗ Thanh Lam,56.2,43.5,2444.7000000000003,0,Đã đặt cọc,2444.7000000000003
-GD-2026-0350,2026-07-11 11:15,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,Hà Nội,Sàn nội bộ (F1),Nguyễn Văn An,91,61.7,5614.7,0.01,Huỷ cọc,0
-GD-2026-0351,2026-07-11 18:45,Tháng 7,Sun Premier Hạ Long,Condotel,Hà Nội,Online / Digital,Lê Minh Châu,65.5,73.2,4794.6,0,Đã ký HĐMB,4794.6
-GD-2026-0352,2026-07-12 09:30,Tháng 7,Sun Grand Boulevard,Shophouse,Đà Nẵng,Sàn nội bộ (F1),Hoàng Thị Giang,127.6,175.9,22444.84,0.05,Huỷ cọc,0
-GD-2026-0353,2026-07-12 09:30,Tháng 7,Masteri Central,Căn hộ chung cư,Long An,Sàn nội bộ (F1),Đặng Trung Kiên,62.8,53.5,3359.7999999999997,0.07,Đã đặt cọc,3124.6139999999996
-GD-2026-0354,2026-07-12 11:00,Tháng 7,Ecopark Grand,Biệt thự,TP. Hồ Chí Minh,Online / Digital,Phạm Quốc Dũng,382.7,179.3,68618.11,0.01,Đã ký HĐMB,67931.9289
-GD-2026-0355,2026-07-12 17:30,Tháng 7,Vạn Phúc City,Nhà phố / Liền kề,Đồng Nai,Sàn nội bộ (F1),Vũ Đình Hùng,88.3,88.6,7823.379999999999,0.01,Đã ký HĐMB,7745.146199999999
-GD-2026-0356,2026-07-12 17:45,Tháng 7,Eco Green Sài Gòn,Căn hộ chung cư,TP. Hồ Chí Minh,Đại lý F2,Hoàng Thị Giang,75.6,55.8,4218.48,0.01,Đã ký HĐMB,4176.2952
-GD-2026-0357,2026-07-12 18:30,Tháng 7,Masteri Central,Căn hộ chung cư,Hà Nội,Đại lý F2,Đặng Trung Kiên,81.6,67,5467.2,0,Đã đặt cọc,5467.2
-GD-2026-0358,2026-07-13 10:45,Tháng 7,Eco Green Sài Gòn,Căn hộ chung cư,Đà Nẵng,Online / Digital,Trần Thị Bích,76.5,72.6,5553.9,0.03,Đã ký HĐMB,5387.282999999999
-GD-2026-0359,2026-07-13 14:15,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,Bình Dương,Sàn nội bộ (F1),Hoàng Thị Giang,75.3,66.1,4977.329999999999,0.03,Đã ký HĐMB,4828.010099999999
-GD-2026-0360,2026-07-14 08:45,Tháng 7,Eco Green Sài Gòn,Căn hộ chung cư,Đồng Nai,Online / Digital,Vũ Đình Hùng,63.4,45.3,2872.02,0.07,Đã đặt cọc,2670.9786
-GD-2026-0361,2026-07-14 15:15,Tháng 7,Eco Green Sài Gòn,Căn hộ chung cư,Đà Nẵng,Online / Digital,Lê Minh Châu,69.3,49.6,3437.2799999999997,0,Đã ký HĐMB,3437.2799999999997
-GD-2026-0362,2026-07-15 12:15,Tháng 7,Masteri Central,Căn hộ chung cư,Hà Nội,Đại lý F2,Vũ Đình Hùng,73.3,61.7,4522.61,0,Đã đặt cọc,4522.61
-GD-2026-0363,2026-07-16 09:30,Tháng 7,Golden Land Long An,Đất nền,TP. Hồ Chí Minh,Sàn nội bộ (F1),Trần Thị Bích,129.3,26.6,3439.3800000000006,0.07,Đã đặt cọc,3198.6234000000004
-GD-2026-0364,2026-07-16 11:30,Tháng 7,Lavela Garden,Nhà phố / Liền kề,Long An,Sự kiện mở bán,Đỗ Thanh Lam,141.3,108.6,15345.18,0.03,Đã đặt cọc,14884.8246
-GD-2026-0365,2026-07-16 13:00,Tháng 7,Sun Grand Boulevard,Shophouse,Bình Dương,Đại lý F2,Nguyễn Văn An,149.5,185.1,27672.45,0.02,Đã đặt cọc,27119.001
-GD-2026-0366,2026-07-16 15:45,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,Long An,Sàn nội bộ (F1),Bùi Hải Nam,57.3,62,3552.6,0.02,Đã ký HĐMB,3481.548
-GD-2026-0367,2026-07-17 11:45,Tháng 7,Masteri Central,Căn hộ chung cư,Đà Nẵng,Đại lý F2,Nguyễn Văn An,70.3,53.9,3789.1699999999996,0.01,Đã đặt cọc,3751.2782999999995
-GD-2026-0368,2026-07-17 12:00,Tháng 7,Golden Land Long An,Đất nền,Bình Dương,Đại lý F2,Trần Thị Bích,105.9,29.9,3166.41,0.08,Đã ký HĐMB,2913.0972
-GD-2026-0369,2026-07-17 19:15,Tháng 7,The Sunrise Riverside,Căn hộ chung cư,Long An,Online / Digital,Nguyễn Văn An,65.1,62.8,4088.2799999999993,0,Đã đặt cọc,4088.2799999999993
-GD-2026-0370,2026-07-18 13:15,Tháng 7,Bien Hoa New City,Đất nền,Đà Nẵng,Đại lý F2,Bùi Hải Nam,187.2,54.4,10183.679999999998,0.01,Đã ký HĐMB,10081.843199999998
-GD-2026-0371,2026-07-18 14:30,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,Hà Nội,Khách giới thiệu,Đặng Trung Kiên,68.2,71.5,4876.3,0.03,Đã đặt cọc,4730.011
-GD-2026-0372,2026-07-18 14:30,Tháng 7,Bien Hoa New City,Đất nền,Hà Nội,Đại lý F2,Lê Minh Châu,211.9,25.3,5361.070000000001,0.02,Đã ký HĐMB,5253.8486
-GD-2026-0373,2026-07-18 15:30,Tháng 7,Bien Hoa New City,Đất nền,TP. Hồ Chí Minh,Online / Digital,Ngô Phương Oanh,80.5,49.4,3976.7,0.02,Đã ký HĐMB,3897.1659999999997
-GD-2026-0374,2026-07-18 17:45,Tháng 7,The Sunrise Riverside,Căn hộ chung cư,Bình Dương,Sàn nội bộ (F1),Ngô Phương Oanh,89.9,65.3,5870.47,0.01,Đã đặt cọc,5811.7653
-GD-2026-0375,2026-07-19 11:30,Tháng 7,The Manor Central,Nhà phố / Liền kề,Đà Nẵng,Sàn nội bộ (F1),Trần Thị Bích,99.1,104.3,10336.13,0.01,Đã đặt cọc,10232.768699999999
-GD-2026-0376,2026-07-19 14:00,Tháng 7,Sunshine Diamond Plaza,Shophouse,TP. Hồ Chí Minh,Khách giới thiệu,Trần Thị Bích,161.6,142.1,22963.359999999997,0.03,Đã ký HĐMB,22274.459199999998
-GD-2026-0377,2026-07-19 14:45,Tháng 7,Sun Premier Hạ Long,Condotel,Hà Nội,Sàn nội bộ (F1),Lê Minh Châu,44.8,57.3,2567.0399999999995,0.03,Đã ký HĐMB,2490.0287999999996
-GD-2026-0378,2026-07-19 16:45,Tháng 7,Swan Bay Villas,Biệt thự,Long An,Online / Digital,Đỗ Thanh Lam,375.5,156,58578,0.05,Huỷ cọc,0
-GD-2026-0379,2026-07-19 19:30,Tháng 7,Swan Bay Villas,Biệt thự,Bình Dương,Sự kiện mở bán,Nguyễn Văn An,270.1,118.2,31925.820000000003,0.01,Đã đặt cọc,31606.561800000003
-GD-2026-0380,2026-07-20 08:15,Tháng 7,Vạn Phúc City,Nhà phố / Liền kề,Bình Dương,Đại lý F2,Đặng Trung Kiên,121.5,125.8,15284.699999999999,0.02,Đã ký HĐMB,14979.006
-GD-2026-0381,2026-07-20 12:15,Tháng 7,Golden Land Long An,Đất nền,TP. Hồ Chí Minh,Đại lý F2,Bùi Hải Nam,160,57.1,9136,0.03,Đã đặt cọc,8861.92
-GD-2026-0382,2026-07-20 15:00,Tháng 7,Sun Grand Boulevard,Shophouse,Đồng Nai,Online / Digital,Trần Thị Bích,150.5,176.7,26593.35,0.07,Đã đặt cọc,24731.815499999997
-GD-2026-0383,2026-07-21 16:30,Tháng 7,Masteri Central,Căn hộ chung cư,Đà Nẵng,Khách giới thiệu,Bùi Hải Nam,58.2,51.6,3003.1200000000003,0.05,Huỷ cọc,0
-GD-2026-0384,2026-07-21 18:15,Tháng 7,Eco Green Sài Gòn,Căn hộ chung cư,Đồng Nai,Đại lý F2,Lê Minh Châu,77.9,57.2,4455.88,0.03,Đã ký HĐMB,4322.2036
-GD-2026-0385,2026-07-21 19:15,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,Long An,Sàn nội bộ (F1),Trần Thị Bích,84,73.8,6199.2,0.05,Đã ký HĐMB,5889.24
-GD-2026-0386,2026-07-22 12:30,Tháng 7,Sunshine Diamond Plaza,Shophouse,Long An,Sàn nội bộ (F1),Phạm Quốc Dũng,111.5,162.7,18141.05,0.03,Đã ký HĐMB,17596.818499999998
-GD-2026-0387,2026-07-24 13:45,Tháng 7,Bien Hoa New City,Đất nền,TP. Hồ Chí Minh,Online / Digital,Trần Thị Bích,216.3,35.1,7592.130000000001,0.03,Đã ký HĐMB,7364.366100000001
-GD-2026-0388,2026-07-24 17:45,Tháng 7,Masteri Central,Căn hộ chung cư,Long An,Khách giới thiệu,Nguyễn Văn An,60.8,66.5,4043.2,0.03,Đã ký HĐMB,3921.9039999999995
-GD-2026-0389,2026-07-25 17:00,Tháng 7,Ocean Vista Đà Nẵng,Condotel,TP. Hồ Chí Minh,Online / Digital,Hoàng Thị Giang,70.1,65.9,4619.59,0,Đã ký HĐMB,4619.59
-GD-2026-0390,2026-07-25 18:45,Tháng 7,Ocean Vista Đà Nẵng,Condotel,Hà Nội,Sàn nội bộ (F1),Trần Thị Bích,74,74,5476,0.08,Đã ký HĐMB,5037.92
-GD-2026-0391,2026-07-25 19:15,Tháng 7,Sun Grand Boulevard,Shophouse,TP. Hồ Chí Minh,Online / Digital,Đỗ Thanh Lam,110.5,160.7,17757.35,0.07,Huỷ cọc,0
-GD-2026-0392,2026-07-25 19:45,Tháng 7,Masteri Central,Căn hộ chung cư,Long An,Sự kiện mở bán,Phạm Quốc Dũng,64.8,73,4730.4,0,Đã ký HĐMB,4730.4
-GD-2026-0393,2026-07-26 09:45,Tháng 7,Sun Grand Boulevard,Shophouse,Hà Nội,Đại lý F2,Nguyễn Văn An,176.5,141.5,24974.75,0.02,Đã ký HĐMB,24475.255
-GD-2026-0394,2026-07-26 13:45,Tháng 7,Eco Green Sài Gòn,Căn hộ chung cư,Đà Nẵng,Khách giới thiệu,Phạm Quốc Dũng,85.1,73.6,6263.359999999999,0.03,Đã đặt cọc,6075.459199999998
-GD-2026-0395,2026-07-26 15:30,Tháng 7,Bien Hoa New City,Đất nền,Bình Dương,Sàn nội bộ (F1),Phạm Quốc Dũng,213.7,30.5,6517.849999999999,0.03,Đã ký HĐMB,6322.3144999999995
-GD-2026-0396,2026-07-26 19:00,Tháng 7,Sun Premier Hạ Long,Condotel,Đồng Nai,Sàn nội bộ (F1),Lê Minh Châu,47.9,60.5,2897.95,0,Đã ký HĐMB,2897.95
-GD-2026-0397,2026-07-26 19:30,Tháng 7,Eco Green Sài Gòn,Căn hộ chung cư,Long An,Đại lý F2,Đặng Trung Kiên,64,54.2,3468.8,0.05,Đã ký HĐMB,3295.36
-GD-2026-0398,2026-07-27 14:45,Tháng 7,Masteri Central,Căn hộ chung cư,Long An,Sàn nội bộ (F1),Lê Minh Châu,58.4,71.3,4163.92,0.05,Đã ký HĐMB,3955.7239999999997
-GD-2026-0399,2026-07-27 19:45,Tháng 7,The Sunrise Riverside,Căn hộ chung cư,TP. Hồ Chí Minh,Đại lý F2,Vũ Đình Hùng,61.3,56.4,3457.3199999999997,0.07,Đã ký HĐMB,3215.3075999999996
-GD-2026-0400,2026-07-28 08:15,Tháng 7,Sunshine Diamond Plaza,Shophouse,Đà Nẵng,Đại lý F2,Trần Thị Bích,155.5,150.1,23340.55,0.05,Đã ký HĐMB,22173.5225
-GD-2026-0401,2026-07-28 08:30,Tháng 7,Masteri Central,Căn hộ chung cư,Long An,Sàn nội bộ (F1),Ngô Phương Oanh,66.1,50.6,3344.66,0.03,Đã đặt cọc,3244.3201999999997
-GD-2026-0402,2026-07-28 12:00,Tháng 7,Golden Land Long An,Đất nền,Long An,Online / Digital,Phạm Quốc Dũng,101.9,23.2,2364.08,0.03,Đã đặt cọc,2293.1576
-GD-2026-0403,2026-07-28 14:15,Tháng 7,Sun Grand Boulevard,Shophouse,Đồng Nai,Sàn nội bộ (F1),Lê Minh Châu,114.1,161.6,18438.559999999998,0,Đã ký HĐMB,18438.559999999998
-GD-2026-0404,2026-07-28 14:45,Tháng 7,Masteri Central,Căn hộ chung cư,Đà Nẵng,Đại lý F2,Nguyễn Văn An,73,75.8,5533.4,0.05,Đã đặt cọc,5256.73
-GD-2026-0405,2026-07-28 15:00,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,Bình Dương,Khách giới thiệu,Nguyễn Văn An,81.3,55.1,4479.63,0.07,Đã ký HĐMB,4166.055899999999
-GD-2026-0406,2026-07-28 15:30,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,Hà Nội,Khách giới thiệu,Lê Minh Châu,69.2,75.4,5217.68,0.01,Đã ký HĐMB,5165.5032
-GD-2026-0407,2026-07-29 08:00,Tháng 7,Bien Hoa New City,Đất nền,Long An,Đại lý F2,Vũ Đình Hùng,219.3,48.7,10679.910000000002,0.05,Đã đặt cọc,10145.9145
-GD-2026-0408,2026-07-29 08:15,Tháng 7,Sun Premier Hạ Long,Condotel,Đồng Nai,Đại lý F2,Nguyễn Văn An,54.5,57,3106.5,0.05,Đã ký HĐMB,2951.1749999999997
-GD-2026-0409,2026-07-29 09:00,Tháng 7,Golden Land Long An,Đất nền,Hà Nội,Sự kiện mở bán,Vũ Đình Hùng,93.5,46.6,4357.1,0.05,Đã ký HĐMB,4139.245
-GD-2026-0410,2026-07-29 09:15,Tháng 7,Bien Hoa New City,Đất nền,Bình Dương,Khách giới thiệu,Đặng Trung Kiên,131.8,35.1,4626.18,0.03,Đã ký HĐMB,4487.3946000000005
-GD-2026-0411,2026-07-29 13:00,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,TP. Hồ Chí Minh,Sàn nội bộ (F1),Trần Thị Bích,75.9,62.8,4766.52,0.03,Đã đặt cọc,4623.5244
-GD-2026-0412,2026-07-29 13:45,Tháng 7,Lavela Garden,Nhà phố / Liền kề,Hà Nội,Khách giới thiệu,Phạm Quốc Dũng,106.3,76.2,8100.06,0.02,Đã đặt cọc,7938.058800000001
-GD-2026-0413,2026-07-29 17:30,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,TP. Hồ Chí Minh,Khách giới thiệu,Ngô Phương Oanh,71,53,3763,0,Đã ký HĐMB,3763
-GD-2026-0414,2026-07-29 17:30,Tháng 7,KDC Tân Phú Trung,Đất nền,Hà Nội,Sàn nội bộ (F1),Bùi Hải Nam,196.7,34.1,6707.47,0.05,Đã ký HĐMB,6372.0965
-GD-2026-0415,2026-07-29 19:00,Tháng 7,Vạn Phúc City,Nhà phố / Liền kề,Long An,Đại lý F2,Trần Thị Bích,94.1,131.4,12364.74,0,Đã ký HĐMB,12364.74
-GD-2026-0416,2026-07-30 09:45,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,TP. Hồ Chí Minh,Khách giới thiệu,Trần Thị Bích,72.8,73.8,5372.639999999999,0,Đã ký HĐMB,5372.639999999999
-GD-2026-0417,2026-07-30 11:15,Tháng 7,Bien Hoa New City,Đất nền,Đà Nẵng,Sàn nội bộ (F1),Nguyễn Văn An,209.9,22.6,4743.740000000001,0.05,Đã ký HĐMB,4506.553000000001
-GD-2026-0418,2026-07-30 19:15,Tháng 7,The Sunrise Riverside,Căn hộ chung cư,Hà Nội,Sàn nội bộ (F1),Bùi Hải Nam,56.4,49.5,2791.7999999999997,0,Đã đặt cọc,2791.7999999999997
-GD-2026-0419,2026-07-31 10:30,Tháng 7,Eco Green Sài Gòn,Căn hộ chung cư,Bình Dương,Đại lý F2,Trần Thị Bích,62.7,67.3,4219.71,0.08,Đã đặt cọc,3882.1332
-GD-2026-0420,2026-07-31 11:15,Tháng 7,Sunshine Diamond Plaza,Shophouse,Long An,Online / Digital,Bùi Hải Nam,131.9,193.8,25562.22,0.08,Đã đặt cọc,23517.242400000003
+GD-2026-0001,1/2/2026 8:30,Tháng 1,Eco Green Sài Gòn,Căn hộ chung cư,Long An,Sàn nội bộ (F1),Nguyễn Văn An,68.6,57.2,3923.92,0,Đã đặt cọc,3923.92
+GD-2026-0002,1/2/2026 10:00,Tháng 1,Bien Hoa New City,Đất nền,Hà Nội,Sàn nội bộ (F1),Đặng Trung Kiên,89.5,59.3,5307.349999999999,0.01,Đã đặt cọc,5254.276499999999
+GD-2026-0003,1/3/2026 16:15,Tháng 1,KDC Tân Phú Trung,Đất nền,Đà Nẵng,Sàn nội bộ (F1),Ngô Phương Oanh,167.5,57.4,9614.5,0.08,Đã đặt cọc,8845.34
+GD-2026-0004,1/6/2026 17:30,Tháng 1,Bien Hoa New City,Đất nền,Long An,Khách giới thiệu,Đặng Trung Kiên,167.9,45.8,7689.82,0.01,Huỷ cọc,0
+GD-2026-0005,1/7/2026 15:45,Tháng 1,Bien Hoa New City,Đất nền,Long An,Sàn nội bộ (F1),Ngô Phương Oanh,162.9,45.9,7477.11,0.02,Đã ký HĐMB,7327.5678
+GD-2026-0006,1/7/2026 19:00,Tháng 1,Ecopark Grand,Biệt thự,Hà Nội,Khách giới thiệu,Hoàng Thị Giang,231.6,144.6,33489.36,0.08,Đã ký HĐMB,30810.2112
+GD-2026-0007,1/8/2026 11:00,Tháng 1,Eco Green Sài Gòn,Căn hộ chung cư,Long An,Online / Digital,Hoàng Thị Giang,59.5,61.6,3665.2000000000003,0.07,Đã đặt cọc,3408.636
+GD-2026-0008,1/8/2026 11:15,Tháng 1,The Sunrise Riverside,Căn hộ chung cư,Bình Dương,Đại lý F2,Lê Minh Châu,66.8,77,5143.599999999999,0.03,Đã ký HĐMB,4989.2919999999995
+GD-2026-0009,1/8/2026 15:30,Tháng 1,The Sunrise Riverside,Căn hộ chung cư,Long An,Đại lý F2,Trần Thị Bích,86.2,76.8,6620.16,0.03,Đã đặt cọc,6421.5552
+GD-2026-0010,1/9/2026 10:00,Tháng 1,KDC Tân Phú Trung,Đất nền,Đồng Nai,Đại lý F2,Nguyễn Văn An,104.1,28.4,2956.4399999999996,0,Đã đặt cọc,2956.4399999999996
+GD-2026-0011,1/9/2026 19:15,Tháng 1,KDC Tân Phú Trung,Đất nền,Hà Nội,Đại lý F2,Trần Thị Bích,193.6,33.2,6427.52,0.07,Đã đặt cọc,5977.5936
+GD-2026-0012,1/11/2026 9:30,Tháng 1,Sun Grand Boulevard,Shophouse,Đà Nẵng,Khách giới thiệu,Bùi Hải Nam,148.3,174.7,25908.010000000002,0.05,Đã ký HĐMB,24612.609500000002
+GD-2026-0013,1/11/2026 12:15,Tháng 1,Sun Grand Boulevard,Shophouse,Đồng Nai,Online / Digital,Nguyễn Văn An,142.2,112.4,15983.279999999999,0.03,Đã ký HĐMB,15503.781599999998
+GD-2026-0014,1/12/2026 9:30,Tháng 1,Ecopark Grand,Biệt thự,Bình Dương,Sàn nội bộ (F1),Lê Minh Châu,368.9,160.2,59097.77999999999,0.01,Đã ký HĐMB,58506.80219999999
+GD-2026-0015,1/12/2026 12:30,Tháng 1,KDC Tân Phú Trung,Đất nền,TP. Hồ Chí Minh,Sự kiện mở bán,Lê Minh Châu,205.1,42.8,8778.279999999999,0.05,Đã ký HĐMB,8339.365999999998
+GD-2026-0016,1/13/2026 10:30,Tháng 1,Swan Bay Villas,Biệt thự,Long An,Online / Digital,Trần Thị Bích,368.6,143.2,52783.52,0.08,Đã ký HĐMB,48560.8384
+GD-2026-0017,1/13/2026 13:45,Tháng 1,Ocean Vista Đà Nẵng,Condotel,Bình Dương,Đại lý F2,Vũ Đình Hùng,70.6,67.4,4758.44,0,Đã ký HĐMB,4758.44
+GD-2026-0018,1/13/2026 18:30,Tháng 1,KDC Tân Phú Trung,Đất nền,TP. Hồ Chí Minh,Sự kiện mở bán,Trần Thị Bích,203.3,41.1,8355.630000000001,0,Đã ký HĐMB,8355.630000000001
+GD-2026-0019,1/14/2026 8:00,Tháng 1,Sunshine Diamond Plaza,Shophouse,Đồng Nai,Sàn nội bộ (F1),Trần Thị Bích,130.9,148.1,19386.29,0,Đã đặt cọc,19386.29
+GD-2026-0020,1/15/2026 15:15,Tháng 1,The Sunrise Riverside,Căn hộ chung cư,Long An,Sàn nội bộ (F1),Vũ Đình Hùng,80.3,70.5,5661.15,0,Huỷ cọc,0
+GD-2026-0021,1/16/2026 17:00,Tháng 1,Masteri Central,Căn hộ chung cư,Hà Nội,Khách giới thiệu,Đỗ Thanh Lam,72.6,59.9,4348.74,0.03,Đã đặt cọc,4218.2778
+GD-2026-0022,1/18/2026 12:45,Tháng 1,Bien Hoa New City,Đất nền,Hà Nội,Sàn nội bộ (F1),Đặng Trung Kiên,215.1,58.5,12583.35,0.08,Đã ký HĐMB,11576.682
+GD-2026-0023,1/19/2026 14:00,Tháng 1,Ecopark Grand,Biệt thự,Đồng Nai,Sàn nội bộ (F1),Đỗ Thanh Lam,296.7,137,40647.9,0.03,Đã đặt cọc,39428.463
+GD-2026-0024,1/21/2026 18:00,Tháng 1,Ocean Vista Đà Nẵng,Condotel,Đồng Nai,Đại lý F2,Bùi Hải Nam,53.3,69.4,3699.02,0.05,Đã ký HĐMB,3514.069
+GD-2026-0025,1/22/2026 15:15,Tháng 1,KDC Tân Phú Trung,Đất nền,Đồng Nai,Đại lý F2,Vũ Đình Hùng,154.8,24.4,3777.12,0.08,Đã đặt cọc,3474.9504
+GD-2026-0026,1/22/2026 16:30,Tháng 1,Sun Premier Hạ Long,Condotel,Đồng Nai,Sàn nội bộ (F1),Ngô Phương Oanh,57.9,71.3,4128.2699999999995,0.05,Đã ký HĐMB,3921.8564999999994
+GD-2026-0027,1/23/2026 10:00,Tháng 1,Swan Bay Villas,Biệt thự,Đà Nẵng,Đại lý F2,Ngô Phương Oanh,380.6,114.6,43616.76,0.01,Đã ký HĐMB,43180.5924
+GD-2026-0028,1/23/2026 12:45,Tháng 1,Vinhome Grand Park,Căn hộ chung cư,Bình Dương,Sàn nội bộ (F1),Bùi Hải Nam,91.1,75.4,6868.9400000000005,0,Đã đặt cọc,6868.9400000000005
+GD-2026-0029,1/23/2026 15:15,Tháng 1,The Manor Central,Nhà phố / Liền kề,Đà Nẵng,Sàn nội bộ (F1),Bùi Hải Nam,120.5,138.4,16677.2,0.08,Đã ký HĐMB,15343.024000000001
+GD-2026-0030,1/24/2026 14:15,Tháng 1,Eco Green Sài Gòn,Căn hộ chung cư,Đồng Nai,Online / Digital,Lê Minh Châu,91.9,42.8,3933.32,0.07,Đã ký HĐMB,3657.9876
+GD-2026-0031,1/24/2026 17:00,Tháng 1,Golden Land Long An,Đất nền,Đà Nẵng,Sàn nội bộ (F1),Nguyễn Văn An,160.9,31.6,5084.4400000000005,0,Đã đặt cọc,5084.4400000000005
+GD-2026-0032,1/25/2026 12:45,Tháng 1,Masteri Central,Căn hộ chung cư,Đồng Nai,Online / Digital,Hoàng Thị Giang,88.3,67.5,5960.25,0.05,Đã ký HĐMB,5662.2375
+GD-2026-0033,1/25/2026 18:15,Tháng 1,Sun Grand Boulevard,Shophouse,Đà Nẵng,Sàn nội bộ (F1),Hoàng Thị Giang,178.7,156.6,27984.42,0.03,Đã ký HĐMB,27144.887399999996
+GD-2026-0034,1/26/2026 12:30,Tháng 1,Masteri Central,Căn hộ chung cư,Đồng Nai,Sàn nội bộ (F1),Vũ Đình Hùng,75.2,58.2,4376.64,0,Đã ký HĐMB,4376.64
+GD-2026-0035,1/29/2026 16:45,Tháng 1,The Sunrise Riverside,Căn hộ chung cư,Hà Nội,Đại lý F2,Đặng Trung Kiên,66.3,65.4,4336.02,0.05,Huỷ cọc,0
+GD-2026-0036,1/30/2026 16:00,Tháng 1,Vinhome Grand Park,Căn hộ chung cư,Hà Nội,Khách giới thiệu,Lê Minh Châu,92.9,71,6595.900000000001,0.05,Đã ký HĐMB,6266.1050000000005
+GD-2026-0037,1/30/2026 19:15,Tháng 1,The Sunrise Riverside,Căn hộ chung cư,Long An,Đại lý F2,Nguyễn Văn An,67.6,69.5,4698.2,0.03,Đã ký HĐMB,4557.254
+GD-2026-0038,1/31/2026 19:45,Tháng 1,Bien Hoa New City,Đất nền,Hà Nội,Đại lý F2,Đỗ Thanh Lam,154.5,23.1,3568.9500000000003,0.03,Đã ký HĐMB,3461.8815
+GD-2026-0039,2/1/2026 8:30,Tháng 2,Lavela Garden,Nhà phố / Liền kề,Bình Dương,Đại lý F2,Ngô Phương Oanh,145.1,89.9,13044.49,0.03,Đã ký HĐMB,12653.155299999999
+GD-2026-0040,2/2/2026 18:15,Tháng 2,Eco Green Sài Gòn,Căn hộ chung cư,Long An,Online / Digital,Đặng Trung Kiên,82.4,60.5,4985.200000000001,0,Đã đặt cọc,4985.200000000001
+GD-2026-0041,2/5/2026 9:45,Tháng 2,Sun Premier Hạ Long,Condotel,Bình Dương,Online / Digital,Lê Minh Châu,52.7,63.9,3367.53,0,Đã ký HĐMB,3367.53
+GD-2026-0042,2/5/2026 12:00,Tháng 2,Lavela Garden,Nhà phố / Liền kề,Đồng Nai,Sàn nội bộ (F1),Đặng Trung Kiên,116.2,111.8,12991.16,0.03,Đã đặt cọc,12601.4252
+GD-2026-0043,2/5/2026 15:15,Tháng 2,KDC Tân Phú Trung,Đất nền,TP. Hồ Chí Minh,Online / Digital,Ngô Phương Oanh,137.7,39.6,5452.92,0.05,Đã đặt cọc,5180.273999999999
+GD-2026-0044,2/5/2026 19:45,Tháng 2,Bien Hoa New City,Đất nền,Đồng Nai,Sàn nội bộ (F1),Nguyễn Văn An,176.9,43.6,7712.84,0.03,Đã đặt cọc,7481.4547999999995
+GD-2026-0045,2/6/2026 8:45,Tháng 2,Vinhome Grand Park,Căn hộ chung cư,Long An,Đại lý F2,Đặng Trung Kiên,80.7,76.8,6197.76,0,Đã ký HĐMB,6197.76
+GD-2026-0046,2/6/2026 13:15,Tháng 2,Sunshine Diamond Plaza,Shophouse,Đồng Nai,Sàn nội bộ (F1),Lê Minh Châu,152.9,198,30274.2,0.02,Đã ký HĐMB,29668.716
+GD-2026-0047,2/8/2026 8:45,Tháng 2,Swan Bay Villas,Biệt thự,Long An,Đại lý F2,Vũ Đình Hùng,255.1,120.7,30790.57,0.03,Đã đặt cọc,29866.852899999998
+GD-2026-0048,2/8/2026 15:00,Tháng 2,The Manor Central,Nhà phố / Liền kề,Hà Nội,Khách giới thiệu,Đỗ Thanh Lam,122.6,109.5,13424.699999999999,0.07,Đã ký HĐMB,12484.970999999998
+GD-2026-0049,2/9/2026 11:15,Tháng 2,Masteri Central,Căn hộ chung cư,Bình Dương,Online / Digital,Phạm Quốc Dũng,59.3,46.7,2769.31,0.01,Đã đặt cọc,2741.6169
+GD-2026-0050,2/10/2026 15:30,Tháng 2,Masteri Central,Căn hộ chung cư,Bình Dương,Sàn nội bộ (F1),Lê Minh Châu,59.3,57.4,3403.8199999999997,0.05,Đã ký HĐMB,3233.6289999999995
+GD-2026-0051,2/12/2026 10:00,Tháng 2,Bien Hoa New City,Đất nền,TP. Hồ Chí Minh,Sàn nội bộ (F1),Nguyễn Văn An,189.9,45.6,8659.44,0,Đã ký HĐMB,8659.44
+GD-2026-0052,2/12/2026 15:15,Tháng 2,Vinhome Grand Park,Căn hộ chung cư,Đà Nẵng,Sàn nội bộ (F1),Đặng Trung Kiên,64.2,62.9,4038.1800000000003,0.03,Huỷ cọc,0
+GD-2026-0053,2/12/2026 17:15,Tháng 2,KDC Tân Phú Trung,Đất nền,TP. Hồ Chí Minh,Đại lý F2,Bùi Hải Nam,218.9,23.1,5056.59,0,Đã ký HĐMB,5056.59
+GD-2026-0054,2/13/2026 19:00,Tháng 2,Masteri Central,Căn hộ chung cư,TP. Hồ Chí Minh,Đại lý F2,Vũ Đình Hùng,88.8,53.4,4741.92,0,Đã ký HĐMB,4741.92
+GD-2026-0055,2/13/2026 19:30,Tháng 2,Eco Green Sài Gòn,Căn hộ chung cư,Bình Dương,Online / Digital,Ngô Phương Oanh,82.4,55.9,4606.16,0.02,Đã đặt cọc,4514.0368
+GD-2026-0056,2/13/2026 19:30,Tháng 2,Bien Hoa New City,Đất nền,Bình Dương,Sàn nội bộ (F1),Vũ Đình Hùng,206,55,11330,0.01,Đã đặt cọc,11216.7
+GD-2026-0057,2/14/2026 19:30,Tháng 2,Golden Land Long An,Đất nền,Đà Nẵng,Sàn nội bộ (F1),Hoàng Thị Giang,167.1,32,5347.2,0.03,Đã ký HĐMB,5186.784
+GD-2026-0058,2/15/2026 14:00,Tháng 2,Eco Green Sài Gòn,Căn hộ chung cư,Bình Dương,Sàn nội bộ (F1),Ngô Phương Oanh,90.9,57.4,5217.66,0.08,Đã ký HĐMB,4800.2472
+GD-2026-0059,2/16/2026 14:45,Tháng 2,Ecopark Grand,Biệt thự,TP. Hồ Chí Minh,Sàn nội bộ (F1),Lê Minh Châu,221.1,159.7,35309.67,0,Đã đặt cọc,35309.67
+GD-2026-0060,2/18/2026 11:00,Tháng 2,Eco Green Sài Gòn,Căn hộ chung cư,Bình Dương,Khách giới thiệu,Ngô Phương Oanh,61.7,52,3208.4,0.01,Đã ký HĐMB,3176.3160000000003
+GD-2026-0061,2/18/2026 15:15,Tháng 2,Lavela Garden,Nhà phố / Liền kề,Đà Nẵng,Sàn nội bộ (F1),Đặng Trung Kiên,135.5,120,16260,0.01,Đã đặt cọc,16097.4
+GD-2026-0062,2/19/2026 12:15,Tháng 2,Lavela Garden,Nhà phố / Liền kề,Đồng Nai,Khách giới thiệu,Trần Thị Bích,92,129.6,11923.199999999999,0.01,Đã ký HĐMB,11803.967999999999
+GD-2026-0063,2/20/2026 19:30,Tháng 2,Ecopark Grand,Biệt thự,Long An,Sàn nội bộ (F1),Vũ Đình Hùng,345.2,176.8,61031.36,0,Đã ký HĐMB,61031.36
+GD-2026-0064,2/21/2026 15:00,Tháng 2,KDC Tân Phú Trung,Đất nền,Đà Nẵng,Sàn nội bộ (F1),Trần Thị Bích,151.9,38.7,5878.530000000001,0.03,Đã đặt cọc,5702.1741
+GD-2026-0065,2/21/2026 17:30,Tháng 2,KDC Tân Phú Trung,Đất nền,Đà Nẵng,Sàn nội bộ (F1),Hoàng Thị Giang,156,28.5,4446,0.03,Đã ký HĐMB,4312.62
+GD-2026-0066,2/24/2026 10:15,Tháng 2,Masteri Central,Căn hộ chung cư,TP. Hồ Chí Minh,Sàn nội bộ (F1),Phạm Quốc Dũng,78.1,67.3,5256.129999999999,0,Đã ký HĐMB,5256.129999999999
+GD-2026-0067,2/24/2026 15:15,Tháng 2,Sun Grand Boulevard,Shophouse,Long An,Sàn nội bộ (F1),Phạm Quốc Dũng,109.2,139.4,15222.480000000001,0.03,Đã đặt cọc,14765.805600000002
+GD-2026-0068,2/24/2026 17:30,Tháng 2,Sunshine Diamond Plaza,Shophouse,Đồng Nai,Sàn nội bộ (F1),Phạm Quốc Dũng,124.6,156.6,19512.359999999997,0.03,Đã ký HĐMB,18926.989199999996
+GD-2026-0069,2/25/2026 12:15,Tháng 2,Bien Hoa New City,Đất nền,Bình Dương,Sàn nội bộ (F1),Hoàng Thị Giang,167.6,28.4,4759.839999999999,0,Đã đặt cọc,4759.839999999999
+GD-2026-0070,2/26/2026 14:30,Tháng 2,Lavela Garden,Nhà phố / Liền kề,Long An,Sự kiện mở bán,Hoàng Thị Giang,138,82.9,11440.2,0,Đã ký HĐMB,11440.2
+GD-2026-0071,2/27/2026 9:15,Tháng 2,Eco Green Sài Gòn,Căn hộ chung cư,TP. Hồ Chí Minh,Online / Digital,Vũ Đình Hùng,73.6,43.7,3216.32,0.05,Đã ký HĐMB,3055.504
+GD-2026-0072,2/28/2026 8:15,Tháng 2,Lavela Garden,Nhà phố / Liền kề,Đồng Nai,Đại lý F2,Nguyễn Văn An,156.6,101.9,15957.54,0.03,Đã ký HĐMB,15478.8138
+GD-2026-0073,3/1/2026 15:00,Tháng 3,Sun Grand Boulevard,Shophouse,Đồng Nai,Sàn nội bộ (F1),Lê Minh Châu,118.8,166.9,19827.72,0.03,Đã đặt cọc,19232.8884
+GD-2026-0074,3/1/2026 15:45,Tháng 3,Golden Land Long An,Đất nền,Đồng Nai,Đại lý F2,Hoàng Thị Giang,82.4,45.7,3765.6800000000003,0.07,Đã ký HĐMB,3502.0824000000002
+GD-2026-0075,3/1/2026 16:45,Tháng 3,Bien Hoa New City,Đất nền,Bình Dương,Đại lý F2,Đặng Trung Kiên,198.9,40,7956,0.08,Đã ký HĐMB,7319.52
+GD-2026-0076,3/2/2026 11:15,Tháng 3,Sun Grand Boulevard,Shophouse,Đà Nẵng,Sự kiện mở bán,Nguyễn Văn An,172,145.9,25094.8,0.02,Đã ký HĐMB,24592.904
+GD-2026-0077,3/2/2026 13:45,Tháng 3,Sunshine Diamond Plaza,Shophouse,Đồng Nai,Sàn nội bộ (F1),Trần Thị Bích,162.3,152,24669.600000000002,0.08,Đã ký HĐMB,22696.032000000003
+GD-2026-0078,3/2/2026 15:30,Tháng 3,Bien Hoa New City,Đất nền,Bình Dương,Online / Digital,Đặng Trung Kiên,140.5,43.4,6097.7,0.07,Đã ký HĐMB,5670.861
+GD-2026-0079,3/2/2026 18:30,Tháng 3,Bien Hoa New City,Đất nền,TP. Hồ Chí Minh,Khách giới thiệu,Đặng Trung Kiên,212.1,23.2,4920.719999999999,0.02,Đã ký HĐMB,4822.3056
+GD-2026-0080,3/3/2026 10:15,Tháng 3,Golden Land Long An,Đất nền,Long An,Sàn nội bộ (F1),Đặng Trung Kiên,205.4,22.4,4600.96,0.05,Đã đặt cọc,4370.912
+GD-2026-0081,3/3/2026 15:45,Tháng 3,Bien Hoa New City,Đất nền,Hà Nội,Online / Digital,Ngô Phương Oanh,157.6,54,8510.4,0.08,Đã đặt cọc,7829.568
+GD-2026-0082,3/5/2026 9:45,Tháng 3,The Manor Central,Nhà phố / Liền kề,Đồng Nai,Đại lý F2,Đỗ Thanh Lam,144.8,131,18968.800000000003,0.01,Đã ký HĐMB,18779.112
+GD-2026-0083,3/5/2026 14:00,Tháng 3,Eco Green Sài Gòn,Căn hộ chung cư,Hà Nội,Online / Digital,Lê Minh Châu,72.2,66.5,4801.3,0.08,Đã ký HĐMB,4417.196
+GD-2026-0084,3/5/2026 17:30,Tháng 3,Sun Grand Boulevard,Shophouse,Long An,Sàn nội bộ (F1),Hoàng Thị Giang,124.2,171.6,21312.72,0,Đã ký HĐMB,21312.72
+GD-2026-0085,3/5/2026 19:00,Tháng 3,The Sunrise Riverside,Căn hộ chung cư,Đồng Nai,Đại lý F2,Nguyễn Văn An,61.4,45,2763,0.01,Đã ký HĐMB,2735.37
+GD-2026-0086,3/6/2026 11:00,Tháng 3,The Sunrise Riverside,Căn hộ chung cư,Đà Nẵng,Đại lý F2,Vũ Đình Hùng,85.2,43.8,3731.7599999999998,0.01,Đã đặt cọc,3694.4424
+GD-2026-0087,3/6/2026 16:15,Tháng 3,Bien Hoa New City,Đất nền,TP. Hồ Chí Minh,Online / Digital,Lê Minh Châu,189.6,50.9,9650.64,0.01,Đã đặt cọc,9554.1336
+GD-2026-0088,3/6/2026 18:00,Tháng 3,Vinhome Grand Park,Căn hộ chung cư,Long An,Đại lý F2,Bùi Hải Nam,83.2,59.2,4925.4400000000005,0.03,Đã ký HĐMB,4777.6768
+GD-2026-0089,3/7/2026 19:30,Tháng 3,Vinhome Grand Park,Căn hộ chung cư,Đà Nẵng,Đại lý F2,Đỗ Thanh Lam,86,54.6,4695.6,0.01,Đã đặt cọc,4648.644
+GD-2026-0090,3/9/2026 17:30,Tháng 3,Ecopark Grand,Biệt thự,Đà Nẵng,Online / Digital,Nguyễn Văn An,255.4,170.7,43596.78,0,Đã đặt cọc,43596.78
+GD-2026-0091,3/10/2026 9:45,Tháng 3,Masteri Central,Căn hộ chung cư,Hà Nội,Online / Digital,Ngô Phương Oanh,64.1,55,3525.4999999999995,0,Đã ký HĐMB,3525.4999999999995
+GD-2026-0092,3/10/2026 14:00,Tháng 3,Ocean Vista Đà Nẵng,Condotel,TP. Hồ Chí Minh,Sàn nội bộ (F1),Bùi Hải Nam,44.9,57.7,2590.73,0.02,Đã đặt cọc,2538.9154
+GD-2026-0093,3/11/2026 12:00,Tháng 3,Vinhome Grand Park,Căn hộ chung cư,Bình Dương,Khách giới thiệu,Trần Thị Bích,91.9,71.9,6607.610000000001,0.03,Đã đặt cọc,6409.381700000001
+GD-2026-0094,3/11/2026 16:15,Tháng 3,The Sunrise Riverside,Căn hộ chung cư,Hà Nội,Đại lý F2,Phạm Quốc Dũng,68.7,62.6,4300.62,0.08,Đã ký HĐMB,3956.5704
+GD-2026-0095,3/12/2026 13:45,Tháng 3,Sun Premier Hạ Long,Condotel,Bình Dương,Đại lý F2,Đặng Trung Kiên,43.4,70.4,3055.36,0.08,Đã ký HĐMB,2810.9312000000004
+GD-2026-0096,3/13/2026 10:45,Tháng 3,Eco Green Sài Gòn,Căn hộ chung cư,Đà Nẵng,Sàn nội bộ (F1),Đỗ Thanh Lam,56.2,70.3,3950.86,0.05,Đã đặt cọc,3753.317
+GD-2026-0097,3/15/2026 11:30,Tháng 3,Bien Hoa New City,Đất nền,Đà Nẵng,Đại lý F2,Vũ Đình Hùng,208,54,11232,0,Đã ký HĐMB,11232
+GD-2026-0098,3/15/2026 12:15,Tháng 3,Sunshine Diamond Plaza,Shophouse,Bình Dương,Sự kiện mở bán,Ngô Phương Oanh,146.2,179.2,26199.039999999997,0.03,Đã ký HĐMB,25413.068799999997
+GD-2026-0099,3/15/2026 15:15,Tháng 3,Golden Land Long An,Đất nền,Long An,Sàn nội bộ (F1),Bùi Hải Nam,109.7,50.2,5506.9400000000005,0.05,Đã đặt cọc,5231.593
+GD-2026-0100,3/16/2026 11:15,Tháng 3,The Sunrise Riverside,Căn hộ chung cư,Đồng Nai,Online / Digital,Hoàng Thị Giang,68.8,53.2,3660.16,0.01,Đã đặt cọc,3623.5584
+GD-2026-0101,3/16/2026 16:30,Tháng 3,Sun Grand Boulevard,Shophouse,Đồng Nai,Online / Digital,Hoàng Thị Giang,151,199.8,30169.800000000003,0,Đã đặt cọc,30169.800000000003
+GD-2026-0102,3/16/2026 18:15,Tháng 3,Ecopark Grand,Biệt thự,Long An,Sàn nội bộ (F1),Ngô Phương Oanh,275.3,150.6,41460.18,0.03,Đã đặt cọc,40216.374599999996
+GD-2026-0103,3/17/2026 12:45,Tháng 3,Vạn Phúc City,Nhà phố / Liền kề,TP. Hồ Chí Minh,Đại lý F2,Lê Minh Châu,88.8,78.3,6953.04,0.01,Đã ký HĐMB,6883.5096
+GD-2026-0104,3/18/2026 18:30,Tháng 3,Swan Bay Villas,Biệt thự,TP. Hồ Chí Minh,Khách giới thiệu,Ngô Phương Oanh,325.3,124.2,40402.26,0.02,Đã ký HĐMB,39594.2148
+GD-2026-0105,3/19/2026 15:45,Tháng 3,The Sunrise Riverside,Căn hộ chung cư,Hà Nội,Online / Digital,Trần Thị Bích,64.5,53.2,3431.4,0,Đã đặt cọc,3431.4
+GD-2026-0106,3/20/2026 8:00,Tháng 3,The Sunrise Riverside,Căn hộ chung cư,Đà Nẵng,Sàn nội bộ (F1),Đỗ Thanh Lam,71.3,45.5,3244.15,0.07,Đã ký HĐMB,3017.0595
+GD-2026-0107,3/20/2026 13:30,Tháng 3,Eco Green Sài Gòn,Căn hộ chung cư,TP. Hồ Chí Minh,Online / Digital,Nguyễn Văn An,78,60.9,4750.2,0,Đã đặt cọc,4750.2
+GD-2026-0108,3/22/2026 10:30,Tháng 3,Vinhome Grand Park,Căn hộ chung cư,TP. Hồ Chí Minh,Sàn nội bộ (F1),Bùi Hải Nam,88.2,55.1,4859.820000000001,0.02,Đã ký HĐMB,4762.623600000001
+GD-2026-0109,3/22/2026 18:15,Tháng 3,Swan Bay Villas,Biệt thự,Đà Nẵng,Đại lý F2,Đặng Trung Kiên,276.8,155.4,43014.72,0,Đã ký HĐMB,43014.72
+GD-2026-0110,3/24/2026 15:45,Tháng 3,The Manor Central,Nhà phố / Liền kề,Long An,Khách giới thiệu,Lê Minh Châu,140.3,135.3,18982.590000000004,0,Đã ký HĐMB,18982.590000000004
+GD-2026-0111,3/25/2026 11:00,Tháng 3,KDC Tân Phú Trung,Đất nền,Bình Dương,Đại lý F2,Trần Thị Bích,200.3,28.3,5668.490000000001,0.01,Đã đặt cọc,5611.8051000000005
+GD-2026-0112,3/25/2026 19:30,Tháng 3,KDC Tân Phú Trung,Đất nền,Đà Nẵng,Sàn nội bộ (F1),Đặng Trung Kiên,201.2,38.2,7685.84,0,Đã ký HĐMB,7685.84
+GD-2026-0113,3/26/2026 17:30,Tháng 3,Eco Green Sài Gòn,Căn hộ chung cư,Bình Dương,Sự kiện mở bán,Đặng Trung Kiên,64.2,52.4,3364.08,0.03,Đã ký HĐMB,3263.1576
+GD-2026-0114,3/29/2026 16:45,Tháng 3,Eco Green Sài Gòn,Căn hộ chung cư,TP. Hồ Chí Minh,Sàn nội bộ (F1),Vũ Đình Hùng,71.3,71.8,5119.339999999999,0,Đã ký HĐMB,5119.339999999999
+GD-2026-0115,3/30/2026 9:15,Tháng 3,Swan Bay Villas,Biệt thự,Đà Nẵng,Khách giới thiệu,Nguyễn Văn An,305.6,133.9,40919.840000000004,0.01,Đã đặt cọc,40510.6416
+GD-2026-0116,4/1/2026 9:15,Tháng 4,KDC Tân Phú Trung,Đất nền,Hà Nội,Sàn nội bộ (F1),Đỗ Thanh Lam,157.9,28.5,4500.150000000001,0.01,Đã ký HĐMB,4455.1485
+GD-2026-0117,4/1/2026 11:30,Tháng 4,Bien Hoa New City,Đất nền,Đồng Nai,Online / Digital,Trần Thị Bích,204.6,53.5,10946.1,0.03,Đã ký HĐMB,10617.717
+GD-2026-0118,4/1/2026 16:45,Tháng 4,Lavela Garden,Nhà phố / Liền kề,Long An,Khách giới thiệu,Đỗ Thanh Lam,88.9,128.5,11423.650000000001,0.03,Đã ký HĐMB,11080.9405
+GD-2026-0119,4/2/2026 9:45,Tháng 4,Vạn Phúc City,Nhà phố / Liền kề,TP. Hồ Chí Minh,Khách giới thiệu,Đỗ Thanh Lam,90.6,93.3,8452.98,0.02,Đã ký HĐMB,8283.920399999999
+GD-2026-0120,4/2/2026 12:00,Tháng 4,Eco Green Sài Gòn,Căn hộ chung cư,Hà Nội,Đại lý F2,Vũ Đình Hùng,77.6,49,3802.3999999999996,0.05,Đã ký HĐMB,3612.2799999999993
+GD-2026-0121,4/2/2026 15:00,Tháng 4,The Sunrise Riverside,Căn hộ chung cư,Bình Dương,Đại lý F2,Hoàng Thị Giang,85.1,53.4,4544.339999999999,0.05,Đã đặt cọc,4317.122999999999
+GD-2026-0122,4/2/2026 16:30,Tháng 4,Vinhome Grand Park,Căn hộ chung cư,Long An,Đại lý F2,Nguyễn Văn An,68.6,50.7,3478.02,0.08,Huỷ cọc,0
+GD-2026-0123,4/2/2026 17:00,Tháng 4,Bien Hoa New City,Đất nền,TP. Hồ Chí Minh,Sàn nội bộ (F1),Hoàng Thị Giang,118.5,43,5095.5,0.03,Đã ký HĐMB,4942.635
+GD-2026-0124,4/3/2026 17:45,Tháng 4,Eco Green Sài Gòn,Căn hộ chung cư,Đồng Nai,Sự kiện mở bán,Lê Minh Châu,77.7,76,5905.2,0.07,Đã ký HĐMB,5491.835999999999
+GD-2026-0125,4/4/2026 17:00,Tháng 4,Vinhome Grand Park,Căn hộ chung cư,Đà Nẵng,Sàn nội bộ (F1),Phạm Quốc Dũng,77.3,45.8,3540.3399999999997,0.07,Đã ký HĐMB,3292.5161999999996
+GD-2026-0126,4/4/2026 19:30,Tháng 4,Ocean Vista Đà Nẵng,Condotel,TP. Hồ Chí Minh,Online / Digital,Vũ Đình Hùng,56,62.7,3511.2000000000003,0.03,Đã đặt cọc,3405.864
+GD-2026-0127,4/6/2026 16:15,Tháng 4,Golden Land Long An,Đất nền,Hà Nội,Sự kiện mở bán,Nguyễn Văn An,116.7,42.8,4994.76,0.01,Huỷ cọc,0
+GD-2026-0128,4/6/2026 18:15,Tháng 4,KDC Tân Phú Trung,Đất nền,Long An,Sàn nội bộ (F1),Nguyễn Văn An,172.4,29,4999.6,0.05,Đã đặt cọc,4749.62
+GD-2026-0129,4/7/2026 15:30,Tháng 4,The Sunrise Riverside,Căn hộ chung cư,Bình Dương,Sàn nội bộ (F1),Nguyễn Văn An,59.1,68.2,4030.6200000000003,0.03,Đã đặt cọc,3909.7014000000004
+GD-2026-0130,4/7/2026 17:15,Tháng 4,The Sunrise Riverside,Căn hộ chung cư,Hà Nội,Sàn nội bộ (F1),Bùi Hải Nam,82.7,44.1,3647.07,0.05,Huỷ cọc,0
+GD-2026-0131,4/8/2026 8:15,Tháng 4,Ocean Vista Đà Nẵng,Condotel,Đà Nẵng,Đại lý F2,Đặng Trung Kiên,47.1,68.6,3231.06,0,Đã ký HĐMB,3231.06
+GD-2026-0132,4/8/2026 9:45,Tháng 4,Swan Bay Villas,Biệt thự,Bình Dương,Sàn nội bộ (F1),Nguyễn Văn An,275.7,119.2,32863.44,0,Đã ký HĐMB,32863.44
+GD-2026-0133,4/8/2026 10:30,Tháng 4,Vạn Phúc City,Nhà phố / Liền kề,Bình Dương,Đại lý F2,Đặng Trung Kiên,121.2,79,9574.800000000001,0.08,Đã ký HĐMB,8808.816
+GD-2026-0134,4/8/2026 12:45,Tháng 4,Sunshine Diamond Plaza,Shophouse,Hà Nội,Khách giới thiệu,Nguyễn Văn An,114.3,151.6,17327.879999999997,0.01,Đã ký HĐMB,17154.601199999997
+GD-2026-0135,4/8/2026 14:15,Tháng 4,Bien Hoa New City,Đất nền,Đà Nẵng,Online / Digital,Vũ Đình Hùng,215.6,55.6,11987.36,0.02,Đã đặt cọc,11747.6128
+GD-2026-0136,4/9/2026 13:30,Tháng 4,KDC Tân Phú Trung,Đất nền,Đà Nẵng,Sàn nội bộ (F1),Phạm Quốc Dũng,173.2,24.8,4295.36,0.02,Huỷ cọc,0
+GD-2026-0137,4/10/2026 8:30,Tháng 4,Vinhome Grand Park,Căn hộ chung cư,Long An,Sàn nội bộ (F1),Ngô Phương Oanh,81.3,65,5284.5,0.01,Đã ký HĐMB,5231.655
+GD-2026-0138,4/10/2026 11:15,Tháng 4,Ecopark Grand,Biệt thự,Long An,Sàn nội bộ (F1),Phạm Quốc Dũng,335.4,121.4,40717.56,0.03,Đã ký HĐMB,39496.0332
+GD-2026-0139,4/10/2026 17:30,Tháng 4,Sun Grand Boulevard,Shophouse,Đồng Nai,Đại lý F2,Đỗ Thanh Lam,120,140.6,16872,0,Huỷ cọc,0
+GD-2026-0140,4/10/2026 17:30,Tháng 4,Masteri Central,Căn hộ chung cư,Hà Nội,Sàn nội bộ (F1),Trần Thị Bích,62,43,2666,0,Đã ký HĐMB,2666
+GD-2026-0141,4/10/2026 18:15,Tháng 4,The Manor Central,Nhà phố / Liền kề,Bình Dương,Đại lý F2,Nguyễn Văn An,146.4,131,19178.4,0.03,Đã ký HĐMB,18603.048000000003
+GD-2026-0142,4/11/2026 10:15,Tháng 4,Vinhome Grand Park,Căn hộ chung cư,Long An,Khách giới thiệu,Hoàng Thị Giang,65.5,74.3,4866.65,0,Đã ký HĐMB,4866.65
+GD-2026-0143,4/11/2026 17:45,Tháng 4,Golden Land Long An,Đất nền,Bình Dương,Đại lý F2,Bùi Hải Nam,155.9,38.5,6002.150000000001,0.02,Đã ký HĐMB,5882.107000000001
+GD-2026-0144,4/12/2026 12:45,Tháng 4,Ocean Vista Đà Nẵng,Condotel,Bình Dương,Sàn nội bộ (F1),Vũ Đình Hùng,62.2,62,3856.4,0.05,Đã đặt cọc,3663.58
+GD-2026-0145,4/12/2026 15:15,Tháng 4,Sun Premier Hạ Long,Condotel,Long An,Đại lý F2,Phạm Quốc Dũng,71.5,64.3,4597.45,0.03,Đã ký HĐMB,4459.5265
+GD-2026-0146,4/12/2026 19:30,Tháng 4,Sun Grand Boulevard,Shophouse,Đà Nẵng,Đại lý F2,Ngô Phương Oanh,165,195.7,32290.499999999996,0.02,Đã đặt cọc,31644.689999999995
+GD-2026-0147,4/13/2026 9:15,Tháng 4,Lavela Garden,Nhà phố / Liền kề,Hà Nội,Sàn nội bộ (F1),Ngô Phương Oanh,159.3,97.3,15499.890000000001,0,Đã đặt cọc,15499.890000000001
+GD-2026-0148,4/13/2026 11:00,Tháng 4,The Sunrise Riverside,Căn hộ chung cư,Đà Nẵng,Sàn nội bộ (F1),Lê Minh Châu,75.8,63.9,4843.62,0,Đã ký HĐMB,4843.62
+GD-2026-0149,4/13/2026 19:15,Tháng 4,Vinhome Grand Park,Căn hộ chung cư,Đà Nẵng,Sàn nội bộ (F1),Phạm Quốc Dũng,93.1,55.3,5148.429999999999,0.08,Đã đặt cọc,4736.5556
+GD-2026-0150,4/13/2026 19:45,Tháng 4,Masteri Central,Căn hộ chung cư,Đà Nẵng,Sàn nội bộ (F1),Đỗ Thanh Lam,78.6,76.5,6012.9,0,Đã ký HĐMB,6012.9
+GD-2026-0151,4/14/2026 8:45,Tháng 4,Eco Green Sài Gòn,Căn hộ chung cư,Long An,Đại lý F2,Nguyễn Văn An,70.3,45.8,3219.74,0.08,Đã ký HĐMB,2962.1608
+GD-2026-0152,4/15/2026 8:45,Tháng 4,Golden Land Long An,Đất nền,Long An,Khách giới thiệu,Ngô Phương Oanh,207,29.1,6023.700000000001,0.08,Đã ký HĐMB,5541.804000000001
+GD-2026-0153,4/15/2026 17:45,Tháng 4,Eco Green Sài Gòn,Căn hộ chung cư,Bình Dương,Sàn nội bộ (F1),Đặng Trung Kiên,76,52.7,4005.2000000000003,0,Đã ký HĐMB,4005.2000000000003
+GD-2026-0154,4/16/2026 9:45,Tháng 4,Vinhome Grand Park,Căn hộ chung cư,Hà Nội,Sàn nội bộ (F1),Trần Thị Bích,59.9,65.6,3929.4399999999996,0.08,Đã ký HĐMB,3615.0847999999996
+GD-2026-0155,4/16/2026 10:45,Tháng 4,Eco Green Sài Gòn,Căn hộ chung cư,Đồng Nai,Khách giới thiệu,Bùi Hải Nam,88.1,63.3,5576.73,0.01,Đã ký HĐMB,5520.962699999999
+GD-2026-0156,4/16/2026 11:45,Tháng 4,Golden Land Long An,Đất nền,Hà Nội,Online / Digital,Đỗ Thanh Lam,103.6,43.1,4465.16,0,Đã ký HĐMB,4465.16
+GD-2026-0157,4/16/2026 17:30,Tháng 4,Golden Land Long An,Đất nền,Long An,Sàn nội bộ (F1),Vũ Đình Hùng,203.6,40.3,8205.08,0.08,Đã ký HĐMB,7548.6736
+GD-2026-0158,4/17/2026 10:30,Tháng 4,Ocean Vista Đà Nẵng,Condotel,Đà Nẵng,Khách giới thiệu,Đỗ Thanh Lam,48.3,45.7,2207.31,0.08,Đã ký HĐMB,2030.7252
+GD-2026-0159,4/17/2026 11:15,Tháng 4,KDC Tân Phú Trung,Đất nền,Hà Nội,Sàn nội bộ (F1),Đặng Trung Kiên,128.4,59.9,7691.16,0.05,Đã ký HĐMB,7306.602
+GD-2026-0160,4/17/2026 11:30,Tháng 4,Masteri Central,Căn hộ chung cư,Bình Dương,Sự kiện mở bán,Trần Thị Bích,61.2,59,3610.8,0.02,Đã ký HĐMB,3538.5840000000003
+GD-2026-0161,4/17/2026 13:00,Tháng 4,Ecopark Grand,Biệt thự,Đồng Nai,Sàn nội bộ (F1),Bùi Hải Nam,374,98.7,36913.8,0,Đã ký HĐMB,36913.8
+GD-2026-0162,4/17/2026 14:45,Tháng 4,Ocean Vista Đà Nẵng,Condotel,Hà Nội,Online / Digital,Đỗ Thanh Lam,50.3,73.1,3676.9299999999994,0.03,Đã ký HĐMB,3566.622099999999
+GD-2026-0163,4/18/2026 12:45,Tháng 4,Golden Land Long An,Đất nền,Bình Dương,Đại lý F2,Nguyễn Văn An,187.2,41,7675.2,0,Huỷ cọc,0
+GD-2026-0164,4/18/2026 17:30,Tháng 4,Eco Green Sài Gòn,Căn hộ chung cư,Đồng Nai,Sàn nội bộ (F1),Phạm Quốc Dũng,65.1,64.8,4218.48,0.03,Đã đặt cọc,4091.9255999999996
+GD-2026-0165,4/19/2026 8:30,Tháng 4,Sun Premier Hạ Long,Condotel,Hà Nội,Đại lý F2,Ngô Phương Oanh,59.7,69.9,4173.030000000001,0.01,Đã đặt cọc,4131.2997000000005
+GD-2026-0166,4/19/2026 11:45,Tháng 4,Eco Green Sài Gòn,Căn hộ chung cư,Đà Nẵng,Sự kiện mở bán,Hoàng Thị Giang,61.6,48.7,2999.92,0.01,Đã đặt cọc,2969.9208
+GD-2026-0167,4/20/2026 19:45,Tháng 4,Eco Green Sài Gòn,Căn hộ chung cư,Đà Nẵng,Online / Digital,Nguyễn Văn An,80.3,66.5,5339.95,0.07,Đã ký HĐMB,4966.153499999999
+GD-2026-0168,4/21/2026 9:00,Tháng 4,Ecopark Grand,Biệt thự,TP. Hồ Chí Minh,Sự kiện mở bán,Trần Thị Bích,246.5,130.8,32242.200000000004,0,Đã ký HĐMB,32242.200000000004
+GD-2026-0169,4/21/2026 15:00,Tháng 4,The Manor Central,Nhà phố / Liền kề,Đà Nẵng,Sàn nội bộ (F1),Vũ Đình Hùng,130.2,133.1,17329.62,0.07,Đã đặt cọc,16116.546599999998
+GD-2026-0170,4/21/2026 15:30,Tháng 4,Vinhome Grand Park,Căn hộ chung cư,Bình Dương,Đại lý F2,Phạm Quốc Dũng,87,71.7,6237.900000000001,0.01,Đã đặt cọc,6175.521000000001
+GD-2026-0171,4/21/2026 16:30,Tháng 4,KDC Tân Phú Trung,Đất nền,Đồng Nai,Sàn nội bộ (F1),Vũ Đình Hùng,124.8,23.9,2982.72,0.01,Đã ký HĐMB,2952.8927999999996
+GD-2026-0172,4/21/2026 19:30,Tháng 4,Golden Land Long An,Đất nền,Đồng Nai,Đại lý F2,Ngô Phương Oanh,162.4,35.9,5830.16,0.08,Đã ký HĐMB,5363.7472
+GD-2026-0173,4/22/2026 9:30,Tháng 4,Ecopark Grand,Biệt thự,Bình Dương,Đại lý F2,Đặng Trung Kiên,387.9,129.6,50271.84,0.01,Đã ký HĐMB,49769.1216
+GD-2026-0174,4/22/2026 12:00,Tháng 4,Masteri Central,Căn hộ chung cư,Long An,Online / Digital,Trần Thị Bích,71.9,45.5,3271.4500000000003,0,Đã ký HĐMB,3271.4500000000003
+GD-2026-0175,4/23/2026 8:15,Tháng 4,Golden Land Long An,Đất nền,Long An,Đại lý F2,Phạm Quốc Dũng,147,23,3381,0.05,Đã đặt cọc,3211.95
+GD-2026-0176,4/23/2026 9:45,Tháng 4,Eco Green Sài Gòn,Căn hộ chung cư,Bình Dương,Online / Digital,Hoàng Thị Giang,91.9,62.8,5771.32,0.01,Đã ký HĐMB,5713.6068
+GD-2026-0177,4/23/2026 10:45,Tháng 4,Vạn Phúc City,Nhà phố / Liền kề,Long An,Sàn nội bộ (F1),Hoàng Thị Giang,109.5,92.2,10095.9,0,Đã ký HĐMB,10095.9
+GD-2026-0178,4/24/2026 15:45,Tháng 4,The Sunrise Riverside,Căn hộ chung cư,Bình Dương,Khách giới thiệu,Trần Thị Bích,75.3,75.5,5685.15,0.07,Đã ký HĐMB,5287.1894999999995
+GD-2026-0179,4/25/2026 19:15,Tháng 4,KDC Tân Phú Trung,Đất nền,Đà Nẵng,Đại lý F2,Trần Thị Bích,118.9,24.5,2913.05,0.03,Đã ký HĐMB,2825.6585
+GD-2026-0180,4/27/2026 10:45,Tháng 4,Sun Grand Boulevard,Shophouse,Hà Nội,Sàn nội bộ (F1),Đỗ Thanh Lam,110.4,185.9,20523.36,0.01,Đã ký HĐMB,20318.1264
+GD-2026-0181,4/29/2026 9:45,Tháng 4,Vạn Phúc City,Nhà phố / Liền kề,Đà Nẵng,Sàn nội bộ (F1),Phạm Quốc Dũng,128.7,87.6,11274.119999999999,0.08,Đã ký HĐMB,10372.1904
+GD-2026-0182,4/29/2026 12:00,Tháng 4,Eco Green Sài Gòn,Căn hộ chung cư,TP. Hồ Chí Minh,Đại lý F2,Nguyễn Văn An,69.7,68.1,4746.57,0.05,Đã đặt cọc,4509.241499999999
+GD-2026-0183,4/30/2026 10:45,Tháng 4,Ecopark Grand,Biệt thự,Đồng Nai,Đại lý F2,Bùi Hải Nam,354.9,132.5,47024.25,0.02,Đã đặt cọc,46083.765
+GD-2026-0184,5/1/2026 9:15,Tháng 5,The Sunrise Riverside,Căn hộ chung cư,TP. Hồ Chí Minh,Sàn nội bộ (F1),Bùi Hải Nam,77.3,77.6,5998.48,0,Đã ký HĐMB,5998.48
+GD-2026-0185,5/2/2026 8:30,Tháng 5,Lavela Garden,Nhà phố / Liền kề,Đà Nẵng,Sàn nội bộ (F1),Trần Thị Bích,123.7,135.6,16773.72,0.08,Đã ký HĐMB,15431.822400000001
+GD-2026-0186,5/2/2026 11:45,Tháng 5,Sun Premier Hạ Long,Condotel,TP. Hồ Chí Minh,Khách giới thiệu,Đặng Trung Kiên,48.9,50.7,2479.23,0.01,Đã ký HĐMB,2454.4377
+GD-2026-0187,5/3/2026 9:15,Tháng 5,Masteri Central,Căn hộ chung cư,Bình Dương,Sự kiện mở bán,Vũ Đình Hùng,82.1,71.9,5902.99,0.07,Đã ký HĐMB,5489.780699999999
+GD-2026-0188,5/4/2026 12:15,Tháng 5,Ocean Vista Đà Nẵng,Condotel,Hà Nội,Đại lý F2,Đỗ Thanh Lam,69,51.6,3560.4,0.03,Đã đặt cọc,3453.588
+GD-2026-0189,5/4/2026 13:30,Tháng 5,The Sunrise Riverside,Căn hộ chung cư,Đà Nẵng,Online / Digital,Phạm Quốc Dũng,84.2,74.5,6272.900000000001,0,Đã đặt cọc,6272.900000000001
+GD-2026-0190,5/4/2026 15:15,Tháng 5,The Sunrise Riverside,Căn hộ chung cư,Hà Nội,Khách giới thiệu,Đặng Trung Kiên,55.7,72,4010.4,0.01,Đã ký HĐMB,3970.2960000000003
+GD-2026-0191,5/4/2026 16:30,Tháng 5,Eco Green Sài Gòn,Căn hộ chung cư,Đà Nẵng,Đại lý F2,Hoàng Thị Giang,70.4,74.2,5223.68,0.03,Đã ký HĐMB,5066.9696
+GD-2026-0192,5/5/2026 9:00,Tháng 5,Vạn Phúc City,Nhà phố / Liền kề,Đà Nẵng,Sàn nội bộ (F1),Bùi Hải Nam,85.4,113.5,9692.900000000001,0,Đã ký HĐMB,9692.900000000001
+GD-2026-0193,5/5/2026 9:45,Tháng 5,Vạn Phúc City,Nhà phố / Liền kề,Hà Nội,Online / Digital,Lê Minh Châu,88.6,112.4,9958.64,0.08,Huỷ cọc,0
+GD-2026-0194,5/5/2026 18:00,Tháng 5,Vinhome Grand Park,Căn hộ chung cư,Long An,Đại lý F2,Đặng Trung Kiên,78.8,44.1,3475.08,0.03,Đã ký HĐMB,3370.8275999999996
+GD-2026-0195,5/6/2026 10:00,Tháng 5,KDC Tân Phú Trung,Đất nền,TP. Hồ Chí Minh,Sàn nội bộ (F1),Đặng Trung Kiên,173.7,25.9,4498.829999999999,0,Đã ký HĐMB,4498.829999999999
+GD-2026-0196,5/6/2026 10:15,Tháng 5,Vinhome Grand Park,Căn hộ chung cư,TP. Hồ Chí Minh,Sàn nội bộ (F1),Vũ Đình Hùng,56,77.4,4334.400000000001,0.01,Đã ký HĐMB,4291.0560000000005
+GD-2026-0197,5/6/2026 11:00,Tháng 5,The Manor Central,Nhà phố / Liền kề,Hà Nội,Khách giới thiệu,Bùi Hải Nam,91,110,10010,0.01,Đã ký HĐMB,9909.9
+GD-2026-0198,5/7/2026 9:45,Tháng 5,Eco Green Sài Gòn,Căn hộ chung cư,Long An,Sàn nội bộ (F1),Hoàng Thị Giang,55.5,62,3441,0,Đã đặt cọc,3441
+GD-2026-0199,5/10/2026 11:30,Tháng 5,Golden Land Long An,Đất nền,Đà Nẵng,Đại lý F2,Đỗ Thanh Lam,205.9,43.4,8936.06,0.07,Đã đặt cọc,8310.5358
+GD-2026-0200,5/12/2026 12:45,Tháng 5,Sun Grand Boulevard,Shophouse,Hà Nội,Sàn nội bộ (F1),Đặng Trung Kiên,112.8,196.9,22210.32,0.05,Đã đặt cọc,21099.804
+GD-2026-0201,5/12/2026 18:45,Tháng 5,Ocean Vista Đà Nẵng,Condotel,Bình Dương,Khách giới thiệu,Bùi Hải Nam,64.3,62.1,3993.0299999999997,0.08,Đã ký HĐMB,3673.5876
+GD-2026-0202,5/13/2026 16:00,Tháng 5,Lavela Garden,Nhà phố / Liền kề,Hà Nội,Sàn nội bộ (F1),Vũ Đình Hùng,93.4,136.6,12758.44,0.07,Đã ký HĐMB,11865.3492
+GD-2026-0203,5/13/2026 18:30,Tháng 5,Masteri Central,Căn hộ chung cư,TP. Hồ Chí Minh,Online / Digital,Hoàng Thị Giang,59,75.4,4448.6,0,Đã ký HĐMB,4448.6
+GD-2026-0204,5/14/2026 15:15,Tháng 5,Lavela Garden,Nhà phố / Liền kề,Hà Nội,Online / Digital,Ngô Phương Oanh,139.9,116.9,16354.310000000001,0.03,Đã ký HĐMB,15863.6807
+GD-2026-0205,5/15/2026 13:15,Tháng 5,The Sunrise Riverside,Căn hộ chung cư,Long An,Sàn nội bộ (F1),Nguyễn Văn An,70,65.6,4592,0.05,Đã ký HĐMB,4362.4
+GD-2026-0206,5/15/2026 17:45,Tháng 5,Sun Premier Hạ Long,Condotel,Long An,Sàn nội bộ (F1),Bùi Hải Nam,60.6,62.9,3811.74,0.05,Đã ký HĐMB,3621.153
+GD-2026-0207,5/16/2026 15:45,Tháng 5,Ocean Vista Đà Nẵng,Condotel,TP. Hồ Chí Minh,Sàn nội bộ (F1),Lê Minh Châu,53.9,73.1,3940.0899999999997,0.08,Đã ký HĐMB,3624.8828
+GD-2026-0208,5/17/2026 8:00,Tháng 5,Sun Grand Boulevard,Shophouse,Hà Nội,Sàn nội bộ (F1),Nguyễn Văn An,134.7,166.8,22467.96,0,Đã ký HĐMB,22467.96
+GD-2026-0209,5/18/2026 19:00,Tháng 5,Bien Hoa New City,Đất nền,Đà Nẵng,Khách giới thiệu,Đỗ Thanh Lam,200.2,42,8408.4,0,Đã ký HĐMB,8408.4
+GD-2026-0210,5/18/2026 19:45,Tháng 5,Ecopark Grand,Biệt thự,Long An,Đại lý F2,Lê Minh Châu,303.8,144.7,43959.86,0.01,Đã ký HĐMB,43520.2614
+GD-2026-0211,5/20/2026 9:45,Tháng 5,Vinhome Grand Park,Căn hộ chung cư,Đà Nẵng,Online / Digital,Bùi Hải Nam,63,53.9,3395.7,0,Đã đặt cọc,3395.7
+GD-2026-0212,5/20/2026 11:30,Tháng 5,KDC Tân Phú Trung,Đất nền,Long An,Online / Digital,Trần Thị Bích,93.9,36.1,3389.7900000000004,0.01,Đã ký HĐMB,3355.8921000000005
+GD-2026-0213,5/20/2026 15:45,Tháng 5,KDC Tân Phú Trung,Đất nền,Đà Nẵng,Khách giới thiệu,Đỗ Thanh Lam,211.6,34.6,7321.36,0.02,Đã ký HĐMB,7174.9328
+GD-2026-0214,5/21/2026 10:00,Tháng 5,Golden Land Long An,Đất nền,TP. Hồ Chí Minh,Online / Digital,Lê Minh Châu,85.6,30.5,2610.7999999999997,0.03,Đã ký HĐMB,2532.4759999999997
+GD-2026-0215,5/22/2026 8:15,Tháng 5,Masteri Central,Căn hộ chung cư,Bình Dương,Online / Digital,Đỗ Thanh Lam,75.9,63.8,4842.42,0.08,Đã đặt cọc,4455.026400000001
+GD-2026-0216,5/22/2026 9:15,Tháng 5,The Manor Central,Nhà phố / Liền kề,Long An,Sàn nội bộ (F1),Ngô Phương Oanh,120,126.1,15132,0,Đã ký HĐMB,15132
+GD-2026-0217,5/22/2026 10:15,Tháng 5,Ecopark Grand,Biệt thự,Đồng Nai,Sàn nội bộ (F1),Phạm Quốc Dũng,395.5,153.4,60669.700000000004,0,Đã ký HĐMB,60669.700000000004
+GD-2026-0218,5/22/2026 12:45,Tháng 5,The Sunrise Riverside,Căn hộ chung cư,TP. Hồ Chí Minh,Đại lý F2,Nguyễn Văn An,87,64.3,5594.099999999999,0.03,Đã ký HĐMB,5426.276999999999
+GD-2026-0219,5/23/2026 8:45,Tháng 5,Sunshine Diamond Plaza,Shophouse,Đà Nẵng,Đại lý F2,Vũ Đình Hùng,111,197.4,21911.4,0.03,Đã ký HĐMB,21254.058
+GD-2026-0220,5/23/2026 17:30,Tháng 5,Vạn Phúc City,Nhà phố / Liền kề,Bình Dương,Sự kiện mở bán,Nguyễn Văn An,123.7,98,12122.6,0.05,Đã đặt cọc,11516.47
+GD-2026-0221,5/23/2026 18:15,Tháng 5,Masteri Central,Căn hộ chung cư,Hà Nội,Sàn nội bộ (F1),Vũ Đình Hùng,86.5,48.8,4221.2,0,Huỷ cọc,0
+GD-2026-0222,5/24/2026 14:00,Tháng 5,Eco Green Sài Gòn,Căn hộ chung cư,Đà Nẵng,Sàn nội bộ (F1),Bùi Hải Nam,91.7,50.1,4594.17,0.03,Đã đặt cọc,4456.3449
+GD-2026-0223,5/24/2026 15:00,Tháng 5,Bien Hoa New City,Đất nền,Đà Nẵng,Online / Digital,Vũ Đình Hùng,194.1,46.3,8986.83,0.08,Đã ký HĐMB,8267.883600000001
+GD-2026-0224,5/25/2026 9:45,Tháng 5,Sunshine Diamond Plaza,Shophouse,Long An,Đại lý F2,Hoàng Thị Giang,161.1,161.4,26001.54,0.05,Đã ký HĐMB,24701.463
+GD-2026-0225,5/25/2026 11:00,Tháng 5,The Sunrise Riverside,Căn hộ chung cư,TP. Hồ Chí Minh,Khách giới thiệu,Đặng Trung Kiên,71,61.6,4373.6,0.05,Đã ký HĐMB,4154.92
+GD-2026-0226,5/25/2026 16:30,Tháng 5,Sun Grand Boulevard,Shophouse,Long An,Khách giới thiệu,Hoàng Thị Giang,109.1,149.1,16266.809999999998,0.02,Đã ký HĐMB,15941.473799999998
+GD-2026-0227,5/26/2026 17:15,Tháng 5,Golden Land Long An,Đất nền,TP. Hồ Chí Minh,Đại lý F2,Hoàng Thị Giang,83.2,25.7,2138.2400000000002,0.01,Đã ký HĐMB,2116.8576000000003
+GD-2026-0228,5/26/2026 18:45,Tháng 5,KDC Tân Phú Trung,Đất nền,Đồng Nai,Sàn nội bộ (F1),Lê Minh Châu,178.2,35.5,6326.099999999999,0.05,Đã đặt cọc,6009.794999999999
+GD-2026-0229,5/26/2026 19:15,Tháng 5,Eco Green Sài Gòn,Căn hộ chung cư,Đà Nẵng,Online / Digital,Nguyễn Văn An,79.7,53.3,4248.01,0.01,Huỷ cọc,0
+GD-2026-0230,5/26/2026 19:45,Tháng 5,KDC Tân Phú Trung,Đất nền,Đồng Nai,Khách giới thiệu,Trần Thị Bích,150.8,38.8,5851.04,0.02,Đã ký HĐMB,5734.0192
+GD-2026-0231,5/27/2026 9:45,Tháng 5,Vinhome Grand Park,Căn hộ chung cư,Đồng Nai,Sàn nội bộ (F1),Hoàng Thị Giang,55.2,60.8,3356.16,0,Đã ký HĐMB,3356.16
+GD-2026-0232,5/27/2026 17:00,Tháng 5,Vinhome Grand Park,Căn hộ chung cư,Hà Nội,Online / Digital,Đỗ Thanh Lam,82.5,58,4785,0.05,Đã ký HĐMB,4545.75
+GD-2026-0233,5/27/2026 17:45,Tháng 5,The Sunrise Riverside,Căn hộ chung cư,TP. Hồ Chí Minh,Khách giới thiệu,Hoàng Thị Giang,81.7,51.6,4215.72,0.08,Đã ký HĐMB,3878.4624000000003
+GD-2026-0234,5/27/2026 18:45,Tháng 5,The Sunrise Riverside,Căn hộ chung cư,Đồng Nai,Sàn nội bộ (F1),Ngô Phương Oanh,80.6,42,3385.2,0,Huỷ cọc,0
+GD-2026-0235,5/28/2026 11:45,Tháng 5,Lavela Garden,Nhà phố / Liền kề,Hà Nội,Sàn nội bộ (F1),Phạm Quốc Dũng,140.4,105.6,14826.24,0.07,Đã ký HĐMB,13788.403199999999
+GD-2026-0236,5/28/2026 14:15,Tháng 5,Lavela Garden,Nhà phố / Liền kề,TP. Hồ Chí Minh,Đại lý F2,Bùi Hải Nam,112.2,138.9,15584.580000000002,0.03,Đã đặt cọc,15117.0426
+GD-2026-0237,5/28/2026 14:45,Tháng 5,Sun Grand Boulevard,Shophouse,Hà Nội,Sàn nội bộ (F1),Đỗ Thanh Lam,126.4,175.9,22233.760000000002,0,Đã ký HĐMB,22233.760000000002
+GD-2026-0238,5/29/2026 8:00,Tháng 5,Lavela Garden,Nhà phố / Liền kề,Đồng Nai,Online / Digital,Đỗ Thanh Lam,92.8,119.8,11117.439999999999,0.01,Đã đặt cọc,11006.265599999999
+GD-2026-0239,5/29/2026 15:45,Tháng 5,Vinhome Grand Park,Căn hộ chung cư,Đà Nẵng,Sàn nội bộ (F1),Trần Thị Bích,57.9,52.4,3033.96,0,Đã ký HĐMB,3033.96
+GD-2026-0240,5/29/2026 19:45,Tháng 5,The Sunrise Riverside,Căn hộ chung cư,Long An,Khách giới thiệu,Ngô Phương Oanh,83.1,62.1,5160.51,0,Đã ký HĐMB,5160.51
+GD-2026-0241,5/30/2026 9:15,Tháng 5,Golden Land Long An,Đất nền,Bình Dương,Online / Digital,Hoàng Thị Giang,147,52.9,7776.3,0,Huỷ cọc,0
+GD-2026-0242,5/30/2026 13:00,Tháng 5,Golden Land Long An,Đất nền,Hà Nội,Online / Digital,Trần Thị Bích,186.3,29.3,5458.59,0.02,Đã đặt cọc,5349.4182
+GD-2026-0243,5/30/2026 15:00,Tháng 5,KDC Tân Phú Trung,Đất nền,Đồng Nai,Online / Digital,Nguyễn Văn An,111,46.5,5161.5,0.05,Huỷ cọc,0
+GD-2026-0244,6/1/2026 17:45,Tháng 6,Sun Grand Boulevard,Shophouse,Đồng Nai,Sàn nội bộ (F1),Hoàng Thị Giang,169.5,188.7,31984.649999999998,0,Đã đặt cọc,31984.649999999998
+GD-2026-0245,6/2/2026 10:00,Tháng 6,Sunshine Diamond Plaza,Shophouse,TP. Hồ Chí Minh,Sàn nội bộ (F1),Ngô Phương Oanh,131.5,117.1,15398.65,0,Đã đặt cọc,15398.65
+GD-2026-0246,6/3/2026 10:15,Tháng 6,Swan Bay Villas,Biệt thự,Đồng Nai,Đại lý F2,Lê Minh Châu,250.3,94.9,23753.47,0.02,Đã ký HĐMB,23278.4006
+GD-2026-0247,6/3/2026 12:00,Tháng 6,KDC Tân Phú Trung,Đất nền,Long An,Đại lý F2,Trần Thị Bích,90.6,29.6,2681.7599999999998,0.08,Đã ký HĐMB,2467.2192
+GD-2026-0248,6/3/2026 15:00,Tháng 6,KDC Tân Phú Trung,Đất nền,Long An,Sàn nội bộ (F1),Bùi Hải Nam,116.6,23.6,2751.76,0.05,Đã đặt cọc,2614.172
+GD-2026-0249,6/3/2026 16:30,Tháng 6,Eco Green Sài Gòn,Căn hộ chung cư,TP. Hồ Chí Minh,Sự kiện mở bán,Phạm Quốc Dũng,86.1,74.7,6431.67,0.03,Đã ký HĐMB,6238.7199
+GD-2026-0250,6/4/2026 8:45,Tháng 6,Bien Hoa New City,Đất nền,Long An,Sự kiện mở bán,Vũ Đình Hùng,213.1,43,9163.3,0.07,Đã đặt cọc,8521.868999999999
+GD-2026-0251,6/4/2026 10:00,Tháng 6,Sun Grand Boulevard,Shophouse,Long An,Online / Digital,Ngô Phương Oanh,151.9,158.1,24015.39,0.03,Đã đặt cọc,23294.9283
+GD-2026-0252,6/4/2026 11:00,Tháng 6,Sun Premier Hạ Long,Condotel,TP. Hồ Chí Minh,Đại lý F2,Hoàng Thị Giang,61.2,63.4,3880.08,0,Đã ký HĐMB,3880.08
+GD-2026-0253,6/5/2026 12:30,Tháng 6,Eco Green Sài Gòn,Căn hộ chung cư,TP. Hồ Chí Minh,Đại lý F2,Trần Thị Bích,84.9,58.3,4949.67,0.02,Đã ký HĐMB,4850.6766
+GD-2026-0254,6/5/2026 13:00,Tháng 6,KDC Tân Phú Trung,Đất nền,Long An,Online / Digital,Đặng Trung Kiên,186.9,36.2,6765.780000000001,0,Đã đặt cọc,6765.780000000001
+GD-2026-0255,6/5/2026 17:45,Tháng 6,Eco Green Sài Gòn,Căn hộ chung cư,Hà Nội,Đại lý F2,Hoàng Thị Giang,85.8,75.7,6495.06,0.03,Đã ký HĐMB,6300.2082
+GD-2026-0256,6/5/2026 17:45,Tháng 6,Eco Green Sài Gòn,Căn hộ chung cư,Hà Nội,Sàn nội bộ (F1),Nguyễn Văn An,83.2,62.1,5166.72,0,Đã ký HĐMB,5166.72
+GD-2026-0257,6/6/2026 15:15,Tháng 6,Ecopark Grand,Biệt thự,Đà Nẵng,Online / Digital,Bùi Hải Nam,224.9,175.8,39537.420000000006,0.05,Đã ký HĐMB,37560.549000000006
+GD-2026-0258,6/6/2026 15:15,Tháng 6,KDC Tân Phú Trung,Đất nền,Long An,Đại lý F2,Trần Thị Bích,201.2,22.4,4506.879999999999,0.03,Đã ký HĐMB,4371.673599999999
+GD-2026-0259,6/7/2026 9:30,Tháng 6,Sun Premier Hạ Long,Condotel,Đồng Nai,Sàn nội bộ (F1),Ngô Phương Oanh,65.2,57.1,3722.92,0,Đã ký HĐMB,3722.92
+GD-2026-0260,6/7/2026 18:30,Tháng 6,The Sunrise Riverside,Căn hộ chung cư,TP. Hồ Chí Minh,Đại lý F2,Đỗ Thanh Lam,89.7,42.5,3812.25,0.03,Đã ký HĐMB,3697.8824999999997
+GD-2026-0261,6/7/2026 18:30,Tháng 6,Vinhome Grand Park,Căn hộ chung cư,Đồng Nai,Đại lý F2,Phạm Quốc Dũng,71.6,58.1,4159.96,0.08,Đã đặt cọc,3827.1632000000004
+GD-2026-0262,6/8/2026 8:00,Tháng 6,The Sunrise Riverside,Căn hộ chung cư,Long An,Đại lý F2,Hoàng Thị Giang,69.1,58,4007.7999999999997,0.08,Đã ký HĐMB,3687.176
+GD-2026-0263,6/8/2026 16:00,Tháng 6,KDC Tân Phú Trung,Đất nền,TP. Hồ Chí Minh,Online / Digital,Ngô Phương Oanh,178.1,44,7836.4,0.03,Đã ký HĐMB,7601.307999999999
+GD-2026-0264,6/8/2026 17:45,Tháng 6,KDC Tân Phú Trung,Đất nền,TP. Hồ Chí Minh,Online / Digital,Đỗ Thanh Lam,80.9,56,4530.400000000001,0.03,Đã ký HĐMB,4394.488
+GD-2026-0265,6/8/2026 18:00,Tháng 6,Swan Bay Villas,Biệt thự,Bình Dương,Khách giới thiệu,Hoàng Thị Giang,230.2,128.5,29580.699999999997,0.01,Đã ký HĐMB,29284.892999999996
+GD-2026-0266,6/9/2026 9:30,Tháng 6,Golden Land Long An,Đất nền,Hà Nội,Sàn nội bộ (F1),Vũ Đình Hùng,144.3,50.1,7229.430000000001,0.03,Đã đặt cọc,7012.547100000001
+GD-2026-0267,6/10/2026 9:30,Tháng 6,Ocean Vista Đà Nẵng,Condotel,Hà Nội,Sàn nội bộ (F1),Hoàng Thị Giang,70.4,71.8,5054.72,0.03,Đã đặt cọc,4903.0784
+GD-2026-0268,6/10/2026 10:30,Tháng 6,The Manor Central,Nhà phố / Liền kề,Long An,Sàn nội bộ (F1),Đặng Trung Kiên,132.4,118.6,15702.64,0.01,Đã ký HĐMB,15545.613599999999
+GD-2026-0269,6/11/2026 9:30,Tháng 6,The Manor Central,Nhà phố / Liền kề,Đồng Nai,Đại lý F2,Đặng Trung Kiên,116.2,126.4,14687.68,0,Đã ký HĐMB,14687.68
+GD-2026-0270,6/11/2026 12:30,Tháng 6,KDC Tân Phú Trung,Đất nền,Bình Dương,Online / Digital,Bùi Hải Nam,212.7,34.7,7380.6900000000005,0.08,Đã ký HĐMB,6790.234800000001
+GD-2026-0271,6/11/2026 13:15,Tháng 6,Vinhome Grand Park,Căn hộ chung cư,Hà Nội,Sự kiện mở bán,Bùi Hải Nam,93.6,69.5,6505.2,0.01,Đã ký HĐMB,6440.148
+GD-2026-0272,6/11/2026 15:00,Tháng 6,Golden Land Long An,Đất nền,Hà Nội,Khách giới thiệu,Phạm Quốc Dũng,199,55.8,11104.199999999999,0.03,Đã đặt cọc,10771.073999999999
+GD-2026-0273,6/11/2026 19:30,Tháng 6,The Sunrise Riverside,Căn hộ chung cư,Bình Dương,Sự kiện mở bán,Đặng Trung Kiên,75.3,44,3313.2,0,Đã ký HĐMB,3313.2
+GD-2026-0274,6/12/2026 9:00,Tháng 6,Vinhome Grand Park,Căn hộ chung cư,Hà Nội,Khách giới thiệu,Ngô Phương Oanh,90.6,73.7,6677.22,0,Đã đặt cọc,6677.22
+GD-2026-0275,6/12/2026 10:15,Tháng 6,Sun Premier Hạ Long,Condotel,TP. Hồ Chí Minh,Đại lý F2,Lê Minh Châu,56.8,48.9,2777.52,0.02,Đã ký HĐMB,2721.9696
+GD-2026-0276,6/12/2026 14:15,Tháng 6,Eco Green Sài Gòn,Căn hộ chung cư,Đồng Nai,Sàn nội bộ (F1),Vũ Đình Hùng,63.1,67.1,4234.009999999999,0.07,Đã ký HĐMB,3937.629299999999
+GD-2026-0277,6/13/2026 10:45,Tháng 6,Sunshine Diamond Plaza,Shophouse,Hà Nội,Đại lý F2,Vũ Đình Hùng,127.2,152.3,19372.56,0.03,Huỷ cọc,0
+GD-2026-0278,6/13/2026 16:45,Tháng 6,Vạn Phúc City,Nhà phố / Liền kề,Bình Dương,Sàn nội bộ (F1),Lê Minh Châu,144.8,106.8,15464.640000000001,0.07,Đã ký HĐMB,14382.1152
+GD-2026-0279,6/14/2026 9:30,Tháng 6,KDC Tân Phú Trung,Đất nền,Đà Nẵng,Sàn nội bộ (F1),Phạm Quốc Dũng,163.6,25.8,4220.88,0,Đã ký HĐMB,4220.88
+GD-2026-0280,6/14/2026 10:00,Tháng 6,Bien Hoa New City,Đất nền,Đồng Nai,Sàn nội bộ (F1),Ngô Phương Oanh,96,56,5376,0.05,Đã ký HĐMB,5107.2
+GD-2026-0281,6/14/2026 17:45,Tháng 6,Golden Land Long An,Đất nền,Hà Nội,Sàn nội bộ (F1),Nguyễn Văn An,126.8,54.1,6859.88,0.07,Đã ký HĐMB,6379.6884
+GD-2026-0282,6/15/2026 9:45,Tháng 6,Eco Green Sài Gòn,Căn hộ chung cư,TP. Hồ Chí Minh,Khách giới thiệu,Bùi Hải Nam,77.6,51.7,4011.92,0.07,Đã ký HĐMB,3731.0856
+GD-2026-0283,6/15/2026 10:30,Tháng 6,Sunshine Diamond Plaza,Shophouse,Bình Dương,Sàn nội bộ (F1),Lê Minh Châu,160.8,119.9,19279.920000000002,0.03,Đã đặt cọc,18701.5224
+GD-2026-0284,6/15/2026 13:30,Tháng 6,Eco Green Sài Gòn,Căn hộ chung cư,TP. Hồ Chí Minh,Sàn nội bộ (F1),Lê Minh Châu,55.5,69.7,3868.3500000000004,0,Đã đặt cọc,3868.3500000000004
+GD-2026-0285,6/15/2026 19:15,Tháng 6,Swan Bay Villas,Biệt thự,TP. Hồ Chí Minh,Đại lý F2,Hoàng Thị Giang,275.6,101.7,28028.520000000004,0.03,Đã ký HĐMB,27187.6644
+GD-2026-0286,6/16/2026 17:15,Tháng 6,Sun Premier Hạ Long,Condotel,Hà Nội,Sàn nội bộ (F1),Trần Thị Bích,52.5,67.8,3559.5,0.03,Đã đặt cọc,3452.7149999999997
+GD-2026-0287,6/18/2026 10:45,Tháng 6,Golden Land Long An,Đất nền,Đà Nẵng,Sự kiện mở bán,Hoàng Thị Giang,92.1,53.8,4954.98,0.08,Đã ký HĐMB,4558.5815999999995
+GD-2026-0288,6/18/2026 14:30,Tháng 6,Ocean Vista Đà Nẵng,Condotel,Đồng Nai,Sàn nội bộ (F1),Phạm Quốc Dũng,52.1,51.2,2667.5200000000004,0.05,Đã ký HĐMB,2534.1440000000002
+GD-2026-0289,6/19/2026 8:00,Tháng 6,Bien Hoa New City,Đất nền,Hà Nội,Đại lý F2,Nguyễn Văn An,194.5,40.3,7838.349999999999,0.01,Đã ký HĐMB,7759.9664999999995
+GD-2026-0290,6/19/2026 8:45,Tháng 6,The Sunrise Riverside,Căn hộ chung cư,Hà Nội,Online / Digital,Hoàng Thị Giang,83.8,57.3,4801.74,0,Đã ký HĐMB,4801.74
+GD-2026-0291,6/19/2026 14:15,Tháng 6,Bien Hoa New City,Đất nền,Hà Nội,Sàn nội bộ (F1),Đặng Trung Kiên,153.5,23.2,3561.2,0,Đã ký HĐMB,3561.2
+GD-2026-0292,6/19/2026 17:00,Tháng 6,Bien Hoa New City,Đất nền,Hà Nội,Sàn nội bộ (F1),Vũ Đình Hùng,83.2,55.3,4600.96,0.08,Đã ký HĐMB,4232.8832
+GD-2026-0293,6/20/2026 18:15,Tháng 6,The Manor Central,Nhà phố / Liền kề,TP. Hồ Chí Minh,Sàn nội bộ (F1),Phạm Quốc Dũng,152.7,131,20003.699999999997,0.02,Đã ký HĐMB,19603.625999999997
+GD-2026-0294,6/22/2026 10:45,Tháng 6,The Manor Central,Nhà phố / Liền kề,Long An,Sàn nội bộ (F1),Bùi Hải Nam,148,139.7,20675.6,0.03,Đã ký HĐMB,20055.332
+GD-2026-0295,6/22/2026 15:45,Tháng 6,Masteri Central,Căn hộ chung cư,Bình Dương,Sàn nội bộ (F1),Vũ Đình Hùng,57.2,74.5,4261.400000000001,0.05,Đã đặt cọc,4048.3300000000004
+GD-2026-0296,6/22/2026 19:30,Tháng 6,KDC Tân Phú Trung,Đất nền,Hà Nội,Sàn nội bộ (F1),Lê Minh Châu,129.9,41.7,5416.830000000001,0.03,Đã ký HĐMB,5254.325100000001
+GD-2026-0297,6/23/2026 10:45,Tháng 6,Lavela Garden,Nhà phố / Liền kề,Hà Nội,Đại lý F2,Đặng Trung Kiên,95.5,93.2,8900.6,0.02,Đã ký HĐMB,8722.588
+GD-2026-0298,6/23/2026 15:15,Tháng 6,The Manor Central,Nhà phố / Liền kề,Đồng Nai,Sàn nội bộ (F1),Ngô Phương Oanh,149,85.4,12724.6,0.05,Đã ký HĐMB,12088.369999999999
+GD-2026-0299,6/24/2026 17:30,Tháng 6,The Sunrise Riverside,Căn hộ chung cư,Bình Dương,Online / Digital,Nguyễn Văn An,86.1,44.9,3865.8899999999994,0.05,Đã ký HĐMB,3672.5954999999994
+GD-2026-0300,6/25/2026 10:45,Tháng 6,Bien Hoa New City,Đất nền,Đồng Nai,Đại lý F2,Đỗ Thanh Lam,84.2,56.1,4723.62,0.08,Đã ký HĐMB,4345.7304
+GD-2026-0301,6/25/2026 11:00,Tháng 6,KDC Tân Phú Trung,Đất nền,Đồng Nai,Đại lý F2,Ngô Phương Oanh,180,41.5,7470,0,Đã đặt cọc,7470
+GD-2026-0302,6/25/2026 18:15,Tháng 6,Vạn Phúc City,Nhà phố / Liền kề,Đồng Nai,Đại lý F2,Phạm Quốc Dũng,105.8,97.8,10347.24,0.03,Đã ký HĐMB,10036.8228
+GD-2026-0303,6/25/2026 19:45,Tháng 6,Swan Bay Villas,Biệt thự,Hà Nội,Sàn nội bộ (F1),Bùi Hải Nam,378.5,94,35579,0.03,Đã đặt cọc,34511.63
+GD-2026-0304,6/25/2026 19:45,Tháng 6,Golden Land Long An,Đất nền,Đồng Nai,Sự kiện mở bán,Lê Minh Châu,124.5,31.8,3959.1,0.07,Đã đặt cọc,3681.9629999999997
+GD-2026-0305,6/26/2026 9:00,Tháng 6,The Manor Central,Nhà phố / Liền kề,Long An,Online / Digital,Vũ Đình Hùng,114.3,100,11430,0.05,Đã ký HĐMB,10858.5
+GD-2026-0306,6/26/2026 10:45,Tháng 6,Swan Bay Villas,Biệt thự,Đà Nẵng,Sự kiện mở bán,Vũ Đình Hùng,381.5,92.1,35136.15,0.01,Đã đặt cọc,34784.7885
+GD-2026-0307,6/26/2026 12:30,Tháng 6,Masteri Central,Căn hộ chung cư,Đà Nẵng,Đại lý F2,Vũ Đình Hùng,87.7,47.6,4174.52,0.03,Đã đặt cọc,4049.2844000000005
+GD-2026-0308,6/27/2026 11:45,Tháng 6,Vinhome Grand Park,Căn hộ chung cư,TP. Hồ Chí Minh,Online / Digital,Ngô Phương Oanh,92.8,64.1,5948.48,0.01,Đã ký HĐMB,5888.995199999999
+GD-2026-0309,6/27/2026 12:45,Tháng 6,Ecopark Grand,Biệt thự,Đà Nẵng,Đại lý F2,Lê Minh Châu,263.8,135.5,35744.9,0.03,Huỷ cọc,0
+GD-2026-0310,6/28/2026 19:15,Tháng 6,Vinhome Grand Park,Căn hộ chung cư,TP. Hồ Chí Minh,Khách giới thiệu,Đặng Trung Kiên,92.6,73.8,6833.879999999999,0.05,Đã đặt cọc,6492.185999999999
+GD-2026-0311,6/28/2026 19:45,Tháng 6,Lavela Garden,Nhà phố / Liền kề,TP. Hồ Chí Minh,Sự kiện mở bán,Vũ Đình Hùng,100.4,110.7,11114.28,0.05,Đã ký HĐMB,10558.566
+GD-2026-0312,6/29/2026 11:45,Tháng 6,Vinhome Grand Park,Căn hộ chung cư,Long An,Đại lý F2,Hoàng Thị Giang,66.6,77.1,5134.859999999999,0.08,Huỷ cọc,0
+GD-2026-0313,6/29/2026 15:45,Tháng 6,Sun Premier Hạ Long,Condotel,Đồng Nai,Sàn nội bộ (F1),Bùi Hải Nam,40.8,60.5,2468.3999999999996,0.08,Đã ký HĐMB,2270.928
+GD-2026-0314,6/29/2026 17:45,Tháng 6,Bien Hoa New City,Đất nền,Đà Nẵng,Đại lý F2,Phạm Quốc Dũng,192.7,41.9,8074.129999999999,0.01,Đã ký HĐMB,7993.3886999999995
+GD-2026-0315,6/30/2026 10:00,Tháng 6,Masteri Central,Căn hộ chung cư,Đồng Nai,Khách giới thiệu,Nguyễn Văn An,94.9,51.7,4906.330000000001,0.01,Huỷ cọc,0
+GD-2026-0316,6/30/2026 12:00,Tháng 6,Vinhome Grand Park,Căn hộ chung cư,Long An,Đại lý F2,Bùi Hải Nam,57.8,59,3410.2,0.03,Đã ký HĐMB,3307.894
+GD-2026-0317,6/30/2026 12:30,Tháng 6,Golden Land Long An,Đất nền,Hà Nội,Khách giới thiệu,Bùi Hải Nam,190.5,47.2,8991.6,0.05,Đã đặt cọc,8542.02
+GD-2026-0318,6/30/2026 14:30,Tháng 6,Vinhome Grand Park,Căn hộ chung cư,Đà Nẵng,Sàn nội bộ (F1),Bùi Hải Nam,83.4,52.8,4403.52,0.02,Đã đặt cọc,4315.4496
+GD-2026-0319,7/1/2026 10:45,Tháng 7,Sun Premier Hạ Long,Condotel,Long An,Sàn nội bộ (F1),Vũ Đình Hùng,73,50.8,3708.3999999999996,0.01,Đã ký HĐMB,3671.316
+GD-2026-0320,7/1/2026 15:45,Tháng 7,Golden Land Long An,Đất nền,Bình Dương,Đại lý F2,Đặng Trung Kiên,198.8,37.9,7534.52,0.07,Đã ký HĐMB,7007.1036
+GD-2026-0321,7/1/2026 18:00,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,Long An,Khách giới thiệu,Lê Minh Châu,93.9,64.6,6065.94,0.03,Đã ký HĐMB,5883.961799999999
+GD-2026-0322,7/1/2026 19:00,Tháng 7,Sun Premier Hạ Long,Condotel,Bình Dương,Đại lý F2,Bùi Hải Nam,63.4,66.6,4222.44,0.03,Huỷ cọc,0
+GD-2026-0323,7/2/2026 9:00,Tháng 7,Bien Hoa New City,Đất nền,Bình Dương,Sàn nội bộ (F1),Lê Minh Châu,196.4,41.2,8091.680000000001,0.02,Đã ký HĐMB,7929.846400000001
+GD-2026-0324,7/2/2026 11:30,Tháng 7,The Sunrise Riverside,Căn hộ chung cư,Bình Dương,Online / Digital,Lê Minh Châu,80,76.4,6112,0.05,Đã ký HĐMB,5806.4
+GD-2026-0325,7/2/2026 12:30,Tháng 7,Eco Green Sài Gòn,Căn hộ chung cư,TP. Hồ Chí Minh,Đại lý F2,Bùi Hải Nam,70.7,59.1,4178.37,0.05,Đã ký HĐMB,3969.4514999999997
+GD-2026-0326,7/2/2026 18:45,Tháng 7,Ocean Vista Đà Nẵng,Condotel,Đồng Nai,Online / Digital,Trần Thị Bích,67.5,69.7,4704.75,0.03,Đã ký HĐMB,4563.6075
+GD-2026-0327,7/2/2026 19:30,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,TP. Hồ Chí Minh,Khách giới thiệu,Nguyễn Văn An,69,60.1,4146.900000000001,0,Đã đặt cọc,4146.900000000001
+GD-2026-0328,7/3/2026 8:15,Tháng 7,Eco Green Sài Gòn,Căn hộ chung cư,Long An,Đại lý F2,Phạm Quốc Dũng,81.3,51.5,4186.95,0.05,Đã đặt cọc,3977.6024999999995
+GD-2026-0329,7/3/2026 10:45,Tháng 7,Swan Bay Villas,Biệt thự,Bình Dương,Khách giới thiệu,Ngô Phương Oanh,284.5,126.1,35875.45,0,Đã ký HĐMB,35875.45
+GD-2026-0330,7/3/2026 14:00,Tháng 7,KDC Tân Phú Trung,Đất nền,Long An,Đại lý F2,Hoàng Thị Giang,133.6,45.3,6052.079999999999,0.07,Đã ký HĐMB,5628.434399999998
+GD-2026-0331,7/3/2026 16:00,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,Bình Dương,Sàn nội bộ (F1),Vũ Đình Hùng,85.1,70.6,6008.0599999999995,0.03,Đã đặt cọc,5827.8182
+GD-2026-0332,7/3/2026 17:30,Tháng 7,Lavela Garden,Nhà phố / Liền kề,Đồng Nai,Sàn nội bộ (F1),Trần Thị Bích,147.4,103.7,15285.380000000001,0.01,Đã ký HĐMB,15132.5262
+GD-2026-0333,7/3/2026 17:45,Tháng 7,Eco Green Sài Gòn,Căn hộ chung cư,Long An,Sàn nội bộ (F1),Bùi Hải Nam,63.8,59.3,3783.3399999999997,0.08,Đã đặt cọc,3480.6728
+GD-2026-0334,7/3/2026 19:45,Tháng 7,Golden Land Long An,Đất nền,TP. Hồ Chí Minh,Đại lý F2,Nguyễn Văn An,188.7,38.4,7246.079999999999,0.02,Đã ký HĐMB,7101.158399999999
+GD-2026-0335,7/5/2026 10:00,Tháng 7,Masteri Central,Căn hộ chung cư,Hà Nội,Sàn nội bộ (F1),Đặng Trung Kiên,88.2,72.8,6420.96,0.05,Đã ký HĐMB,6099.911999999999
+GD-2026-0336,7/5/2026 11:15,Tháng 7,Golden Land Long An,Đất nền,Đà Nẵng,Khách giới thiệu,Lê Minh Châu,198.9,47.7,9487.53,0.07,Đã ký HĐMB,8823.4029
+GD-2026-0337,7/5/2026 12:45,Tháng 7,Golden Land Long An,Đất nền,TP. Hồ Chí Minh,Sàn nội bộ (F1),Đặng Trung Kiên,108.7,30.4,3304.48,0.01,Đã ký HĐMB,3271.4352
+GD-2026-0338,7/5/2026 13:15,Tháng 7,Sun Grand Boulevard,Shophouse,Đồng Nai,Sàn nội bộ (F1),Đặng Trung Kiên,160.9,134.9,21705.410000000003,0.03,Đã đặt cọc,21054.247700000004
+GD-2026-0339,7/6/2026 11:00,Tháng 7,Sun Grand Boulevard,Shophouse,Hà Nội,Đại lý F2,Phạm Quốc Dũng,117.4,159.5,18725.3,0.05,Huỷ cọc,0
+GD-2026-0340,7/6/2026 11:45,Tháng 7,KDC Tân Phú Trung,Đất nền,TP. Hồ Chí Minh,Sàn nội bộ (F1),Vũ Đình Hùng,93.9,52,4882.8,0,Đã ký HĐMB,4882.8
+GD-2026-0341,7/7/2026 9:15,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,TP. Hồ Chí Minh,Sàn nội bộ (F1),Nguyễn Văn An,76.8,63.5,4876.8,0.01,Đã đặt cọc,4828.032
+GD-2026-0342,7/7/2026 10:45,Tháng 7,Ocean Vista Đà Nẵng,Condotel,Hà Nội,Đại lý F2,Lê Minh Châu,54.9,52.5,2882.25,0.07,Đã ký HĐMB,2680.4925
+GD-2026-0343,7/8/2026 13:00,Tháng 7,KDC Tân Phú Trung,Đất nền,Long An,Khách giới thiệu,Nguyễn Văn An,199.1,40.8,8123.279999999999,0.05,Huỷ cọc,0
+GD-2026-0344,7/8/2026 13:30,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,Đà Nẵng,Đại lý F2,Bùi Hải Nam,94.2,67.4,6349.080000000001,0.07,Đã ký HĐMB,5904.6444
+GD-2026-0345,7/9/2026 14:45,Tháng 7,Masteri Central,Căn hộ chung cư,Long An,Sự kiện mở bán,Vũ Đình Hùng,57.3,45.9,2630.0699999999997,0.05,Đã đặt cọc,2498.5664999999995
+GD-2026-0346,7/9/2026 18:15,Tháng 7,Bien Hoa New City,Đất nền,TP. Hồ Chí Minh,Đại lý F2,Nguyễn Văn An,146.5,45.1,6607.150000000001,0.08,Đã đặt cọc,6078.578
+GD-2026-0347,7/10/2026 8:00,Tháng 7,Ecopark Grand,Biệt thự,TP. Hồ Chí Minh,Đại lý F2,Vũ Đình Hùng,281,135.3,38019.3,0.07,Đã ký HĐMB,35357.949
+GD-2026-0348,7/10/2026 8:00,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,Bình Dương,Sàn nội bộ (F1),Hoàng Thị Giang,66.3,42.3,2804.49,0,Đã ký HĐMB,2804.49
+GD-2026-0349,7/10/2026 18:30,Tháng 7,The Sunrise Riverside,Căn hộ chung cư,TP. Hồ Chí Minh,Sàn nội bộ (F1),Đỗ Thanh Lam,56.2,43.5,2444.7000000000003,0,Đã đặt cọc,2444.7000000000003
+GD-2026-0350,7/11/2026 11:15,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,Hà Nội,Sàn nội bộ (F1),Nguyễn Văn An,91,61.7,5614.7,0.01,Huỷ cọc,0
+GD-2026-0351,7/11/2026 18:45,Tháng 7,Sun Premier Hạ Long,Condotel,Hà Nội,Online / Digital,Lê Minh Châu,65.5,73.2,4794.6,0,Đã ký HĐMB,4794.6
+GD-2026-0352,7/12/2026 9:30,Tháng 7,Sun Grand Boulevard,Shophouse,Đà Nẵng,Sàn nội bộ (F1),Hoàng Thị Giang,127.6,175.9,22444.84,0.05,Huỷ cọc,0
+GD-2026-0353,7/12/2026 9:30,Tháng 7,Masteri Central,Căn hộ chung cư,Long An,Sàn nội bộ (F1),Đặng Trung Kiên,62.8,53.5,3359.7999999999997,0.07,Đã đặt cọc,3124.6139999999996
+GD-2026-0354,7/12/2026 11:00,Tháng 7,Ecopark Grand,Biệt thự,TP. Hồ Chí Minh,Online / Digital,Phạm Quốc Dũng,382.7,179.3,68618.11,0.01,Đã ký HĐMB,67931.9289
+GD-2026-0355,7/12/2026 17:30,Tháng 7,Vạn Phúc City,Nhà phố / Liền kề,Đồng Nai,Sàn nội bộ (F1),Vũ Đình Hùng,88.3,88.6,7823.379999999999,0.01,Đã ký HĐMB,7745.146199999999
+GD-2026-0356,7/12/2026 17:45,Tháng 7,Eco Green Sài Gòn,Căn hộ chung cư,TP. Hồ Chí Minh,Đại lý F2,Hoàng Thị Giang,75.6,55.8,4218.48,0.01,Đã ký HĐMB,4176.2952
+GD-2026-0357,7/12/2026 18:30,Tháng 7,Masteri Central,Căn hộ chung cư,Hà Nội,Đại lý F2,Đặng Trung Kiên,81.6,67,5467.2,0,Đã đặt cọc,5467.2
+GD-2026-0358,7/13/2026 10:45,Tháng 7,Eco Green Sài Gòn,Căn hộ chung cư,Đà Nẵng,Online / Digital,Trần Thị Bích,76.5,72.6,5553.9,0.03,Đã ký HĐMB,5387.282999999999
+GD-2026-0359,7/13/2026 14:15,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,Bình Dương,Sàn nội bộ (F1),Hoàng Thị Giang,75.3,66.1,4977.329999999999,0.03,Đã ký HĐMB,4828.010099999999
+GD-2026-0360,7/14/2026 8:45,Tháng 7,Eco Green Sài Gòn,Căn hộ chung cư,Đồng Nai,Online / Digital,Vũ Đình Hùng,63.4,45.3,2872.02,0.07,Đã đặt cọc,2670.9786
+GD-2026-0361,7/14/2026 15:15,Tháng 7,Eco Green Sài Gòn,Căn hộ chung cư,Đà Nẵng,Online / Digital,Lê Minh Châu,69.3,49.6,3437.2799999999997,0,Đã ký HĐMB,3437.2799999999997
+GD-2026-0362,7/15/2026 12:15,Tháng 7,Masteri Central,Căn hộ chung cư,Hà Nội,Đại lý F2,Vũ Đình Hùng,73.3,61.7,4522.61,0,Đã đặt cọc,4522.61
+GD-2026-0363,7/16/2026 9:30,Tháng 7,Golden Land Long An,Đất nền,TP. Hồ Chí Minh,Sàn nội bộ (F1),Trần Thị Bích,129.3,26.6,3439.3800000000006,0.07,Đã đặt cọc,3198.6234000000004
+GD-2026-0364,7/16/2026 11:30,Tháng 7,Lavela Garden,Nhà phố / Liền kề,Long An,Sự kiện mở bán,Đỗ Thanh Lam,141.3,108.6,15345.18,0.03,Đã đặt cọc,14884.8246
+GD-2026-0365,7/16/2026 13:00,Tháng 7,Sun Grand Boulevard,Shophouse,Bình Dương,Đại lý F2,Nguyễn Văn An,149.5,185.1,27672.45,0.02,Đã đặt cọc,27119.001
+GD-2026-0366,7/16/2026 15:45,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,Long An,Sàn nội bộ (F1),Bùi Hải Nam,57.3,62,3552.6,0.02,Đã ký HĐMB,3481.548
+GD-2026-0367,7/17/2026 11:45,Tháng 7,Masteri Central,Căn hộ chung cư,Đà Nẵng,Đại lý F2,Nguyễn Văn An,70.3,53.9,3789.1699999999996,0.01,Đã đặt cọc,3751.2782999999995
+GD-2026-0368,7/17/2026 12:00,Tháng 7,Golden Land Long An,Đất nền,Bình Dương,Đại lý F2,Trần Thị Bích,105.9,29.9,3166.41,0.08,Đã ký HĐMB,2913.0972
+GD-2026-0369,7/17/2026 19:15,Tháng 7,The Sunrise Riverside,Căn hộ chung cư,Long An,Online / Digital,Nguyễn Văn An,65.1,62.8,4088.2799999999993,0,Đã đặt cọc,4088.2799999999993
+GD-2026-0370,7/18/2026 13:15,Tháng 7,Bien Hoa New City,Đất nền,Đà Nẵng,Đại lý F2,Bùi Hải Nam,187.2,54.4,10183.679999999998,0.01,Đã ký HĐMB,10081.843199999998
+GD-2026-0371,7/18/2026 14:30,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,Hà Nội,Khách giới thiệu,Đặng Trung Kiên,68.2,71.5,4876.3,0.03,Đã đặt cọc,4730.011
+GD-2026-0372,7/18/2026 14:30,Tháng 7,Bien Hoa New City,Đất nền,Hà Nội,Đại lý F2,Lê Minh Châu,211.9,25.3,5361.070000000001,0.02,Đã ký HĐMB,5253.8486
+GD-2026-0373,7/18/2026 15:30,Tháng 7,Bien Hoa New City,Đất nền,TP. Hồ Chí Minh,Online / Digital,Ngô Phương Oanh,80.5,49.4,3976.7,0.02,Đã ký HĐMB,3897.1659999999997
+GD-2026-0374,7/18/2026 17:45,Tháng 7,The Sunrise Riverside,Căn hộ chung cư,Bình Dương,Sàn nội bộ (F1),Ngô Phương Oanh,89.9,65.3,5870.47,0.01,Đã đặt cọc,5811.7653
+GD-2026-0375,7/19/2026 11:30,Tháng 7,The Manor Central,Nhà phố / Liền kề,Đà Nẵng,Sàn nội bộ (F1),Trần Thị Bích,99.1,104.3,10336.13,0.01,Đã đặt cọc,10232.768699999999
+GD-2026-0376,7/19/2026 14:00,Tháng 7,Sunshine Diamond Plaza,Shophouse,TP. Hồ Chí Minh,Khách giới thiệu,Trần Thị Bích,161.6,142.1,22963.359999999997,0.03,Đã ký HĐMB,22274.459199999998
+GD-2026-0377,7/19/2026 14:45,Tháng 7,Sun Premier Hạ Long,Condotel,Hà Nội,Sàn nội bộ (F1),Lê Minh Châu,44.8,57.3,2567.0399999999995,0.03,Đã ký HĐMB,2490.0287999999996
+GD-2026-0378,7/19/2026 16:45,Tháng 7,Swan Bay Villas,Biệt thự,Long An,Online / Digital,Đỗ Thanh Lam,375.5,156,58578,0.05,Huỷ cọc,0
+GD-2026-0379,7/19/2026 19:30,Tháng 7,Swan Bay Villas,Biệt thự,Bình Dương,Sự kiện mở bán,Nguyễn Văn An,270.1,118.2,31925.820000000003,0.01,Đã đặt cọc,31606.561800000003
+GD-2026-0380,7/20/2026 8:15,Tháng 7,Vạn Phúc City,Nhà phố / Liền kề,Bình Dương,Đại lý F2,Đặng Trung Kiên,121.5,125.8,15284.699999999999,0.02,Đã ký HĐMB,14979.006
+GD-2026-0381,7/20/2026 12:15,Tháng 7,Golden Land Long An,Đất nền,TP. Hồ Chí Minh,Đại lý F2,Bùi Hải Nam,160,57.1,9136,0.03,Đã đặt cọc,8861.92
+GD-2026-0382,7/20/2026 15:00,Tháng 7,Sun Grand Boulevard,Shophouse,Đồng Nai,Online / Digital,Trần Thị Bích,150.5,176.7,26593.35,0.07,Đã đặt cọc,24731.815499999997
+GD-2026-0383,7/21/2026 16:30,Tháng 7,Masteri Central,Căn hộ chung cư,Đà Nẵng,Khách giới thiệu,Bùi Hải Nam,58.2,51.6,3003.1200000000003,0.05,Huỷ cọc,0
+GD-2026-0384,7/21/2026 18:15,Tháng 7,Eco Green Sài Gòn,Căn hộ chung cư,Đồng Nai,Đại lý F2,Lê Minh Châu,77.9,57.2,4455.88,0.03,Đã ký HĐMB,4322.2036
+GD-2026-0385,7/21/2026 19:15,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,Long An,Sàn nội bộ (F1),Trần Thị Bích,84,73.8,6199.2,0.05,Đã ký HĐMB,5889.24
+GD-2026-0386,7/22/2026 12:30,Tháng 7,Sunshine Diamond Plaza,Shophouse,Long An,Sàn nội bộ (F1),Phạm Quốc Dũng,111.5,162.7,18141.05,0.03,Đã ký HĐMB,17596.818499999998
+GD-2026-0387,7/24/2026 13:45,Tháng 7,Bien Hoa New City,Đất nền,TP. Hồ Chí Minh,Online / Digital,Trần Thị Bích,216.3,35.1,7592.130000000001,0.03,Đã ký HĐMB,7364.366100000001
+GD-2026-0388,7/24/2026 17:45,Tháng 7,Masteri Central,Căn hộ chung cư,Long An,Khách giới thiệu,Nguyễn Văn An,60.8,66.5,4043.2,0.03,Đã ký HĐMB,3921.9039999999995
+GD-2026-0389,7/25/2026 17:00,Tháng 7,Ocean Vista Đà Nẵng,Condotel,TP. Hồ Chí Minh,Online / Digital,Hoàng Thị Giang,70.1,65.9,4619.59,0,Đã ký HĐMB,4619.59
+GD-2026-0390,7/25/2026 18:45,Tháng 7,Ocean Vista Đà Nẵng,Condotel,Hà Nội,Sàn nội bộ (F1),Trần Thị Bích,74,74,5476,0.08,Đã ký HĐMB,5037.92
+GD-2026-0391,7/25/2026 19:15,Tháng 7,Sun Grand Boulevard,Shophouse,TP. Hồ Chí Minh,Online / Digital,Đỗ Thanh Lam,110.5,160.7,17757.35,0.07,Huỷ cọc,0
+GD-2026-0392,7/25/2026 19:45,Tháng 7,Masteri Central,Căn hộ chung cư,Long An,Sự kiện mở bán,Phạm Quốc Dũng,64.8,73,4730.4,0,Đã ký HĐMB,4730.4
+GD-2026-0393,7/26/2026 9:45,Tháng 7,Sun Grand Boulevard,Shophouse,Hà Nội,Đại lý F2,Nguyễn Văn An,176.5,141.5,24974.75,0.02,Đã ký HĐMB,24475.255
+GD-2026-0394,7/26/2026 13:45,Tháng 7,Eco Green Sài Gòn,Căn hộ chung cư,Đà Nẵng,Khách giới thiệu,Phạm Quốc Dũng,85.1,73.6,6263.359999999999,0.03,Đã đặt cọc,6075.459199999998
+GD-2026-0395,7/26/2026 15:30,Tháng 7,Bien Hoa New City,Đất nền,Bình Dương,Sàn nội bộ (F1),Phạm Quốc Dũng,213.7,30.5,6517.849999999999,0.03,Đã ký HĐMB,6322.3144999999995
+GD-2026-0396,7/26/2026 19:00,Tháng 7,Sun Premier Hạ Long,Condotel,Đồng Nai,Sàn nội bộ (F1),Lê Minh Châu,47.9,60.5,2897.95,0,Đã ký HĐMB,2897.95
+GD-2026-0397,7/26/2026 19:30,Tháng 7,Eco Green Sài Gòn,Căn hộ chung cư,Long An,Đại lý F2,Đặng Trung Kiên,64,54.2,3468.8,0.05,Đã ký HĐMB,3295.36
+GD-2026-0398,7/27/2026 14:45,Tháng 7,Masteri Central,Căn hộ chung cư,Long An,Sàn nội bộ (F1),Lê Minh Châu,58.4,71.3,4163.92,0.05,Đã ký HĐMB,3955.7239999999997
+GD-2026-0399,7/27/2026 19:45,Tháng 7,The Sunrise Riverside,Căn hộ chung cư,TP. Hồ Chí Minh,Đại lý F2,Vũ Đình Hùng,61.3,56.4,3457.3199999999997,0.07,Đã ký HĐMB,3215.3075999999996
+GD-2026-0400,7/28/2026 8:15,Tháng 7,Sunshine Diamond Plaza,Shophouse,Đà Nẵng,Đại lý F2,Trần Thị Bích,155.5,150.1,23340.55,0.05,Đã ký HĐMB,22173.5225
+GD-2026-0401,7/28/2026 8:30,Tháng 7,Masteri Central,Căn hộ chung cư,Long An,Sàn nội bộ (F1),Ngô Phương Oanh,66.1,50.6,3344.66,0.03,Đã đặt cọc,3244.3201999999997
+GD-2026-0402,7/28/2026 12:00,Tháng 7,Golden Land Long An,Đất nền,Long An,Online / Digital,Phạm Quốc Dũng,101.9,23.2,2364.08,0.03,Đã đặt cọc,2293.1576
+GD-2026-0403,7/28/2026 14:15,Tháng 7,Sun Grand Boulevard,Shophouse,Đồng Nai,Sàn nội bộ (F1),Lê Minh Châu,114.1,161.6,18438.559999999998,0,Đã ký HĐMB,18438.559999999998
+GD-2026-0404,7/28/2026 14:45,Tháng 7,Masteri Central,Căn hộ chung cư,Đà Nẵng,Đại lý F2,Nguyễn Văn An,73,75.8,5533.4,0.05,Đã đặt cọc,5256.73
+GD-2026-0405,7/28/2026 15:00,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,Bình Dương,Khách giới thiệu,Nguyễn Văn An,81.3,55.1,4479.63,0.07,Đã ký HĐMB,4166.055899999999
+GD-2026-0406,7/28/2026 15:30,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,Hà Nội,Khách giới thiệu,Lê Minh Châu,69.2,75.4,5217.68,0.01,Đã ký HĐMB,5165.5032
+GD-2026-0407,7/29/2026 8:00,Tháng 7,Bien Hoa New City,Đất nền,Long An,Đại lý F2,Vũ Đình Hùng,219.3,48.7,10679.910000000002,0.05,Đã đặt cọc,10145.9145
+GD-2026-0408,7/29/2026 8:15,Tháng 7,Sun Premier Hạ Long,Condotel,Đồng Nai,Đại lý F2,Nguyễn Văn An,54.5,57,3106.5,0.05,Đã ký HĐMB,2951.1749999999997
+GD-2026-0409,7/29/2026 9:00,Tháng 7,Golden Land Long An,Đất nền,Hà Nội,Sự kiện mở bán,Vũ Đình Hùng,93.5,46.6,4357.1,0.05,Đã ký HĐMB,4139.245
+GD-2026-0410,7/29/2026 9:15,Tháng 7,Bien Hoa New City,Đất nền,Bình Dương,Khách giới thiệu,Đặng Trung Kiên,131.8,35.1,4626.18,0.03,Đã ký HĐMB,4487.3946000000005
+GD-2026-0411,7/29/2026 13:00,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,TP. Hồ Chí Minh,Sàn nội bộ (F1),Trần Thị Bích,75.9,62.8,4766.52,0.03,Đã đặt cọc,4623.5244
+GD-2026-0412,7/29/2026 13:45,Tháng 7,Lavela Garden,Nhà phố / Liền kề,Hà Nội,Khách giới thiệu,Phạm Quốc Dũng,106.3,76.2,8100.06,0.02,Đã đặt cọc,7938.058800000001
+GD-2026-0413,7/29/2026 17:30,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,TP. Hồ Chí Minh,Khách giới thiệu,Ngô Phương Oanh,71,53,3763,0,Đã ký HĐMB,3763
+GD-2026-0414,7/29/2026 17:30,Tháng 7,KDC Tân Phú Trung,Đất nền,Hà Nội,Sàn nội bộ (F1),Bùi Hải Nam,196.7,34.1,6707.47,0.05,Đã ký HĐMB,6372.0965
+GD-2026-0415,7/29/2026 19:00,Tháng 7,Vạn Phúc City,Nhà phố / Liền kề,Long An,Đại lý F2,Trần Thị Bích,94.1,131.4,12364.74,0,Đã ký HĐMB,12364.74
+GD-2026-0416,7/30/2026 9:45,Tháng 7,Vinhome Grand Park,Căn hộ chung cư,TP. Hồ Chí Minh,Khách giới thiệu,Trần Thị Bích,72.8,73.8,5372.639999999999,0,Đã ký HĐMB,5372.639999999999
+GD-2026-0417,7/30/2026 11:15,Tháng 7,Bien Hoa New City,Đất nền,Đà Nẵng,Sàn nội bộ (F1),Nguyễn Văn An,209.9,22.6,4743.740000000001,0.05,Đã ký HĐMB,4506.553000000001
+GD-2026-0418,7/30/2026 19:15,Tháng 7,The Sunrise Riverside,Căn hộ chung cư,Hà Nội,Sàn nội bộ (F1),Bùi Hải Nam,56.4,49.5,2791.7999999999997,0,Đã đặt cọc,2791.7999999999997
+GD-2026-0419,7/31/2026 10:30,Tháng 7,Eco Green Sài Gòn,Căn hộ chung cư,Bình Dương,Đại lý F2,Trần Thị Bích,62.7,67.3,4219.71,0.08,Đã đặt cọc,3882.1332
+GD-2026-0420,7/31/2026 11:15,Tháng 7,Sunshine Diamond Plaza,Shophouse,Long An,Online / Digital,Bùi Hải Nam,131.9,193.8,25562.22,0.08,Đã đặt cọc,23517.242400000003
+GD-2026-0419,7/31/2025 10:30,Tháng 7,Eco Green Sài Gòn,Căn hộ chung cư,Bình Dương,Đại lý F2,Trần Thị Bích,62.7,67.3,4219.71,0.08,Đã đặt cọc,3882.1332
+GD-2026-0420,7/31/2025 11:15,Tháng 7,Sunshine Diamond Plaza,Shophouse,Long An,Online / Digital,Bùi Hải Nam,131.9,193.8,25562.22,0.08,Đã đặt cọc,23517.242400000003
+GD-2026-0419,8/31/2026 10:30,Tháng 8,Eco Green Sài Gòn,Căn hộ chung cư,Bình Dương,Đại lý F2,Trần Thị Bích,62.7,67.3,4219.71,0.08,Đã đặt cọc,3882.1332
+GD-2026-0420,8/31/2026 11:15,Tháng 8,Sunshine Diamond Plaza,Shophouse,Long An,Online / Digital,Bùi Hải Nam,131.9,193.8,25562.22,0.08,Đã đặt cọc,23517.242400000003

@@ -1,0 +1,126 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 50.071316813317111,
+            "y": -50
+          },
+          "nodeIndex": "dim_Calendar",
+          "nodeLineageTag": "bffebcbd-b9a6-4e6f-85a7-d3316eaa72cd",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 153.23983208307067,
+            "y": 587.16584823123378
+          },
+          "nodeIndex": "dim_DuAn",
+          "nodeLineageTag": "b413d141-3d10-4507-a63d-df173322fc04",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 334.28260180875139,
+            "y": -35.357473874326615
+          },
+          "nodeIndex": "dim_KeHoach",
+          "nodeLineageTag": "3d7cd1c4-28e9-4d6b-babb-415fe27fee8f",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 618.5047556776284,
+            "y": 411.48695661172553
+          },
+          "nodeIndex": "dim_KenhBan",
+          "nodeLineageTag": "a18957ab-9416-4994-a0ac-7f1282f93f70",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 437.46335724379139,
+            "y": 630.1237001633873
+          },
+          "nodeIndex": "dim_KhuVuc",
+          "nodeLineageTag": "80e371b7-0b04-48f2-9435-024879faa41f",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 618.48143213001038,
+            "y": 127.31346464707235
+          },
+          "nodeIndex": "dim_LoaiHinh",
+          "nodeLineageTag": "b0462eb9-0544-4b88-bb89-5ca95ce491a0",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 50,
+            "y": 347.24101638665047
+          },
+          "nodeIndex": "dim_NhanVien",
+          "nodeLineageTag": "37f13f5f-803f-4b83-b234-8b4eef19492a",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 334.25877521931244,
+            "y": 236.95465309665326
+          },
+          "nodeIndex": "fact_GiaoDich",
+          "nodeLineageTag": "1511ea94-dd03-460a-8574-789b893bec14",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

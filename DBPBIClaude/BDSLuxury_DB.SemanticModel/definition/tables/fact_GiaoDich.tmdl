@@ -79,12 +79,14 @@ table fact_GiaoDich
 
 	column 'Ngày giờ bán'
 		dataType: dateTime
-		formatString: General Date
+		formatString: yyyy-mm-dd h:nn:ss
 		lineageTag: b5be8af8-b74a-4ec5-8430-0a55d0a5f904
 		summarizeBy: none
 		sourceColumn: Ngày giờ bán
 
 		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
 
 	column Tháng
 		dataType: string
@@ -249,7 +251,7 @@ table fact_GiaoDich
 		mode: import
 		source =
 				let
-				  Source = Csv.Document(File.Contents("D:\Training\2026-08_powerbi_thanh\Dashboard\data_model\fact_GiaoDich.csv"), [Delimiter = ",", Columns = 14, Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				  Source = Csv.Document(File.Contents("D:\Training\2026-08_2powerbi_thanh\Dashboard\data_model\fact_GiaoDich.csv"), [Delimiter = ",", Columns = 14, Encoding = 65001, QuoteStyle = QuoteStyle.None]),
 				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
 				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"Mã giao dịch", type text}, {"Ngày giờ bán", type datetime}, {"Tháng", type text}, {"Dự án", type text}, {"Loại hình BĐS", type text}, {"Khu vực", type text}, {"Kênh bán", type text}, {"Nhân viên sales", type text}, {"Diện tích (m²)", type number}, {"Đơn giá (trđ/m²)", type number}, {"Giá trị hợp đồng (trđ)", type number}, {"Chiết khấu (%)", type number}, {"Trạng thái", type text}, {"Doanh thu ghi nhận (trđ)", type number}}),
 				  #"Added DateOnly" = Table.AddColumn(#"Changed column type", "DateOnly", each Date.From([#"Ngày giờ bán"]), type date),
@@ -257,9 +259,13 @@ table fact_GiaoDich
 				  #"Added So tien CK" = Table.AddColumn(#"Added Gio ban", "Số tiền CK (trđ)", each [#"Giá trị hợp đồng (trđ)"] * [#"Chiết khấu (%)"], type number),
 				  #"Added Nhom gia tri" = Table.AddColumn(#"Added So tien CK", "Nhóm giá trị", each if [#"Giá trị hợp đồng (trđ)"] < 3000 then "< 3 tỷ" else if [#"Giá trị hợp đồng (trđ)"] < 5000 then "3-5 tỷ" else if [#"Giá trị hợp đồng (trđ)"] < 10000 then "5-10 tỷ" else if [#"Giá trị hợp đồng (trđ)"] < 20000 then "10-20 tỷ" else ">= 20 tỷ", type text),
 				  #"Added Gia tri HD ty" = Table.AddColumn(#"Added Nhom gia tri", "Giá trị HĐ (tỷ)", each [#"Giá trị hợp đồng (trđ)"] / 1000, type number),
-				  #"Added Thang Sort" = Table.AddColumn(#"Added Gia tri HD ty", "Tháng Sort", each Number.FromText(Text.AfterDelimiter([#"Tháng"], " ")), Int64.Type)
+				  #"Added Thang Sort" = Table.AddColumn(#"Added Gia tri HD ty", "Tháng Sort", each Number.FromText(Text.AfterDelimiter([#"Tháng"], " ")), Int64.Type),
+				    #"Filtered Rows" = Table.SelectRows(#"Added Thang Sort", each Date.IsInCurrentYear([Ngày giờ bán])),
+				    #"Filtered Rows1" = Table.SelectRows(#"Filtered Rows", each [Ngày giờ bán] > #datetime(2026, 1, 31, 23, 59, 59))
 				in
-				  #"Added Thang Sort"
+				  #"Filtered Rows1"
 
 	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
 

@@ -20,14 +20,14 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "dim_Calendar"
+                      "Entity": "fact_GiaoDich"
                     }
                   },
-                  "Property": "MonthNameVN"
+                  "Property": "Tháng"
                 }
               },
-              "queryRef": "dim_Calendar.MonthNameVN",
-              "nativeQueryRef": "MonthNameVN",
+              "queryRef": "fact_GiaoDich.Tháng",
+              "nativeQueryRef": "Tháng",
               "active": true
             }
           ]
@@ -79,6 +79,66 @@
               "expr": {
                 "Literal": {
                   "Value": "'Segoe UI'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "general": [
+        {
+          "properties": {
+            "filter": {
+              "filter": {
+                "Version": 2,
+                "From": [
+                  {
+                    "Name": "f",
+                    "Entity": "fact_GiaoDich",
+                    "Type": 0
+                  }
+                ],
+                "Where": [
+                  {
+                    "Condition": {
+                      "In": {
+                        "Expressions": [
+                          {
+                            "Column": {
+                              "Expression": {
+                                "SourceRef": {
+                                  "Source": "f"
+                                }
+                              },
+                              "Property": "Tháng"
+                            }
+                          }
+                        ],
+                        "Values": [
+                          [
+                            {
+                              "Literal": {
+                                "Value": "'Tháng 2'"
+                              }
+                            }
+                          ]
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "selection": [
+        {
+          "properties": {
+            "selectAllCheckboxEnabled": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }

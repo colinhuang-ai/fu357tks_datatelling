@@ -54,5 +54,32 @@
         }
       }
     ]
-  }
+  },
+  "visualInteractions": [
+    {
+      "source": "6ba160d758bb8b472307",
+      "target": "7e242094c90033282ce2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "6ba160d758bb8b472307",
+      "target": "b530a3a7a15cb135b58e",
+      "type": "DataFilter"
+    },
+    {
+      "source": "6ba160d758bb8b472307",
+      "target": "d034efc2e63d9cd7f4eb",
+      "type": "DataFilter"
+    },
+    {
+      "source": "d034efc2e63d9cd7f4eb",
+      "target": "9b7ca38229319a4da911",
+      "type": "DataFilter"
+    },
+    {
+      "source": "d034efc2e63d9cd7f4eb",
+      "target": "6ba160d758bb8b472307",
+      "type": "NoFilter"
+    }
+  ]
 }
