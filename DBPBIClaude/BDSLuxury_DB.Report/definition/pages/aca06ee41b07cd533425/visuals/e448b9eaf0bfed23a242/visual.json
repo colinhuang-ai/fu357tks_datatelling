@@ -160,13 +160,12 @@
                     "Entity": "fact_GiaoDich"
                   }
                 },
-                "Property": "Tổng Doanh Thu"
+                "Property": "Số Giao Dịch"
               }
             },
             "direction": "Descending"
           }
-        ],
-        "isDefaultSort": true
+        ]
       }
     },
     "objects": {
