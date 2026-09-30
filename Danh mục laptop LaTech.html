@@ -1,0 +1,522 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Danh mục laptop LaTech</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+  /* Layout: a filter rail on the left, a spec table on the right. Under 860px the rail folds behind a button; under 760px table rows become cards. */
+  :root {
+    --bg: #f2f5f8;
+    --surface: #ffffff;
+    --surface-2: #e9eef3;
+    --line: #d7dee6;
+    --line-strong: #b4c0cc;
+    --fg: #111a24;
+    --muted: #586677;
+    --accent: #0d6b88;
+    --accent-fg: #ffffff;
+    --accent-soft: #dbeef5;
+    --tag-bg: #f8e3ee;
+    --tag-fg: #9c1650;
+    --v-intel: #1f6fd1;
+    --v-amd: #d94a1f;
+    --v-nvidia: #4f9a0a;
+    --v-apple: #66727f;
+    --v-qualcomm: #8245cc;
+    --font-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+    --font-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+    --font-mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0e141b; --surface: #151d26; --surface-2: #1d2833; --line: #27333f; --line-strong: #3a4857;
+      --fg: #e7edf3; --muted: #93a2b2; --accent: #4cc2e0; --accent-fg: #06222b; --accent-soft: #16323d;
+      --tag-bg: #3a1626; --tag-fg: #ff9cc4;
+      --v-intel: #5aa8ff; --v-amd: #ff7a52; --v-nvidia: #8ed130; --v-apple: #aeb9c5; --v-qualcomm: #b48cff;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0e141b; --surface: #151d26; --surface-2: #1d2833; --line: #27333f; --line-strong: #3a4857;
+    --fg: #e7edf3; --muted: #93a2b2; --accent: #4cc2e0; --accent-fg: #06222b; --accent-soft: #16323d;
+    --tag-bg: #3a1626; --tag-fg: #ff9cc4;
+    --v-intel: #5aa8ff; --v-amd: #ff7a52; --v-nvidia: #8ed130; --v-apple: #aeb9c5; --v-qualcomm: #b48cff;
+    color-scheme: dark;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+  body { background: var(--bg); color: var(--fg); font: 15px/1.45 var(--font-body); }
+  button, input, select { font: inherit; color: inherit; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .app { max-width: 1280px; margin: 0 auto; padding-inline: 16px; padding-block: 24px 40px; }
+  @media (min-width: 720px) { .app { padding-inline: 28px; } }
+
+  /* Header */
+  .head { display: flex; flex-direction: column; gap: 4px; margin-bottom: 20px; }
+  .eyebrow { margin: 0; font: 500 12px/1.2 var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  h1 { margin: 0; font: 800 clamp(1.9rem, 4.5vw, 2.75rem)/1.05 var(--font-display); letter-spacing: -.02em; text-wrap: balance; }
+  .lede { margin: 4px 0 0; color: var(--muted); }
+
+  .layout { display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 24px; align-items: start; }
+
+  /* Buttons + form controls */
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 40px; padding: 0 14px; border: 1px solid var(--line-strong); border-radius: 6px; background: var(--surface); cursor: pointer; }
+  .btn:hover { background: var(--surface-2); }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-fg); font-weight: 600; }
+  .link { border: 0; background: none; padding: 4px 0; color: var(--accent); cursor: pointer; font-size: 13px; }
+  .link:hover { text-decoration: underline; }
+  .badge { display: inline-block; min-width: 20px; padding: 1px 6px; border-radius: 99px; background: var(--accent); color: var(--accent-fg); font: 600 11px/1.5 var(--font-mono); text-align: center; }
+  input[type="search"], select { min-height: 38px; padding: 6px 10px; border: 1px solid var(--line-strong); border-radius: 6px; background: var(--surface); color: var(--fg); }
+  input[type="search"]::placeholder { color: var(--muted); }
+
+  /* Filter rail */
+  .rail { position: sticky; top: env(safe-area-inset-top, 0px); max-height: calc(100vh - 16px); overflow: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 6px 16px 16px; }
+  .rail-head { display: flex; align-items: center; justify-content: space-between; padding: 10px 0 6px; }
+  .rail-head h2 { margin: 0; font: 700 18px/1.2 var(--font-display); }
+  .facet { border-top: 1px solid var(--line); padding-block: 10px; }
+  .facet summary { display: flex; align-items: center; gap: 8px; cursor: pointer; list-style: none; padding: 4px 0; font: 600 12px/1.2 var(--font-mono); letter-spacing: .08em; text-transform: uppercase; }
+  .facet summary::-webkit-details-marker { display: none; }
+  .facet summary::after { content: ""; margin-left: auto; width: 7px; height: 7px; border-right: 2px solid var(--muted); border-bottom: 2px solid var(--muted); transform: rotate(45deg); transition: transform .15s; }
+  .facet[open] summary::after { transform: rotate(-135deg); }
+  .facet-body { display: flex; flex-direction: column; gap: 8px; padding-top: 8px; }
+  .facet-body input[type="search"] { width: 100%; }
+  .opts.scroll { max-height: 232px; overflow: auto; margin-inline: -4px; padding-inline: 4px; }
+  .grp { position: sticky; top: 0; z-index: 1; display: flex; align-items: center; gap: 8px; padding: 8px 4px 4px; background: var(--surface); color: var(--muted); font: 600 11px/1.2 var(--font-mono); letter-spacing: .08em; text-transform: uppercase; }
+  .opt { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 8px; padding: 5px 4px; border-radius: 4px; cursor: pointer; font-size: 14px; }
+  .opt:hover { background: var(--surface-2); }
+  .opt input { width: 16px; height: 16px; margin: 0; accent-color: var(--accent); }
+  .opt-name { overflow-wrap: anywhere; }
+  .opt-count { font: 400 12px var(--font-mono); font-variant-numeric: tabular-nums; color: var(--muted); }
+  .opt.is-zero { opacity: .45; cursor: default; }
+  .opt.is-zero:hover { background: none; }
+  .none { margin: 6px 4px; color: var(--muted); font-size: 13px; }
+  .mobile-only { display: none; }
+
+  .dot { display: inline-block; flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--muted); }
+  .v-intel { background: var(--v-intel); } .v-amd { background: var(--v-amd); } .v-nvidia { background: var(--v-nvidia); }
+  .v-apple { background: var(--v-apple); } .v-qualcomm { background: var(--v-qualcomm); }
+
+  /* Results */
+  .results { min-width: 0; }
+  .toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; }
+  .toolbar #search { flex: 1 1 220px; min-width: 0; }
+  .sel { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 13px; }
+  .sel select { min-width: 0; color: var(--fg); }
+  .filter-bar { display: none; margin-bottom: 14px; }
+  .chips { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 12px; }
+  .chips:empty { display: none; }
+  .chip { display: inline-flex; align-items: center; gap: 6px; max-width: 100%; padding: 4px 8px 4px 12px; border: 0; border-radius: 99px; background: var(--accent-soft); color: var(--accent); font-size: 13px; cursor: pointer; text-align: left; }
+  .chip b { font-weight: 500; color: var(--muted); }
+  .chip span[aria-hidden] { font-size: 16px; line-height: 1; }
+  .summary { margin: 14px 0 10px; color: var(--muted); font-size: 14px; }
+  .summary b { color: var(--fg); font: 600 14px var(--font-mono); font-variant-numeric: tabular-nums; }
+
+  .table-wrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; }
+  table { width: 100%; min-width: 760px; border-collapse: collapse; }
+  th { padding: 10px 14px; background: var(--surface-2); border-bottom: 1px solid var(--line); color: var(--muted); font: 600 11px/1.2 var(--font-mono); letter-spacing: .08em; text-align: left; text-transform: uppercase; white-space: nowrap; }
+  td { padding: 12px 14px; vertical-align: middle; }
+  tbody tr + tr td { border-top: 1px solid var(--line); }
+  tbody tr:hover td { background: color-mix(in srgb, var(--surface-2) 55%, transparent); }
+  .num { text-align: right; white-space: nowrap; font: 500 13px var(--font-mono); font-variant-numeric: tabular-nums; }
+  .num small { display: block; margin-top: 1px; color: var(--muted); font-size: 11.5px; font-weight: 400; }
+  .nm { font-weight: 600; overflow-wrap: anywhere; }
+  .sub { display: flex; flex-wrap: wrap; align-items: center; gap: 0 8px; margin-top: 2px; color: var(--muted); font: 400 12px/1.6 var(--font-mono); }
+  .sub > span + span::before { content: "·"; margin-right: 8px; }
+  .pill { padding: 0 7px; border-radius: 99px; background: var(--tag-bg); color: var(--tag-fg); font: 600 10.5px/1.7 var(--font-body); letter-spacing: .05em; text-transform: uppercase; }
+  .sub > .pill::before { content: none; margin: 0; }
+  .cl { display: flex; align-items: baseline; gap: 8px; }
+  .cl .dot { transform: translateY(-1px); }
+  .cl span:last-child { overflow-wrap: anywhere; }
+
+  .empty { padding: 40px 16px; border: 1px dashed var(--line-strong); border-radius: 8px; text-align: center; color: var(--muted); }
+  .empty p { margin: 0 0 12px; }
+
+  .pager { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin-top: 16px; }
+  .pager:empty { display: none; }
+  .pg { min-width: 38px; height: 38px; padding: 0 8px; border: 1px solid var(--line-strong); border-radius: 6px; background: var(--surface); font: 500 13px var(--font-mono); font-variant-numeric: tabular-nums; cursor: pointer; }
+  .pg:hover:not(:disabled):not([aria-current]) { background: var(--surface-2); }
+  .pg[aria-current="page"] { background: var(--accent); border-color: var(--accent); color: var(--accent-fg); font-weight: 600; cursor: default; }
+  .pg:disabled { opacity: .4; cursor: default; }
+  .pg-gap { display: inline-flex; align-items: center; justify-content: center; min-width: 20px; color: var(--muted); }
+  .note { margin: 20px 0 0; color: var(--muted); font-size: 12.5px; line-height: 1.55; max-width: 72ch; }
+
+  @media (max-width: 860px) {
+    .layout { grid-template-columns: minmax(0, 1fr); }
+    .rail { display: none; position: static; max-height: none; }
+    .rail.open { display: block; }
+    .filter-bar { display: flex; }
+    .filter-bar .btn { width: 100%; justify-content: space-between; }
+    .mobile-only { display: flex; width: 100%; margin-top: 14px; }
+  }
+  @media (max-width: 760px) {
+    input[type="search"], select { font-size: 16px; }
+    .table-wrap { overflow: visible; background: none; border: 0; }
+    table, tbody { display: block; min-width: 0; }
+    thead { display: none; }
+    tbody { display: grid; gap: 10px; }
+    tr { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px 12px; padding: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; }
+    td { display: block; min-width: 0; padding: 0; border: 0 !important; background: none !important; }
+    td.c-name, td.c-chip { grid-column: 1 / -1; }
+    td[data-label]::before { content: attr(data-label); display: block; margin-bottom: 2px; color: var(--muted); font: 600 10.5px/1.3 var(--font-mono); letter-spacing: .08em; text-transform: uppercase; }
+    .num { text-align: left; white-space: normal; }
+    .pg { min-width: 36px; padding: 0 6px; }
+    .pg .lbl { display: none; }
+    .sel { flex: 1 1 140px; }
+    .sel select { flex: 1; }
+  }
+  @media (prefers-reduced-motion: reduce) { .facet summary::after { transition: none; } }
+</style>
+
+<div class="app">
+  <header class="head">
+    <p class="eyebrow" id="eyebrow">LLT_LaptopModel</p>
+    <h1>Danh mục laptop</h1>
+    <p class="lede" id="lede"></p>
+  </header>
+
+  <div class="filter-bar">
+    <button type="button" class="btn" id="filterToggle" aria-expanded="false" aria-controls="rail">
+      <span id="filterToggleText">Hiện bộ lọc</span> <span class="badge" id="filterBadge" hidden>0</span>
+    </button>
+  </div>
+
+  <div class="layout">
+    <aside class="rail" id="rail" aria-label="Bộ lọc">
+      <div class="rail-head">
+        <h2>Bộ lọc</h2>
+        <button type="button" class="link" id="clearRail" hidden>Xóa tất cả</button>
+      </div>
+
+      <details class="facet" open>
+        <summary><span>Hãng</span> <span class="badge" id="badge-brand" hidden></span></summary>
+        <div class="facet-body"><div class="opts" id="opts-brand"></div></div>
+      </details>
+
+      <details class="facet" open>
+        <summary><span>CPU</span> <span class="badge" id="badge-cpu" hidden></span></summary>
+        <div class="facet-body">
+          <input type="search" id="find-cpu" placeholder="Tìm CPU, ví dụ Ultra 7" aria-label="Tìm CPU" autocomplete="off">
+          <div class="opts scroll" id="opts-cpu"></div>
+          <p class="none" id="none-cpu" hidden>Không có CPU nào khớp.</p>
+        </div>
+      </details>
+
+      <details class="facet" open>
+        <summary><span>GPU</span> <span class="badge" id="badge-gpu" hidden></span></summary>
+        <div class="facet-body">
+          <input type="search" id="find-gpu" placeholder="Tìm GPU, ví dụ RTX 4060" aria-label="Tìm GPU" autocomplete="off">
+          <div class="opts scroll" id="opts-gpu"></div>
+          <p class="none" id="none-gpu" hidden>Không có GPU nào khớp.</p>
+        </div>
+      </details>
+
+      <button type="button" class="btn primary mobile-only" id="closeRail">Xem <span id="railCount">0</span> laptop</button>
+    </aside>
+
+    <main class="results">
+      <div class="toolbar" id="toolbar">
+        <input type="search" id="search" placeholder="Tìm theo tên máy" aria-label="Tìm theo tên máy" autocomplete="off">
+        <label class="sel">Sắp xếp
+          <select id="sort">
+            <option value="new">Mới nhất</option>
+            <option value="name">Tên A–Z</option>
+            <option value="weight">Nhẹ nhất</option>
+            <option value="battery">Pin lớn nhất</option>
+          </select>
+        </label>
+        <label class="sel">Mỗi trang
+          <select id="size">
+            <option value="12">12</option>
+            <option value="24">24</option>
+            <option value="48">48</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="chips" id="chips"></div>
+      <p class="summary" id="summary" aria-live="polite"></p>
+
+      <div class="table-wrap" id="tableWrap">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Laptop</th>
+              <th scope="col">CPU</th>
+              <th scope="col">GPU</th>
+              <th scope="col" class="num">Màn hình</th>
+              <th scope="col" class="num">Cân nặng</th>
+              <th scope="col" class="num">Pin</th>
+            </tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+
+      <div class="empty" id="empty" hidden>
+        <p>Không có laptop nào khớp bộ lọc hiện tại.</p>
+        <button type="button" class="btn" id="clearEmpty">Xóa bộ lọc</button>
+      </div>
+
+      <nav class="pager" id="pager" aria-label="Phân trang"></nav>
+      <p class="note" id="note"></p>
+    </main>
+  </div>
+</div>
+
+<script id="data" type="application/json">{"brands":[{"i":0,"n":"Asus"},{"i":1,"n":"Dell"},{"i":2,"n":"HP"},{"i":3,"n":"Apple"},{"i":4,"n":"MSI"},{"i":5,"n":"Acer"},{"i":6,"n":"Lenovo"},{"i":7,"n":"Microsoft"},{"i":8,"n":"Gigabyte"},{"i":9,"n":"LG"}],"cpus":[{"i":0,"n":"Intel Core Ultra 7 258V","v":"Intel"},{"i":1,"n":"Intel Core Ultra 7 256V","v":"Intel"},{"i":2,"n":"Intel Core Ultra 7 155H","v":"Intel"},{"i":3,"n":"AMD Ryzen AI 9 HX 370","v":"AMD"},{"i":4,"n":"Apple M4 Pro","v":"Apple"},{"i":5,"n":"Apple M4 Max","v":"Apple"},{"i":6,"n":"Apple M4","v":"Apple"},{"i":7,"n":"Intel Core Ultra 9 185H","v":"Intel"},{"i":8,"n":"AMD Ryzen 5 6600H","v":"AMD"},{"i":9,"n":"Intel Core i5-12450H","v":"Intel"},{"i":10,"n":"AMD Ryzen AI 9 365","v":"AMD"},{"i":11,"n":"Intel Core i7-13650HX","v":"Intel"},{"i":12,"n":"Qualcomm Snapdragon X Elite X1E 78 100","v":"Qualcomm"},{"i":13,"n":"Apple M3","v":"Apple"},{"i":14,"n":"AMD Ryzen 7 7730U","v":"AMD"},{"i":15,"n":"Apple M1","v":"Apple"},{"i":16,"n":"Intel Core Ultra 5 125H","v":"Intel"},{"i":17,"n":"AMD Ryzen 7 8845HS","v":"AMD"},{"i":18,"n":"AMD Ryzen 7 7435HS","v":"AMD"},{"i":19,"n":"Intel Core i7-13700H","v":"Intel"},{"i":20,"n":"AMD Ryzen 9 8945HS","v":"AMD"},{"i":21,"n":"Intel Core i9-14900H","v":"Intel"},{"i":22,"n":"AMD Ryzen 9 7940HS","v":"AMD"},{"i":23,"n":"Intel Core i7-13620H","v":"Intel"},{"i":24,"n":"Intel Core i5-14450HX","v":"Intel"},{"i":25,"n":"Intel Core i5-12500H","v":"Intel"},{"i":26,"n":"Intel Core i7-14650HX","v":"Intel"},{"i":27,"n":"Intel Core i7-12700H","v":"Intel"},{"i":28,"n":"Qualcomm Snapdragon X Plus X1P42100","v":"Qualcomm"},{"i":29,"n":"Intel Core i5-13500H","v":"Intel"},{"i":30,"n":"AMD Ryzen 7 8840HS","v":"AMD"},{"i":31,"n":"Intel Core i9-14900HX","v":"Intel"},{"i":32,"n":"Qualcomm Snapdragon X X1-26-100","v":"Qualcomm"},{"i":33,"n":"Intel Core Ultra 5 225H","v":"Intel"},{"i":34,"n":"AMD Ryzen AI MAX+ 395","v":"AMD"},{"i":35,"n":"AMD Ryzen AI 7 350","v":"AMD"},{"i":36,"n":"Intel Core Ultra 5 226V","v":"Intel"},{"i":37,"n":"Intel Core Ultra 9 275HX","v":"Intel"},{"i":38,"n":"Apple M1 Pro","v":"Apple"},{"i":39,"n":"Intel Core Ultra 9 285H","v":"Intel"},{"i":40,"n":"Intel Core 5 210H","v":"Intel"},{"i":41,"n":"Intel Core Ultra 7 255H","v":"Intel"},{"i":42,"n":"Intel Core Ultra 9 288V","v":"Intel"},{"i":43,"n":"Intel Core Ultra 9 285HX","v":"Intel"},{"i":44,"n":"Intel Core Ultra 7 255HX","v":"Intel"},{"i":45,"n":"Intel Core i5-13420H","v":"Intel"},{"i":46,"n":"Intel Core i3-N305","v":"Intel"},{"i":47,"n":"Intel Core i7-1355U","v":"Intel"},{"i":48,"n":"Intel Core i5-1334U","v":"Intel"},{"i":49,"n":"Intel Core Ultra 5 225U","v":"Intel"},{"i":50,"n":"Apple M5","v":"Apple"},{"i":51,"n":"Intel Core Ultra 7 255U","v":"Intel"},{"i":52,"n":"AMD Ryzen AI 7 445","v":"AMD"},{"i":53,"n":"AMD Ryzen AI 9 465","v":"AMD"},{"i":54,"n":"Intel Core Ultra X9 388H","v":"Intel"},{"i":55,"n":"Intel Core Ultra X7 358H","v":"Intel"},{"i":56,"n":"Apple M5 Max","v":"Apple"},{"i":57,"n":"Apple M5 Pro","v":"Apple"},{"i":58,"n":"Apple A18 Pro","v":"Apple"},{"i":59,"n":"AMD Ryzen AI Max+ 392","v":"AMD"},{"i":60,"n":"Intel Core Ultra 9 386H","v":"Intel"},{"i":61,"n":"Qualcomm Snapdragon X2 Elite X2E 88 100","v":"Qualcomm"},{"i":62,"n":"Intel Core Ultra 7 355","v":"Intel"},{"i":63,"n":"Qualcomm Snapdragon X2 Elite Extreme X2E 96 100","v":"Qualcomm"}],"gpus":[{"i":0,"n":"Intel Arc Graphics 140V (tích hợp)","v":"Intel"},{"i":1,"n":"NVIDIA RTX 4060","v":"NVIDIA"},{"i":2,"n":"Apple M4 Pro","v":"Apple"},{"i":3,"n":"Apple M4 Max","v":"Apple"},{"i":4,"n":"Apple M4","v":"Apple"},{"i":5,"n":"NVIDIA RTX 4080","v":"NVIDIA"},{"i":6,"n":"NVIDIA RTX 3050","v":"NVIDIA"},{"i":7,"n":"NVIDIA RTX 2050","v":"NVIDIA"},{"i":8,"n":"AMD Radeon 890M (tích hợp)","v":"AMD"},{"i":9,"n":"NVIDIA RTX 4070","v":"NVIDIA"},{"i":10,"n":"Intel Arc graphics GEN 1 (tích hợp)","v":"Intel"},{"i":11,"n":"Qualcomm Adreno GPU","v":"Qualcomm"},{"i":12,"n":"Apple M3","v":"Apple"},{"i":13,"n":"NVIDIA RTX 4050","v":"NVIDIA"},{"i":14,"n":"AMD Radeon Graphics","v":"AMD"},{"i":15,"n":"Apple M1","v":"Apple"},{"i":16,"n":"NVIDIA RTX 3070 Ti","v":"NVIDIA"},{"i":17,"n":"Intel Iris Xe","v":"Intel"},{"i":18,"n":"AMD Radeon 780M","v":"AMD"},{"i":19,"n":"NVIDIA RTX 2000 Ada","v":"NVIDIA"},{"i":20,"n":"Intel Arc 130T (tích hợp)","v":"Intel"},{"i":21,"n":"AMD Radeon 8060S (tích hợp)","v":"AMD"},{"i":22,"n":"AMD Radeon 860M","v":"AMD"},{"i":23,"n":"Intel Arc Graphics 130V","v":"Intel"},{"i":24,"n":"NVIDIA GeForce RTX 5080 Mobile","v":"NVIDIA"},{"i":25,"n":"Apple M1 Pro","v":"Apple"},{"i":26,"n":"NVIDIA RTX 5090 Mobile","v":"NVIDIA"},{"i":27,"n":"Intel Arc Graphics 140T (tích hợp)","v":"Intel"},{"i":28,"n":"NVIDIA RTX 5050","v":"NVIDIA"},{"i":29,"n":"NVIDIA RTX 5060","v":"NVIDIA"},{"i":30,"n":"RTX 5070 Mobile","v":"NVIDIA"},{"i":31,"n":"UHD Graphics","v":"Intel"},{"i":32,"n":"RTX 5070Ti Mobile","v":"NVIDIA"},{"i":33,"n":"Intel Graphics","v":"Intel"},{"i":34,"n":"Apple M5","v":"Apple"},{"i":35,"n":"AMD Radeon 840M","v":"AMD"},{"i":36,"n":"NVIDIA RTX Pro 2000","v":"NVIDIA"},{"i":37,"n":"AMD Radeon 880M (tích hợp)","v":"AMD"},{"i":38,"n":"Intel Arc B390","v":"Intel"},{"i":39,"n":"Apple M5 Max GPU 32-core","v":"Apple"},{"i":40,"n":"Apple M5 Max GPU 40-core","v":"Apple"},{"i":41,"n":"Apple M5 Pro GPU 16-core","v":"Apple"},{"i":42,"n":"Apple A18 Pro","v":"Apple"}],"laptops":[{"id":1,"n":"Asus Zenbook S 14 OLED","b":0,"c":0,"g":0,"y":2024,"gm":0,"sz":14,"w":2880,"h":1800,"wt":1200,"bat":72},{"id":2,"n":"Expertbook P5","b":0,"c":0,"g":0,"y":2024,"gm":0,"sz":14,"w":2560,"h":1600,"wt":1269,"bat":63},{"id":3,"n":"Dell XPS 13 2024","b":1,"c":1,"g":0,"y":2024,"gm":0,"sz":13,"w":1920,"h":1200,"wt":1220,"bat":55},{"id":4,"n":"HP OMEN Transcend 14","b":2,"c":2,"g":1,"y":2024,"gm":1,"sz":14,"w":2880,"h":1800,"wt":1640,"bat":71},{"id":5,"n":"Asus TUF Gaming A14 (2024)","b":0,"c":3,"g":1,"y":2024,"gm":1,"sz":14,"w":2560,"h":1600,"wt":1400,"bat":72.4},{"id":6,"n":"MacBook Pro 14 inch M4 Pro (base)","b":3,"c":4,"g":2,"y":2024,"gm":0,"sz":14,"w":3024,"h":1964,"wt":1600,"bat":72.4},{"id":7,"n":"MacBook Pro 16 inch M4 Max","b":3,"c":5,"g":3,"y":2024,"gm":0,"sz":16,"w":3456,"h":2234,"wt":2150,"bat":100},{"id":8,"n":"Apple MacBook Pro M4","b":3,"c":6,"g":4,"y":2024,"gm":0,"sz":14.2,"w":3024,"h":1964,"wt":1527,"bat":72.4},{"id":9,"n":"Asus Vivobook S 14","b":0,"c":0,"g":0,"y":2024,"gm":0,"sz":14,"w":2880,"h":1880,"wt":1291,"bat":75},{"id":10,"n":"MSI Stealth 18 Mercedes AMG","b":4,"c":7,"g":5,"y":2024,"gm":1,"sz":18,"w":3840,"h":2400,"wt":2924,"bat":99},{"id":11,"n":"Acer Nitro V 15","b":5,"c":8,"g":6,"y":2024,"gm":1,"sz":15.6,"w":1920,"h":1080,"wt":2064,"bat":57.5},{"id":12,"n":"Lenovo LOQ 15IAX9","b":6,"c":9,"g":7,"y":2024,"gm":1,"sz":15.6,"w":1920,"h":1080,"wt":1847,"bat":57.5},{"id":14,"n":"MSI Prestige A16 AI+","b":4,"c":10,"g":8,"y":2024,"gm":0,"sz":16,"w":3840,"h":2400,"wt":1972,"bat":82.3},{"id":15,"n":"ACER Gaming Aspire 7","b":5,"c":9,"g":6,"y":2024,"gm":1,"sz":15.6,"w":1920,"h":1080,"wt":1916,"bat":49.7},{"id":16,"n":"MSI Stealth A16 AI+","b":4,"c":3,"g":9,"y":2024,"gm":1,"sz":16,"w":3840,"h":2400,"wt":2145,"bat":99.9},{"id":17,"n":"ASUS ROG Strix G16 (2024) G614","b":0,"c":11,"g":1,"y":2024,"gm":1,"sz":16,"w":2560,"h":1600,"wt":2373,"bat":90},{"id":18,"n":"ASUS Zenbook 14 OLED UX3405MA-PP152W","b":0,"c":2,"g":10,"y":2023,"gm":0,"sz":14,"w":2880,"h":1800,"wt":null,"bat":75},{"id":19,"n":"Lenovo ThinkPad X1 Carbon Gen 12","b":6,"c":2,"g":0,"y":2024,"gm":0,"sz":14,"w":1920,"h":1200,"wt":null,"bat":57},{"id":20,"n":"Microsoft Surface Laptop 7","b":7,"c":12,"g":11,"y":2024,"gm":0,"sz":13.8,"w":2304,"h":1536,"wt":1340,"bat":54},{"id":21,"n":"Apple MacBook Air M3 13 inch","b":3,"c":13,"g":12,"y":2024,"gm":0,"sz":13.6,"w":2560,"h":1664,"wt":1240,"bat":52.6},{"id":22,"n":"ASUS Vivobook S 15 S5507QA-MA089WS","b":0,"c":12,"g":11,"y":2024,"gm":0,"sz":15.6,"w":2880,"h":1800,"wt":null,"bat":70},{"id":23,"n":"Lenovo Yoga Pro 7i 2024","b":6,"c":2,"g":13,"y":2024,"gm":0,"sz":14.5,"w":2560,"h":1600,"wt":1490,"bat":73},{"id":24,"n":"ASUS Vivobook 16 M1605YA-MB303W","b":0,"c":14,"g":14,"y":2024,"gm":0,"sz":16,"w":1920,"h":1200,"wt":1880,"bat":42},{"id":25,"n":"ASUS Vivobook S 14 OLED S5406MA-PP198WS","b":0,"c":2,"g":0,"y":2024,"gm":0,"sz":14,"w":3200,"h":2000,"wt":1300,"bat":75},{"id":26,"n":"Apple Macbook Air M1 13 inch","b":3,"c":15,"g":15,"y":2021,"gm":0,"sz":13.3,"w":2560,"h":1600,"wt":1300,"bat":49.9},{"id":27,"n":"ASUS Zenbook 14 OLED UX3405MA-PP151W","b":0,"c":16,"g":10,"y":2024,"gm":0,"sz":14,"w":2880,"h":1800,"wt":1200,"bat":75},{"id":28,"n":"MSI Gaming Katana A15 AI B8VE-402VN","b":4,"c":17,"g":13,"y":2024,"gm":1,"sz":15.6,"w":1920,"h":1080,"wt":2250,"bat":53.5},{"id":29,"n":"Acer Swift 14 AI SF14-11T SF14-11T-X1M5","b":5,"c":12,"g":11,"y":2024,"gm":0,"sz":14.5,"w":2560,"h":1600,"wt":null,"bat":75},{"id":30,"n":"Acer Predator Helios Neo 14 PHN14-51-99Y8","b":5,"c":7,"g":1,"y":2024,"gm":1,"sz":14.5,"w":3072,"h":1920,"wt":1900,"bat":76},{"id":31,"n":"Lenovo Legion Slim 5 16AHP9","b":6,"c":17,"g":9,"y":2024,"gm":1,"sz":16,"w":2560,"h":1600,"wt":2300,"bat":80},{"id":32,"n":"Lenovo LOQ 15ARP9 83JC0000US","b":6,"c":18,"g":1,"y":2024,"gm":1,"sz":15.6,"w":1920,"h":1080,"wt":2400,"bat":60},{"id":33,"n":"Acer Predator Triton 14 PT14-51-7979","b":5,"c":19,"g":9,"y":2023,"gm":1,"sz":14,"w":2560,"h":1600,"wt":1700,"bat":76},{"id":34,"n":"Acer Nitro V 16 ProPanel ANV16-41-R6NA","b":5,"c":17,"g":1,"y":2024,"gm":1,"sz":16,"w":1920,"h":1200,"wt":2500,"bat":57},{"id":35,"n":"Asus ROG Zephyrus G14 GA403UV 2024","b":0,"c":20,"g":13,"y":2024,"gm":1,"sz":14,"w":2560,"h":1440,"wt":1500,"bat":73},{"id":36,"n":"Acer Predator Helios Neo 16 PHN16-72-950P NH.QNMSV.001","b":5,"c":21,"g":9,"y":2024,"gm":1,"sz":16,"w":2560,"h":1600,"wt":2800,"bat":90},{"id":37,"n":"ASUS Vivobook S 14 M5406WA-PP071WS","b":0,"c":3,"g":8,"y":2024,"gm":0,"sz":14,"w":2880,"h":1800,"wt":1300,"bat":75},{"id":38,"n":"HP OMEN 16 xf0070AX","b":2,"c":22,"g":9,"y":2024,"gm":1,"sz":16.1,"w":2560,"h":1440,"wt":2400,"bat":83},{"id":39,"n":"MSI Katana 15 B13VFK 676VN","b":4,"c":23,"g":1,"y":2024,"gm":1,"sz":15.6,"w":1920,"h":1080,"wt":2200,"bat":54},{"id":40,"n":"HP Gaming Victus 16-r1182TX A2NN6PA","b":2,"c":24,"g":13,"y":2024,"gm":1,"sz":16.1,"w":1920,"h":1080,"wt":2310,"bat":70},{"id":41,"n":"MSI Cyborg 15 AI A1VEK-053VN","b":4,"c":2,"g":13,"y":2024,"gm":1,"sz":15.6,"w":1920,"h":1080,"wt":1980,"bat":53.5},{"id":42,"n":"Apple Macbook Pro M3 14\"","b":3,"c":13,"g":12,"y":2023,"gm":0,"sz":14.2,"w":3024,"h":1964,"wt":1550,"bat":70},{"id":43,"n":"ROG Zephyrus G16 GA605WI-QR090WS","b":0,"c":3,"g":9,"y":2024,"gm":0,"sz":16,"w":2560,"h":1600,"wt":1850,"bat":90},{"id":44,"n":"ASUS Gaming VivoBook K3605ZF-RP634W","b":0,"c":25,"g":7,"y":2024,"gm":1,"sz":16,"w":1920,"h":1200,"wt":1800,"bat":50},{"id":45,"n":"Gigabyte AORUS 16X ASG 53VNC54SH","b":8,"c":26,"g":9,"y":2024,"gm":1,"sz":16,"w":2560,"h":1600,"wt":2343,"bat":99},{"id":46,"n":"ASUS Vivobook S 14 OLED (S5406)","b":0,"c":16,"g":10,"y":2024,"gm":0,"sz":14,"w":2880,"h":1800,"wt":1300,"bat":75},{"id":47,"n":"HP Envy x360 16-ac0013dx","b":2,"c":16,"g":10,"y":2024,"gm":0,"sz":14,"w":2880,"h":1800,"wt":1340,"bat":59},{"id":48,"n":"Lenovo ThinkBook 16p Gen 5","b":6,"c":26,"g":1,"y":2024,"gm":0,"sz":16,"w":2560,"h":1600,"wt":2190,"bat":80},{"id":49,"n":"ASUS TUF Gaming F15 FX507VU-LP315W","b":0,"c":23,"g":13,"y":2024,"gm":1,"sz":15.6,"w":1920,"h":1080,"wt":2200,"bat":90},{"id":50,"n":"Acer Swift 14 AI SF14-51-75VP","b":5,"c":0,"g":0,"y":2024,"gm":0,"sz":14,"w":2880,"h":1800,"wt":1200,"bat":65},{"id":51,"n":"Acer Gaming Predator Triton 500 SE PT516-52s-75E3 NH.QFQSV.001","b":5,"c":27,"g":16,"y":2023,"gm":1,"sz":16,"w":2560,"h":1600,"wt":2400,"bat":99.9},{"id":52,"n":"Lenovo IdeaPad Slim 5 14Q8X9 X1P-42-100","b":6,"c":28,"g":11,"y":2024,"gm":0,"sz":14,"w":1920,"h":1200,"wt":1480,"bat":57},{"id":53,"n":"ExpertBook P1 (P1403)","b":0,"c":29,"g":17,"y":2024,"gm":0,"sz":14,"w":1920,"h":1080,"wt":1420,"bat":63},{"id":54,"n":"Lenovo Yoga Slim 7i Aura Edition","b":6,"c":0,"g":0,"y":2024,"gm":0,"sz":15.3,"w":2880,"h":1800,"wt":1536,"bat":70},{"id":55,"n":"HP EliteBook 635 Aero 13.3 inch G11","b":2,"c":30,"g":18,"y":2024,"gm":0,"sz":13.3,"w":1920,"h":1200,"wt":1000,"bat":43},{"id":56,"n":"Lenovo ThinkPad P1 Gen 7","b":6,"c":2,"g":19,"y":2024,"gm":0,"sz":16,"w":3840,"h":2400,"wt":1820,"bat":90},{"id":57,"n":"Lenovo Legion 7 16IRX9 83FD004MVN","b":6,"c":31,"g":9,"y":2024,"gm":1,"sz":16,"w":3200,"h":2000,"wt":2274,"bat":100},{"id":58,"n":"ROG Zephyrus G14 (2024) GA403","b":0,"c":20,"g":9,"y":2024,"gm":1,"sz":14,"w":2880,"h":1800,"wt":1483,"bat":73},{"id":59,"n":"Asus Zenbook A14","b":0,"c":32,"g":11,"y":2025,"gm":0,"sz":14,"w":1920,"h":1200,"wt":980,"bat":75},{"id":60,"n":"Asus Zenbook 14 OLED UX3405CA","b":0,"c":33,"g":20,"y":2025,"gm":0,"sz":14,"w":2880,"h":1800,"wt":1275,"bat":75},{"id":61,"n":"Asus ROG Flow Z13 (2025)","b":0,"c":34,"g":21,"y":2025,"gm":1,"sz":13.4,"w":2560,"h":1600,"wt":1200,"bat":70},{"id":62,"n":"ASUS Zenbook 14 OLED (UM3406)","b":0,"c":35,"g":22,"y":2025,"gm":0,"sz":14,"w":2880,"h":1800,"wt":1200,"bat":75},{"id":63,"n":"ASUS Vivobook 14 A1407CA-LY008WS","b":0,"c":33,"g":20,"y":2025,"gm":0,"sz":14,"w":1920,"h":1200,"wt":1547,"bat":42},{"id":64,"n":"ThinkPad T14s Gen 6","b":6,"c":12,"g":11,"y":2024,"gm":0,"sz":14,"w":2880,"h":1800,"wt":1240,"bat":58},{"id":65,"n":"Asus Zenbook S 16","b":0,"c":35,"g":22,"y":2024,"gm":0,"sz":16,"w":2880,"h":1800,"wt":1500,"bat":78},{"id":67,"n":"ACER SWIFT 14 AI SF14-51-53P9","b":5,"c":36,"g":23,"y":2025,"gm":0,"sz":14,"w":2880,"h":1800,"wt":1261,"bat":65},{"id":70,"n":"Gigabyte AORUS Master 16","b":8,"c":37,"g":24,"y":2025,"gm":1,"sz":16,"w":2560,"h":1600,"wt":2494,"bat":99},{"id":71,"n":"Lenovo ThinkPad X9 15 Aura Edition (Gen 1)","b":6,"c":0,"g":0,"y":2025,"gm":0,"sz":15.3,"w":2880,"h":1800,"wt":1427,"bat":80},{"id":72,"n":"Apple MacBook Air M4 13 inch","b":3,"c":6,"g":4,"y":2025,"gm":0,"sz":13.6,"w":2560,"h":1664,"wt":1240,"bat":53.8},{"id":73,"n":"Apple Macbook Air M4 15 inch","b":3,"c":6,"g":4,"y":2025,"gm":0,"sz":15,"w":2880,"h":1864,"wt":1542,"bat":66.5},{"id":75,"n":"MacBook Pro 16 inch M1 Pro","b":3,"c":38,"g":25,"y":2021,"gm":0,"sz":16.2,"w":3456,"h":2234,"wt":2100,"bat":100},{"id":76,"n":"Asus ROG Zephyrus G16 (2025)","b":0,"c":39,"g":26,"y":2025,"gm":1,"sz":16,"w":2560,"h":1600,"wt":1920,"bat":90},{"id":82,"n":"Asus Gaming V16 2025","b":0,"c":40,"g":13,"y":2025,"gm":1,"sz":16,"w":1920,"h":1200,"wt":1950,"bat":63},{"id":83,"n":"Asus Vivobook S 14","b":0,"c":41,"g":27,"y":2025,"gm":0,"sz":14,"w":1920,"h":1200,"wt":1400,"bat":70},{"id":84,"n":"HP Omnibook Ultra Flip 14","b":2,"c":42,"g":0,"y":2025,"gm":0,"sz":14,"w":2880,"h":1800,"wt":1340,"bat":64},{"id":85,"n":"Lenovo IdeaPad Slim 5 OLED","b":6,"c":17,"g":18,"y":2025,"gm":0,"sz":14,"w":1920,"h":1200,"wt":1390,"bat":60},{"id":86,"n":"ASUS Gaming V16 (V3607)","b":0,"c":40,"g":10,"y":2025,"gm":1,"sz":16,"w":1920,"h":1200,"wt":1964,"bat":63},{"id":87,"n":"Lenovo ThinkPad X1 Carbon Gen 13","b":6,"c":0,"g":0,"y":2024,"gm":0,"sz":14,"w":2880,"h":1800,"wt":986,"bat":57},{"id":88,"n":"LG gram 16 (2025)","b":9,"c":36,"g":23,"y":2025,"gm":0,"sz":16,"w":2560,"h":1600,"wt":1239,"bat":77},{"id":89,"n":"Lenovo Yoga Slim 9i Aura Edition","b":6,"c":0,"g":0,"y":2025,"gm":0,"sz":14,"w":3840,"h":2400,"wt":1230,"bat":75},{"id":90,"n":"Lenovo ThinkPad X9 14 Aura Edition (Gen 1)","b":6,"c":0,"g":0,"y":2025,"gm":0,"sz":14,"w":2880,"h":1800,"wt":1240,"bat":55},{"id":91,"n":"MSI Titan 18 HX AI A2XW","b":4,"c":43,"g":26,"y":2025,"gm":1,"sz":18,"w":3840,"h":2400,"wt":3600,"bat":99.9},{"id":92,"n":"ASUS TUF Gaming F16 FX607VU-RL045W","b":0,"c":40,"g":13,"y":2024,"gm":1,"sz":16,"w":1920,"h":1200,"wt":2026,"bat":54},{"id":93,"n":"ASUS TUF Gaming F16 (FX608JPR-RV044W)","b":0,"c":26,"g":28,"y":2025,"gm":1,"sz":16,"w":1920,"h":1200,"wt":2267,"bat":92},{"id":94,"n":"Gigabyte Gaming AERO X16 (1VH-93VNC64AH)","b":8,"c":35,"g":29,"y":2025,"gm":1,"sz":16,"w":2560,"h":1600,"wt":2026,"bat":76},{"id":101,"n":"HP OmniBook Ultra Flip 2-in-1","b":2,"c":1,"g":20,"y":2025,"gm":0,"sz":14,"w":2880,"h":1800,"wt":1366,"bat":63},{"id":102,"n":"Acer Predator Helios Neo 16 AI 2025","b":5,"c":44,"g":29,"y":2025,"gm":1,"sz":16,"w":2560,"h":1600,"wt":2440,"bat":90},{"id":103,"n":"Asus TUF A14 (2025)","b":0,"c":35,"g":29,"y":2025,"gm":1,"sz":14,"w":2560,"h":1600,"wt":1460,"bat":73},{"id":104,"n":"ASUS Vivobook S14 OLED","b":0,"c":3,"g":8,"y":2025,"gm":0,"sz":14,"w":2880,"h":1800,"wt":1300,"bat":75},{"id":105,"n":"ASUS Vivobook S14","b":0,"c":41,"g":27,"y":2025,"gm":0,"sz":14,"w":1920,"h":1200,"wt":1400,"bat":70},{"id":106,"n":"Lenovo Legion 5i Gen 10","b":6,"c":44,"g":30,"y":2025,"gm":1,"sz":15.1,"w":2560,"h":1600,"wt":1933,"bat":83},{"id":107,"n":"Lenovo Legion 7i Gen 10","b":6,"c":37,"g":30,"y":2025,"gm":0,"sz":16,"w":2560,"h":1600,"wt":1959,"bat":84},{"id":108,"n":"Acer Nitro V 15","b":5,"c":45,"g":28,"y":2025,"gm":0,"sz":15.6,"w":1920,"h":1200,"wt":2137,"bat":76},{"id":109,"n":"Acer Aspire 5 15","b":5,"c":45,"g":31,"y":2024,"gm":0,"sz":15.6,"w":1920,"h":1200,"wt":1810,"bat":50},{"id":110,"n":"Acer Aspire Go 15","b":5,"c":46,"g":31,"y":2024,"gm":0,"sz":15.6,"w":1920,"h":1080,"wt":1700,"bat":52},{"id":111,"n":"Acer Aspire Lite 16","b":5,"c":47,"g":31,"y":2024,"gm":0,"sz":16,"w":1920,"h":1080,"wt":1832,"bat":58},{"id":112,"n":"Acer Aspire Lite 14","b":5,"c":48,"g":31,"y":2024,"gm":0,"sz":14,"w":1920,"h":1080,"wt":1450,"bat":58},{"id":113,"n":"ASUS Expertbook P3","b":0,"c":45,"g":31,"y":2024,"gm":0,"sz":16,"w":2560,"h":1600,"wt":1795,"bat":63},{"id":114,"n":"ASUS Vivobook S14 OLED M5406KA-PP134WS","b":0,"c":35,"g":22,"y":2025,"gm":0,"sz":14,"w":2560,"h":1600,"wt":1297,"bat":75},{"id":115,"n":"ASUS ROG Strix G16","b":0,"c":44,"g":32,"y":2025,"gm":1,"sz":16,"w":2560,"h":1600,"wt":2554,"bat":90},{"id":116,"n":"ASUS Vivobook S14","b":0,"c":32,"g":11,"y":2025,"gm":0,"sz":14,"w":1920,"h":1200,"wt":1400,"bat":70},{"id":117,"n":"ASUS Vivobook S14","b":0,"c":35,"g":22,"y":2025,"gm":0,"sz":14,"w":1920,"h":1200,"wt":1400,"bat":70},{"id":118,"n":"ASUS TUF Gaming F16 (FX608JMR-RV048W)","b":0,"c":26,"g":29,"y":2025,"gm":1,"sz":16,"w":1920,"h":1200,"wt":2267,"bat":92},{"id":119,"n":"Lenovo ThinkPad E14 Gen 7","b":6,"c":41,"g":27,"y":2025,"gm":0,"sz":14,"w":1920,"h":1200,"wt":1340,"bat":64},{"id":120,"n":"Gigabyte Gaming A16 (2025)","b":8,"c":23,"g":29,"y":2025,"gm":1,"sz":16,"w":2560,"h":1600,"wt":2200,"bat":76},{"id":121,"n":"HP OmniBook 5 AI 16","b":2,"c":49,"g":33,"y":2025,"gm":0,"sz":16,"w":1920,"h":1200,"wt":1725,"bat":58.1},{"id":122,"n":"Apple MacBook Pro M5","b":3,"c":50,"g":34,"y":2025,"gm":0,"sz":14.2,"w":3024,"h":1964,"wt":1527,"bat":72.4},{"id":124,"n":"Lenovo ThinkPad X1 2-in-1 Gen 10 Aura Edition","b":6,"c":51,"g":33,"y":2025,"gm":0,"sz":14,"w":2880,"h":1880,"wt":1350,"bat":57},{"id":130,"n":"Acer Predator Triton 14 (2025)","b":5,"c":42,"g":30,"y":2025,"gm":1,"sz":14,"w":2880,"h":1800,"wt":1597,"bat":76},{"id":131,"n":"ASUS Zenbook 14 OLED","b":0,"c":52,"g":35,"y":2026,"gm":0,"sz":14,"w":1920,"h":1200,"wt":1200,"bat":75},{"id":133,"n":"Lenovo ThinkPad P1 Gen 8","b":6,"c":39,"g":36,"y":2025,"gm":0,"sz":16,"w":3840,"h":2400,"wt":1840,"bat":90},{"id":134,"n":"Asus Zenbook S 16","b":0,"c":53,"g":37,"y":2026,"gm":0,"sz":16,"w":2880,"h":1800,"wt":1500,"bat":83},{"id":136,"n":"HP OmniBook X Flip Core Ultra 5 226V","b":2,"c":36,"g":0,"y":2026,"gm":0,"sz":14,"w":1900,"h":1200,"wt":1600,"bat":60},{"id":138,"n":"ASUS Zenbook Duo (2026)","b":0,"c":54,"g":38,"y":2026,"gm":0,"sz":14,"w":2880,"h":1800,"wt":1650,"bat":99},{"id":140,"n":"Lenovo ThinkPad X9 15p Aura Edition","b":6,"c":55,"g":38,"y":2026,"gm":0,"sz":15.3,"w":2880,"h":1800,"wt":1500,"bat":88},{"id":142,"n":"Apple MacBook Pro 14 M5 Max","b":3,"c":56,"g":39,"y":2026,"gm":0,"sz":14.2,"w":1964,"h":3024,"wt":1620,"bat":72.4},{"id":143,"n":"Apple MacBook Air 13 M5","b":3,"c":50,"g":34,"y":2026,"gm":0,"sz":13.6,"w":1664,"h":2560,"wt":1230,"bat":53.8},{"id":144,"n":"Apple MacBook Pro 16 M5 Max","b":3,"c":56,"g":40,"y":2026,"gm":0,"sz":16.2,"w":2234,"h":3456,"wt":2150,"bat":99.6},{"id":145,"n":"Apple MacBook Pro 14 M5 Pro","b":3,"c":57,"g":41,"y":2026,"gm":0,"sz":14.2,"w":3024,"h":1964,"wt":1600,"bat":72.4},{"id":146,"n":"Apple MacBook Neo","b":3,"c":58,"g":42,"y":2026,"gm":0,"sz":13,"w":2408,"h":1506,"wt":1230,"bat":36.5},{"id":147,"n":"Asus TUF A14 (2026)","b":0,"c":59,"g":21,"y":2026,"gm":1,"sz":14,"w":2560,"h":1600,"wt":1460,"bat":73},{"id":148,"n":"ROG Zephyrus G14 (2026)","b":0,"c":60,"g":24,"y":2026,"gm":1,"sz":14,"w":2880,"h":1800,"wt":1483,"bat":73},{"id":150,"n":"Asus Zenbook S 14 (2026)","b":0,"c":60,"g":33,"y":2026,"gm":0,"sz":14,"w":2880,"h":1800,"wt":1200,"bat":77},{"id":151,"n":"ASUS ExpertBook Ultra","b":0,"c":55,"g":38,"y":2026,"gm":0,"sz":14,"w":2880,"h":1800,"wt":990,"bat":70},{"id":152,"n":"Asus ROG Zephyrus Duo 2026","b":0,"c":60,"g":26,"y":2026,"gm":1,"sz":16,"w":2880,"h":1800,"wt":2820,"bat":90},{"id":153,"n":"Asus Zenbook A14","b":0,"c":61,"g":11,"y":2026,"gm":0,"sz":14,"w":1920,"h":1200,"wt":990,"bat":70},{"id":154,"n":"Asus Vivobook S14 S3407AA","b":0,"c":62,"g":33,"y":2026,"gm":0,"sz":14,"w":1920,"h":1200,"wt":1400,"bat":70},{"id":155,"n":"Lenovo Slim 7","b":6,"c":62,"g":33,"y":2026,"gm":0,"sz":14,"w":1920,"h":1200,"wt":1140,"bat":70},{"id":157,"n":"Asus Zenbook A16","b":0,"c":63,"g":11,"y":2026,"gm":0,"sz":16,"w":2880,"h":1800,"wt":1200,"bat":70}],"meta":{"source":"LLT_LaptopModel_20260925_CLN_v1.0","total":159,"hidden":10,"device":21,"kept":128}}</script>
+<script>
+(function () {
+  'use strict';
+  var D = JSON.parse(document.getElementById('data').textContent);
+  var VI = new Intl.Collator('vi', { numeric: true, sensitivity: 'base' });
+  var $ = function (id) { return document.getElementById(id); };
+  var fold = function (s) { return s.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/đ/gi, 'd').toLowerCase(); };
+  var ESC = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+  var esc = function (s) { return String(s).replace(/[&<>"']/g, function (c) { return ESC[c]; }); };
+  var vclass = function (v) { return 'v-' + v.toLowerCase(); };
+
+  var L = D.laptops.map(function (l) {
+    var brand = D.brands[l.b].n;
+    return Object.assign({}, l, {
+      brand: brand, cpu: D.cpus[l.c].n, gpu: D.gpus[l.g].n,
+      cv: D.cpus[l.c].v, gv: D.gpus[l.g].v, key: fold(l.n + ' ' + brand)
+    });
+  });
+
+  var F = {
+    brand: { field: 'b', label: 'Hãng', items: D.brands },
+    cpu: { field: 'c', label: 'CPU', items: D.cpus, order: ['Intel', 'AMD', 'Apple', 'Qualcomm'] },
+    gpu: { field: 'g', label: 'GPU', items: D.gpus, order: ['NVIDIA', 'AMD', 'Intel', 'Apple', 'Qualcomm'] }
+  };
+  var S = { brand: new Set(), cpu: new Set(), gpu: new Set(), q: '', sort: 'new', size: 12, page: 1 };
+
+  function nl(a, b, dir) {
+    if (a == null && b == null) return 0;
+    if (a == null) return 1;
+    if (b == null) return -1;
+    return (a - b) * dir;
+  }
+  var SORTS = {
+    'new': function (a, b) { return ((b.y || 0) - (a.y || 0)) || VI.compare(a.n, b.n); },
+    name: function (a, b) { return VI.compare(a.n, b.n); },
+    weight: function (a, b) { return nl(a.wt, b.wt, 1) || VI.compare(a.n, b.n); },
+    battery: function (a, b) { return nl(a.bat, b.bat, -1) || VI.compare(a.n, b.n); }
+  };
+
+  function match(l, skip) {
+    if (skip !== 'brand' && S.brand.size && !S.brand.has(l.b)) return false;
+    if (skip !== 'cpu' && S.cpu.size && !S.cpu.has(l.c)) return false;
+    if (skip !== 'gpu' && S.gpu.size && !S.gpu.has(l.g)) return false;
+    if (S.q && l.key.indexOf(S.q) < 0) return false;
+    return true;
+  }
+
+  /* ---------- Build the filter lists once ---------- */
+  function buildFacet(key) {
+    var f = F[key], host = $('opts-' + key), html = '';
+    f.refs = {};
+    function row(it) {
+      return '<label class="opt" data-i="' + it.i + '" data-k="' + esc(fold(it.n)) + '">' +
+        '<input type="checkbox" data-f="' + key + '" value="' + it.i + '">' +
+        '<span class="opt-name">' + esc(it.n) + '</span><span class="opt-count"></span></label>';
+    }
+    if (f.order) {
+      var vendors = f.order.concat(f.items.map(function (i) { return i.v; }).filter(function (v, i, a) { return a.indexOf(v) === i && f.order.indexOf(v) < 0; }));
+      vendors.forEach(function (v) {
+        var its = f.items.filter(function (i) { return i.v === v; }).sort(function (a, b) { return VI.compare(a.n, b.n); });
+        if (!its.length) return;
+        html += '<div class="grp-wrap"><div class="grp"><span class="dot ' + vclass(v) + '"></span>' + esc(v) + '</div>' + its.map(row).join('') + '</div>';
+      });
+    } else {
+      var tot = {};
+      L.forEach(function (l) { tot[l[f.field]] = (tot[l[f.field]] || 0) + 1; });
+      html = f.items.slice().sort(function (a, b) { return (tot[b.i] || 0) - (tot[a.i] || 0) || VI.compare(a.n, b.n); }).map(row).join('');
+    }
+    host.innerHTML = html;
+    Array.prototype.forEach.call(host.querySelectorAll('.opt'), function (el) {
+      f.refs[el.getAttribute('data-i')] = { el: el, input: el.querySelector('input'), count: el.querySelector('.opt-count') };
+    });
+  }
+  ['brand', 'cpu', 'gpu'].forEach(buildFacet);
+
+  function filterList(key, raw) {
+    var q = fold(raw.trim()), any = false, host = $('opts-' + key);
+    Array.prototype.forEach.call(host.querySelectorAll('.grp-wrap'), function (w) {
+      var vis = 0;
+      Array.prototype.forEach.call(w.querySelectorAll('.opt'), function (o) {
+        var show = !q || o.getAttribute('data-k').indexOf(q) >= 0;
+        o.hidden = !show;
+        if (show) vis++;
+      });
+      w.hidden = !vis;
+      if (vis) any = true;
+    });
+    $('none-' + key).hidden = any;
+  }
+
+  /* ---------- Rendering ---------- */
+  var kg = function (g) { return g ? (g / 1000).toFixed(2) + ' kg' : '—'; };
+  var wh = function (w) { return w ? (+w.toFixed(1)) + ' Wh' : '—'; };
+
+  function rowHtml(l) {
+    var res = (l.w && l.h) ? '<small>' + l.w + ' × ' + l.h + '</small>' : '';
+    return '<tr>' +
+      '<td class="c-name"><div class="nm">' + esc(l.n) + '</div><div class="sub"><span>' + esc(l.brand) + '</span><span>' + l.y + '</span>' +
+        (l.gm ? '<span class="pill">Gaming</span>' : '') + '</div></td>' +
+      '<td class="c-chip" data-label="CPU"><div class="cl"><span class="dot ' + vclass(l.cv) + '"></span><span>' + esc(l.cpu) + '</span></div></td>' +
+      '<td class="c-chip" data-label="GPU"><div class="cl"><span class="dot ' + vclass(l.gv) + '"></span><span>' + esc(l.gpu) + '</span></div></td>' +
+      '<td class="num" data-label="Màn hình">' + (l.sz ? l.sz + '"' : '—') + res + '</td>' +
+      '<td class="num" data-label="Cân nặng">' + kg(l.wt) + '</td>' +
+      '<td class="num" data-label="Pin">' + wh(l.bat) + '</td></tr>';
+  }
+
+  function pageItems(p, n) {
+    var set = {};
+    [1, n, p - 1, p, p + 1].forEach(function (x) { if (x >= 1 && x <= n) set[x] = 1; });
+    var nums = Object.keys(set).map(Number).sort(function (a, b) { return a - b; });
+    var out = [];
+    nums.forEach(function (x, i) {
+      if (i) {
+        var prev = nums[i - 1];
+        if (x - prev === 2) out.push(prev + 1);
+        else if (x - prev > 2) out.push('gap');
+      }
+      out.push(x);
+    });
+    return out;
+  }
+
+  function renderPager(p, n) {
+    if (n <= 1) { $('pager').innerHTML = ''; return; }
+    var h = '<button type="button" class="pg" data-p="' + (p - 1) + '"' + (p === 1 ? ' disabled' : '') + ' aria-label="Trang trước"><span aria-hidden="true">‹</span><span class="lbl"> Trước</span></button>';
+    pageItems(p, n).forEach(function (x) {
+      if (x === 'gap') h += '<span class="pg-gap" aria-hidden="true">…</span>';
+      else h += '<button type="button" class="pg" data-p="' + x + '"' + (x === p ? ' aria-current="page"' : '') + ' aria-label="Trang ' + x + '">' + x + '</button>';
+    });
+    h += '<button type="button" class="pg" data-p="' + (p + 1) + '"' + (p === n ? ' disabled' : '') + ' aria-label="Trang sau"><span class="lbl">Sau </span><span aria-hidden="true">›</span></button>';
+    $('pager').innerHTML = h;
+  }
+
+  function renderChips() {
+    var h = '', n = 0;
+    Object.keys(F).forEach(function (key) {
+      S[key].forEach(function (id) {
+        n++;
+        h += '<button type="button" class="chip" data-f="' + key + '" data-i="' + id + '" aria-label="Bỏ lọc ' + esc(F[key].label + ' ' + F[key].items[id].n) + '"><b>' + F[key].label + '</b> ' + esc(F[key].items[id].n) + ' <span aria-hidden="true">×</span></button>';
+      });
+    });
+    if (n) h += '<button type="button" class="link" data-clear="1">Xóa tất cả</button>';
+    $('chips').innerHTML = h;
+    return n;
+  }
+
+  function update() {
+    var res = L.filter(function (l) { return match(l); }).sort(SORTS[S.sort]);
+
+    Object.keys(F).forEach(function (key) {
+      var f = F[key], c = {};
+      L.forEach(function (l) { if (match(l, key)) c[l[f.field]] = (c[l[f.field]] || 0) + 1; });
+      Object.keys(f.refs).forEach(function (id) {
+        var r = f.refs[id], n = c[id] || 0, zero = n === 0 && !r.input.checked;
+        r.count.textContent = n;
+        r.el.classList.toggle('is-zero', zero);
+        r.input.disabled = zero;
+      });
+      var b = $('badge-' + key);
+      b.textContent = S[key].size;
+      b.hidden = !S[key].size;
+    });
+
+    var active = renderChips();
+    $('clearRail').hidden = !active;
+    $('filterBadge').textContent = active;
+    $('filterBadge').hidden = !active;
+    $('railCount').textContent = res.length;
+
+    var pages = Math.max(1, Math.ceil(res.length / S.size));
+    if (S.page > pages) S.page = pages;
+    var start = (S.page - 1) * S.size, slice = res.slice(start, start + S.size);
+
+    $('rows').innerHTML = slice.map(rowHtml).join('');
+    $('tableWrap').hidden = !res.length;
+    $('empty').hidden = !!res.length;
+    $('summary').innerHTML = res.length
+      ? 'Hiển thị <b>' + (start + 1) + '–' + (start + slice.length) + '</b> trong <b>' + res.length + '</b> laptop'
+      : 'Không có kết quả';
+    renderPager(S.page, pages);
+  }
+
+  /* ---------- Events ---------- */
+  function go(resetPage) { if (resetPage) S.page = 1; update(); }
+
+  $('rail').addEventListener('change', function (e) {
+    var t = e.target;
+    if (t.type !== 'checkbox') return;
+    var set = S[t.getAttribute('data-f')], id = Number(t.value);
+    if (t.checked) set.add(id); else set.delete(id);
+    go(true);
+  });
+  $('find-cpu').addEventListener('input', function (e) { filterList('cpu', e.target.value); });
+  $('find-gpu').addEventListener('input', function (e) { filterList('gpu', e.target.value); });
+
+  function clearAll() {
+    ['brand', 'cpu', 'gpu'].forEach(function (k) {
+      S[k].clear();
+      Object.keys(F[k].refs).forEach(function (id) { F[k].refs[id].input.checked = false; });
+    });
+    go(true);
+  }
+  $('clearRail').addEventListener('click', clearAll);
+  $('clearEmpty').addEventListener('click', function () {
+    S.q = ''; $('search').value = '';
+    clearAll();
+  });
+  $('chips').addEventListener('click', function (e) {
+    var b = e.target.closest('button');
+    if (!b) return;
+    if (b.getAttribute('data-clear')) { clearAll(); return; }
+    var k = b.getAttribute('data-f'), id = Number(b.getAttribute('data-i'));
+    S[k].delete(id);
+    F[k].refs[id].input.checked = false;
+    go(true);
+  });
+
+  $('search').addEventListener('input', function (e) { S.q = fold(e.target.value.trim()); go(true); });
+  $('sort').addEventListener('change', function (e) { S.sort = e.target.value; go(true); });
+  $('size').addEventListener('change', function (e) { S.size = Number(e.target.value); go(true); });
+
+  $('pager').addEventListener('click', function (e) {
+    var b = e.target.closest('button[data-p]');
+    if (!b || b.disabled) return;
+    S.page = Number(b.getAttribute('data-p'));
+    update();
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    $('toolbar').scrollIntoView({ block: 'start', behavior: reduce ? 'auto' : 'smooth' });
+  });
+
+  function setRail(open) {
+    $('rail').classList.toggle('open', open);
+    $('filterToggle').setAttribute('aria-expanded', open ? 'true' : 'false');
+    $('filterToggleText').textContent = open ? 'Ẩn bộ lọc' : 'Hiện bộ lọc';
+  }
+  $('filterToggle').addEventListener('click', function () { setRail(!$('rail').classList.contains('open')); });
+  $('closeRail').addEventListener('click', function () {
+    setRail(false);
+    $('toolbar').scrollIntoView({ block: 'start' });
+  });
+
+  /* ---------- Static copy from the data ---------- */
+  var years = L.map(function (l) { return l.y; }).filter(Boolean);
+  var m = D.meta;
+  $('eyebrow').textContent = m.source.replace(/_/g, ' · ').replace(/(\d{4})(\d{2})(\d{2})/, '$3.$2.$1');
+  $('lede').textContent = L.length + ' laptop từ ' + D.brands.length + ' hãng, ra mắt ' + Math.min.apply(null, years) + '–' + Math.max.apply(null, years) + '.';
+  $('note').textContent = 'Nguồn: ' + m.source + ', ghép với Brand, CpuModel và GpuModel. Đã bỏ ' + m.hidden +
+    ' dòng không hiển thị hoặc ngừng hoạt động (gồm các dòng test) và ' + m.device +
+    ' thiết bị không phải laptop (điện thoại, máy tính bảng, Mac Studio). CPU và GPU trùng tên được gộp thành một mục lọc. Cân nặng đổi sang kg.';
+
+  update();
+})();
+</script>
+
+</body></html>
